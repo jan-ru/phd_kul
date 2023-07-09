@@ -1,0 +1,11 @@
+# Zotero
+
+For dataquality maybe plot articles (vertical) and fields filled (horizontal). Articles could be grouped by author or by itemtype or by journal.
+
+Possibly look up terminology:
+
+- Scientometrics
+- informetrics
+
+Ref journal ISSI
+

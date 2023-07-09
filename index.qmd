@@ -1,0 +1,21 @@
+# Preface {.unnumbered}
+
+This is a Quarto book. It countains x sprints that shall cumulate in the litreview.
+
+
+* Include citations count
+* Include authors count
+* Include affiliations count
+
+Document attributes:
+
+* the number of tables is \total{table}
+* the number of figures is \total{figure}
+* the number of references is \total{citenum}
+
+* add list of tables
+* add list of figures
+
+# Resources
+
+Over [markdown](https://www.arthurperret.fr/)

@@ -1,0 +1,24 @@
+---
+bibliography: Top100.bib
+format:
+  pdf:
+    latex_engine: xelatex
+    include-in-header: 
+      text:
+        \usepackage{biblatex}
+        \addbibresource{Top100.bib}
+---
+
+# Research questions
+
+\citetitle{@moreno-montesdeocaSystematicLiteratureReview2015}
+
+[@moreno-montesdeocaSystematicLiteratureReview2015]
+
+The above mentioned aspects provide indications that the field of modeling quality still needs to gain in maturity. Based on our interpretation of the SLR results, we suggest further research on developing a more comprehensive quality framework, on investigating the knowledge and development layer, and on the process of modeling itself. From our study, it has become clear that there are plenty of open research questions in the area of business process modeling quality that seems worthwhile to pursue, both from an academic and a practical perspective.
+
+
+
+[@zarourSystematicLiteratureReview2019] :
+
+For future work, we plan to strengthen this literature review by taking into account other evaluation criteria and by covering more literature such as extensions not written in English and those proposed in master and doctoral theses. We also envisage to conduct a literature review on existing DSMLs and the extension of other BP-related languages like BPEL and UML. Finally, another literature review on BPMN extensions should be performed in the coming years in order to see the evolution of BPMN extension features.

@@ -1,0 +1,56 @@
+{
+  "index.qmd": {
+    "index.html": "0eaf89dd"
+  },
+  "intro.qmd": {
+    "intro.html": "460c0316"
+  },
+  "summary.qmd": {
+    "summary.html": "ba7482f4"
+  },
+  "references.qmd": {
+    "references.html": "8238f1bd"
+  },
+  "sprint1.qmd": {
+    "sprint1.html": "7d540ae4"
+  },
+  "sprint2.qmd": {
+    "sprint2.html": "974f0251"
+  },
+  "backlog.qmd": {
+    "backlog.html": "ddb78df1"
+  },
+  "sprint3.qmd": {
+    "sprint3.html": "e1f4545c"
+  },
+  "part1.qmd": {
+    "part1.html": "1da4da9a"
+  },
+  "z_backlog.qmd": {
+    "z_backlog.html": "2b179324"
+  },
+  "z_resources.qmd": {
+    "z_resources.html": "8480369b"
+  },
+  "z_journals.qmd": {
+    "z_journals.html": "b4463e32"
+  },
+  "sprint2_methods.qmd": {
+    "sprint2_methods.html": "9f2a17ca"
+  },
+  "sprint1_articles.qmd": {
+    "sprint1_articles.html": "070ab2ce"
+  },
+  "sprint3_research_questions.qmd": {
+    "sprint3_research_questions.html": "61876432"
+  },
+  "z_software.qmd": {
+    "z_software.html": "2a10624d"
+  },
+  "sprint2_slr.qmd": {
+    "sprint2_slr.html": "2800920f"
+  },
+  "sprint4_research_questions.qmd": {
+    "sprint4_research_questions.html": "80e1a2f8"
+  }
+}

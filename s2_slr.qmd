@@ -1,0 +1,31 @@
+# Systematic Literature Review
+
+[05/07/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits.
+
+The first is @kitchenhamGuidelinesPerformingSystematic2007 and there is a duplicate @keeleGuidelinesPerformingSystematic2007. Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @ahmadBusinessProcessManagement2020, @prodanovaHowBeneficialSocial2019). There is 1 SLR about BPMN extentions (@zarourSystematicLiteratureReview2019) Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
+
+** How to reference multiple papers? **
+
+To be included for the meeting with the promotors early September:
+* Specification of the research questions
+* Development of a review protocol
+
+Search strings
+
+I want to expand the number of SLR to 10 by including SLR's from A-star journals in the BPM/IS field(s).
+
+
+To demonstrate International Research Collaboration (IRC), "using affiliations listed in publications has become the standard practice" [](https://direct.mit.edu/qss/article/3/3/529/112967/Assessing-the-quality-of-bibliographic-data). I would like to use this to show the affiliations of the authors of the articles included in my literature research.
+
+Concepts mentioned in the article:
+- Data quality (DQ) and Data quality assessment (DQA)
+- Functional Requirements for Bibliographic Records (FRBR)
+- Zotero Data quality dimensions (DQDs)
+
+In the article above DQ is split into:
+- Intrinsic Data Quality (4 attributes)
+- Contextual Data Quality (5 attributes)
+- Representational Data Quality (4 attributes)
+- Accessibility Data Quality (2 attributes)
+
+Note: in this study Microsoft Academic Graph (MAG) is one of the four datasources considered. MAG has since been [retired](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/).

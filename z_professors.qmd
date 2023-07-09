@@ -1,0 +1,44 @@
+---
+author:
+  - name: Jan-Ru Muller
+    orcid: 0000-0001-8301-6857
+
+format:
+  html:
+    include-in-header: 
+      text:
+        \usepackage{orcidlink, totcount}
+---
+
+# Professors
+ 
+ \orcidlink{https://orcid.org/0000-0002-3848-5395}, ().
+
+
++--------------------------+-------------------+
+| Professors               |Affiliation        |
++==========================+===================+
+| 1. [Peter Sloot]         |[UVA]              |
+| 1. [Jan Vanthienen]      |[KUL]              |
+| 1. [Bart Baesens]        |[KUL1]             |
++--------------------------+-------------------+
+
+: Professors {#tbl-professors}
+
+See @tbl-professors.
+
+[Peter Sloot]: https://www.peter-sloot.com/blog
+[Jan Vanthienen]: http://janvanthienen.net/research
+[Bart Baesens]: https://www.bartbaesens.com/
+[UVA]: https://www.uva.nl/en/profile/s/l/p.m.a.sloot/p.m.a.sloot.html
+[KUL]: https://www.kuleuven.be/wieiswie/en/person/00017013
+
+
+
+- orcidlink works for PDF (via latex) output but not for html.
+- author in header works for html output but not for pdf (via latex).
+
+
+**voorbeeld van een foto CV pagina**
+
+[Joris Krijger](joriskrijger.nl)

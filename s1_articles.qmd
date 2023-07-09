@@ -1,0 +1,309 @@
+---
+title: "The first 25 papers"
+subtitle: "Building a body of knowledge"
+date: "03-30-2023"
+date-format: "D/MM/YYYY"
+date-modified: "03-29-2023"
+abstract: ""
+format:
+  pdf:
+    code-fold: true
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, orcidlink, totcount}
+        \regtotcounter{table}
+        \regtotcounter{figure}
+        \makeindex
+        \makeindex[name=authors, title=Authors, intoc=True]
+        \makeindex[name=affiliations]
+        \newtotcounter{citenum}
+        \renewcommand\refname{References (\total{citenum})}
+    include-after-body: 
+      text:
+        \printindex
+        \printindex[authors]
+toc: true
+toc-depth: 2
+bibliography: "Top100.bib"
+
+---
+
+Keywords: modelling languages, controlled natural language, extentions, compliance, MDE
+
+Extract keywords from BOK and create wordcloud. Determine cut-off point for number of keywords in the header of this article.
+
+I will have the initial 100 articles within 1 month (so on 21 April).
+Base myself on NIMS and NEAT.
+Approach from different angels: 
+
+* Accounting, Rulebase, ERP, Compliance (Risk Management)
+* Enterprise Achitecture
+
+{{< pagebreak >}}
+
+\begin{center}
+``\LaTeX{} uses the \TeX{} typesetting program for formatting
+its output, and is itself written in the \TeX{} macro language.
+\end{center}
+
+
+## Managing business processes for regulatory compliance
+
+10-03-2023 First step: find three seminal papers published in A star journals in my field of interest
+Document search terms for repeatability.
+Method: check google scholar for highest rating article of 10(?) academics that I know off.
+
+Going through my Zotero article listings I came across an article by [vom Brocke](https://janvombrocke.com/) and 9 co-authors: [@vombrockeProcessScienceInterdisciplinary2021]. The article references the Process Mining Manifesto [@authority:vanderaalstProcessMiningManifesto2012]. Based on the title and year of publication the latter may well qualify as a seminal paper. The number of listed authors is over 60. It was published as a conference paper on the The number of reference according to google scholar per  is xxx. It was published in yyy. Wil van der Aalst is an academic presently associated with Aachen University who, at the time of the publication worked at Eindhoven University previously used to b
+
+Wil van der Aalst (h score)
+
+Document attributes:
+
+* the number of tablesin this document total
+* the number of figures is total
+* the number of references is \total{citenum}
+
+* add list of tables
+* add list of figures
+
+
+Define h-score
+Define A star journal
+Define 
+
+
+| # | Article |  |  | GSReferences | Published in | Journal Score | Principal Author | H-Factor |
+|---|---------|--|--|--------------|--------------|---------------|------------------|----------|
+| 1 |         |  |  | 1            |              |               |                  | G -      |
+| 2 | C4 -    |  |  | 2            |              |               |                  | G3 -     |
+| 3 | C44 -   |  |  | 3            |              |               |                  | G33 -    |
+
+
+
+| # | Article |  |  | GSReferences | Published in | Journal Score | Principal Author | H-Factor |
+|---|---------|--|--|--------------|--------------|---------------|------------------|----------|
+
+
+## [18-03-2023 / day01] Whatever happened
+
+Whatever happened to the 60 authors ...
+
+Continuation of: "Whatever happened to the class of 2021" (Process Mining Manifesto)
+
+## [19-03-2023 / day02] The Italian connection
+
+Guido Governatori is an italian who completed his PhD in Legal Informatics in 1997. Since he moved to Queensland University of Technology in Australia.
+
+One of his papers with Sadiq is about checking between business processes and business contracts [@governatoriComplianceCheckingBusiness2006] - 366 citations on google scholar. Sadiq and Governatori also wrote together about modelling controls objectives for business process compliance [@sadiqModelingControlObjectives2007] - 615 citations.
+
+Guido Governatori\index[authors]{Governatori, Guido \orcidlink{https://orcid.org/0000-0002-9878-2762}} and Shazia Sadiq then wrote [@sadiqManagingRegulatoryCompliance2010] together - 148 citations.
+
+Governatori and Sadiq\index[authors]{Sadiq, Shazia \orcidlink{https://orcid.org/0000-0001-6739-4145}} often appear as co-authors on papers (query string WoS and query result count). Was Lu a PhD student with Governatori?
+
+To find the number of publications they both worked on I may want to look into [bibliometrix](https://www.bibliometrix.org/home/): a R tool for comprehensive bibliometric analysis of scientific literature. This is in R, there maybe similar tools for Python. Pybibliometrics []() looks to be an interface to Elsevier Scopus only.
+
+## [20-03-2023 / day03] Literature (graph) database
+
+Two ideas that I will have to explore further:
+
+* Building a small application to maintain a graph database (outside Zotero) for linking articles. Also see [Build a Blog Using Django, Vue and GraphQL](https://realpython.com/python-django-blog)
+
+* Building 'something' to discover a literature gap. Also see [Constructing a Graph Database for Semantic Literature-Based Discovery](https://pubmed.ncbi.nlm.nih.gov/26262393/)
+
+In any case scan all bibliometrics packages on github [bibliometrics](https://github.com/topics/bibliometrics), for example [LitStudy](https://github.com/NLeSC/litstudy) from the NL escience institute in Amsterdam.
+
+The purpose of the first will be to facilitate interaction with the literature. For example, easily being able to extract research methods or dataset descriptions. Ref. article abstract template that was sent to me by Imre.
+
+## [21-03-2024 / day04] Quick and dirty
+
+In a recent paper (2021) vom Brocke\index[authors]{Brocke, Jan Vom \orcidlink{https://orcid.org/0000-0002-0071-3719}}
+, van der Aalst\index[authors]{Aalst, Wil van der \orcidlink{https://orcid.org/0000-0002-0955-6940}} and 8 co-authors propose Process science as a separate discipline [Process Science: The Interdisciplinary Study of Continuous Change](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3916817)
+
+Maybe add BPMN Extentions:
+
+* BPMN-L: A BPMN extension for modeling of process landscapes\index{Landscapes} [@polancicBPMNLBPMNExtension2020] - **7** citations. The paper is by Gregor Polančič\index[authors]{Polančič, Gregor \orcidlink{https://orcid.org/0000-0002-4746-1010}} whose [blog](https://polancic.com/) I follow.
+
+* BPMS-RA: a novel reference architecture for business process management systems [@pourmirzaBPMSRANovelReference2019] - **13** citations.
+
+* BPMN extention for Risk Handling [@marcinkowskiBusinessProcessModeling2012] - **44** citations.
+
+## [22-03-2023 / day05] VSCode online ~~to the rescue~~ 
+
+* A Controlled Natural Language for Financial Services Compliance Checking [@WOS:000467454700002] - **7** citations. Seems to be right on my subject but only (very) few citations. The abbreviation for Controlled Natural Language is CNL\index{CNL}
+
+* El Kharbili\index[authors]{El Kharbili, Marwane} - 2012 - Business process regulatory compliance management [@elkharbiliBusinessProcessRegulatory2012] **96** citations. Affiliation University of Luxemburg
+
+* Separating compliance management and business process management [@ramezaniSeparatingComplianceManagement2011] - **59** citations, written by Dirk Fahland \index[authors]{Fahland, Dirk \orcidlink{https://orcid.org/0000-0002-1993-9363}}, Elham Ramezani\index[authors]{Ramezani, Elham}, Jan Martijn van der Werf\index[authors]{Werf, Jan Martijn van der \orcidlink{https://orcid.org/0000-0002-7264-381X}}
+ and Peter Mattheis\index[authors]{Mattheis, Peter}.
+
+## [23-03-2023 / day06] Foundational Books?
+
+::: {.callout-tip}
+
+## [Mathias Weske, Universität Potsdam](https://bpt.hpi.uni-potsdam.de/people/mathias-weske/)
+
+\index[authors]{Weske, Mathias \orcidlink{https://orcid.org/0000-0002-3346-2442}}
+
+Business process management architectures [@Weske2007] - **4775** citations
+:::
+
+::: {.callout-tip}
+
+## [Marlon Dumas, University of Tartu](https://kodu.ut.ee/~dumas/)
+
+\index[authors]{Dumas, Marlon \orcidlink{https://orcid.org/0000-0002-9247-7476}}
+
+Fundamentals of business process management [@dumasFundamentalsBusinessProcess2013] - **3391** citations
+:::
+
+Process Mining: a research agenda by [Van der Aalst](https://orcid.org/0000-0002-0955-6940) and Weijters (2004:863)
+
+And now: Process Science [@vombrockeProcessScienceInterdisciplinary2021]
+
+## [24-03-2023 / day07] Literature Reviews 
+
+Samples of literature reviews (and what I think about them)
+
+* Business Process Management and Digital Innovations: A Systematic Literature Review [@ahmadBusinessProcessManagement2020] (SLR\index{SLR}) by Amy Van Looy and Tahir Ahmad \index[authors]{Ahmad, Tahir \orcidlink{https://orcid.org/0000-0003-0765-7059}}
+
+* [@moreno-montesdeocaSystematicLiteratureReview2015] now lives and works in Cuba?
+
+## [25-03-2023 / day08] Methodologies
+
+Now add three articles where I write about the (research) methodology used.
+
+* [@hausslerCodeComplianceChecking2021] not about methodology but interesting model interaction BIM, XBRL\index{XBRL}, 
+
+
+## [29-03-2023 / day09] The GAP
+
+Articles mentioning GAP's:
+
+* This is about modelling concepts for internal controls (BPMN\index{BPMN} extention)[@schultzModelingConceptsInternal2014] - ?? citations
+
+Stijn Hoppenbrouwers\index[authors]{Hoppenbrouwers, Stijn \orcidlink{https://orcid.org/0000-0002-1137-2999}} (HAN)
+
+Thesis: [@hoppenbrouwersFreezingLanguageConceptualisation2003]
+
+Hajo Reijers Utrechte University in an article about the role of blockchain [@mendlingBlockchainsBusinessProcess2018]. Note: there are 32(!) authors listed in this paper.
+
+## [30-03-2023 / day10] Vlerick
+
+Three inspiring papers by Stijn Viaene\index[authors]{Viaene, Stijn \orcidlink{https://orcid.org/0000-0002-1600-4706}} 
+
+* Ten principles of [@vombrockeTenPrinciplesGood2014] - **405** citations. This paper was co-authored with vom Brocke\index[authors]{Brocke, Jan Vom \orcidlink{https://orcid.org/0000-0002-0071-3719}} University of Liechtenstein
+
+Three inspiring papers by [Amy Van Looy](https://www.amyvanlooy.eu/home)\index[authors]{Looy, Amy Van \orcidlink{https://orcid.org/0000-0002-7992-1528}}[^1]
+
+[^1]: Ghent University: Ghent, BE
+
+* BPO Configuration Taxonomy [@vanlooyConfigurationTaxonomyBusiness2021]
+
+Ook beschrijven waarom inspiring ...
+
+* Design science research on Developing a toof for process-oriented appraisals and rewards [@shafagatovaDevelopingToolProcess2021] written with Aygun Shafagatova\index[authors]{Shafagatova, Aygun \orcidlink{https://orcid.org/0000-0001-9837-4585}} who obtained her PhD in 2021 and is currently with EY in Gent.
+
+## [31-03-2023 / day11] Mieke Jans[^2]
+
+\index[authors]{Jans, Mieke \orcidlink{https://orcid.org/0000-0002-9171-2403}}
+
+[^2]: Universiteit Hasselt: Hasselt, Limburg, BE
+
+[//]: # (This syntax works like a comment, and won't appear in any output.)
+
+Continuous auditing[@jansHowActiveLearning2019] - **38** citations. 
+
+## [31-03-2023 / day12] Matthias Trier
+
+Bij alle professors ook een linkje naar hun scopus profiel (met logo)
+
+\index[authors]{Trier, Matthias \orcidlink{https://orcid.org/0000-0002-8758-2968}}
+
+Matthias Trief
+
+Visiting researcher, Copenhagen Business School, Department of Digitalization
+
+
+## [31-03-2023 / day13] Monique Snoeck[^3]
+
+\index[authors]{Snoeck, Monique \orcidlink{https://orcid.org/0000-0002-3824-3214}}
+
+Monique Snoeck 
+
+[^3]: KU Leuven: Leuven, BE
+
+Wim Laurier (person having experience with Merode)
+
+\index[authors]{Laurier, Wim \orcidlink{https://orcid.org/0000-0002-9448-248X}}
+
+(linked met Stijn)
+
+Jochen De Weerdt (co-author of Monique Snoeck)
+
+\index[authors]{De Weerdt, Jochen \orcidlink{https://orcid.org/0000-0001-6151-0504}}
+
+h-index(all):	32
+
+Amy Van Looy\index[authors]{Looy, Amy Van \orcidlink{https://orcid.org/0000-0002-7992-1528}}, with Isel Moreno-Montes de Oca\index[authors]{Moreno-Montes de Oca, Isel \orcidlink{https://orcid.org/0000-0001-5288-5654}} who is currently Professor in Cuba
+[@moreno-montesdeocaSystematicLiteratureReview2015]
+
+Dijkman\index[authors]{Dijkman, Remco \orcidlink{https://orcid.org/0000-0003-4083-0036}} TUE
+
+Proper, H. A
+https://www.springer.com/series/8371/books?page=2
+
+## [01-04-2023 / day14] Geert Poels[^4]
+
+\index[authors]{Poels, Geert \orcidlink{https://orcid.org/0000-0001-9247-6150}}
+
+[^4]: Universiteit Gent: Gent, BE
+
+4644 citations
+
+## [02-04-2023 / day15] Michael Werner[^5]
+
+[^5]: Universiteit van Amsterdam: Amsterdam, NL
+
+Person(s) with SAP access
+
+\index[authors]{Werner, Michael \orcidlink{https://orcid.org/0000-0002-3036-1478}}
+
+Michael Werner
+
+m.werner@uva.nl
+
+See @fig-authors for most cited authors.
+
+See @fig-sources for most cited sources.
+
+## [04-04-2023 / day16] Jan Recker
+
+Jan Recker
+
+\index[authors]{Recker, Jan \orcidlink{https://orcid.org/0000-0002-2072-5792}}
+
+
+## [06-04-2023 / day17] Jan Mendling
+
+\index[authors]{Mendling, Jan \orcidlink{https://orcid.org/0000-0002-7260-524X}}
+
+Building a complementary agenda for business process management and digital innovation. [@mendlingBuildingComplementaryAgenda2020] - 101 citations.
+
+Also [@mendlingBuildingComplementaryAgenda2020, @mendlingBuildingComplementaryAgenda 2020].
+
+{{< pagebreak >}}
+
+## Most Relevant Authors & Sources
+
+[concept]{.index} 
+
+![Most relevant authors](./static/Most_Relevant_Authors.pdf){#fig-authors}
+
+
+![Most relevant sources](./static/Most_Relevant_Sources.pdf){#fig-sources}
+
+
+{{< pagebreak >}}
+
+## Works Cited (25)
+

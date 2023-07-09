@@ -1,0 +1,13 @@
+# Technical Resources
+
+Maybe seperately there shall be a list of websites like:
+
+https://www.processmining.org/
+
+https://fredguth.github.io/IBToDL/IBToDL.pdf
+
+- [TexFAQ](https://texfaq.org/FAQ-LaTeX2HTML)
+
+https://plastex.github.io/plastex/
+
+https://stacks.math.columbia.edu/statistics
