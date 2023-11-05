@@ -1,0 +1,59 @@
+---
+title: ""
+subtitle: "Prospects for Mini Case Study"
+date: "11-05-2023"
+date-format: "D/MM/YYYY"
+date-modified: "11-05-2023"
+author:
+  - name:
+    orcid: 0000-0003-1689-0557
+    email: j.r.muller@hva.nl
+    affiliations:
+      - name: Amsterdam University of Applied Sciences
+        address: Fraijlemaborg 133
+        city: Amsterdam
+        postal-code: 1102 CV
+      - name: Vlerick Business School
+        address: Reep 1
+        city: Ghent
+        postal-code: 9000
+abstract: ""
+format:
+  pdf:
+    cite-method: citeproc
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry}
+toc: false
+toc-depth: 2
+bibliography: MyLibrary.bib
+keywords: modelling languages, controlled natural language
+
+---
+# Mini Case Study
+
+Since the call on xx/yy/zzzz I have identified 3 prospects where potentially a mini case study can be performed to establish how companies 
+
+## Praxasense
+
+Praxasense is a startup fu
+Address:
+
+Contact: Leonard Moonen
+
+Advantage:
+
+Disadvantage:
+
+## Rabobank
+
+Contact:
+
+Role:
+
+Advantage:
+
+Disadvantage:
+
+## "Woningbouwvereniging"
+

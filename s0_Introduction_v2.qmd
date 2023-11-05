@@ -43,7 +43,7 @@ keywords: modelling languages, controlled natural language, extentions, complian
 
 # Introduction
 
-Right at the start I have to mention the thesis of Mariette Lokin that is the inspiration for this project. Her research is about the interaction between law, excution and ICT. "The goal of the performed PhD-research was to develop an approach for agile law making, not only aiming at legislation as a product, but also as a process" (lokinAgileLawMaking2020).
+Right at the start I have to mention the thesis of Mariette Lokin that is the inspiration for this project. Her research is about the interaction between law, excution and ICT. "The goal of the performed PhD-research was to develop an approach for agile law making, not only aiming at legislation as a product, but also as a process" (@lokinAgileLawMaking2020).
 
 I have contacted Mariette Lokin to discuss her research and the possibility of doing a related study assuming the point of view CxO of a company. We discussed a scenario where a (tax) authority can provide a company with a law-based knowledge model that the company can then use to base its processes on.
 

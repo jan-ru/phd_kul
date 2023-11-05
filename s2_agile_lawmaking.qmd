@@ -87,12 +87,12 @@ Business Processes and Regulatory Compliance
 
 Sources:
 
-- ScienceDirect (Elsevier)[https://www-sciencedirect-com]
-- Web of Science (Clarivate)[https://www-webofscience-com]
-- Scopus (Elsevier)[www-scopus-com], note: not available via Vlerick
-- SSNR (Elsevier)[https://www.ssrn.com/]
-- arXiv > (cs)[https://arxiv.org/search/cs]
-- dblp, computer science bibliography (dblp)[https://dblp.org/]
+- ScienceDirect (Elsevier)[]
+- Web of Science (WoS)[]
+- Scopus (not available via Vlerick)
+- SSNR
+- arXiv > cs
+- dblp, computer science bibliography 
 
 "Regulatory Compliance"
 A Semantic Model Based Framework for Regulatory Reporting Process Management
