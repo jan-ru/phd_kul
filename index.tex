@@ -58,6 +58,46 @@
   \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
@@ -196,11 +236,11 @@
 
 \title{The initial 100 papers}
 \author{Jan-Ru Muller}
-\date{2023-06-01}
+\date{2023-07-09}
 
 \begin{document}
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, sharp corners, frame hidden, interior hidden, borderline west={3pt}{0pt}{shadecolor}, enhanced, breakable]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[frame hidden, interior hidden, enhanced, borderline west={3pt}{0pt}{shadecolor}, sharp corners, boxrule=0pt, breakable]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -233,11 +273,11 @@ Document attributes:
 
 \begin{itemize}
 \item
-  the number of tables is \total{table}
+  the number of tables is total\{table\}
 \item
-  the number of figures is \total{figure}
+  the number of figures is total\{figure\}
 \item
-  the number of references is \total{citenum}
+  the number of references is total\{citenum\}
 \item
   add list of tables
 \item
@@ -271,9 +311,47 @@ programming.
 
 In summary, this book has no content whatsoever.
 
-\part{Part1}
+Abstract
 
-Part 1
+Purpose
+
+Design/methodology/approach
+
+Findings
+
+Originality/value
+
+\href{}{for example}
+
+\part{part1.qmd}
+
+\hypertarget{research-questions}{%
+\chapter{Research questions}\label{research-questions}}
+
+citetitle\{Moreno-Montes de Oca et al. (2015)\}
+
+(Moreno-Montes de Oca et al. 2015)
+
+The above mentioned aspects provide indications that the field of
+modeling quality still needs to gain in maturity. Based on our
+interpretation of the SLR results, we suggest further research on
+developing a more comprehensive quality framework, on investigating the
+knowledge and development layer, and on the process of modeling itself.
+From our study, it has become clear that there are plenty of open
+research questions in the area of business process modeling quality that
+seems worthwhile to pursue, both from an academic and a practical
+perspective.
+
+(Zarour et al. 2019) :
+
+For future work, we plan to strengthen this literature review by taking
+into account other evaluation criteria and by covering more literature
+such as extensions not written in English and those proposed in master
+and doctoral theses. We also envisage to conduct a literature review on
+existing DSMLs and the extension of other BP-related languages like BPEL
+and UML. Finally, another literature review on BPMN extensions should be
+performed in the coming years in order to see the evolution of BPMN
+extension features.
 
 \hypertarget{the-first-25-papers}{%
 \chapter{The first 25 papers}\label{the-first-25-papers}}
@@ -336,7 +414,7 @@ Document attributes:
 \item
   the number of figures is total
 \item
-  the number of references is \total{citenum}
+  the number of references is total\{citenum\}
 \item
   add list of tables
 \item
@@ -541,8 +619,8 @@ rescue}}{{[}22-03-2023 / day05{]} VSCode online to the rescue}}\label{day05-vsco
 \section{{[}23-03-2023 / day06{]} Foundational
 Books?}\label{day06-foundational-books}}
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, rightrule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, coltitle=black, leftrule=.75mm, titlerule=0mm, toptitle=1mm, colframe=quarto-callout-tip-color-frame, colback=white, breakable, bottomtitle=1mm, bottomrule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{\href{https://bpt.hpi.uni-potsdam.de/people/mathias-weske/}{Mathias
-Weske, Universität Potsdam}}, opacitybacktitle=0.6, toprule=.15mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, arc=.35mm, breakable, opacityback=0, toptitle=1mm, left=2mm, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{\href{https://bpt.hpi.uni-potsdam.de/people/mathias-weske/}{Mathias
+Weske, Universität Potsdam}}, rightrule=.15mm, bottomrule=.15mm, opacitybacktitle=0.6, toprule=.15mm, leftrule=.75mm, colback=white]
 
 \index[authors]{Weske, Mathias \orcidlink{https://orcid.org/0000-0002-3346-2442}}
 
@@ -551,7 +629,7 @@ citations
 
 \end{tcolorbox}
 
-\begin{tcolorbox}[enhanced jigsaw, opacityback=0, rightrule=.15mm, colbacktitle=quarto-callout-tip-color!10!white, coltitle=black, leftrule=.75mm, titlerule=0mm, toptitle=1mm, colframe=quarto-callout-tip-color-frame, colback=white, breakable, bottomtitle=1mm, bottomrule=.15mm, arc=.35mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{\href{https://kodu.ut.ee/~dumas/}{Marlon Dumas, University of Tartu}}, opacitybacktitle=0.6, toprule=.15mm, left=2mm]
+\begin{tcolorbox}[enhanced jigsaw, coltitle=black, arc=.35mm, breakable, opacityback=0, toptitle=1mm, left=2mm, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{\href{https://kodu.ut.ee/~dumas/}{Marlon Dumas, University of Tartu}}, rightrule=.15mm, bottomrule=.15mm, opacitybacktitle=0.6, toprule=.15mm, leftrule=.75mm, colback=white]
 
 \index[authors]{Dumas, Marlon \orcidlink{https://orcid.org/0000-0002-9247-7476}}
 
@@ -615,8 +693,8 @@ Hoppenbrouwers\index[authors]{Hoppenbrouwers, Stijn \orcidlink{https://orcid.org
 Thesis: (Hoppenbrouwers 2003)
 
 Hajo Reijers Utrechte University in an article about the role of
-blockchain (Mendling et al. 2018). Note: there are 32(!) authors listed
-in this paper.
+blockchain (Jan Mendling et al. 2018). Note: there are 32(!) authors
+listed in this paper.
 
 \hypertarget{day10-vlerick}{%
 \section{{[}30-03-2023 / day10{]} Vlerick}\label{day10-vlerick}}
@@ -749,8 +827,10 @@ Mendling}\label{day17-jan-mendling}}
 \index[authors]{Mendling, Jan \orcidlink{https://orcid.org/0000-0002-7260-524X}}
 
 Building a complementary agenda for business process management and
-digital innovation. (Mendling, Pentland, and Recker 2020) - 101
+digital innovation. (Jan Mendling, Pentland, and Recker 2020) - 101
 citations.
+
+Also (\textbf{mendlingBuildingComplementaryAgenda?}).
 
 \newpage{}
 
@@ -784,6 +864,713 @@ Sources}\label{most-relevant-authors-sources}}
 
 \hypertarget{works-cited-25}{%
 \section{Works Cited (25)}\label{works-cited-25}}
+
+\hypertarget{systematic-literature-review}{%
+\chapter{Systematic Literature
+Review}\label{systematic-literature-review}}
+
+{[}05/07/2023{]} Looking in my Zotero library for articles with a title
+that contains ``systematic literature review'', the result is 7 hits.
+
+The first is Kitchenham and Charters (2007) and there is a duplicate
+Keele (2007). Second there are 3 SLR's where Van Looy is co-author
+(Moreno-Montes de Oca et al. (2015), Ahmad and Van Looy (2020),
+Prodanova and Van Looy (2019)). There is 1 SLR about BPMN extentions
+(Zarour et al. (2019)) Finally, there is one SLR about Open Science
+(Vicente-Saez and Martinez-Fuentes (2018)) which is not relevant to
+BP4RC.
+
+** How to reference multiple papers? **
+
+To be included for the meeting with the promotors early September: *
+Specification of the research questions * Development of a review
+protocol
+
+Search strings
+
+I want to expand the number of SLR to 10 by including SLR's from A-star
+journals in the BPM/IS field(s).
+
+To demonstrate International Research Collaboration (IRC), ``using
+affiliations listed in publications has become the standard practice''
+\href{https://direct.mit.edu/qss/article/3/3/529/112967/Assessing-the-quality-of-bibliographic-data}{}.
+I would like to use this to show the affiliations of the authors of the
+articles included in my literature research.
+
+Concepts mentioned in the article: - Data quality (DQ) and Data quality
+assessment (DQA) - Functional Requirements for Bibliographic Records
+(FRBR) - Zotero Data quality dimensions (DQDs)
+
+In the article above DQ is split into: - Intrinsic Data Quality (4
+attributes) - Contextual Data Quality (5 attributes) - Representational
+Data Quality (4 attributes) - Accessibility Data Quality (2 attributes)
+
+Note: in this study Microsoft Academic Graph (MAG) is one of the four
+datasources considered. MAG has since been
+\href{https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/}{retired}.
+
+\hypertarget{getting-the-hang-of-it}{%
+\chapter{Getting the hang of it}\label{getting-the-hang-of-it}}
+
+sprint 2
+
+\hfill\break
+
+\hypertarget{s02d01}{%
+\section{{[}19-05-2023 / s02d01{]}}\label{s02d01}}
+
+Objective for this second sprint:
+
+\begin{itemize}
+\tightlist
+\item
+  Description of finding labels for literature
+\item
+  Description of Design Science (prof Twente youtube die ook op seminar
+  in Amsterdam was)
+\item
+  Description of DMAIC method, selectie projecten
+\item
+  Description of Python Measurement tool
+\end{itemize}
+
+Furhtermore I want to go back to sprint 1 to ``fix things''.
+Specifically, I want to:
+
+\begin{itemize}
+\tightlist
+\item
+  take out some ideas and put these in a backlog (separate file).
+\item
+  improve the structure sucht that the sprint is more around the topic
+  ``100 papers'' (even if I selected only 25)
+\end{itemize}
+
+Already the above seems like a lot for a 14 day sprint. Let's see where
+we'll get \ldots{}
+
+This will not appear in a HTML
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=5.74in,height=1.4in]{s3_methods_files/figure-latex/mermaid-figure-1.png}
+
+}
+
+\end{figure}
+
+Use structurizer
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0345}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1034}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0230}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0230}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1609}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1609}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1724}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.2069}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1149}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Article
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+GSReferences
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Published in
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Journal Score
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Principal Author
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+H-Factor
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\end{longtable}
+
+\newpage{}
+
+\hypertarget{s02d02-small-llm-to}{%
+\section{{[}21-05-2023 / s02d02{]} Small LLM to
+\ldots{}}\label{s02d02-small-llm-to}}
+
+semantically query papers in the research database. For example see:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{}{}
+\item
+  Dominik Weckmüller
+  \href{https://geo.rocks/post/qdrant-transformers-js-semantic-search/}{Semantic
+  Search with Qdrant, Hugging Face, SentenceTransformers and
+  transformers.js}
+\end{itemize}
+
+\hypertarget{day02-authors-index}{%
+\section{{[}20-05-2023 / day02{]} Authors
+Index}\label{day02-authors-index}}
+
+\hypertarget{day03-methodology}{%
+\section{{[}21-05-2023 / day03{]} Methodology}\label{day03-methodology}}
+
+The paper recommended to my by email (per her email of ): \emph{Design
+Science in Information Systems Research} (Hevner et al. 2004). Indeed,
+in this write-up there are several papers where the Design Science
+method is applied (Shafagatova and Van Looy 2021), \ldots{} (to be
+continued).
+
+\begin{itemize}
+\tightlist
+\item
+  also check: Christian Sonnenberg
+\end{itemize}
+
+(Cook and Sonnenberg 2014)
+
+\hypertarget{day04-search-strategy}{%
+\section{{[}22-05-2023 / day04{]} Search
+strategy}\label{day04-search-strategy}}
+
+Lets describe the search strategy
+
+\begin{itemize}
+\tightlist
+\item
+  one
+\end{itemize}
+
+\hypertarget{day07-lean-six-sigma}{%
+\section{{[}25-05-2024 / day07{]} Lean Six
+Sigma}\label{day07-lean-six-sigma}}
+
+DMAIC
+
+Voorbeeld
+
+\begin{itemize}
+\tightlist
+\item
+  to be excluded in pdf
+\item
+  to be included in pdf
+\end{itemize}
+
+\section{R}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{fizz\_buzz }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(}\AttributeTok{fbnums =} \DecValTok{1}\SpecialCharTok{:}\DecValTok{50}\NormalTok{) \{}
+\NormalTok{  output }\OtherTok{\textless{}{-}}\NormalTok{ dplyr}\SpecialCharTok{::}\FunctionTok{case\_when}\NormalTok{(}
+\NormalTok{    fbnums }\SpecialCharTok{\%\%} \DecValTok{15} \SpecialCharTok{==} \DecValTok{0} \SpecialCharTok{\textasciitilde{}} \StringTok{"FizzBuzz"}\NormalTok{,}
+\NormalTok{    fbnums }\SpecialCharTok{\%\%} \DecValTok{3} \SpecialCharTok{==} \DecValTok{0} \SpecialCharTok{\textasciitilde{}} \StringTok{"Fizz"}\NormalTok{,}
+\NormalTok{    fbnums }\SpecialCharTok{\%\%} \DecValTok{5} \SpecialCharTok{==} \DecValTok{0} \SpecialCharTok{\textasciitilde{}} \StringTok{"Buzz"}\NormalTok{,}
+    \ConstantTok{TRUE} \SpecialCharTok{\textasciitilde{}} \FunctionTok{as.character}\NormalTok{(fbnums)}
+\NormalTok{  )}
+  \FunctionTok{print}\NormalTok{(output)}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Python}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{def}\NormalTok{ fizz\_buzz(num):}
+  \ControlFlowTok{if}\NormalTok{ num }\OperatorTok{\%} \DecValTok{15} \OperatorTok{==} \DecValTok{0}\NormalTok{:}
+    \BuiltInTok{print}\NormalTok{(}\StringTok{"FizzBuzz"}\NormalTok{)}
+  \ControlFlowTok{elif}\NormalTok{ num }\OperatorTok{\%} \DecValTok{5} \OperatorTok{==} \DecValTok{0}\NormalTok{:}
+    \BuiltInTok{print}\NormalTok{(}\StringTok{"Buzz"}\NormalTok{)}
+  \ControlFlowTok{elif}\NormalTok{ num }\OperatorTok{\%} \DecValTok{3} \OperatorTok{==} \DecValTok{0}\NormalTok{:}
+    \BuiltInTok{print}\NormalTok{(}\StringTok{"Fizz"}\NormalTok{)}
+  \ControlFlowTok{else}\NormalTok{:}
+    \BuiltInTok{print}\NormalTok{(num)}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{day9-toepassing-voor-geopandas}{%
+\section{{[}27-05-2024 / day9{]} Toepassing voor
+GeoPandas?}\label{day9-toepassing-voor-geopandas}}
+
+Bestand met locaties van universiteiten?
+
+\hypertarget{day10-examples-of-design-science}{%
+\section{{[}28-05-2023 / day10{]} Examples of Design
+Science}\label{day10-examples-of-design-science}}
+
+Design Science in Information System Research (Hevner et al. 2004)
+written by Hevner et
+al.~\index[authors]{Hevner, Alan R. \social[googlescholar]{john.doe}}
+
+Getting Personal: A Deep Learning Artifact for Text-based Measurement of
+Personality
+
+\hypertarget{day11-process-modelling}{%
+\section{{[}29-05-2023 / day11{]} Process
+Modelling}\label{day11-process-modelling}}
+
+(J. Mendling, Reijers, and van der Aalst 2010) written by
+
+(Li 2010)
+
+(Vicente-Saez and Martinez-Fuentes 2018)
+
+\hypertarget{sec-results}{%
+\chapter{Results2}\label{sec-results}}
+
+Here are my results. I computed them with this formula:
+
+\begin{equation}\protect\hypertarget{eq-line}{}{ y = mx + b }\label{eq-line}\end{equation}
+
+I have plotted them in this figure:
+
+\begin{figure}
+
+{\centering \includegraphics{static/gear_box.jpg}
+
+}
+
+\caption{\label{fig-line}Amazing results of a line.}
+
+\end{figure}
+
+I have also listed some of the points on this line in the following
+table:
+
+\hypertarget{tbl-line}{}
+\begin{longtable}[]{@{}ll@{}}
+\caption{\label{tbl-line}Results related to my line.}\tabularnewline
+\toprule\noalign{}
+X & Y \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+X & Y \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & 1 \\
+2 & 2 \\
+3 & 3 \\
+4 & 4 \\
+\end{longtable}
+
+That was truly amazing. In Section \textbf{?@sec-result}, we saw all
+there was to see about lines. First, in Equation Equation~\ref{eq-line},
+we saw the deep Maths behind a line. Second, we saw the most beautiful
+depiction of a line (Figure Figure~\ref{fig-line}). Third, Table
+Table~\ref{tbl-line} presented us, in all their glory, points to a line.
+
+This page is copied from
+\href{https://scientificallysound.org/2021/12/28/cross-referencing-in-pandoc-and-markdown-with-x/}{Scientifically
+Sound}. {[}For the code to work it needs the xnos filter, which can be
+installed with \texttt{pip\ install\ pandoc-xnos}.{]}
+
+Section The initial 100 papers is number \& name of this page.
+
+Please contact us at \textbf{?var:email.info}.
+
+email \textbf{?var:support}
+
+Author.name: \textbf{?meta:book.author.name}
+
+book.part: \textbf{?meta:book.part}
+
+chapters.part: \textbf{?meta:chapters.part}
+
+book.title: The initial 100 papers
+
+book.date: 7/9/2023
+
+format: \textbf{?meta:format}
+
+format.theme: \textbf{?meta:format.theme}
+
+format.documentclass: scrreprt
+
+bibliography: Top100.bib
+
+For Celonis Labs processes extending beyond the enterprise is a core
+area of research.
+
+\bookmarksetup{startatroot}
+
+\hypertarget{references}{%
+\chapter*{References}\label{references}}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-ahmadBusinessProcessManagement2020}{}}%
+Ahmad, Tahir, and Amy Van Looy. 2020. {``Business {Process Management}
+and {Digital Innovations}: {A Systematic Literature Review}.''}
+\emph{Sustainability} 12 (17): 6827.
+\url{https://doi.org/10.3390/su12176827}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-WOS:000467454700002}{}}%
+Azzopardi, Shaun, Christian Colombo, and Gordon J. Pace. 2018. {``A
+Controlled Natural Language for Financial Services Compliance
+Checking.''} Proceedings Paper. In \emph{{CONTROLLED NATURAL LANGUAGE}
+({CNL} 2018)}, edited by B Davis, CM Keet, and A Wyner, 304:11--20.
+Frontiers in Artificial Intelligence and Applications. {NIEUWE HEMWEG
+6B, 1013 BG AMSTERDAM, NETHERLANDS}: {IOS PRESS}.
+\url{https://doi.org/10.3233/978-1-61499-904-1-11}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-cookTechnologyOnlineEducation2014}{}}%
+Cook, Catherine W, and Christian Sonnenberg. 2014. {``Technology and
+Online Education: {Models} for Change.''} \emph{Contemporary Issues in
+Education Research (CIER)} 7 (3): 171--88.
+
+\leavevmode\vadjust pre{\hypertarget{ref-dumasFundamentalsBusinessProcess2013}{}}%
+Dumas, Marlon, Marcello La Rosa, Jan Mendling, and Hajo A Reijers. 2013.
+\emph{Fundamentals of Business Process Management}. {Springer}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-elkharbiliBusinessProcessRegulatory2012}{}}%
+El Kharbili, Marwane. 2012. {``Business Process Regulatory Compliance
+Management Solution Frameworks: {A} Comparative Evaluation.''}
+Proceedings Paper. In \emph{Proceedings of the {Eighth Asia-Pacific
+Conference} on {Conceptual Modelling-Volume} 130}, 23--32.
+
+\leavevmode\vadjust pre{\hypertarget{ref-governatoriComplianceCheckingBusiness2006}{}}%
+Governatori, Guido, Zoran Milosevic, and Shazia Sadiq. 2006.
+{``Compliance Checking Between Business Processes and Business
+Contracts.''} Proceedings Paper. In \emph{2006 10th {IEEE International
+Enterprise Distributed Object Computing Conference} ({EDOC}'06)},
+221--32. {IEEE}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hausslerCodeComplianceChecking2021}{}}%
+Häußler, Marco, Sebastian Esser, and André Borrmann. 2021. {``Code
+Compliance Checking of Railway Designs by Integrating {BIM}, {BPMN} and
+{DMN}.''} Journal Article. \emph{Automation in Construction} 121
+(January): 103427. \url{https://doi.org/10.1016/j.autcon.2020.103427}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hevnerDesignScienceInformation2004}{}}%
+Hevner, Alan R., Salvatore T. March, Jinsoo Park, and Sudha Ram. 2004.
+{``Design Science in Information Systems Research.''} Journal
+\{\{Article\}\}. \emph{MIS Quarterly}, 75--105.
+
+\leavevmode\vadjust pre{\hypertarget{ref-hoppenbrouwersFreezingLanguageConceptualisation2003}{}}%
+Hoppenbrouwers, Stijn Johannes Baptist Apollonia. 2003. \emph{Freezing
+Language: Conceptualisation Processes Across {ICT-supported}
+Organisations}. {{[}Sl: sn{]}}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-jansHowActiveLearning2019}{}}%
+Jans, Mieke, and Marzie Hosseinpour. 2019. {``How Active Learning and
+Process Mining Can Act as {Continuous Auditing} Catalyst.''} Journal
+\{\{Article\}\}. \emph{International Journal of Accounting Information
+Systems} 32: 44--58. \url{https://doi.org/10.1016/j.accinf.2018.11.002}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-keeleGuidelinesPerformingSystematic2007}{}}%
+Keele, Staffs. 2007. {``Guidelines for Performing Systematic Literature
+Reviews in Software Engineering.''} {Citeseer}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-kitchenhamGuidelinesPerformingSystematic2007}{}}%
+Kitchenham, Barbara, and Stuart Charters. 2007. {``Guidelines for
+Performing Systematic Literature Reviews in Software Engineering.''}
+
+\leavevmode\vadjust pre{\hypertarget{ref-liTextualAnalysisCorporate2010}{}}%
+Li, Feng. 2010. {``Textual {Analysis} of {Corporate Disclosures}: {A
+Survey} of the {Literature}.''} \emph{Journal of Accounting Literature}
+29: 143--65.
+
+\leavevmode\vadjust pre{\hypertarget{ref-marcinkowskiBusinessProcessModeling2012}{}}%
+Marcinkowski, Bartosz, and Michal Kuciapski. 2012. {``A {Business
+Process Modeling Notation Extension} for {Risk Handling}.''} In
+\emph{Computer {Information Systems} and {Industrial Management}},
+edited by David Hutchison, Takeo Kanade, Josef Kittler, Jon M.
+Kleinberg, Friedemann Mattern, John C. Mitchell, Moni Naor, et al.,
+7564:374--81. {Berlin, Heidelberg}: {Springer Berlin Heidelberg}.
+\url{https://doi.org/10.1007/978-3-642-33260-9_32}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-mendlingBuildingComplementaryAgenda2020}{}}%
+Mendling, Jan, Brian T. Pentland, and Jan Recker. 2020. {``Building a
+Complementary Agenda for Business Process Management and Digital
+Innovation.''} \emph{European Journal of Information Systems} 29 (3):
+208--19. \url{https://doi.org/10.1080/0960085X.2020.1755207}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-mendlingBlockchainsBusinessProcess2018}{}}%
+Mendling, Jan, Ingo Weber, Wil Van Der Aalst, Jan Vom Brocke, Cristina
+Cabanillas, Florian Daniel, Søren Debois, Claudio Di Ciccio, Marlon
+Dumas, and Schahram Dustdar. 2018. {``Blockchains for Business Process
+Management-Challenges and Opportunities.''} \emph{ACM Transactions on
+Management Information Systems (TMIS)} 9 (1): 1--16.
+
+\leavevmode\vadjust pre{\hypertarget{ref-mendlingSevenProcessModeling2010}{}}%
+Mendling, J., H. A. Reijers, and W. M. P. van der Aalst. 2010. {``Seven
+Process Modeling Guidelines ({7PMG}).''} \emph{Information and Software
+Technology} 52 (2): 127--36.
+\url{https://doi.org/10.1016/j.infsof.2009.08.004}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-moreno-montesdeocaSystematicLiteratureReview2015}{}}%
+Moreno-Montes de Oca, Isel, Monique Snoeck, Hajo A. Reijers, and Abel
+Rodríguez-Morffi. 2015. {``A Systematic Literature Review of Studies on
+Business Process Modeling Quality.''} \emph{Information and Software
+Technology} 58 (February): 187--205.
+\url{https://doi.org/10.1016/j.infsof.2014.07.011}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-polancicBPMNLBPMNExtension2020}{}}%
+Polančič, Gregor. 2020. {``{BPMN-L}: {A BPMN} Extension for Modeling of
+Process Landscapes.''} \emph{Computers in Industry} 121: 103276.
+
+\leavevmode\vadjust pre{\hypertarget{ref-pourmirzaBPMSRANovelReference2019}{}}%
+Pourmirza, Shaya, Sander Peters, Remco Dijkman, and Paul Grefen. 2019.
+{``{BPMS-RA}: A Novel Reference Architecture for Business Process
+Management Systems.''} \emph{ACM Transactions on Internet Technology
+(TOIT)} 19 (1): 1--23.
+
+\leavevmode\vadjust pre{\hypertarget{ref-prodanovaHowBeneficialSocial2019}{}}%
+Prodanova, Jana, and Amy Van Looy. 2019. {``How {Beneficial} Is {Social
+Media} for {Business Process Management}? {A Systematic Literature
+Review}.''} \emph{IEEE Access} 7: 39583--99.
+\url{https://doi.org/10.1109/ACCESS.2019.2903983}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-ramezaniSeparatingComplianceManagement2011}{}}%
+Ramezani, Elham, Dirk Fahland, Jan Martijn van der Werf, and Peter
+Mattheis. 2011. {``Separating Compliance Management and Business Process
+Management.''} In \emph{International {Conference} on {Business Process
+Management}}, 459--64. {Springer}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sadiqManagingRegulatoryCompliance2010}{}}%
+Sadiq, Shazia, and Guido Governatori. 2010. {``Managing {Regulatory
+Compliance} in {Business Processes}.''} In \emph{Handbook on {Business
+Process Management} 2}, edited by Jan vom Brocke and Michael Rosemann,
+159--75. {Berlin, Heidelberg}: {Springer Berlin Heidelberg}.
+\url{https://doi.org/10.1007/978-3-642-01982-1_8}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-sadiqModelingControlObjectives2007}{}}%
+Sadiq, Shazia, Guido Governatori, and Kioumars Namiri. 2007. {``Modeling
+Control Objectives for Business Process Compliance.''} In
+\emph{International Conference on Business Process Management}, 149--64.
+{Springer}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-schultzModelingConceptsInternal2014}{}}%
+Schultz, Martin, and Michael Radloff. 2014. {``Modeling {Concepts} for
+{Internal Controls} in {Business Processes} \textendash{} {An
+Empirically Grounded Extension} of {BPMN}.''} In \emph{Business {Process
+Management}}, edited by Shazia Sadiq, Pnina Soffer, and Hagen Völzer,
+8659:184--99. {Cham}: {Springer International Publishing}.
+\url{https://doi.org/10.1007/978-3-319-10172-9_12}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-shafagatovaDevelopingToolProcess2021}{}}%
+Shafagatova, Aygun, and Amy Van Looy. 2021. {``Developing a Tool for
+Process-Oriented Appraisals and Rewards: {Design} Science Research.''}
+\emph{Journal of Software: Evolution and Process} 33 (3): e2321.
+
+\leavevmode\vadjust pre{\hypertarget{ref-vanlooyConfigurationTaxonomyBusiness2021}{}}%
+Van Looy, Amy, Els Clarysse, and Peter Trkman. 2021. {``A {Configuration
+Taxonomy} of {Business Process Orientation}.''} \emph{Business \&
+Information Systems Engineering}, May, In press.
+\url{https://doi.org/10.1007/s12599-021-00700-4}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-VICENTESAEZ2018428}{}}%
+Vicente-Saez, Ruben, and Clara Martinez-Fuentes. 2018. {``Open {Science}
+Now: {A} Systematic Literature Review for an Integrated Definition.''}
+\emph{Journal of Business Research} 88: 428--36.
+\url{https://doi.org/10.1016/j.jbusres.2017.12.043}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-vombrockeTenPrinciplesGood2014}{}}%
+vom Brocke, Jan, Theresa Schmiedel, Jan Recker, Peter Trkman, Willem
+Mertens, and Stijn Viaene. 2014. {``Ten Principles of Good Business
+Process Management.''} Edited by Dr Thomas Kohlborn Professor Jens
+Poeppelbuss and Dr Maximilian Roeglinger. \emph{Business Process
+Management Journal} 20 (4): 530--48.
+\url{https://doi.org/10.1108/BPMJ-06-2013-0074}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-vombrockeProcessScienceInterdisciplinary2021}{}}%
+vom Brocke, Jan, Wil van der Aalst, Thomas Grisold, Waldemar Kremser,
+Jan Mendling, Brian Pentland, Jan Recker, Maximilian Roeglinger, Michael
+Rosemann, and Barbara Weber. 2021. {``Process {Science}: {The
+Interdisciplinary Study} of {Continuous Change}.''} \{\{SSRN Scholarly
+Paper\}\}. {Rochester, NY}. \url{https://doi.org/10.2139/ssrn.3916817}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-Weske2007}{}}%
+Weske, Mathias. 2007. {``Business Process Management Architectures.''}
+In \emph{Business Process Management: {Concepts}, Languages,
+Architectures}, 305--43. {Berlin, Heidelberg}: {Springer Berlin
+Heidelberg}. \url{https://doi.org/10.1007/978-3-540-73522-9_7}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-zarourSystematicLiteratureReview2019}{}}%
+Zarour, Karim, Djamel Benmerzoug, Nawal Guermouche, and Khalil Drira.
+2019. {``A Systematic Literature Review on {BPMN} Extensions.''}
+\emph{Business Process Management Journal}.
+
+\end{CSLReferences}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{authors}{%
+\chapter*{Authors}\label{authors}}
+\addcontentsline{toc}{chapter}{Authors}
+
+\markboth{Authors}{Authors}
+
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{part}{Appendices}
+\appendix
+
+\hypertarget{backlog}{%
+\chapter{Backlog}\label{backlog}}
+
+Work to do
+
+\hfill\break
+
+{[}19-05-2023{]} / sprint 2, day 1
+
+h-index nakijken van 24 auteurs
+
+{[}05-07-2023{]} / sprint 3, day 1
+
+5 artikelen van HvA of UvA auteurs
+
+5 artikelen met bepaalde methodology
+
+5 artikelen design science research
+
+5 artikelen systematic literature review
+
+\newpage{}
+
+\hypertarget{technical-resources}{%
+\chapter{Technical Resources}\label{technical-resources}}
+
+Maybe seperately there shall be a list of websites like:
+
+https://www.processmining.org/
+
+https://fredguth.github.io/IBToDL/IBToDL.pdf
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://texfaq.org/FAQ-LaTeX2HTML}{TexFAQ}
+\end{itemize}
+
+https://plastex.github.io/plastex/
+
+https://stacks.math.columbia.edu/statistics
+
+\hypertarget{journals}{%
+\chapter{Journals}\label{journals}}
+
+FT50?:
+
+\hypertarget{tbl-journals}{}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0120}}@{}}
+\caption{\label{tbl-journals}A star journals}\tabularnewline
+\toprule\noalign{}
+\endfirsthead
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  MIS Quarterly (\href{https://misq.umn.edu/}{MISQ})
+\item
+  Journal of Management Information Systems
+  (\href{https://jmis-web.org/}{JMIS})
+\item
+  Information Systems Journal
+  (\href{https://onlinelibrary.wiley.com/journal/13652575}{ISJ})
+\item
+  Journal of the Association for Information Systems
+  (\href{https://aisel.aisnet.org/jais/}{JAIS})
+\item
+  Communications of the Association for Information Systems
+  (\href{https://aisel.aisnet.org/cais/}{CAIS})
+\item
+  Information Systems Research
+  (\href{https://pubsonline.informs.org/journal/isre}{ISR})
+\item
+  Journal of Information Technology
+  (\href{https://journals.sagepub.com/home/jina}{JIT})
+\end{enumerate}
+\end{minipage} \\
+\end{longtable}
+
+\hypertarget{tbl-journalsb}{}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0120}}@{}}
+\caption{\label{tbl-journalsb}Other journals}\tabularnewline
+\toprule\noalign{}
+\endfirsthead
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Business Process Management Journal
+  (\href{https://www.emeraldgrouppublishing.com/journal/bpmj}{BPMJ})
+\item
+  Business \& Information Systems Engineering
+  (\href{http://www.bise-journal.com/}{BISE})
+\item
+  Journal of Disclosure and Governance
+  (\href{https://www.palgrave.com/gp/journal/41310}{IJDG})
+\item
+  International Journal of Lean Six Sigma
+  (\href{https://www.emeraldgrouppublishing.com/journal/ijlss}{JLSS})
+\end{enumerate}
+\end{minipage} \\
+\end{longtable}
+
+Find journal on management games
+
+\textbf{Ranking}
+
+\begin{itemize}
+\item
+  Citation Impact (CiteScore, Clarivate Journal Citation Indicator,
+  Journal Impact Factor)
+\item
+  Usage (full text views)
+\item
+  Speed (acceptance rate, submission to first decision)
+\end{itemize}
+
+\textbf{Databases / Repositories}
+
+\href{dblp.org}{dblp computer science bibliography}
+
+\textbf{Alternatives for Microsoft Open Graph}
+
+\begin{itemize}
+\tightlist
+\item
+  Aminer
+\item
+  CrossRef
+\item
+  Dimensions
+\item
+  lens.org
+\item
+  OpenAlex.org
+\item
+  OpenCitations
+\item
+  Scopus
+\item
+  Semantic Scholar
+\end{itemize}
 
 \hypertarget{software-support}{%
 \chapter{Software Support}\label{software-support}}
@@ -853,187 +1640,6 @@ latex packages (such as orcid):
 \item
   html snippet is included in header, footer, or body of file
 \end{itemize}
-
-\hypertarget{references}{%
-\chapter*{References}\label{references}}
-\addcontentsline{toc}{chapter}{References}
-
-\markboth{References}{References}
-
-\hypertarget{refs}{}
-\begin{CSLReferences}{1}{0}
-\leavevmode\vadjust pre{\hypertarget{ref-ahmadBusinessProcessManagement2020}{}}%
-Ahmad, Tahir, and Amy Van Looy. 2020. {``Business {Process Management}
-and {Digital Innovations}: {A Systematic Literature Review}.''}
-\emph{Sustainability} 12 (17): 6827.
-\url{https://doi.org/10.3390/su12176827}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-WOS:000467454700002}{}}%
-Azzopardi, Shaun, Christian Colombo, and Gordon J. Pace. 2018. {``A
-Controlled Natural Language for Financial Services Compliance
-Checking.''} Proceedings Paper. In \emph{{CONTROLLED NATURAL LANGUAGE}
-({CNL} 2018)}, edited by B Davis, CM Keet, and A Wyner, 304:11--20.
-Frontiers in Artificial Intelligence and Applications. {NIEUWE HEMWEG
-6B, 1013 BG AMSTERDAM, NETHERLANDS}: {IOS PRESS}.
-\url{https://doi.org/10.3233/978-1-61499-904-1-11}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-dumasFundamentalsBusinessProcess2013}{}}%
-Dumas, Marlon, Marcello La Rosa, Jan Mendling, and Hajo A Reijers. 2013.
-\emph{Fundamentals of Business Process Management}. {Springer}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-elkharbiliBusinessProcessRegulatory2012}{}}%
-El Kharbili, Marwane. 2012. {``Business Process Regulatory Compliance
-Management Solution Frameworks: {A} Comparative Evaluation.''}
-Proceedings Paper. In \emph{Proceedings of the {Eighth Asia-Pacific
-Conference} on {Conceptual Modelling-Volume} 130}, 23--32.
-
-\leavevmode\vadjust pre{\hypertarget{ref-governatoriComplianceCheckingBusiness2006}{}}%
-Governatori, Guido, Zoran Milosevic, and Shazia Sadiq. 2006.
-{``Compliance Checking Between Business Processes and Business
-Contracts.''} Proceedings Paper. In \emph{2006 10th {IEEE International
-Enterprise Distributed Object Computing Conference} ({EDOC}'06)},
-221--32. {IEEE}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-hausslerCodeComplianceChecking2021}{}}%
-Häußler, Marco, Sebastian Esser, and André Borrmann. 2021. {``Code
-Compliance Checking of Railway Designs by Integrating {BIM}, {BPMN} and
-{DMN}.''} Journal Article. \emph{Automation in Construction} 121
-(January): 103427. \url{https://doi.org/10.1016/j.autcon.2020.103427}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-hoppenbrouwersFreezingLanguageConceptualisation2003}{}}%
-Hoppenbrouwers, Stijn Johannes Baptist Apollonia. 2003. \emph{Freezing
-Language: Conceptualisation Processes Across {ICT-supported}
-Organisations}. {{[}Sl: sn{]}}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-jansHowActiveLearning2019}{}}%
-Jans, Mieke, and Marzie Hosseinpour. 2019. {``How Active Learning and
-Process Mining Can Act as {Continuous Auditing} Catalyst.''} Journal
-\{\{Article\}\}. \emph{International Journal of Accounting Information
-Systems} 32: 44--58. \url{https://doi.org/10.1016/j.accinf.2018.11.002}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-marcinkowskiBusinessProcessModeling2012}{}}%
-Marcinkowski, Bartosz, and Michal Kuciapski. 2012. {``A {Business
-Process Modeling Notation Extension} for {Risk Handling}.''} In
-\emph{Computer {Information Systems} and {Industrial Management}},
-edited by David Hutchison, Takeo Kanade, Josef Kittler, Jon M.
-Kleinberg, Friedemann Mattern, John C. Mitchell, Moni Naor, et al.,
-7564:374--81. {Berlin, Heidelberg}: {Springer Berlin Heidelberg}.
-\url{https://doi.org/10.1007/978-3-642-33260-9_32}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-mendlingBuildingComplementaryAgenda2020}{}}%
-Mendling, Jan, Brian T. Pentland, and Jan Recker. 2020. {``Building a
-Complementary Agenda for Business Process Management and Digital
-Innovation.''} \emph{European Journal of Information Systems} 29 (3):
-208--19. \url{https://doi.org/10.1080/0960085X.2020.1755207}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-mendlingBlockchainsBusinessProcess2018}{}}%
-Mendling, Jan, Ingo Weber, Wil Van Der Aalst, Jan Vom Brocke, Cristina
-Cabanillas, Florian Daniel, Søren Debois, Claudio Di Ciccio, Marlon
-Dumas, and Schahram Dustdar. 2018. {``Blockchains for Business Process
-Management-Challenges and Opportunities.''} \emph{ACM Transactions on
-Management Information Systems (TMIS)} 9 (1): 1--16.
-
-\leavevmode\vadjust pre{\hypertarget{ref-moreno-montesdeocaSystematicLiteratureReview2015}{}}%
-Moreno-Montes de Oca, Isel, Monique Snoeck, Hajo A. Reijers, and Abel
-Rodríguez-Morffi. 2015. {``A Systematic Literature Review of Studies on
-Business Process Modeling Quality.''} \emph{Information and Software
-Technology} 58 (February): 187--205.
-\url{https://doi.org/10.1016/j.infsof.2014.07.011}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-polancicBPMNLBPMNExtension2020}{}}%
-Polančič, Gregor. 2020. {``{BPMN-L}: {A BPMN} Extension for Modeling of
-Process Landscapes.''} \emph{Computers in Industry} 121: 103276.
-
-\leavevmode\vadjust pre{\hypertarget{ref-pourmirzaBPMSRANovelReference2019}{}}%
-Pourmirza, Shaya, Sander Peters, Remco Dijkman, and Paul Grefen. 2019.
-{``{BPMS-RA}: A Novel Reference Architecture for Business Process
-Management Systems.''} \emph{ACM Transactions on Internet Technology
-(TOIT)} 19 (1): 1--23.
-
-\leavevmode\vadjust pre{\hypertarget{ref-ramezaniSeparatingComplianceManagement2011}{}}%
-Ramezani, Elham, Dirk Fahland, Jan Martijn van der Werf, and Peter
-Mattheis. 2011. {``Separating Compliance Management and Business Process
-Management.''} In \emph{International {Conference} on {Business Process
-Management}}, 459--64. {Springer}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-sadiqManagingRegulatoryCompliance2010}{}}%
-Sadiq, Shazia, and Guido Governatori. 2010. {``Managing {Regulatory
-Compliance} in {Business Processes}.''} In \emph{Handbook on {Business
-Process Management} 2}, edited by Jan vom Brocke and Michael Rosemann,
-159--75. {Berlin, Heidelberg}: {Springer Berlin Heidelberg}.
-\url{https://doi.org/10.1007/978-3-642-01982-1_8}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-sadiqModelingControlObjectives2007}{}}%
-Sadiq, Shazia, Guido Governatori, and Kioumars Namiri. 2007. {``Modeling
-Control Objectives for Business Process Compliance.''} In
-\emph{International Conference on Business Process Management}, 149--64.
-{Springer}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-schultzModelingConceptsInternal2014}{}}%
-Schultz, Martin, and Michael Radloff. 2014. {``Modeling {Concepts} for
-{Internal Controls} in {Business Processes} \textendash{} {An
-Empirically Grounded Extension} of {BPMN}.''} In \emph{Business {Process
-Management}}, edited by Shazia Sadiq, Pnina Soffer, and Hagen Völzer,
-8659:184--99. {Cham}: {Springer International Publishing}.
-\url{https://doi.org/10.1007/978-3-319-10172-9_12}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-shafagatovaDevelopingToolProcess2021}{}}%
-Shafagatova, Aygun, and Amy Van Looy. 2021. {``Developing a Tool for
-Process-Oriented Appraisals and Rewards: {Design} Science Research.''}
-\emph{Journal of Software: Evolution and Process} 33 (3): e2321.
-
-\leavevmode\vadjust pre{\hypertarget{ref-vanlooyConfigurationTaxonomyBusiness2021}{}}%
-Van Looy, Amy, Els Clarysse, and Peter Trkman. 2021. {``A {Configuration
-Taxonomy} of {Business Process Orientation}.''} \emph{Business \&
-Information Systems Engineering}, May, In press.
-\url{https://doi.org/10.1007/s12599-021-00700-4}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-vombrockeTenPrinciplesGood2014}{}}%
-vom Brocke, Jan, Theresa Schmiedel, Jan Recker, Peter Trkman, Willem
-Mertens, and Stijn Viaene. 2014. {``Ten Principles of Good Business
-Process Management.''} Edited by Dr Thomas Kohlborn Professor Jens
-Poeppelbuss and Dr Maximilian Roeglinger. \emph{Business Process
-Management Journal} 20 (4): 530--48.
-\url{https://doi.org/10.1108/BPMJ-06-2013-0074}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-vombrockeProcessScienceInterdisciplinary2021}{}}%
-vom Brocke, Jan, Wil van der Aalst, Thomas Grisold, Waldemar Kremser,
-Jan Mendling, Brian Pentland, Jan Recker, Maximilian Roeglinger, Michael
-Rosemann, and Barbara Weber. 2021. {``Process {Science}: {The
-Interdisciplinary Study} of {Continuous Change}.''} \{\{SSRN Scholarly
-Paper\}\}. {Rochester, NY}. \url{https://doi.org/10.2139/ssrn.3916817}.
-
-\leavevmode\vadjust pre{\hypertarget{ref-Weske2007}{}}%
-Weske, Mathias. 2007. {``Business Process Management Architectures.''}
-In \emph{Business Process Management: {Concepts}, Languages,
-Architectures}, 305--43. {Berlin, Heidelberg}: {Springer Berlin
-Heidelberg}. \url{https://doi.org/10.1007/978-3-540-73522-9_7}.
-
-\end{CSLReferences}
-
-\hypertarget{authors}{%
-\chapter*{Authors}\label{authors}}
-\addcontentsline{toc}{chapter}{Authors}
-
-\markboth{Authors}{Authors}
-
-\cleardoublepage
-\phantomsection
-\addcontentsline{toc}{part}{Appendices}
-\appendix
-
-\hypertarget{backlog}{%
-\chapter{Backlog}\label{backlog}}
-
-Work to do
-
-\hfill\break
-
-{[}19-05-2023{]} / sprint 2, day 1
-
-h-index nakijken van 24 auteurs
-
-\newpage{}
 
 
 

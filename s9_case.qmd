@@ -1,0 +1,17 @@
+
+
+Subjects for reporting:
+
+- Financieel
+- Personeel
+- Ontwikkeling
+- Projecten
+- Contract management (subsidies)
+
+For each subject there is a separate report. Ultimately the individual reports are combined into a single Management Report. The reports are generated from the same data model. The data model is based on the Archimate standard. The data model is described in the following sections.
+
+
+Archimate components
+- Application component
+- Data object component
+- Representation (or Report) component

@@ -1,19 +1,101 @@
+---
+title: "SLR"
+subtitle: "Protocol"
+date: "10-23-2023"
+date-format: "D/MM/YYYY"
+date-modified: "10-23-2023"
+author:
+  - name:
+    orcid: 0000-0003-1689-0557
+    email: j.r.muller@hva.nl
+    affiliations:
+      - name: Amsterdam University of Applied Sciences
+        address: Fraijlemaborg 133
+        city: Amsterdam
+        postal-code: 1102 CV
+      - name: Vlerick Business School
+        address: Reep 1
+        city: Ghent
+        postal-code: 9000
+abstract: ""
+format:
+  pdf:
+    code-fold: true
+    cite-method: biblatex
+    include-in-header: 
+      text:
+        \usepackage{biblatex}
+        \addbibresource{MyLibrary.bib}
+---
 # Systematic Literature Review
 
+## My Zotero Library
 [05/07/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits.
 
 The first is @kitchenhamGuidelinesPerformingSystematic2007 and there is a duplicate @keeleGuidelinesPerformingSystematic2007. Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @ahmadBusinessProcessManagement2020, @prodanovaHowBeneficialSocial2019). There is 1 SLR about BPMN extentions (@zarourSystematicLiteratureReview2019) Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
 
-** How to reference multiple papers? **
 
-To be included for the meeting with the promotors early September:
-* Specification of the research questions
-* Development of a review protocol
+** Create Zotero(?) report whereby I get abstract, methodology etc. of paper.
+
+** How to reference multiple papers? - numeric method **
+## Need for SLR
+
+This SLR is undertaken as a sprelude to further research.
+
+• What are the review’s objectives?
+• What sources were searched to identify primary studies? Were there any restrictions?
+• What were the inclusion/exclusion criteria and how were they applied? • What criteria were used to assess the quality of primary studies? • How were quality criteria applied? 
+• How were the data extracted from the primary studies? 
+• How were the data synthesised? 
+• How were differences between studies investigated? 
+• How were the data combined? 
+• Was it reasonable to combine the studies? 
+• Do the conclusions flow from the evidence?
+
+## Commissioning Document
+
+A4 in attachment (not required for PhD students ref pag 9 of Kitchenham)
+• Project Title 
+• Background 
+• Review Questions
+• Advisory/Steering Group Membership (Researchers, Practitioners, Lay members, Policy Makers etc) 
+• Methods of the review 
+• Project Timetable 
+• Dissemination Strategy 
+• Support Infrastructure 
+• Budget 
+• References
+
+## Research questions
+
+RQ-1: What are the  for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
+
+## Review protocol
+
+
+keywords
+
+Business Processes and Regulatory Compliance
+
+
+
+
+Sources:
+
+
+ScienceDirect (Elsevier)
+Web of Science (WoS)
+Scopus (not available via Vlerick)
+
+"Regulatory Compliance"
+A Semantic Model Based Framework for Regulatory Reporting Process Management
+Author keywords: Events, Process extraction, Regulatory reporting, Semantic technology
+Prominence percentile 99.023 (shows the current momentum of a Topic, i.e. very high)
+
 
 Search strings
 
 I want to expand the number of SLR to 10 by including SLR's from A-star journals in the BPM/IS field(s).
-
 
 To demonstrate International Research Collaboration (IRC), "using affiliations listed in publications has become the standard practice" [](https://direct.mit.edu/qss/article/3/3/529/112967/Assessing-the-quality-of-bibliographic-data). I would like to use this to show the affiliations of the authors of the articles included in my literature research.
 
@@ -29,3 +111,25 @@ In the article above DQ is split into:
 - Accessibility Data Quality (2 attributes)
 
 Note: in this study Microsoft Academic Graph (MAG) is one of the four datasources considered. MAG has since been [retired](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/).
+
+\newpage
+
+Quality Evaluation Criteria
+
+QE1 Peer reviewed journals
+
+QE2
+
+QE3
+
+
+\newpage
+
+## Definitions
+
+Regulatory Compliance
+
+Business Process Management
+
+Agility
+

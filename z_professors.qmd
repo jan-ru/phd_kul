@@ -4,24 +4,31 @@ author:
     orcid: 0000-0001-8301-6857
 
 format:
-  html:
+  pdf:
     include-in-header: 
       text:
         \usepackage{orcidlink, totcount}
 ---
 
+- orcidlink works for PDF (via latex) output but not for html.
+- author in header works for html output but not for pdf (via latex).
+- resolve with conditional content
+
 # Professors
- 
- \orcidlink{https://orcid.org/0000-0002-3848-5395}, ().
+
+::: {.content-visible when-format="pdf"}
+
+{achternaam, voornaam\orcidlink{0000-0002-3848-5395}}
+
+::: 
 
 
-+--------------------------+-------------------+
 | Professors               |Affiliation        |
-+==========================+===================+
+|--------------------------|-------------------|
 | 1. [Peter Sloot]         |[UVA]              |
-| 1. [Jan Vanthienen]      |[KUL]              |
-| 1. [Bart Baesens]        |[KUL1]             |
-+--------------------------+-------------------+
+| 2. [Jan Vanthienen]      |[KUL]              |
+| 3. [Bart Baesens]        |[KUL1]             |
+
 
 : Professors {#tbl-professors}
 
@@ -34,11 +41,6 @@ See @tbl-professors.
 [KUL]: https://www.kuleuven.be/wieiswie/en/person/00017013
 
 
-
-- orcidlink works for PDF (via latex) output but not for html.
-- author in header works for html output but not for pdf (via latex).
-
-
 **voorbeeld van een foto CV pagina**
 
-[Joris Krijger](joriskrijger.nl)
+[Joris Krijger](https://joriskrijger.nl)

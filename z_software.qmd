@@ -1,15 +1,29 @@
 ---
 title: "Software Support"
+date: "03-30-2023"
+date-format: "D/MM/YYYY"
+date-modified: "10-14-2023"
+format:
+  pdf:
+    include-in-header:
+      text:
+        \usepackage[
+        style        = ext-numeric,
+        backend      = biber,
+        defernumbers = true,
+        ]{biblatex}
+        \usepackage{totcount} 
+
 ---
 
 ## [27-05-2023] Tools
 
-(https://pypi.org/project/refextract/)
+A small library for extracting references used in scholarly communication.
+[refextract](https://pypi.org/project/refextract/)
 
 (https://docs.readme.com/rdmd/docs/getting-started)
 
-
-ORCID toegevoegd aan de authors index using the latex package "orcidlink".
+ORCID: reference use of the latex package "orcidlink".
 
 Idea for backlog: obtain keywords via orcid api (python) and build wordcloud.
 
@@ -31,10 +45,8 @@ Note that interactive-sql is a wrapper aroung [sqlime](https://sqlime.org/about.
 
 Current thinking: use latex package
 
-* \totcounter
 * \regtotcounter{table}
 * \regtotcounter{figure}
-
 
 In case of output to html, and not to loose functionality of certain latex packages (such as orcid):
 
@@ -43,3 +55,76 @@ In case of output to html, and not to loose functionality of certain latex packa
 * Variables are read [ref. texexchange](https://tex.stackexchange.com/questions/321346/how-to-read-a-variable-from-a-file-in-latex)
 * html snippet creation [html snippet](https://texfaq.org/FAQ-LaTeX2HTML)
 * html snippet is included in header, footer, or body of file
+
+## Bibliometrics
+
+To find the number of publications they both worked on I may want to look into [bibliometrix](https://www.bibliometrix.org/home/). This is in R, there maybe similar tools for Python. Pybibliometrics []() looks to be an interface to Elsevier Scopus only.
+
+## Qualitative Research
+
+[Taquette](https://www.taguette.org/getting-started.html#highlight)
+
+## References
+
+https://www.tug.org/texlive//Contents/live/texmf-dist/doc/latex/orcidlink/orcidlink.pdf
+
+## Number of bib entries
+
+\newcounter{totalbibentries}
+\newcommand*{\listcounted}{}
+
+\makeatletter
+\AtDataInput{%
+  \xifinlist{\abx@field@entrykey}\listcounted
+    {}
+    {\stepcounter{totalbibentries}%
+     \listxadd\listcounted{\abx@field@entrykey}}%
+}
+\makeatother
+
+\begin{filecontents}{\jobname.bib}
+@article{A,
+  author          = {A Author},
+  keywords        = {A1},
+}
+@article{B,
+  author          = {B Author},
+  keywords        = {A2},
+}
+@article{C,
+  author          = {C Author},
+  keywords        = {A2,A3},
+}
+@article{D,
+  author          = {D Author},
+  keywords        = {A1,A3},
+}
+\end{filecontents}
+\addbibresource{\jobname.bib}
+
+\begin{document}
+There are in total 
+    \thetotalbibentries\
+publications. 
+
+\newcommand\crcbib[1]{%
+  \begin{refsection}
+    \section{Project #1}
+    \nocite{*}
+    \printbibliography[%
+      resetnumbers = true,
+      heading = none,
+      keyword = {#1},
+    ]
+  \end{refsection}
+} 
+\crcbib{A1}
+\crcbib{A2}
+\crcbib{A3}
+
+bron: https://tex.stackexchange.com/questions/536694/get-the-number-of-entries-in-a-bib-file-with-biblatex
+
+
+## Documentation workflow
+
+[IDM](https://docs.idmod.org/)

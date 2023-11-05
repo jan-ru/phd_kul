@@ -1,6 +1,0 @@
----
-title: "status presenation"
-format: revealjs
----
-
-slide 1

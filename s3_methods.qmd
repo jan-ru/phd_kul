@@ -79,7 +79,7 @@ semantically query papers in the research database. For example see:
 
 The paper recommended to my by email (per her email of ): *Design Science in Information Systems Research* [@hevnerDesignScienceInformation2004]. Indeed, in this write-up there are several papers where the Design Science method is applied [@shafagatovaDevelopingToolProcess2021], ... (to be continued).
 
-
+Exemplars and criteria for applicable design science research (special issue 2018 of the EJIS)
 
 * also check: Christian Sonnenberg
 

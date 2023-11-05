@@ -1,24 +1,67 @@
 ---
-bibliography: Top100.bib
+date: 14-10-2023
+lang: en
+author:
+  - name: Jan-Ru Muller
+    orcid: 0000-0003-1689-0557
+    email: j.r.muller@hva.nl
+    affiliations:
+      - name: Amsterdam University of Applied Sciences
+        address: Fraijlemaborg 133
+        city: Amsterdam
+        postal-code: 1102 CV
+abstract: ""
+
 format:
   pdf:
     latex_engine: xelatex
+    cite-method: biblatex
+    keep-tex: true
     include-in-header: 
       text:
         \usepackage{biblatex}
-        \addbibresource{Top100.bib}
+        \addbibresource{MyLibrary.bib}
+
 ---
 
 # Research questions
 
-\citetitle{@moreno-montesdeocaSystematicLiteratureReview2015}
+[intro]
 
-[@moreno-montesdeocaSystematicLiteratureReview2015]
+@moreno-montesdeocaSystematicLiteratureReview2015:
 
 The above mentioned aspects provide indications that the field of modeling quality still needs to gain in maturity. Based on our interpretation of the SLR results, we suggest further research on developing a more comprehensive quality framework, on investigating the knowledge and development layer, and on the process of modeling itself. From our study, it has become clear that there are plenty of open research questions in the area of business process modeling quality that seems worthwhile to pursue, both from an academic and a practical perspective.
 
-
-
-[@zarourSystematicLiteratureReview2019] :
+@zarourSystematicLiteratureReview2019:
 
 For future work, we plan to strengthen this literature review by taking into account other evaluation criteria and by covering more literature such as extensions not written in English and those proposed in master and doctoral theses. We also envisage to conduct a literature review on existing DSMLs and the extension of other BP-related languages like BPEL and UML. Finally, another literature review on BPMN extensions should be performed in the coming years in order to see the evolution of BPMN extension features.
+
+Literature reviews ...
+
+
+@beerbaumXBRLEnabledCorporateGovernance2015:
+
+contains interesting classification of Corporate Governance literature.
+Future research could apply research on a larger scale for financial institutions and also extend the sample to other industries such as industrial companies.
+
+Topic which might be relevant for future research:
+
+- Impact of XBRL on contant of financial information with regard to IFRS filers
+- Better data, better decisions
+- Global Taxonomy
+
+@lohmannComplianceDesignArtifactcentric2013:
+
+Future work. We see numerous directions to continue the work in the area of compliance by design. The main
+practical limitation is the lack of a proper modeling language, because the presented Petri net formalization
+is only a conceptual modeling language. We recently developed an extension [36] for BPMN [13] to provide a
+graphical notation that is more accessible for domain experts to model artifacts, policies, and compliance rules. A canonic next step would then be the integration of the approach into a modeling tool and an empirical evaluation thereof. Furthermore, we concentrated on the early design of a business process and did not consider its execution. 
+Another aspect that needs to be addressed is the expressiveness of the artifacts and compliance rules. Of
+great interest are instances. To model more involved scenarios, it is crucial distinguish several instances of an artifact. We currently assume that for each artifact only a single instance exists and that the number of agents for each role is fixed. Interesting research questions would deal with the minimal number of agents that need to be distinguished to realize a compliant process execution.
+
+[reference intercompany]
+
+### References
+
+::: {#refs}
+:::

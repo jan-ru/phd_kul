@@ -1,0 +1,11 @@
+*.log
+*.aux
+*.bcf
+*.tex
+*.sty
+*.pdf
+*.csv
+/.quarto/
+.vscode
+/.luarc.json
+.Rhistory
