@@ -1,7 +1,7 @@
 ---
-title: "SLR"
-subtitle: "Protocol"
-date: "10-23-2023"
+title: ""
+subtitle: "Agile Law Making (Thesis)"
+date: "11-01-2023"
 date-format: "D/MM/YYYY"
 date-modified: "10-23-2023"
 author:
@@ -30,108 +30,6 @@ bibliography: MyLibrary.bib
 keywords: modelling languages, controlled natural language
 
 ---
-# Systematic Literature Review
-
-## My Zotero Library
-[05/07/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits.
-
-The first is @kitchenhamGuidelinesPerformingSystematic2007 and there is a duplicate @keeleGuidelinesPerformingSystematic2007. Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @ahmadBusinessProcessManagement2020, @prodanovaHowBeneficialSocial2019). There is 1 SLR about BPMN extentions (@zarourSystematicLiteratureReview2019) Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
-
-
-** Create Zotero(?) report whereby I get abstract, methodology etc. of paper.
-
-** How to reference multiple papers? - numeric method **
-## Need for SLR
-
-This SLR is undertaken as a sprelude to further research.
-
-- What are the review’s objectives?
-- What sources were searched to identify primary studies? Were there any restrictions?
-- What were the inclusion/exclusion criteria and how were they applied? 
-- What criteria were used to assess the quality of primary studies? 
-- How were quality criteria applied? 
-- How were the data extracted from the primary studies? 
-- How were the data synthesised? 
-- How were differences between studies investigated? 
-- How were the data combined? 
-- Was it reasonable to combine the studies? 
-- Do the conclusions flow from the evidence?
-
-## Commissioning Document
-
-A4 in attachment (not required for PhD students ref pag 9 of Kitchenham)
-- Project Title 
-- Background 
-- Review Questions
-- Advisory/Steering Group Membership (Researchers, Practitioners, Lay members, Policy Makers etc) 
-- Methods of the review 
-- Project Timetable 
-- Dissemination Strategy 
-- Support Infrastructure 
-- Budget 
-- References
-
-## Research questions
-
-RQ-1: What are the  for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
-
-## Review protocol
-
-
-keywords
-
-Business Processes and Regulatory Compliance
-
-
-
-
-Sources:
-
-- ScienceDirect (Elsevier)[]
-- Web of Science (WoS)[]
-- Scopus (not available via Vlerick)
-- SSNR
-- arXiv > cs
-- dblp, computer science bibliography 
-
-"Regulatory Compliance"
-A Semantic Model Based Framework for Regulatory Reporting Process Management
-Author keywords: Events, Process extraction, Regulatory reporting, Semantic technology
-Prominence percentile 99.023 (shows the current momentum of a Topic, i.e. very high)
-
-
-Search strings
-
-I want to expand the number of SLR to 10 by including SLR's from A-star journals in the BPM/IS field(s).
-
-To demonstrate International Research Collaboration (IRC), "using affiliations listed in publications has become the standard practice" [](https://direct.mit.edu/qss/article/3/3/529/112967/Assessing-the-quality-of-bibliographic-data). I would like to use this to show the affiliations of the authors of the articles included in my literature research.
-
-Concepts mentioned in the article:
-- Data quality (DQ) and Data quality assessment (DQA)
-- Functional Requirements for Bibliographic Records (FRBR)
-- Zotero Data quality dimensions (DQDs)
-
-In the article above DQ is split into:
-- Intrinsic Data Quality (4 attributes)
-- Contextual Data Quality (5 attributes)
-- Representational Data Quality (4 attributes)
-- Accessibility Data Quality (2 attributes)
-
-Note: in this study Microsoft Academic Graph (MAG) is one of the four datasources considered. MAG has since been [retired](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/).
-
-\newpage
-
-Quality Evaluation Criteria
-
-QE1 Peer reviewed journals
-
-QE2
-
-QE3
-
-
-\newpage
-
 ## Thesis
 
 The thesis by Mariette Lokin was published in 2018 (in Dutch) by the Vrije Universiteit Amsterdam (@lokinWendbaarWetgevenWetgever2018). It is available at the [research portal](https://research.vu.nl/en/publications/wendbaar-wetgeven).
@@ -166,17 +64,11 @@ The conclusion is that there are realistic possibilities for lawmakers to take i
 
 - A legalvocabulary (CNL) provides for insight into the diversity of terminology and allows for analysis to reduce diversity.
 
-- The application of linked data provides fof insight into the 'web' of laws and related documents for insight into applicable rules and meaning.
-
-The future perspective is that the legal technical information on wetten.nl no longer only contains references to other regulations and case law, but also to decision rules based on the relevant article. The future perspective is that the legal technical information on "wetten.nl" no longer only contains references to other regulations and case law, but also to decision rules based on the relevant article. "In my opinion, a role for the legislator in advance in guaranteeing legal protection in automated decision-making through transparency and traceability of decision rules and algorithms is more obvious than setting up retrospective control."
-
+- The application of linked data provides for insight into the 'web' of laws and related documents for insight into applicable rules and meaning.
 
 ## Suggestions for further research
 
-
-## What is the contribution
-
-An approach has een proposed to 
+The future perspective is that the legal technical information on wetten.nl no longer only contains references to other regulations and case law, but also to decision rules based on the relevant article. The future perspective is that the legal technical information on "wetten.nl" no longer only contains references to other regulations and case law, but also to decision rules based on the relevant article. "In my opinion, a role for the legislator in advance in guaranteeing legal protection in automated decision-making through transparency and traceability of decision rules and algorithms is more obvious than setting up retrospective control."
 
 \newpage
 
@@ -207,23 +99,3 @@ OV3 : Kan met toepassing van linked data bij de redactie van wetgeving het inzic
 OV4 : Welke ondersteuning is nodig in het juridische wetgevingsproces om het taalmodel, het wetgevingsvocabulaire en linked data te kunnen toepassen?
 
 OV5 : Welke veranderingen zijn nodig in het bestuurlijk-politieke wetgevingsproces om een multidisciplinaire samenwerking te realiseren in de fase van ambtelijke voorbereiding van wetgeving, en om de technologische rationaliteit een eigen plaats te geven in de fase van parlementaire behandeling van wetgeving?
-
-\newpage
-
-Follow on publications:
-
-Title [@lokinAgileLawMaking2020]
-
-
-## Keyword (from articles)
-
-
-
-## Definitions
-
-Regulatory Compliance
-
-Business Process Management
-
-Agility
-

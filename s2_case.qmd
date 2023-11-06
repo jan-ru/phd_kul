@@ -32,28 +32,50 @@ keywords: modelling languages, controlled natural language
 ---
 # Mini Case Study
 
-Since the call on xx/yy/zzzz I have identified 3 prospects where potentially a mini case study can be performed to establish how companies 
+Since the call on 18/10/2023 I have identified 3 prospects where potentially an innitial mini case study can be performed with respect to:
 
-## Praxasense
+RQ-1: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
 
-Praxasense is a startup fu
-Address:
+## MedTech Startup
 
-Contact: Leonard Moonen
+[Praxasense](https://praxasense.com/) is a startup developing a heart-rhythm monitorig device. The company is a spin-off of the TU Delft. It was founded in 2019 and it employees 10 people.
 
-Advantage:
+Address: Molengraaffsingel 12, 2629 JD Delft.
 
-Disadvantage:
+Contact: Leonard Moonen (CEO)
 
-## Rabobank
+Advantage: the company is small and I would have full access to the team preparing for certification (ISO 13485). ISO 13485 is a norm based on ISO9001 that all companies producing medical equipment need to be compliant with.
 
-Contact:
+Disadvantage: the company is an R&D company that is presently not regulated yet as there are no commercial activities.
 
-Role:
+## Financial Institution
 
-Advantage:
+[Rabobank](www.rabobank.com) is one of three large banks in the Netherlands. Rabobank exists since 1972. It employs 43 thousand people. 
 
-Disadvantage:
+Contact: Eiso Bos (Global Head Financial Economic Crime Governance, Risk & Change)
 
-## "Woningbouwvereniging"
+Adddress: Croeselaan 18, 3521 CB Utrecht
 
+Advantage: the Rabobank is a well known name (in NL). Performing a mini case study well may lead to doing case studies with other financial institutions.
+
+Disadvantage: I may have limited access to my contact. Also the main processes (of interest to the bank) are likely about KYC (know your customer) and AML (anti money laundering).
+
+Note: if other cases are situated in the same (banking) sector, further contacts are [AFM](https://www.afm.nl/) (Autoriteit Financiele Markten) and [NVB](https://www.nvb.nl/) (Nederlandse Vereniging van Banken).
+
+## Housing Association
+
+[Laurentius](https://www.laurentiuswonen.nl/) is a housing association bases in Breda. They rent and maintain some 8.300 real estate objects.
+
+Possible contact: Paul van Roosmalen (CEO)
+
+Advantage: Two advantages are 1) an advanced data exchange with the government and 2) a possile linkt with CO2 emmissions. Housing Associations are highly regulated in the Netherlands. In September 2022 an covenant has been signed relating to further improve the information exchange with the government (system-to-system) based on SBR (XBRL).
+
+Disadvantage: I have not yet been in contact with a Laurentius, so no visibility about the timeline yet. 
+
+Note: if other cases are situated in the same (housing) sector, further contact is [AEDES](https://aedes.nl/) (vereniging van woningcooperaties).
+
+## Concluding remarks
+
+Short term most progress can likely be made in a smaller (less complex) organisation?
+
+Longer term the housing association sector can provide for interesting case studies. The information exchange with the government entails more than actual financial data. Next to actual financial data also planning data is exchanged. A sector wide taxonomy has been defined (information model).
