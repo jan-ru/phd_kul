@@ -1,0 +1,31 @@
+(Business Processes and Regulatory Compliance
+
+## Need for SLR
+
+This SLR is undertaken as a sprelude to further research.
+
+- What are the review’s objectives?
+- What sources were searched to identify primary studies? Were there any restrictions?
+- What were the inclusion/exclusion criteria and how were they applied? 
+- What criteria were used to assess the quality of primary studies? 
+- How were quality criteria applied? 
+- How were the data extracted from the primary studies? 
+- How were the data synthesised? 
+- How were differences between studies investigated? 
+- How were the data combined? 
+- Was it reasonable to combine the studies? 
+- Do the conclusions flow from the evidence?
+
+Follow on publications:
+
+Title [@lokinAgileLawMaking2020]
+
+## Definitions
+
+Regulatory Compliance
+
+Business Process Management
+
+Agility
+
+** Create Zotero(?) report whereby I get abstract, methodology etc. of paper.

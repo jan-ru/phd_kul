@@ -1,6 +1,6 @@
 ---
 title: "SLR"
-subtitle: "Protocol"
+subtitle: "Review Protocol"
 date: "10-23-2023"
 date-format: "D/MM/YYYY"
 date-modified: "10-23-2023"
@@ -24,77 +24,50 @@ format:
     include-in-header: 
       text:
         \usepackage{imakeidx, bibentry, scrlayer-scrpage}
-        \rohead{Header text}
-        \lofoot{Footer text}
+        \rohead{Draft}
+        \lofoot{}
 toc: false
 toc-depth: 2
 bibliography: MyLibrary.bib
 keywords: modelling languages, controlled natural language
 
 ---
-## Status: in progress
+## Background
 
-## My Zotero Library
+In the context of the DBA program at Vlerick Business School a literature review is one of the deliverables of year two.
+(Question: can we use the model published by OCEG? (@RegulatoryChangeManagement2018)) 
 
-[05/10/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits:
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
 
-- The first is @kitchenhamGuidelinesPerformingSystematic2007 and there is a duplicate @keeleGuidelinesPerformingSystematic2007.
-- Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @prodanovaHowBeneficialSocial2019, @ahmadBusinessProcessManagement2020).
-- There is 1 SLR about BPMN extentions (@zarourSystematicLiteratureReview2019)
-- Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
-
-
-## Need for SLR
-
-This SLR is undertaken as a sprelude to further research.
-
-- What are the review’s objectives?
-- What sources were searched to identify primary studies? Were there any restrictions?
-- What were the inclusion/exclusion criteria and how were they applied? 
-- What criteria were used to assess the quality of primary studies? 
-- How were quality criteria applied? 
-- How were the data extracted from the primary studies? 
-- How were the data synthesised? 
-- How were differences between studies investigated? 
-- How were the data combined? 
-- Was it reasonable to combine the studies? 
-- Do the conclusions flow from the evidence?
-
-## Commissioning Document
-
-A4 in attachment (not required for PhD students ref pag 9 of Kitchenham):
-
-- Project Title 
-- Background 
-- Review Questions
-- Advisory/Steering Group Membership (Researchers, Practitioners, Lay members, Policy Makers etc) 
-- Methods of the review 
-- Project Timetable 
-- Dissemination Strategy 
-- Support Infrastructure 
-- Budget 
-- References
 
 ## Research questions
 
-Main RQ: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
+The main research question RQ
 
-Sub RQ-1: How can businesses identify relevant regulatory requirements? 
+RQ: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
 
-Sub RQ-2: How can businesses analyze which business processes are affected by changes in requlatory requirements? 
+SQ-1: How can businesses identify relevant regulatory requirements? 
 
-Sub RQ-3: How can businesses integrate compliance requirements into business process design?
+SQ-2: How can businesses analyze which business processes are affected by changes in requlatory requirements? 
 
-Sub RQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes?
+SQ-3: How can businesses integrate compliance requirements into business process design?
 
-## Review protocol
+SQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes?
 
+## Search terms
 
-keywords
+- "business process management" and "regulatory compliance"
+- "compliance risk management"
+- "managing regulatory compliance in business processes"
+- "business process management" and "regulatory compliance" and "systematic literature review"
 
-Business Processes and Regulatory Compliance
-
-Sources:
+## Resources to be searched
 
 - Web of Science [Clarivate](https://www-webofscience-com)
 - ScienceDirect [Elsevier](https://www-sciencedirect-com)
@@ -103,11 +76,45 @@ Sources:
 - arXiv > [cs](https://arxiv.org/search/cs)
 - dblp, computer science bibliography [dblp](https://dblp.org/)
 
+## Keyword (from articles)
+
 "Regulatory Compliance"
 A Semantic Model Based Framework for Regulatory Reporting Process Management
 Author keywords: Events, Process extraction, Regulatory reporting, Semantic technology
 Prominence percentile 99.023 (shows the current momentum of a Topic, i.e. very high)
 
+## Study selection criteria
+
+Still to be completed.
+
+## Study quality assessment
+
+Quality Evaluation Criteria
+
+QE1 Peer reviewed journals
+
+QE2
+
+QE3
+
+
+## Data extraction strategy
+
+Still to be completed.
+
+## Synthesis of extracted data
+
+Still to be completed.
+
+## Disseminaton strategy
+
+Still to be completed.
+
+## Project time table
+
+Still to be completed.
+
+\newpage
 
 Search strings
 
@@ -132,32 +139,15 @@ Note: in this study Microsoft Academic Graph (MAG) is one of the four datasource
 
 \newpage
 
-Quality Evaluation Criteria
-
-QE1 Peer reviewed journals
-
-QE2
-
-QE3
-
-
-\newpage
-
-
-Follow on publications:
-
-Title [@lokinAgileLawMaking2020]
-
-## Keyword (from articles)
 
 
 
-## Definitions
 
-Regulatory Compliance
+## Examples of SLR
 
-Business Process Management
+[05/10/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits:
 
-Agility
-
-** Create Zotero(?) report whereby I get abstract, methodology etc. of paper.
+- The first is @kitchenhamGuidelinesPerformingSystematic2007 and there is a duplicate @keeleGuidelinesPerformingSystematic2007.
+- Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @prodanovaHowBeneficialSocial2019, @ahmadBusinessProcessManagement2020).
+- There is 1 SLR about BPMN extentions (@zarourSystematicLiteratureReview2019)
+- Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
