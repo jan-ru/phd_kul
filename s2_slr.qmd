@@ -35,16 +35,28 @@ keywords: modelling languages, controlled natural language
 ## Background
 
 In the context of the DBA program at Vlerick Business School a literature review is one of the deliverables of year two.
-(Question: can we use the model published by OCEG? (@RegulatoryChangeManagement2018)) 
+
+## Conceptual model
+
+There is an existing model published by OCEG (&Refentiv) that may be used as a reference. The 2018 version is attached and redrawn below (@RegulatoryChangeManagement2018).
 
 ```{mermaid}
 flowchart LR
-  A[Hard edge] --> B(Round edge)
-  B --> C{Decision}
-  C --> D[Result one]
-  C --> E[Result two]
+  A("Identify &
+  Define")
+  B("Track & 
+  Analyze")
+  C("Monitor & 
+  Map")
+  D("Control & 
+  Manage")
+  E("Report & 
+  Record")
+  A --> B
+  B --> C
+  C --> D
+  D --> E
 ```
-
 
 ## Research questions
 
@@ -63,9 +75,11 @@ SQ-4: How can businesses ensure compliance throughout the lifecycle of the impac
 ## Search terms
 
 - "business process management" and "regulatory compliance"
-- "compliance risk management"
-- "managing regulatory compliance in business processes"
 - "business process management" and "regulatory compliance" and "systematic literature review"
+- "compliance risk management"
+- "regulatory risk management"
+- "managing regulatory compliance in business processes"
+
 
 ## Resources to be searched
 
@@ -76,72 +90,29 @@ SQ-4: How can businesses ensure compliance throughout the lifecycle of the impac
 - arXiv > [cs](https://arxiv.org/search/cs)
 - dblp, computer science bibliography [dblp](https://dblp.org/)
 
-## Keyword (from articles)
-
-"Regulatory Compliance"
-A Semantic Model Based Framework for Regulatory Reporting Process Management
-Author keywords: Events, Process extraction, Regulatory reporting, Semantic technology
-Prominence percentile 99.023 (shows the current momentum of a Topic, i.e. very high)
-
 ## Study selection criteria
 
-Still to be completed.
+To be completed.
 
 ## Study quality assessment
 
-Quality Evaluation Criteria
-
-QE1 Peer reviewed journals
-
-QE2
-
-QE3
-
+- peer-reviewed journals
+- conference papers
+- book articles
 
 ## Data extraction strategy
 
-Still to be completed.
+To be completed.
 
 ## Synthesis of extracted data
 
-Still to be completed.
+To be completed.
 
 ## Disseminaton strategy
 
-Still to be completed.
-
-## Project time table
-
-Still to be completed.
+To be completed.
 
 \newpage
-
-Search strings
-
-I want to expand the number of SLR to 10 by including SLR's from A-star journals in the BPM/IS field(s).
-
-To demonstrate International Research Collaboration (IRC), "using affiliations listed in publications has become the standard practice" [](https://direct.mit.edu/qss/article/3/3/529/112967/Assessing-the-quality-of-bibliographic-data). I would like to use this to show the affiliations of the authors of the articles included in my literature research.
-
-Concepts mentioned in the article:
-
-- Data quality (DQ) and Data quality assessment (DQA)
-- Functional Requirements for Bibliographic Records (FRBR)
-- Zotero Data quality dimensions (DQDs)
-
-In the article above DQ is split into:
-
-- Intrinsic Data Quality (4 attributes)
-- Contextual Data Quality (5 attributes)
-- Representational Data Quality (4 attributes)
-- Accessibility Data Quality (2 attributes)
-
-Note: in this study Microsoft Academic Graph (MAG) is one of the four datasources considered. MAG has since been [retired](https://www.microsoft.com/en-us/research/project/microsoft-academic-graph/).
-
-\newpage
-
-
-
-
 
 ## Examples of SLR
 
@@ -151,3 +122,39 @@ Note: in this study Microsoft Academic Graph (MAG) is one of the four datasource
 - Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @prodanovaHowBeneficialSocial2019, @ahmadBusinessProcessManagement2020).
 - There is 1 SLR about BPMN extentions (@zarourSystematicLiteratureReview2019)
 - Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
+
+
+## Definitions (Glossary?)
+
+Workflow management system
+
+Business process management
+
+Legal compliance
+
+Regulatory compliance
+
+https://www.planetcompliance.com/legal-and-regulatory-compliance/
+
+[Compliance](https://thecontentauthority.com/blog/conformance-vs-compliance)
+
+[Conformance](https://thecontentauthority.com/blog/conformance-vs-compliance)
+
+Conformance refers to the act of adhering to a set of standards or requirements. It involves ensuring that a product, service, or system meets the specified expectations and performs as intended. Conformance can be viewed as a proactive approach to quality management, where the focus is on preventing defects and errors from occurring in the first place.
+
+Conformance often involves the use of quality management systems, such as ISO 9001, which provide a framework for organizations to establish and maintain a culture of quality. These systems typically involve a set of procedures and processes that are designed to ensure that products and services consistently meet customer requirements and comply with relevant regulations.
+
+Product Data Model (source)
+
+Product Data Model (different source)
+
+Object centric process mining
+
+
+## Companies
+
+- SAP / Signavio
+- DSM?
+- ASML?
+
+## Literature
