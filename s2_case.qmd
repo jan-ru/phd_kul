@@ -30,7 +30,17 @@ bibliography: MyLibrary.bib
 keywords: modelling languages, controlled natural language
 
 ---
-# Mini Case Study
+# Mini Case Study (II)
+
+Contact persoon xbrl amsterdam
+
+Overzicht stroomverdelers
+
+Voorbeeld PhD Eindhoven (KUL)
+
+
+
+# Mini Case Study (I)
 
 Since the call on 18/10/2023 I have identified 3 prospects where potentially an innitial mini case study can be performed with respect to:
 

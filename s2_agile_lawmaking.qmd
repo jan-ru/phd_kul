@@ -54,7 +54,7 @@ Five cases are descibed at two government agencies. Additionally, one cross-doma
 
 - case 3 & 4, IND (Ministry of Justice) 2.4.3
 
-- case 5, Standard Businss Reporting (cross-domain application) 2.4.4
+- case 5, Standard Business Reporting (cross-domain application) 2.4.4
 
 ## Conclusion
 
