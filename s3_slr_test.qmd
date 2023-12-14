@@ -56,7 +56,10 @@ D) arXiv > [cs](https://arxiv.org/search/cs)
 E) dblp, computer science bibliography [dblp](https://dblp.org/)
 F) zenodo, OpenAIRE repository [zenodo](https://zenodo.org/)
 
+A more description of these databases is included as an appendix. (describe limitations)
+
 Change per 22-11-2023: excluded Scopus, included Zenodo.
+Change per 01-12-2023: include openAlex
 
 ![Search Results](static/search_results.png)
 
@@ -95,3 +98,6 @@ Two seemingly related concepts are BPM (Business Process Management) and WMS (Wo
 "**Workflow management system** (WMS) is a software application that is designed to help organizations automate and manage their business processes. A WMS allows an organization to define and implement a workflow – a series of tasks, steps, and decisions – that need to be followed to complete a specific process. The system can then be used to track the progress of the workflow, manage the flow of information and documents, and ensure that tasks are completed in the correct order and by the right people.""
 
 ![Workflow systems](static/Domains.png)
+
+## Databases used
+
