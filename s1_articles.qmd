@@ -36,7 +36,7 @@ toc-depth: 2
 bibliography: MyLibrary.bib
 ---
 
-Keywords: modelling languages, controlled natural language, extentions, compliance, MDE
+Keywords: modelling languages, controlled natural language, extensions, compliance, MDE
 
 Extract keywords from BOK and create wordcloud. Determine cut-off point for number of keywords in the header of this article.
 
@@ -45,14 +45,14 @@ Base myself on NIMS and NEAT.
 Approach from different angels: 
 
 * Accounting, Rulebase, ERP, Compliance (Risk Management)
-* Enterprise Achitecture
+* Enterprise Architecture
 
 \begin{center}
 ``\LaTeX{} uses the \TeX{} typesetting program for formatting
 its output, and is itself written in the \TeX{} macro language.
 \end{center}
 
-Right at the start I have to mention @lokinWendbaarWetgevenWetgever2018. The thesis of Mariette Lokin \index[authors]{Lokin, Mariette \orcidlink{0000-0003-4415-5429}} that was the inspiration for this thesis. Her research is about the interaction between law, excution and ICT. "The goal of the performed PhD-research was to develop an approach for agile law making, not only aiming at legislation as a product, but also as a process" (lokinAgileLawMaking2020).
+Right at the start I have to mention @lokinWendbaarWetgevenWetgever2018. The thesis of Mariette Lokin \index[authors]{Lokin, Mariette \orcidlink{0000-0003-4415-5429}} that was the inspiration for this thesis. Her research is about the interaction between law, execution and ICT. "The goal of the performed PhD-research was to develop an approach for agile law making, not only aiming at legislation as a product, but also as a process" (lokinAgileLawMaking2020).
 
 
 ## Managing business processes for regulatory compliance
@@ -112,13 +112,13 @@ In a recent paper (2021) vom Brocke\index[authors]{Brocke, Jan Vom \orcidlink{00
 
 \index[authors]{Aalst, Wil van der \orcidlink{0000-0002-0955-6940}}
 
-Maybe add BPMN Extentions:
+Maybe add BPMN Extentsions:
 
 * BPMN-L: A BPMN extension for modeling of process landscapes\index{Landscapes} [@polancicBPMNLBPMNExtension2020] - **7** citations. The paper is by Gregor Polančič\index[authors]{Polančič, Gregor \orcidlink{0000-0002-4746-1010}} whose [blog](https://polancic.com/) I follow.
 
 * BPMS-RA: a novel reference architecture for business process management systems [@pourmirzaBPMSRANovelReference2019] - **13** citations.
 
-* BPMN extention for Risk Handling [@marcinkowskiBusinessProcessModeling2012] - **44** citations.
+* BPMN extension for Risk Handling [@marcinkowskiBusinessProcessModeling2012] - **44** citations.
 
 ## [22-03-2023 / day05] VSCode online ~~to the rescue~~ 
 
@@ -168,7 +168,7 @@ Now add three articles where I write about the (research) methodology used.
 
 Articles mentioning GAP's:
 
-* This is about modelling concepts for internal controls (BPMN\index{BPMN} extention)[@schultzModelingConceptsInternal2014] - ?? citations
+* This is about modelling concepts for internal controls (BPMN\index{BPMN} extension)[@schultzModelingConceptsInternal2014] - ?? citations
 
 Stijn Hoppenbrouwers\index[authors]{Hoppenbrouwers, Stijn \orcidlink{0000-0002-1137-2999}} (HAN)
 

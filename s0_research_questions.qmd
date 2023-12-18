@@ -46,7 +46,7 @@ Future research could apply research on a larger scale for financial institution
 
 Topic which might be relevant for future research:
 
-- Impact of XBRL on contant of financial information with regard to IFRS filers
+- Impact of XBRL on content of financial information with regard to IFRS filers
 - Better data, better decisions
 - Global Taxonomy
 

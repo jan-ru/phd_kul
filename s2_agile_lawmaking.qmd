@@ -48,7 +48,7 @@ Paragraph 1.6 describes the law making process. Specifically the question if in 
 
 ## Brief description of the research method
 
-Five cases are descibed at two government agencies. Additionally, one cross-domain application is described.:
+Five cases are described at two government agencies. Additionally, one cross-domain application is described.:
 
 - case 1 & 2, Tax Office (Ministry of Finance), 2.4.2
 

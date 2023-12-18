@@ -5,7 +5,7 @@ bibliography: "references.bib"
 ---
 # Journals
 
-From a podcast by @ThisIsResearch, I understand in the field of IS research there is a "basket of 8" authoritive journals (table 1). The columns: level, impact factor (IF), Association of Business Schools (ABS), Harzing are taken from the Vlerick Strategic Journal List (the List),effective as of January 2020. Empty means the journal is not on the List.
+From a podcast by @ThisIsResearch, I understand in the field of IS research there is a "basket of 8" authoritative journals (table 1). The columns: level, impact factor (IF), Association of Business Schools (ABS), Harzing are taken from the Vlerick Strategic Journal List (the List),effective as of January 2020. Empty means the journal is not on the List.
 
 | Journal Title                                                              |Level| IF  |
 |----------------------------------------------------------------------------|:---:|:---:|
@@ -138,7 +138,7 @@ Quality criteria
 1. International Journal of Lean Six Sigma ([JLSS][JLSS-ref])
 [JLSS-ref]: https://www.emeraldgrouppublishing.com/journal/ijlss
 
-Maybe seperately list institutes:
+Maybe separately list institutes:
 - TNO
 - Frauenhoffer
 - SEI (CMU)

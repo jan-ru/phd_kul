@@ -13,11 +13,11 @@ To me, the PhD is about:
 - do the research
 - use the tools to do the research
 
-This page is about the resources I have come accross and that were of help resolving small and big issues I've come across.
+This page is about the resources I have come across and that were of help resolving small and big issues I've come across.
 
 # Technical Resources
 
-Seperately there shall be a list of websites like:
+Separately there shall be a list of websites like:
 
 [Process Mining](https://www.processmining.org/)
 
@@ -29,7 +29,6 @@ plasTeX is a Python package to convert LaTeX markup to DOM
 [plasTEx](https://plastex.github.io/plastex/)
 
 https://stacks.math.columbia.edu/statistics
-
 
 using quarto (in vs-code). The yaml header 
 

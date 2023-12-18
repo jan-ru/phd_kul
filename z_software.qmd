@@ -29,7 +29,7 @@ Idea for backlog: obtain keywords via orcid api (python) and build wordcloud.
 
 ## [26-05-2024 / day08] Include Academicons
 
-[quarto extention](https://schochastics.quarto.pub/academicons-quarto-extension/)
+[quarto extension](https://schochastics.quarto.pub/academicons-quarto-extension/)
 
 Potentially add google scholar link to author index
 
@@ -38,7 +38,7 @@ Potentially add google scholar link to author index
 Possibly also use [fontawesome computer icons](https://www.w3schools.com/icons/fontawesome5_icons_computers.asp)
 
 Look into [interactive-sql](https://shafayetshafee.github.io/interactive-sql/example.html) which may help to clarify relationships between accounts and "verdichtingen".
-Note that interactive-sql is a wrapper aroung [sqlime](https://sqlime.org/about.html).
+Note that interactive-sql is a wrapper around [sqlime](https://sqlime.org/about.html).
 
 
 ## Document attributes

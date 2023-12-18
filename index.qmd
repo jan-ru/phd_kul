@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-This is a Quarto book. It countains x sprints that shall cumulate in the litreview.
+This is a Quarto book. It contains x sprints that shall cumulate in the litreview.
 
 * Include citations count
 * Include authors count

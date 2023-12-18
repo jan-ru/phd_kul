@@ -120,7 +120,7 @@ To be completed.
 
 - The first is @kitchenhamGuidelinesPerformingSystematic2007 and there is a duplicate @keeleGuidelinesPerformingSystematic2007.
 - Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @prodanovaHowBeneficialSocial2019, @ahmadBusinessProcessManagement2020).
-- There is 1 SLR about BPMN extentions (@zarourSystematicLiteratureReview2019)
+- There is 1 SLR about BPMN extensions (@zarourSystematicLiteratureReview2019)
 - Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
 
 

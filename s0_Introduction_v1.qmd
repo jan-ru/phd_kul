@@ -13,7 +13,7 @@ author:
     - name: Amsterdam University of Applied Sciences
       department: Faculty of Business and Economics
       url: https://www.amsib.com
-    - name: Vlerick Busines School
+    - name: Vlerick business School
       department: Technology and Operations Management
       url: https://www.vlerick.com
 
@@ -37,13 +37,13 @@ format:
 toc: false
 toc-depth: 2
 bibliography: MyLibrary.bib
-keywords: modelling languages, controlled natural language, extentions, compliance, MDE, Accounting, Rulebase, ERP, Compliance (Risk Management), Enterprise Achitecture
+keywords: modelling languages, controlled natural language, extensions, compliance, MDE, Accounting, Rulebase, ERP, Compliance (Risk Management), Enterprise Architecture
 
 ---
 
 # Introduction
 
-Right at the start I have to mention the thesis of Mariette Lokin that is the inspiration for this project. Her research is about the interaction between law, excution and ICT. "The goal of the performed PhD-research was to develop an approach for agile law making, not only aiming at legislation as a product, but also as a process" (lokinAgileLawMaking2020).
+Right at the start I have to mention the thesis of Mariette Lokin that is the inspiration for this project. Her research is about the interaction between law, execution and ICT. "The goal of the performed PhD-research was to develop an approach for agile law making, not only aiming at legislation as a product, but also as a process" (lokinAgileLawMaking2020).
 
 I have contacted Mariette Lokin to discuss her research and the possibility of doing a related study assuming the point of view CxO of a company. We discussed a scenario where a (tax) authority can provide a company with a law-based knowledge model that the company can then use to base its processes on.
 
@@ -91,7 +91,7 @@ To design, implement, and evaluate a prototype system that enables companies to 
 
 Aspects of CSRD are environmental, social and governance. Which aspect to select is to be decided.
 
-The system will be judged on useability, where "useability" is still to be defined.
+The system will be judged on usability, where "usability" is still to be defined.
 
 ## Problem statement
 
@@ -136,7 +136,7 @@ Fourth, we'll hope to demonstrate that implementation of new regulations is aide
 
 The planning of the SLR is the subject of the next update (in November). The steps in the planning are from @keeleGuidelinesPerformingSystematic2007.
 
-In the "study quality assessment phase" the studies retrieved from databases will, among others, be compared to a list of eligable journals. From a podcast by @ThisIsResearch, I understand in the field of IS research there is a "basket of 8" authoritive journals (table 1). The columns: level and impact factor (IF) are taken from the Vlerick Strategic Journal List (the List), effective as of January 2020. Empty means the journal is not on the List.
+In the "study quality assessment phase" the studies retrieved from databases will, among others, be compared to a list of eligible journals. From a podcast by @ThisIsResearch, I understand in the field of IS research there is a "basket of 8" authoritative journals (table 1). The columns: level and impact factor (IF) are taken from the Vlerick Strategic Journal List (the List), effective as of January 2020. Empty means the journal is not on the List.
 
 \index[authors]{Recker, Jan \orcidlink{0000-0002-2072-5792}}
 \index[authors]{Berente, Nicholas \orcidlink{0000-0002-1403-4696}}
@@ -216,7 +216,7 @@ It is important to define the field the research is positioned in: I still will 
 |   | oct.|  44 |30-10-2023 |       |                             |        |
 |   | nov.|  45 |06-11-2023 |       |SLR Planning                 |Update3 |
 |   | nov.|  46 |13-11-2023 |       |                             |        |
-|   | nov.|  47 |20-11-2023 |       |SLR Indentification of       |        |
+|   | nov.|  47 |20-11-2023 |       |SLR Identification of        |        |
 |   | nov.|  48 |27-11-2023 |       |Research                     |Update4 |
 |   | dec.|  49 |04-12-2023 |       |                             |        |
 |   | dec.|  50 |11-12-2023 |       |SLR Study Selection          |        |
@@ -251,5 +251,12 @@ It is important to define the field the research is positioned in: I still will 
 |   | jul.|  27 |01-07-2024 |holiday|                             |        |
 
 {{< pagebreak >}}
+
+uitwijden Mariette Lokin
+Vragen Stijn beantwoorden
+Vragen rond prototype beantwoorden
+Nadenken over minimum viable prototype
+
+{{<>}}
 
 # References

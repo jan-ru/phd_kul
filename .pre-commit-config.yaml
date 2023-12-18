@@ -18,17 +18,17 @@ repos:
     hooks:
       - id: ruff
         entry: ruff --ignore PLR0915,S301
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.5
-    hooks:
-      - id: codespell
-        entry: codespell
-        args:
-          [
-            "--ignore-words-list=VAI,MIS,shs,amplitud,gard,te,commun,ro,zar,vie,hel,jewl,zlot,ba,buil,coo,ether,hist,hsi,mape,navagation,operatio,pres,ser,yeld,shold,ist,varian,datas,ake,creat,statics,ket,toke,certi,buidl,ot",
-            "--quiet-level=2",
-            "--skip=./tests,.git,*.css,*.csv,*.html,*.ini,*.ipynb,*.js,*.json,*.lock,*.scss,*.txt,*.yaml,build/pyinstaller/*,pyproject.toml",
-          ]
+  # - repo: https://github.com/codespell-project/codespell
+  #   rev: v2.2.5
+  #   hooks:
+  #     - id: codespell
+  #       entry: codespell
+  #       args:
+  #         [
+  #           "--ignore-words-list=VAI,MIS,shs,amplitud,gard,te,commun,ro,zar,vie,hel,jewl,zlot,ba,buil,coo,ether,hist,hsi,mape,navagation,operatio,pres,ser,yeld,shold,ist,varian,datas,ake,creat,statics,ket,toke,certi,buidl,ot",
+  #           "--quiet-level=2",
+  #           "--skip=./tests,.git,*.css,*.csv,*.html,*.ini,*.ipynb,*.js,*.json,*.lock,*.scss,*.txt,*.yaml,build/pyinstaller/*,pyproject.toml",
+  #         ]
   - repo: local
     hooks:
       - id: mypy
@@ -43,6 +43,6 @@ repos:
     hooks:
       - id: pylint
         name: pylint
-        entry: pylint financetoolkit
+        entry: pylint #financetoolkit
         language: system
         types: [python]
