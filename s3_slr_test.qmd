@@ -65,6 +65,28 @@ Change per 01-12-2023: include openAlex
 
 ![Results Table](static/results_table.png)
 
+
+```{python}
+#| label: status 
+#| tbl-cap: Project Status {#tbl-status}
+from IPython.display import Markdown
+from tabulate import tabulate
+from lib.my_custom_lib import xls2md
+
+filename = 'tables/slr_logbook.xlsx'
+sheetname = 'Pivot'
+col1 = 'Row Labels'
+col2 = 'A. WoS'
+col3 = 'B. SD'
+
+Markdown(tabulate(
+  xls2md(filename), 
+  headers=[col1, col2, col3, col4],
+  maxcolwidths=[None, None],
+  showindex=False,
+  colalign=('left', 'right')))
+```
+
 ## Conclusion about search terms
 
 Both "Reglatory Risk Management" and "Compliance Risk Management" did seem valid concepts from an earlier (2021) google scholar search. However, combining these terms with "Business Process Management" or "BPM" yields only (very) few results.
