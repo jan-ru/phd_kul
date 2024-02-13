@@ -1,0 +1,56 @@
+---
+title: "ResearchPlan"
+format: revealjs
+editor: visual
+---
+
+## Abstract
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Introduction
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Literature review
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Research objective
+
+## Main research question
+
+What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
+
+## Sub research questions
+
+## Conceptual model
+
+## Methods
+
+Research Set up
+
+Results
+
+Outcome
+
+Relevance
+
+Planning
+
+Ethical Paragraph
+
+Conclusions
+
+References
+
+Gantt Chart
+
+General Readability
