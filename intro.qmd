@@ -1,5 +1,25 @@
+---
+email:
+  info: info@example.com
+  support: support@example.com
+---  
+
 # Introduction
 
 This is a book created from markdown and executable code.
 
 See @knuth84 for additional discussion of literate programming.
+
+Section {{< meta title >}} is number & name of this page.
+
+Please contact us at {{< var email.info >}}.
+
+email {{< var support >}}
+
+Author.name: {{< meta book.author.name >}}
+
+book.part: {{< meta book.part >}}
+
+chapters.part: {{< meta chapters.part >}}
+
+book.title: {{< meta book.title >}}

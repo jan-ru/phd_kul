@@ -1,0 +1,570 @@
+﻿TY  - CPAPER
+AU  - Lohmann, P
+AU  - Muehlen, MZ
+ED  - Hildebrandt, T
+ED  - VanDongen, BF
+ED  - Roglinger, M
+ED  - Mendling, J
+TI  - Regulatory Instability, Business Process Management Technology, and BPM Skill Configurations
+T2  - BUSINESS PROCESS MANAGEMENT (BPM 2019)
+LA  - English
+CP  - Blockchain Forum / Central and Eastern Europe Forum (CEE Forum) / 17th International Conference on Business Process Management (BPM)
+KW  - BPM skills
+KW  - BPM taxonomy
+KW  - BPM professionals
+KW  - BPM function
+KW  - CAPABILITIES
+KW  - EMPLOYMENT
+KW  - ROUTINES
+KW  - COSTS
+AB  - This paper investigates how firms configure their business process management efforts in different industries. We generate a business process management (BPM) skills taxonomy through the computational linguistic analysis of job ads from Monster.com . We apply the taxonomy to LinkedIn.com resumes of professionals employed at retailer Walmart, pharmaceutical company Pfizer, and investment bank Goldman Sachs. We find that Walmart and Pfizer distribute change- and operations-related BPM skills among the same roles whereas Goldman Sachs distributes both kinds of skills among more separate roles. This separation reflects a trilateral configuration where line managers and analysts focus on operational BPM tasks related to running processes while change-related tasks are covered by project managers. At Walmart and Pfizer the tasks of the BPM project manager are shared among managers and analysts, reflecting a bilateral configuration. Comparing each firm's regulatory environments and BPM technology capabilities, we conjecture that the organizational configuration pattern is influenced by a firm's ability to reliably automate business processes, since this affects how much attention line managers and analysts have to spend on monitoring processes and on reconciling issues and exceptions. This attention could otherwise be spent on regulatory-imposed process change efforts. This configural logic suggests a reconfiguration of BPM professionals towards a bilateral configuration when an organization transforms its business with digital technology, because the focus of such efforts includes process and decision automation.
+AD  - Stevens Inst Technol, Castle Point Hudson, Hoboken, NJ 07030 USAPU  - SPRINGER INTERNATIONAL PUBLISHING AG
+PI  - CHAM
+PA  - GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN  - 0302-9743
+SN  - 1611-3349
+SN  - 978-3-030-26618-9
+SN  - 978-3-030-26619-6
+J9  - LECT NOTES COMPUT SC
+PY  - 2019
+VL  - 11675
+SP  - 419
+EP  - 435
+DO  - 10.1007/978-3-030-26619-6_27
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000886542700027
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  3
+Cited Reference Count:  26
+ER  -
+
+TY  - JOUR
+AU  - Araújo, MB
+AU  - Rodrigues, BA
+AU  - Gonçalves, RF
+TI  - BUSINESS PROCESS MANAGEMENT NOTATION FOR A COSTING MODEL CONCEPTION
+T2  - BRAZILIAN JOURNAL OF OPERATIONS & PRODUCTION MANAGEMENT
+LA  - English
+KW  - business modeling
+KW  - costing
+KW  - business processes management
+KW  - BPMN
+KW  - TDABC
+KW  - BPMN
+AB  - Purpose - Aims to show the importance of business processes modeling as a precondition for information system design. Although many managers worry the entity's expenses, some are unaware of the processes and procedures adopted by his subordinates. Searching is to calculate spending on each step to a proper business process management.
+   Design/methodology/approach - It shows the concepts of Activity-Based Costing (ABC) and its update, the TDABC (Time-Driven Activity-Based Costing), to support the development of a costing system for public universities.
+   Findings - It can be concluded that public processes implemented in public services are both complex and bureaucratic, mainly due to regulations. The bidding procedure of acquisition materials or services demand eight sectors activities.
+   Research limitations/implications - The contribution of this study is to present how the business process modeling should not be applied to public service for the optimization of resources. This research presents the usual flow of bids, but in practice there is some variation.
+   Practical implications - The article provides a starting point for process redesign and complex and inefficient procedures in order to reduce costs.
+   Originality/value - Although the cost accounting to present different types of costing methods, managers need to know and criticize the existing business processes.
+AD  - Paulista Univ UNIP, Sao Paulo, SP, BrazilC3  - Universidade PaulistaFU  - Federal Institute of Education, Science and Technology of Sao Paulo (IFSP - Instituto Federal de Educacao, Ciencia e Tecnologia de Sao Paulo); Higher Education Personnel Improvement Coordination (CAPES - Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior)
+FX  - The authors gratefully acknowledge the support of Federal Institute of Education, Science and Technology of Sao Paulo (IFSP - Instituto Federal de Educacao, Ciencia e Tecnologia de Sao Paulo) and Higher Education Personnel Improvement Coordination (CAPES - Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior).
+PU  - ASSOC BRASILEIRA ENGENHARIA PRODUCAO-ABEPRO
+PI  - SAO JOSE DOS CAMPOS
+PA  - AV PROF ALMEIDA PRADO 531, 1O ANDAR, SALA 102, SAO JOSE DOS CAMPOS, SAO PAULO 05508-900, BRAZIL
+SN  - 2237-8960
+J9  - BRAZ J OPER PROD MAN
+JI  - Braz. J. Oper. Prod. Manag.
+DA  - SEP
+PY  - 2016
+VL  - 13
+IS  - 3
+SP  - 244
+EP  - 251
+DO  - 10.14488/BJOPM.2016.v13.n3.a2
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000441748200002
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  4
+Cited Reference Count:  26
+ER  -
+
+TY  - JOUR
+AU  - Viriyasitavat, W
+AU  - Da Xu, L
+AU  - Dhiman, G
+AU  - Bi, ZM
+TI  - Blockchain-as-a-Service for Business Process Management: Survey and Challenges
+T2  - IEEE TRANSACTIONS ON SERVICES COMPUTING
+LA  - English
+KW  - Business
+KW  - Collaboration
+KW  - Adaptation models
+KW  - Systematics
+KW  - Bibliographies
+KW  - Standards organizations
+KW  - Regulation
+KW  - Blockchain technology (BCT)
+KW  - blockchain-as-a-service (BCaaS)
+KW  - Index Terms
+KW  - business process compliance (BPC)
+KW  - business process management (BPM)
+KW  - business processes
+KW  - smart contract
+KW  - systematic literature review (SLR)
+KW  - SPECIFICATION LANGUAGE
+KW  - SUPPLY CHAIN
+KW  - INTERNET
+KW  - THINGS
+KW  - TECHNOLOGY
+KW  - SYSTEMS
+KW  - BPM
+KW  - EXECUTION
+KW  - STANDARDS
+KW  - FRAMEWORK
+AB  - Blockchain technology (BCT) has brought a paradigm shift to Business Process Management (BPM). BCT provides a trusted decentralized infrastructure to secure data and process executions using distributed ledgers and smart contract to manage complex business processes. Numerous efforts have been made to exploit BCT in supporting dynamic and trusted collaborations of business processes. This paper aims to understand recent BCT development for its BPM applications and identify the limitations and challenges for further development via a systematic literature review (SLR). It is found that numerous works have reported using BCT as technical solutions to fulfill some traditional BPM functions. This paper is distinguished from existing works, especially several relevant surveys in the sense that (1) the impact of using BCT in BPM is thoroughly explored to identify new constraints and challenges explicitly brought by blockchains; (2) the requirements for Business Process Compliance (BPC) are firstly analyzed in detail. Note that BPC is to assure the adherence of business processes to pre-defined policies, standards, specifications, regulations, and laws when business processes are executed. To fill the gaps of BCT applications in these two aspects, Blockchain-as-a-Service (BCaaS) is adopted in business process architecture, and the trends of BCT developments are identified accordingly.
+AD  - Chulalongkorn Univ, Stat, Bangkok 10330, ThailandAD  - Old Dominion Univ, Informat Technolgy & Decis Sci, Norfolk, VA 23529 USAAD  - Thapar Univ, Comp Sci & Engn, Patiala 147004, Punjab, IndiaAD  - Indiana Univ Purdue Univ, Dept Civil & Mech Engn, Ft Wayne, IN 46805 USAC3  - Chulalongkorn UniversityC3  - Old Dominion UniversityC3  - Thapar Institute of Engineering & TechnologyC3  - Purdue University SystemC3  - Indiana University Purdue University Fort WaynePU  - IEEE COMPUTER SOC
+PI  - LOS ALAMITOS
+PA  - 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
+SN  - 1939-1374
+J9  - IEEE T SERV COMPUT
+JI  - IEEE Trans. Serv. Comput.
+DA  - MAY-JUN
+PY  - 2023
+VL  - 16
+IS  - 3
+SP  - 2299
+EP  - 2314
+DO  - 10.1109/TSC.2022.3199232
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001012875100057
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  120
+ER  -
+
+TY  - JOUR
+AU  - Paiano, R
+AU  - Caione, A
+AU  - Guido, AL
+AU  - Martella, A
+AU  - Pandurino, A
+TI  - Business Process Management - A Traditional Approach versus a Knowledge Based Approach
+T2  - BRAIN-BROAD RESEARCH IN ARTIFICIAL INTELLIGENCE AND NEUROSCIENCE
+LA  - English
+KW  - Business Process Management
+KW  - Compliance
+KW  - Knowledge Base
+KW  - User Experience
+KW  - Business - IS Alignment
+AB  - The enterprise management represents a heterogeneous aggregate of both resources and assets that need to be coordinated and orchestrated in order to reach the goals related to the business mission. Influences and forces that may influence this process, and also for that they should be considered, are not concentrated in the business environment, but they are related to the entire operational context of a company. For this reason, business processes must be the most versatile and flexible with respect to the changes that occur within the whole operational context of a company.
+   Considering the supportive role that information systems play in favour of Business Process Management - BPM, it is also essential to implement a constant, continuous and quick mechanism for the information system alignment with respect to the evolution followed by business processes. In particular, such mechanism must intervene on BPM systems in order to keep them aligned and compliant with respect to both the context changes and the regulations. In order to facilitate this alignment mechanism, companies are already referring to the support offered by specific solutions, such as knowledge bases.
+   In this context, a possible solution might be the approach we propose, which is based on a specific framework called Process Management System. Our methodology implements a knowledge base support for business experts, which is not limited to the BPM operating phases, but includes also the engineering and prototyping activities of the corresponding information system.
+   This paper aims to compare and evaluate a traditional BPM approach with respect to the approach we propose. In effect, such analysis aims to emphasize the lack of traditional methodology especially with respect to the alignment between business processes and information systems, along with their compliance with context domain and regulations.
+AD  - Univ Salento, Dept Engn Innovat, I-73100 Lecce, ItalyC3  - University of SalentoPU  - EDUSOFT PUBLISHING
+PI  - BACAU
+PA  - 9 MAI STR 82, BACAU, 600065, ROMANIA
+SN  - 2067-3957
+J9  - BRAIN-BROAD RES ARTI
+JI  - BRAIN-Broad Res. Artif. Intellect. Neurosci.
+DA  - SEP
+PY  - 2015
+VL  - 6
+IS  - 1-2
+SP  - 54
+EP  - 69
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000372466800006
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  2
+Cited Reference Count:  30
+ER  -
+
+TY  - CPAPER
+AU  - Goel, K
+AU  - Cholette, ME
+AU  - Wynn, MT
+AU  - Manli, L
+AU  - Meyers, L
+ED  - Pinto, JOP
+ED  - Kimpara, MLM
+ED  - Reis, RR
+ED  - Seecharan, T
+ED  - Upadhyaya, BR
+ED  - AmadiEchendu, J
+TI  - The Value of Business Process Management to Understand Complex Asset Management Processes
+T2  - 15TH WCEAM PROCEEDINGS
+LA  - English
+CP  - 15th World Congress on Engineering Asset Management (WCEAM)
+AB  - Asset Management (AM) processes play a significant role in organisations' profitability. Clearly documented and managed AM processes improve the delivery potential of assets and minimise the costs and risks involved. Business Process Management (BPM) is a discipline that uses various methods, tools, and techniques to discover, model, analyse, measure, improve, optimise, and automate business processes. Despite the prevalence and proven effectiveness of BPM in a wide variety of domains, there has been little research investigating its potential for describing AM processes. This paper presents a case study that explores the application of BPM to power transmission assets. BPM principles were applied for decision modelling and to capture the lifecycle of power transmission assets. The case study demonstrates how BPM application to AM processes can result in greater clarity of processes, increased collaboration, a better understanding of data, external rules, and regulations, and serve as an internal point of audit.
+AD  - 2 George St, Brisbane, Qld 4001, AustraliaAD  - 33 Harold St, Virginia, Qld 4014, AustraliaFU  - Powerlink Queensland
+FX  - The authors gratefully acknowledge the funding provided by Powerlink Queensland for this project and the input from Powerlink SMEs. The QUT research ethics committee approved the data collection methods employed in this project.
+PU  - SPRINGER-VERLAG SINGAPORE PTE LTD
+PI  - SINGAPORE
+PA  - 152 BEACH ROAD, #21-01/04 GATEWAY EAST, SINGAPORE, 189721, SINGAPORE
+SN  - 2195-4356
+SN  - 2195-4364
+SN  - 978-3-030-96794-9
+SN  - 978-3-030-96793-2
+J9  - LECT N MECH ENG
+PY  - 2022
+SP  - 300
+EP  - 311
+DO  - 10.1007/978-3-030-96794-9_27
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000789418000027
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  18
+ER  -
+
+TY  - CPAPER
+AU  - Fleaca, E
+AU  - Fleaca, B
+ED  - Moldovan, L
+TI  - The Business Process Management Map - an Effective Means for Managing the Enterprise Value Chain
+T2  - 9TH INTERNATIONAL CONFERENCE INTERDISCIPLINARITY IN ENGINEERING, INTER-ENG 2015
+LA  - English
+CP  - 9th International Conference on Interdisciplinarity in Engineering (INTER-ENG)
+KW  - Business process management
+KW  - business engineering
+KW  - quality assurance
+KW  - innovation and knowledge transfer
+AB  - The paper aims to map business engineering and management with the aid of process reasoning that enables coherently integrating two essential dimensions of any industrial organization: the management, with clear responsibility for coordinating the work system and the functional areas, being in charge with executing specialized operations, according to relevant rules, regulations, and procedures. The authors proposed an effective reasoning for managing the enterprise value chain, considering a highly dynamic sector. Cosmetic and personal care industry. that represents a key driver for boosting the competitiveness of business market. (C) 2016 The Authors. Published by Elsevier Ltd.
+AD  - Univ Politehn Bucuresti, Splaiul Independentei 313, Bucharest 060042, RomaniaC3  - National University of Science & Technology POLITEHNICA BucharestPU  - ELSEVIER SCIENCE BV
+PI  - AMSTERDAM
+PA  - SARA BURGERHARTSTRAAT 25, PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN  - 2212-0173
+J9  - PROC TECH
+PY  - 2016
+VL  - 22
+SP  - 954
+EP  - 960
+DO  - 10.1016/j.protcy.2016.01.096
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000383949300135
+N1  - Times Cited in Web of Science Core Collection:  7
+Total Times Cited:  9
+Cited Reference Count:  11
+ER  -
+
+TY  - CPAPER
+AU  - Pretorius, H
+AU  - van der Merwe, A
+AU  - Hinkelmann, K
+ED  - Themistocleous, M
+ED  - Morabito, V
+TI  - Business Process Management Systems in Support of Corporate Governance: Applying Orlikowski's Theoretical Lens
+T2  - INFORMATION SYSTEMS, EMCIS 2017
+LA  - English
+CP  - 14th European, Mediterranean, and Middle Eastern Conference (EMCIS)
+KW  - Business Process Management Systems
+KW  - Corporate governance
+KW  - Theory of technologies
+AB  - The value of corporate governance has received attention in the last decade after a number of incidents where fraudulent activities resulted in close down of organizations. Many countries responded with stricter regulations. In this article we argue that the correct use of Business Process Management Systems (BPMS) in an organization may support good governance in an organization. Theories such as the theory of technologies from Orlikowski [15] play a central role in IS research to provide a web of meaning about a phenomenon under investigation. We discuss the potential of BPMS through the lense of Orlikowski's theory of technologies. We also provide some insights on the use of BPMS to support good governance from a case study conducted. The findings suggest that automated business processes can result in improved corporate governance, as well as business value.
+AD  - Univ Pretoria, Dept Informat, Pretoria, South AfricaAD  - Univ Appl Sci Northwestern Switzerland FHNW, Sch Business, Olten, SwitzerlandC3  - University of PretoriaC3  - FHNW University of Applied Sciences & Arts Northwestern SwitzerlandPU  - SPRINGER-VERLAG BERLIN
+PI  - BERLIN
+PA  - HEIDELBERGER PLATZ 3, D-14197 BERLIN, GERMANY
+SN  - 1865-1348
+SN  - 1865-1356
+SN  - 978-3-319-65930-5
+SN  - 978-3-319-65929-9
+J9  - LECT NOTES BUS INF P
+PY  - 2017
+VL  - 299
+SP  - 592
+EP  - 605
+DO  - 10.1007/978-3-319-65930-5_46
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000432839500046
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  31
+ER  -
+
+TY  - JOUR
+AU  - Mendling, J
+AU  - Decker, G
+AU  - Hull, R
+AU  - Reijers, HA
+AU  - Weber, I
+TI  - How do Machine Learning, Robotic Process Automation, and Blockchains Affect the Human Factor in Business Process Management?
+T2  - COMMUNICATIONS OF THE ASSOCIATION FOR INFORMATION SYSTEMS
+LA  - English
+KW  - Business Process Management
+KW  - Process Automation
+KW  - Artificial Intelligence
+KW  - Machine Learning
+KW  - Robotic Process Automation
+KW  - Blockchain
+KW  - INFORMATION-TECHNOLOGY
+KW  - JOBS
+KW  - PRODUCTIVITY
+KW  - FUTURE
+KW  - IMPACT
+AB  - This paper summarizes a panel discussion at the 15th International Conference on Business Process Management. The panel discussed to what extent the emergence of recent technologies including machine learning, robotic process automation, and blockchain will reduce the human factor in business process management. The panel discussion took place on 14 September, 2017, at the Universitat Politecnica de Catalunya in Barcelona, Spain. Jan Mendling served as a chair; Gero Decker, Richard Hull, Hajo Reijers, and Ingo Weber participated as panelists. The discussions emphasized the impact of emerging technologies at the task level and the coordination level. The major challenges that the panel identified relate to employment, technology acceptance, ethics, customer experience, job design, social integration, and regulation.
+AD  - Vienna Univ Econ & Business Adm, Inst Informat Business, Vienna, AustriaAD  - Signavio, Berlin, GermanyAD  - IBM Res, New York, NY USAAD  - Vrije Univ Amsterdam, Business Informat, Amsterdam, NetherlandsAD  - CSIRO, Data61, Architecture & Analyt Platforms AAP Team, Canberra, ACT, AustraliaC3  - Vienna University of Economics & BusinessC3  - International Business Machines (IBM)C3  - Vrije Universiteit AmsterdamC3  - Commonwealth Scientific & Industrial Research Organisation (CSIRO)PU  - ASSOC INFORMATION SYSTEMS
+PI  - ATLANTA
+PA  - GEORGIA STATE UNIV, 35 BROAD STREET, STE 916-917, ATLANTA, GA 30303 USA
+SN  - 1529-3181
+J9  - COMMUN ASSOC INF SYS
+JI  - Commun. Assoc. Inf. Syst.
+PY  - 2018
+VL  - 43
+SP  - 297
+EP  - 320
+C7  - 19
+DO  - 10.17705/1CAIS.04319
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000510227000019
+N1  - Times Cited in Web of Science Core Collection:  86
+Total Times Cited:  90
+Cited Reference Count:  38
+ER  -
+
+TY  - JOUR
+AU  - Saif, MAN
+AU  - Aradhya, SN
+AU  - Murshed, BAH
+AU  - Alnaggar, OAMF
+AU  - Ali, IMS
+TI  - Multi-objective container scheduling and multi-path routing for elastic business process management in autonomic multi-tenant cloud
+T2  - CONCURRENCY AND COMPUTATION-PRACTICE & EXPERIENCE
+LA  - English
+KW  - autonomic multi-tenant cloud
+KW  - business process management
+KW  - container scheduling
+KW  - elasticity
+KW  - multi-path routing
+KW  - multi-tenancy
+KW  - multi-tenancy graph
+KW  - OPTIMIZATION
+KW  - ALGORITHM
+KW  - SERVICE
+KW  - SIMULATION
+AB  - Cloud multi-tenancy has a variant requirement, due to its resource sharing nature, satisfying such requirements and maintaining a balance between the resources and the business workloads of multiple tenants is a challenging task, and also the communication between scheduled containers leads to high power consumption. To address these issues, this article proposes an autonomic approach to ensure the elasticity of BPM in multi-tenant cloud. Where it employs the autonomic computing capabilities for scheduling the containers into the available servers then regulates the communication between the containers using multi-path routing. For the container scheduling, a multi-objective crow search optimization algorithm is proposed to schedule the containers into appropriate servers. Then, the discrete wolf search algorithm based multipath routing is proposed to route the communication flows between the containers by finding the optimal path with an objective to minimize the energy consumption. The optimal path is constructed as a multi-tenancy graph with bandwidths determining the shortest distance between the servers and containers. The overall simulations shows that the proposed algorithm outperformed the other compared approaches in terms of make-span, resource utilization, execution cost, execution time, and energy consumption.
+AD  - VTU, Sri Jayachamarajendra Coll Engn, Dept Comp Applicat, Mysore, IndiaAD  - Univ Mysore, Dept Studies Comp Sci, Mysore, IndiaAD  - Univ Amran, Coll Engn & IT, Dept Comp Sci, Amran, YemenAD  - Kuvempu Univ, Dept PG studies & Res Elect, Shimoga, IndiaAD  - Sri Ramakrishna Coll Arts & Sci, Dept Comp Sci, Coimbatore, IndiaC3  - Sri Jayachamarajendra College of EngineeringC3  - University of MysoreC3  - Kuvempu UniversityC3  - Sri Ramakrishna College of Arts & SciencePU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 1532-0626
+SN  - 1532-0634
+J9  - CONCURR COMP-PRACT E
+JI  - Concurr. Comput.-Pract. Exp.
+DA  - MAR 10
+PY  - 2023
+VL  - 35
+IS  - 6
+DO  - 10.1002/cpe.7584
+C6  - JAN 2023
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000919783700001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  54
+ER  -
+
+TY  - CPAPER
+AU  - Sandkuhl, K
+AU  - Wiebring, J
+ED  - Abramowicz, W
+TI  - Experiences from Selecting a BPM Notation for an Enterprise
+T2  - BUSINESS INFORMATION SYSTEMS WORKSHOPS, BIS 2015
+LA  - English
+CP  - 18th International Workshop on Business Information Systems (BIS)
+KW  - Business process modelling
+KW  - Experience report
+KW  - Process modelling notations
+AB  - Much research work in business process modeling (BPM) has been spent on determining which notation is most suitable for industrial practice. However, a lot of this work was performed in academic environments instead of industrial settings. This paper introduces and discusses a case of selecting a BPM notation for a medium-sized enterprise from utility industries. The steps taken in this decision making process include the analysis of requirements originating from regulation in the domain, a survey among the future users of the notation, and the evaluation of candidate notations by expert users. The main contributions of this paper are (1) a case study from energy industries showing issues and challenges when deciding on the most suitable notation, (2) a survey comparing the understandability of notations from the users' perspective and (3) experiences from the decision making process.
+AD  - Univ Rostock, D-18055 Rostock, GermanyAD  - ITMO Univ, St Petersburg, RussiaC3  - University of RostockC3  - ITMO UniversityPU  - SPRINGER-VERLAG BERLIN
+PI  - BERLIN
+PA  - HEIDELBERGER PLATZ 3, D-14197 BERLIN, GERMANY
+SN  - 1865-1348
+SN  - 978-3-319-26762-3
+SN  - 978-3-319-26761-6
+J9  - LECT NOTES BUS INF P
+PY  - 2015
+VL  - 228
+SP  - 126
+EP  - 138
+DO  - 10.1007/978-3-319-26762-3_12
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000369170600012
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  23
+ER  -
+
+TY  - JOUR
+AU  - Benraad, M
+AU  - Ozkan, B
+AU  - Turetken, O
+AU  - Vanderfeesten, I
+TI  - The influence of BPM-supportive culture and individual process orientation on process conformance
+T2  - BUSINESS PROCESS MANAGEMENT JOURNAL
+LA  - English
+KW  - Process orientation
+KW  - BPM culture
+KW  - Process conformance
+KW  - Survey
+KW  - BUSINESS PROCESS ORIENTATION
+KW  - ORGANIZATIONAL ROUTINES
+KW  - SELF-EFFICACY
+KW  - PLS-SEM
+KW  - FLEXIBILITY
+KW  - PATTERNS
+KW  - MODELS
+AB  - Purpose Organizations rely on their business processes to achieve their business objectives and ensure compliance with relevant laws and regulations. Hence, conformance to process specifications is essential to remain compliant. Various factors influence an organization's ability to operate in conformance to its process specifications. This study investigates the influence of business process management (BPM)-supportive culture and individual process orientation on process conformance. Design/methodology/approach A construct was created for perceived process conformance and two constructs were selected from literature to represent BPM-supportive culture and individual process orientation. A survey was conducted with 178 employees of a global enterprise, hypotheses were formulated, and a statistical model was constructed and validated. Findings Results pinpoint the key role of the BPM-supportive culture in influencing both individual process orientation and conformance. Individual process orientation is also found to have a significant influence on process conformance. The findings provide additional evidence for the significance of human-related aspects of BPM in achieving BPM success. Originality/value The contributions of this paper help better understand how soft factors of BPM contribute to employees' process conformance drawing on and relating concepts of BPM and organizational routines.
+AD  - Eindhoven Univ Technol, Eindhoven, NetherlandsC3  - Eindhoven University of TechnologyPU  - EMERALD GROUP PUBLISHING LTD
+PI  - BINGLEY
+PA  - HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
+SN  - 1463-7154
+SN  - 1758-4116
+J9  - BUS PROCESS MANAG J
+JI  - Bus. Process. Manag. J.
+DA  - FEB 21
+PY  - 2022
+VL  - 28
+IS  - 8
+SP  - 1
+EP  - 22
+DO  - 10.1108/BPMJ-08-2020-0363
+WE  - Social Science Citation Index (SSCI)AN  - WOS:000777471500001
+N1  - Times Cited in Web of Science Core Collection:  6
+Total Times Cited:  6
+Cited Reference Count:  82
+ER  -
+
+TY  - JOUR
+AU  - Lu, MM
+AU  - Tzillah, A
+AU  - Chai, M
+AU  - Aloraimi, O
+TI  - Compositional Analysis of Biodiesel Particulate Matter (BPM) from a Non-Road Diesel Generator
+T2  - ENERGIES
+LA  - English
+KW  - biodiesel particulate matter (BPM)
+KW  - biodiesel blends
+KW  - non-road
+KW  - fatty acid methyl esters (FAME)
+KW  - WASTE COOKING OIL
+KW  - ENGINE
+KW  - EMISSION
+KW  - COMBUSTION
+KW  - FUEL
+KW  - PERFORMANCE
+KW  - PARTICLE
+KW  - BLENDS
+KW  - PAH
+AB  - There have been multiple studies of biodiesel particulate matter (BPM) emissions over the years, but few are on non-road diesel engines despite their higher emissions and less regulation. The goal of this paper is to further investigate the impacts of biodiesel fuel on particulate matter emissions. Compositional analysis of BPM was performed on a non-road diesel generator under various loads using different diesel and biodiesel blends. In order to account for organic compositions from both petroleum diesel and biodiesel, two types of analytical columns were used, one for polar compounds such as fatty acid methyl esters (FAME) and another non-polar column for hydrocarbons and PAHs (polycyclic aromatic hydrocarbons). In the BPM emitted, FAME constituted 6% to 11% of the total mass at different loads, which is the highest among the soluble organic fractions. This is an indication that biodiesel fuel might not be completely combusted in this diesel engine. The PAH fraction of the B50 (50% biodiesel) is much less than that found in petroleum diesel PM (B0). The elemental carbon fraction of the B50 particulate matter is less than that from B0. The lower PAH and soot from biodiesel blends may correspond to lower toxicity.
+AD  - Univ Cincinnati, Dept Chem & Environm Engn, Cincinnati, OH 45221 USAAD  - Amer GreenFuels LLC, 30 Waterfront St, New Haven, CT 06512 USAC3  - University System of OhioC3  - University of CincinnatiPU  - MDPI
+PI  - BASEL
+PA  - ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+SN  - 1996-1073
+J9  - ENERGIES
+JI  - Energies
+DA  - JUL
+PY  - 2023
+VL  - 16
+IS  - 13
+C7  - 5010
+DO  - 10.3390/en16135010
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001028026200001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  34
+ER  -
+
+TY  - JOUR
+AU  - Morimoto, K
+AU  - Ohama, N
+AU  - Kidokoro, S
+AU  - Mizoi, J
+AU  - Takahashi, F
+AU  - Todaka, D
+AU  - Mogami, J
+AU  - Sato, H
+AU  - Qin, F
+AU  - Kim, JS
+AU  - Fukao, Y
+AU  - Fujiwara, M
+AU  - Shinozaki, K
+AU  - Yamaguchi-Shinozaki, K
+TI  - BPM-CUL3 E3 ligase modulates thermotolerance by facilitating negative regulatory domain-mediated degradation of DREB2A in <i>Arabidopsis</i>
+T2  - PROCEEDINGS OF THE NATIONAL ACADEMY OF SCIENCES OF THE UNITED STATES OF AMERICA
+LA  - English
+KW  - abiotic stress response
+KW  - co-IP coupled with LC-MS/MS
+KW  - DREB2A-interacting proteins
+KW  - E3 ubiquitin ligase
+KW  - posttranslational regulation
+KW  - RESPONSIVE GENE-EXPRESSION
+KW  - TRANSCRIPTION FACTOR DREB2A
+KW  - UBIQUITIN-PROTEIN LIGASES
+KW  - HEAT-STRESS RESPONSE
+KW  - FUNCTIONAL-ANALYSIS
+KW  - LEAF SENESCENCE
+KW  - FACTOR HSFA3
+KW  - DROUGHT
+KW  - COMPLEXES
+KW  - SUBSTRATE
+AB  - DEHYDRATION-RESPONSIVE ELEMENT BINDING PROTEIN 2A (DREB2A) acts as a key transcription factor in both drought and heat stress tolerance in Arabidopsis and induces the expression of many drought-and heat stress-inducible genes. Although DREB2A expression itself is induced by stress, the posttranslational regulation of DREB2A, including protein stabilization, is required for its transcriptional activity. The deletion of a 30-aa central region of DREB2A known as the negative regulatory domain (NRD) transforms DREB2A into a stable and constitutively active form referred to as DREB2A CA. However, the molecular basis of this stabilization and activation has remained unknown for a decade. Here we identified BTB/POZ AND MATH DOMAIN proteins (BPMs), substrate adaptors of the Cullin3 (CUL3)-based E3 ligase, as DREB2A-interacting proteins. We observed that DREB2A and BPMs interact in the nuclei, and that the NRD of DREB2A is sufficient for its interaction with BPMs. BPM-knockdown plants exhibited increased DREB2A accumulation and induction of DREB2A target genes under heat and drought stress conditions. Genetic analysis indicated that the depletion of BPM expression conferred enhanced thermotolerance via DREB2A stabilization. Thus, the BPM-CUL3 E3 ligase is likely the long-sought factor responsible for NRD-dependent DREB2A degradation. Through the negative regulation of DREB2A stability, BPMs modulate the heat stress response and prevent an adverse effect of excess DREB2A on plant growth. Furthermore, we found the BPM recognition motif in various transcription factors, implying a general contribution of BPM-mediated proteolysis to divergent cellular responses via an accelerated turnover of transcription factors.
+AD  - Univ Tokyo, Grad Sch Agr & Life Sci, Lab Plant Mol Physiol, Bunkyo Ku, Tokyo 1138657, JapanAD  - RIKEN Ctr Sustainable Resource Sci, Gene Discovery Res Grp, Yokohama, Kanagawa 2300045, JapanAD  - Japan Int Res Ctr Agr Sci, Biol Resources & Postharvest Div, Tsukuba, Ibaraki 3058686, JapanAD  - Nara Inst Sci & Technol, Grad Sch Biol Sci, Plant Global Educ Project, Ikoma, Nara 6300192, JapanAD  - Univ Oxford, Dept Plant Sci, Plant Chemet Lab, Oxford OX1 3RB, EnglandAD  - Natl Univ Singapore, Temasek Life Sci Lab, Singapore 117604, SingaporeAD  - China Agr Univ, Coll Biol Sci, State Key Lab Plant Physiol & Biochem, Beijing 100193, Peoples R ChinaC3  - University of TokyoC3  - RIKENC3  - Japan International Research Center for Agricultural SciencesC3  - Nara Institute of Science & TechnologyC3  - University of OxfordC3  - National University of SingaporeC3  - China Agricultural UniversityFU  - Ministry of Education, Culture, Sports, Science and Technology of Japan [16H06735, 15H05960]; Program for the Promotion of Basic Research Activities for Innovative Biosciences of Japan; Grants-in-Aid for Scientific Research [15H05960, 16H06735] Funding Source: KAKEN
+FX  - We thank Y. Tanaka and S. Murasaki for excellent technical support and E. Toma for skillful editorial assistance. This work was supported through Grants-in-Aid from the Ministry of Education, Culture, Sports, Science and Technology of Japan for Research Activity Startup (16H06735, to N.O.) and for Scientific Research on Innovative Areas (15H05960, to K.Y.-S.), and the Program for the Promotion of Basic Research Activities for Innovative Biosciences of Japan (to K.S. and K.Y.-S.).
+PU  - NATL ACAD SCIENCES
+PI  - WASHINGTON
+PA  - 2101 CONSTITUTION AVE NW, WASHINGTON, DC 20418 USA
+SN  - 0027-8424
+J9  - P NATL ACAD SCI USA
+JI  - Proc. Natl. Acad. Sci. U. S. A.
+DA  - OCT 3
+PY  - 2017
+VL  - 114
+IS  - 40
+SP  - E8528
+EP  - E8536
+DO  - 10.1073/pnas.1704189114
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000412130500026
+N1  - Times Cited in Web of Science Core Collection:  76
+Total Times Cited:  87
+Cited Reference Count:  40
+ER  -
+
+TY  - JOUR
+AU  - Huang, RH
+AU  - Liu, ML
+AU  - Gong, GP
+AU  - Wu, PZ
+AU  - Patra, B
+AU  - Yuan, L
+AU  - Qin, HT
+AU  - Wang, XX
+AU  - Wang, GH
+AU  - Liao, HM
+AU  - Gao, L
+AU  - Yang, CW
+AU  - Li, HQ
+AU  - Zhang, SC
+TI  - The Pumilio RNA-binding protein APUM24 regulates seed maturation by fine-tuning the BPM-WRI1 module in <i>Arabidopsis</i>
+T2  - JOURNAL OF INTEGRATIVE PLANT BIOLOGY
+LA  - English
+KW  - APUM24
+KW  - Arabidopsis
+KW  - BPM
+KW  - RNA&#8208
+KW  - binding protein
+KW  - seed maturation
+KW  - WRI1
+KW  - PENTATRICOPEPTIDE REPEAT PROTEINS
+KW  - FATTY-ACID-METABOLISM
+KW  - RIBOSOMAL-RNA
+KW  - GENE-EXPRESSION
+KW  - PROTEASOMAL DEGRADATION
+KW  - OIL BIOSYNTHESIS
+KW  - DOMAIN PROTEIN
+KW  - PUF FAMILY
+KW  - E3 LIGASE
+KW  - WRINKLED1
+AB  - Pumilio RNA-binding proteins participate in messenger RNA (mRNA) degradation and translational repression, but their roles in plant development are largely unclear. Here, we show that Arabidopsis PUMILIO PROTEIN24 (APUM24), an atypical Pumilio-homology domain-containing protein, plays an important part in regulating seed maturation, a major stage of plant development. APUM24 is strongly expressed in maturing seeds. Reducing APUM24 expression resulted in abnormal seed maturation, wrinkled seeds, and lower seed oil contents, and APUM24 knockdown resulted in lower levels of WRINKLED 1 (WRI1), a key transcription factor controlling seed oil accumulation, and lower expression of WRI1 target genes. APUM24 reduces the mRNA stability of BTB/POZMATH (BPM) family genes, thus decreasing BPM protein levels. BPM is responsible for the 26S proteasome-mediated degradation of WRI1 and has important functions in plant growth and development. The 3 ' untranslated regions of BPM family genes contain putative Pumilio response elements (PREs), which are bound by APUM24. Reduced BPM or increased WRI1 expression rescued the deficient seed maturation of apum24-2 knockdown mutants, and APUM24 overexpression resulted in increased seed size and weight. Therefore, APUM24 is crucial to seed maturation through its action as a positive regulator fine-tuning the BPM-WRI1 module, making APUM24 a promising target for breeding strategies to increase crop yields.
+AD  - South China Normal Univ, Coll Life Sci, Guangdong Key Lab Biotechnol Plant Dev, Guangzhou 510631, Peoples R ChinaAD  - Chinese Acad Sci, Key Lab Plant Resources Conservat & Sustainable U, South China Bot Garden, Guangzhou 510650, Peoples R ChinaAD  - Univ Kentucky, Dept Plant & Soil Sci, Lexington, KY 40546 USAAD  - Univ Kentucky, Kentucky Tobacco Res & Dev Ctr, Lexington, KY 40546 USAC3  - South China Normal UniversityC3  - Chinese Academy of SciencesC3  - South China Botanical Garden, CASC3  - University of KentuckyC3  - University of KentuckyFU  - National Natural Science Foundation of China [31870301, 31370350, 31871222]; Guangdong Province Universities and Colleges Pearl River Scholar Funded Scheme (2016); Program for Changjiang Scholars (2017)
+FX  - We thank Professor Hanjo A. Hellmann from the Washington State University for providing the artificial microRNA vector, Professor Andrzej Wierzbicki from the University of Michigan for technical support for the RIP experiment, and the ABRC for kindly providing seeds used in this study. This work is supported by the National Natural Science Foundation of China (31870301, 31370350 for S.Z., and 31871222 for C.Y.), the Guangdong Province Universities and Colleges Pearl River Scholar Funded Scheme (2016 for S.Z.), and the award from the Program for Changjiang Scholars (2017 for C.Y.).
+PU  - WILEY
+PI  - HOBOKEN
+PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN  - 1672-9072
+SN  - 1744-7909
+J9  - J INTEGR PLANT BIOL
+JI  - J. Integr. Plant Biol.
+DA  - JUL
+PY  - 2021
+VL  - 63
+IS  - 7
+SP  - 1240
+EP  - 1259
+DO  - 10.1111/jipb.13092
+C6  - JUN 2021
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000657137400001
+N1  - Times Cited in Web of Science Core Collection:  5
+Total Times Cited:  7
+Cited Reference Count:  88
+ER  -
+

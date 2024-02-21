@@ -29,20 +29,19 @@ repos:
   #           "--quiet-level=2",
   #           "--skip=./tests,.git,*.css,*.csv,*.html,*.ini,*.ipynb,*.js,*.json,*.lock,*.scss,*.txt,*.yaml,build/pyinstaller/*,pyproject.toml",
   #         ]
-  - repo: local
-    hooks:
-      - id: mypy
-        name: mypy
-        description: ""
-        entry: mypy
-        language: python
-        "types_or": [python, pyi]
-        args: ["--ignore-missing-imports", "--scripts-are-modules"]
-        require_serial: true
-  - repo: local
-    hooks:
-      - id: pylint
-        name: pylint
-        entry: pylint #financetoolkit
-        language: system
-        types: [python]
+  # - repo: local
+  #   hooks:
+  #     - id: mypy
+  #       name: mypy
+  #       description: ""
+  #       entry: mypy
+  #       language: system
+  #       args: ["--ignore-missing-imports", "--scripts-are-modules"]
+  #       require_serial: true
+  # - repo: local
+  #   hooks:
+  #     - id: pylint
+  #       name: pylint
+  #       entry: pylint #financetoolkit
+  #       language: system
+  #       types: [python]

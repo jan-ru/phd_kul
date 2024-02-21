@@ -1,8 +1,38 @@
-
+---
+title: "tex try"
+subtitle: "Vlerick DBA - Mini Case Study"
+date: "02-17-2024"
+date-format: "D/MM/YYYY"
+date-modified: "02-17-2024"
+author:
+  - name: Jan-Ru Muller
+    orcid: 0000-0003-1689-0557
+    email: j.r.muller@hva.nl
+    affiliations:
+      - name: Amsterdam University of Applied Sciences
+        address: Fraijlemaborg 133
+        city: Amsterdam
+        postal-code: 1102 CV
+      - name: Vlerick Business School
+        address: Reep 1
+        city: Ghent
+        postal-code: 9000
+co-authors:
+  - name: Amy Van Looy
+  - name: Stijn Viaene
+abstract: ""
+format:
+  pdf:
+    cite-method: citeproc
+toc: false
+toc-depth: 2
+bibliography: MyLibrary.bib
+keywords: modelling languages, controlled natural language
+---
 
 ## Companies
 
-- SAP / Signavio
+- SAP / Signavio / Celonis
 - DSM?
 - ASML?
 
@@ -21,3 +51,12 @@ Archimate components
 - Application component
 - Data object component
 - Representation (or Report) component
+
+Thesis toevoegen van irene vanderfeesten 
+
+RQ-1: What are approaches for aligning \framebox{business processes} with regulatory requirements to achieve \framebox{regulatory compliance} by design?
+
+
+Zie ook Thesis Roadmap Ramezani: Figure 7.1: Thesis road map gives the mapping of the sections in Chap. 7 on to our compliance analysis approach.
+
+En pagina 368, vergelijken met continuous audit.

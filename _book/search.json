@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "s4_results.html",
+    "href": "s4_results.html",
+    "title": "7  Results2",
+    "section": "",
+    "text": "Here are my results. I computed them with this formula:\n\\[ y = mx + b  \\tag{7.1}\\]\nI have plotted them in this figure:\n\n\n\n\n\n\nFigure 7.1: Amazing results of a line.\n\n\n\nI have also listed some of the points on this line in the following table:\n\n\n\nTable 7.1: Results related to my line.\n\n\n\n\n\nX\nY\n\n\n\n\n1\n1\n\n\n2\n2\n\n\n3\n3\n\n\n4\n4\n\n\n\n\n\n\nThat was truly amazing. In Section ?sec-result, we saw all there was to see about lines. First, in Equation Equation 7.1, we saw the deep Maths behind a line. Second, we saw the most beautiful depiction of a line (Figure Figure 7.1). Third, Table Table 7.1 presented us, in all their glory, points to a line.\nThis page is copied from Scientifically Sound. [For the code to work it needs the xnos filter, which can be installed with pip install pandoc-xnos.]\nSection 7  Results2 is number & name of this page.\nPlease contact us at ?var:email.info.\nemail ?var:support\nAuthor.name: ?meta:book.author.name\nbook.part: ?meta:book.part\nchapters.part: ?meta:chapters.part\nbook.title: The initial 100 papers\nbook.date: 7/9/2023\nformat: ?meta:format\nformat.theme: ?meta:format.theme\nformat.documentclass: ?meta:format.documentclass\nbibliography: Top100.bib\nFor Celonis Labs processes extending beyond the enterprise is a core area of research.\nLink to web of science query (in a table?) https://www.webofscience.com/wos/woscc/summary/8077599e-8549-4736-8192-258f6a3e3a41-cc84b154/relevance/1\nTitle, Abstract, Keywords, Hits\n“business proces management” and “regulatory compliance” or",
+    "crumbs": [
+      "format: html",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Results2</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee (knuth84?) for additional discussion of literate programming.\nSection 1  Introduction is number & name of this page.\nPlease contact us at ?var:email.info.\nemail ?var:support\nAuthor.name: ?meta:book.author.name\nbook.part: ?meta:book.part\nchapters.part: ?meta:chapters.part\nbook.title: The initial 100 papers",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "z_journals.html",
+    "href": "z_journals.html",
+    "title": "Appendix C — Journals",
+    "section": "",
+    "text": "From a podcast by (ThisIsResearch?), I understand in the field of IS research there is a “basket of 8” authoritative journals (table 1). The columns: level, impact factor (IF), Association of Business Schools (ABS), Harzing are taken from the Vlerick Strategic Journal List (the List),effective as of January 2020. Empty means the journal is not on the List.\n\n\n\nTable C.1: Basket of 8\n\n\n\n\n\nJournal Title\nLevel\nIF\n\n\n\n\nMIS Quarterly (MISQ)\nA*\n7,268\n\n\nJournal of Management Information Systems (JMIS)\nA*\n2,744\n\n\nInformation Systems Journal (ISJ)\nA\n4,267\n\n\nJournal of the Association for Information Systems (JAIS)\nA\n2,839\n\n\nCommunications of the Association for Information Systems (CAIS)\nA\n?\n\n\nInformation Systems Research (ISR)\nA*\n2,301\n\n\nJournal of Information Technology (JIT)\nA\n4,435\n\n\nEuropean Journal of Information Systems (EJIS)\nA\n2,819\n\n\n\n\n\n\nThe list of 8 premier journals exists since 2011. The list has been updated in 2023 to include an additional 3 journals.\n\n\n\nTable C.2: Recent additions\n\n\n\n\n\nJournal Title\nLevel\nIF\n\n\n\n\nDecision Support Systems (DSS)\nA\n2,819\n\n\nInformation & Management (IAM)\nA\n3,890\n\n\nInformation and Organization (IAO)\n\n\n\n\n\n\n\n\nNext to the basket of 8 (now 11) there are other journals that I will want to search articles from. BISE is of interest because it is an european (IS) journal (as is EJIS). BPMJ and IJDG may be of interest given the subject matter their titles refer to. SMR I find of interest as it focusses on the intersection of Management and Technology. On the topic of work design and agility I may want to reference works of Nelson Repenning. HBR maybe of interest for the (historic) articles on business process reengineering by Michael Hammer.\n\n\n\nTable C.3: Other journals of interest\n\n\n\n\n\nJournal Title\nLevel\nIF\n\n\n\n\nBusiness Process Management Journal (BPMJ)\n\n\n\n\nBusiness & Information Systems Engineering (BISE)\n\n\n\n\nJournal of Disclosure and Governance (IJDG)\n\n\n\n\nSloan Management Review (SMR)\nA*\n0,971\n\n\nHarvard Business Review (HBR)\nA*\n0,720\n\n\n\n\n\n\nIn terms of “where does one aim to be published”, for an entirely different type of journal:\n\n\n\nTable C.4: Yet other journals of interest\n\n\n\n\n\nJournal Title\nLevel\nIF\n\n\n\n\nJournal of Open Source Software (JOSS)\n\n\n\n\n\n\n\n\nJOSS doesn’t show on any of the quality journal lists. Yet, it seems an appropriate outlet for part of the work produced in the context of my PhD research. My research follows a design science methodology. “In order to add science to Design Science, developed artifacts need to be properly evaluated” (Mijač 2019).\nIt is important to define the field the research is positioned in: I still will look into “business informatics”. This is a term less used in the U.S. and more used in the E.U. (“bedrijfsinformatica” in Dutch and “wirtschaftsinformatik” in German).\n\nReferences\n\n\nMijač, Marko. 2019. “Evaluation of Design Science Instantiation Artifacts in Software Engineering Research.”\n\n\nDefine h-score Define A star journal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#\nArticle\n\n\nGSReferences\nPublished in\nJournal Score\nPrincipal Author\nH-Factor\n\n\n\n\n1\n\n\n\n1\n\n\n\nG -\n\n\n2\nC4 -\n\n\n2\n\n\n\nG3 -\n\n\n3\nC44 -\n\n\n3\n\n\n\nG33 -\n\n\n\nAn example of a potentially relevant article in BPMJ:\nAn example of a potentially relevant article in Disclosure and Governance:\n\n\nD Databases\nResearch question Searched sources Search terms Search strategy Inclusion criteria Exclusion criteria Quality criteria\nRanking\n\nCitation Impact (CiteScore, Clarivate Journal Citation Indicator, Journal Impact Factor)\nUsage (full text views)\nSpeed (acceptance rate, submission to first decision)\n\nDatabases / Repositories\ndblp computer science bibliography\nAlternatives for Microsoft Open Graph\n\nAminer\nCrossRef\nDimensions\nlens.org\nOpenAlex.org\nOpenCitations\nScopus\nSemantic Scholar\n\nOther info for separate document\n\nInternational Journal of Lean Six Sigma ([JLSS][JLSS-ref]) [JLSS-ref]: https://www.emeraldgrouppublishing.com/journal/ijlss\n\nMaybe separately list institutes: - TNO - Frauenhoffer - SEI (CMU)",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>C</span>  <span class='chapter-title'>Journals</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html",
+    "href": "z_software.html",
+    "title": "Appendix D — Software Support",
+    "section": "",
+    "text": "D.1 [27-05-2023] Tools\nA small library for extracting references used in scholarly communication. refextract\n(https://docs.readme.com/rdmd/docs/getting-started)\nORCID: reference use of the latex package “orcidlink”.\nIdea for backlog: obtain keywords via orcid api (python) and build wordcloud.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html#day08-include-academicons",
+    "href": "z_software.html#day08-include-academicons",
+    "title": "Appendix D — Software Support",
+    "section": "D.2 [26-05-2024 / day08] Include Academicons",
+    "text": "D.2 [26-05-2024 / day08] Include Academicons\nquarto extension\nPotentially add google scholar link to author index\n\nPossibly also use fontawesome computer icons\nLook into interactive-sql which may help to clarify relationships between accounts and “verdichtingen”. Note that interactive-sql is a wrapper around sqlime.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html#document-attributes",
+    "href": "z_software.html#document-attributes",
+    "title": "Appendix D — Software Support",
+    "section": "D.3 Document attributes",
+    "text": "D.3 Document attributes\nCurrent thinking: use latex package\n\n\n\n\nIn case of output to html, and not to loose functionality of certain latex packages (such as orcid):\n\nDocument is processed and variables obtain a number.\nIntermediary file is saved.\nVariables are read ref. texexchange\nhtml snippet creation html snippet\nhtml snippet is included in header, footer, or body of file",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html#bibliometrics",
+    "href": "z_software.html#bibliometrics",
+    "title": "Appendix D — Software Support",
+    "section": "D.4 Bibliometrics",
+    "text": "D.4 Bibliometrics\nTo find the number of publications they both worked on I may want to look into bibliometrix. This is in R, there maybe similar tools for Python. Pybibliometrics  looks to be an interface to Elsevier Scopus only.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html#qualitative-research",
+    "href": "z_software.html#qualitative-research",
+    "title": "Appendix D — Software Support",
+    "section": "D.5 Qualitative Research",
+    "text": "D.5 Qualitative Research\nTaquette",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html#references",
+    "href": "z_software.html#references",
+    "title": "Appendix D — Software Support",
+    "section": "D.6 References",
+    "text": "D.6 References\nhttps://www.tug.org/texlive//Contents/live/texmf-dist/doc/latex/orcidlink/orcidlink.pdf",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html#number-of-bib-entries",
+    "href": "z_software.html#number-of-bib-entries",
+    "title": "Appendix D — Software Support",
+    "section": "D.7 Number of bib entries",
+    "text": "D.7 Number of bib entries\n\\begin{document} There are in total \npublications.\nbron: https://tex.stackexchange.com/questions/536694/get-the-number-of-entries-in-a-bib-file-with-biblatex",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "z_software.html#documentation-workflow",
+    "href": "z_software.html#documentation-workflow",
+    "title": "Appendix D — Software Support",
+    "section": "D.8 Documentation workflow",
+    "text": "D.8 Documentation workflow\nIDM",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>D</span>  <span class='chapter-title'>Software Support</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\nAbstract\nPurpose\nDesign/methodology/approach\nFindings\nOriginality/value\nfor example",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  }
+]

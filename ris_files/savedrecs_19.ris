@@ -1,0 +1,653 @@
+﻿TY  - CPAPER
+AU  - Ghanavati, S
+AU  - Hulstijn, J
+A1  - IEEE
+TI  - Impact of Legal Interpretation on Business Process Compliance
+T2  - 2015 IEEE/ACM 1ST INTERNATIONAL WORKSHOP ON TECHNICAL AND LEGAL ASPECTS OF DATA PRIVACY AND SECURITY TELERISE 2015
+LA  - English
+CP  - International Workshop on TEchnical and LEgal aspects of data pRIvacy and SEcurity
+AB  - Regulations are often written as open norms. Thus, the development of systems that support compliance involves interpretation. Often, compliance officers consider several alternative solutions. Comparing the feasibility and deciding which alternative to select are important tasks. In this paper, we aim to show how analyzing the impact of several interpretation can be supported by requirements engineering tools, in particular, by LEGAL-URN. Two cases are used to illustrate the importance of interpretation and how LEGAL-URN facilitates it.
+AD  - Luxembourg Inst Sci & Technol, Luxembourg, LuxembourgAD  - Delft Univ Technol, NL-2600 AA Delft, NetherlandsC3  - Luxembourg Institute of Science & TechnologyC3  - Delft University of TechnologyPU  - IEEE
+PI  - NEW YORK
+PA  - 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN  - 978-1-4673-7097-4
+PY  - 2015
+SP  - 26
+EP  - 31
+DO  - 10.1109/TELERISE.2015.13
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000380424900006
+N1  - Times Cited in Web of Science Core Collection:  7
+Total Times Cited:  7
+Cited Reference Count:  25
+ER  -
+
+TY  - JOUR
+AU  - Knuplesch, D
+AU  - Reichert, M
+AU  - Kumar, A
+TI  - A framework for visually monitoring business process compliance
+T2  - INFORMATION SYSTEMS
+LA  - English
+KW  - Business process compliance
+KW  - Compliance rule modeling
+KW  - Compliance monitoring
+KW  - Visual business analytics
+KW  - VERIFICATION
+KW  - RULES
+AB  - Any enterprise must ensure that its business processes comply with imposed compliance rules. The latter stem, for example, from corporate guidelines, legal regulations, and best practices. In general, a compliance rule may constrain multiple perspectives of a business process, including behavior (i.e. control flow), data, time, resources, and interactions with business partners. As a particular challenge, compliance cannot be completely ensured at design time, but needs to be continuously monitored during process enactment as well, i.e., it has to be dynamically checked whether compliance rules are satisfied or temporarily/permanently violated. This paper presents a comprehensive framework for visually monitoring business process compliance. As opposed to existing approaches, the framework supports the visual monitoring of all relevant process perspectives based on the extended Compliance Rule Graph (eCRG) language. Furthermore, it not only allows for the detection of violations, but additionally highlights their causes. Finally, the framework assists users in both monitoring business process compliance and ensuring the compliant continuation of running business processes. Overall, the framework provides a fundamental contribution towards the real-time monitoring of compliance in process driven enterprises.
+AD  - Univ Ulm, Inst Databases & Informat Syst, Ulm, GermanyAD  - Penn State Univ, Smeal Coll Business, University Pk, PA 16802 USAC3  - Ulm UniversityC3  - Pennsylvania Commonwealth System of Higher Education (PCSHE)C3  - Pennsylvania State UniversityC3  - Pennsylvania State University - University ParkFU  - German Research Foundation (DFG) [RE 1402/2-1]
+FX  - This work was done within the research project C<SUP>3</SUP>Pro funded by the German Research Foundation (DFG) under project number RE 1402/2-1.
+PU  - PERGAMON-ELSEVIER SCIENCE LTD
+PI  - OXFORD
+PA  - THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
+SN  - 0306-4379
+SN  - 1873-6076
+J9  - INFORM SYST
+JI  - Inf. Syst.
+DA  - MAR
+PY  - 2017
+VL  - 64
+SP  - 381
+EP  - 409
+DO  - 10.1016/j.is.2016.10.006
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000391900000029
+N1  - Times Cited in Web of Science Core Collection:  20
+Total Times Cited:  22
+Cited Reference Count:  61
+ER  -
+
+TY  - CPAPER
+AU  - Elgammal, A
+AU  - Sebahi, S
+AU  - Turetken, O
+AU  - Hacid, MS
+AU  - Papazoglou, MP
+AU  - van den Heuvel, WJ
+ED  - Soliman, KS
+TI  - Business Process Compliance Management: An Integrated Proactive Approach
+T2  - CRAFTING GLOBAL COMPETITIVE ECONOMIES: 2020 VISION STRATEGIC PLANNING & SMART IMPLEMENTATION, VOLS I-IV
+LA  - English
+CP  - 24th International-Business-Information-Management-Association Conference
+KW  - Regulatory compliance
+KW  - Compliance patterns
+KW  - Design-time compliance management
+KW  - runtime compliance monitoring
+AB  - Today's enterprises demand a high degree of compliance of business processes to meet regulations, such as Sarbanes-Oxley and Basel I-III. To ensure continuous guaranteed compliance, compliance management should be considered during all phases of the business process lifecycle; from the analysis and design to deployment, monitoring and evaluation. This paper introduces an integrated business process compliance management framework that incorporates design-time verification and runtime monitoring approaches. The nutshell of the approach is the Compliance Request Language (CRL), which is a high-level pattern-based language for the abstract specification of compliance requirements. From CRL expressions, formal compliance rules can be automatically generated, thereby eliminating the need for business and compliance experts to learn and use complex low-level formal languages. Formalized compliance rules enable automated approaches to be used for the static verification and dynamic monitoring of business processes. An integrated prototypical tool-suite is developed as a proof-of-concept to help validating the applicability of the approaches, and validated by experiment with two real-life case studies.
+AD  - Cairo Univ, Fac Comp & Informat, Giza, EgyptAD  - Univ Lyon 1, CNRS, LIRIS, F-69622 Villeurbanne, FranceAD  - Tech Univ Eindhoven, Eindhoven, NetherlandsAD  - Tilburg Univ, ERISS, NL-5000 LE Tilburg, NetherlandsC3  - Egyptian Knowledge Bank (EKB)C3  - Cairo UniversityC3  - Centre National de la Recherche Scientifique (CNRS)C3  - Universite Claude Bernard Lyon 1C3  - Institut National des Sciences Appliquees de Lyon - INSA LyonC3  - Eindhoven University of TechnologyC3  - Tilburg UniversityPU  - INT BUSINESS INFORMATION MANAGEMENT ASSOC-IBIMA
+PI  - NORRISTOWN
+PA  - 34 E GERMANTOWN PIKE, NO. 327, NORRISTOWN, PA 19401 USA
+SN  - 978-0-9860419-3-8
+PY  - 2014
+SP  - 764
+EP  - 781
+WE  - Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)AN  - WOS:000360509300082
+N1  - Times Cited in Web of Science Core Collection:  3
+Total Times Cited:  3
+Cited Reference Count:  36
+ER  -
+
+TY  - CPAPER
+AU  - López, HA
+AU  - Debois, S
+AU  - Slaats, T
+AU  - Hildebrandt, TT
+ED  - Wehrheim, H
+ED  - Cabot, J
+TI  - Business Process Compliance using Reference Models of Law
+T2  - FUNDAMENTAL APPROACHES TO SOFTWARE ENGINEERING (FASE 2020)
+LA  - English
+CP  - 23rd International Conference on Fundamental Approaches to Software Engineering (FASE) held as part of the Joint European Conferences on Theory and Practice of Software (ETAPS)
+KW  - Formal Models of Law
+KW  - Dynamic Condition Response (DCR) graphs
+KW  - Compliance Checking
+KW  - Process Calculi
+KW  - Refinement
+AB  - Legal compliance is an important part of certifying the correct behaviour of a business process. To be compliant, organizations might hard-wire regulations into processes, limiting the discretion that workers have when choosing what activities should be executed in a case. Worse, hard-wired compliant processes are difficult to change when laws change, and this occurs very often. This paper proposes a model-driven approach to process compliance and combines a) reference models from laws, and b) business process models. Both reference and process models are expressed in a declarative process language, The Dynamic Condition Response (DCR) graphs. They are subject to testing and verification, allowing law practitioners to check consistency against the intent of the law. Compliance checking is a combination of alignments between events in laws and events in a process model. In this way, a reference model can be used to check different process variants. Moreover, changes in the reference model due to law changes do not necessarily invalidate existing processes, allowing their reuse and adaptation. We exemplify the framework via the alignment of laws and business rules and a real contract change management process, Finally, we show how compliance checking for declarative processes is decidable, and provide a polynomial time approximation that contrasts NP complexity algorithms used in compliance checking for imperative business processes. All-together, this paper presents technical and methodological steps that are being used by legal practitioners in municipal governments in their efforts towards digitalization of work practices in the public sector.
+AD  - Univ Copenhagen, Dept Comp Sci, Software Data People & Soc Sect, Copenhagen, DenmarkAD  - IT Univ Copenhagen, Comp Sci Dept, Copenhagen, DenmarkAD  - DCR Solut AS, Copenhagen, DenmarkC3  - University of CopenhagenC3  - IT University CopenhagenFU  - Innovation Fund Denmark [7050-00034A]; European Union [778233]; Marie Curie Actions (MSCA) [778233] Funding Source: Marie Curie Actions (MSCA)
+FX  - Thanks to Nicklas Healy from Syddjurs Kommune, and Paolo Gangemi from MAPS Group for their evaluations on the compliance framework. This work has been financially supported by the Innovation Fund Denmark project EcoKnow.org (7050-00034A), and the European Union Marie Sklodowska-Curie grant agreement BehAPI No.778233.
+PU  - SPRINGER INTERNATIONAL PUBLISHING AG
+PI  - CHAM
+PA  - GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN  - 0302-9743
+SN  - 1611-3349
+SN  - 978-3-030-45234-6
+SN  - 978-3-030-45233-9
+J9  - LECT NOTES COMPUT SC
+PY  - 2020
+VL  - 12076
+SP  - 378
+EP  - 399
+DO  - 10.1007/978-3-030-45234-6_19
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000720075400019
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  43
+ER  -
+
+TY  - JOUR
+AU  - Elgammal, A
+AU  - Turetken, O
+AU  - van den Heuvel, WJ
+AU  - Papazoglou, M
+TI  - Formalizing and appling compliance patterns for business process compliance
+T2  - SOFTWARE AND SYSTEMS MODELING
+LA  - English
+KW  - Business process compliance
+KW  - Compliance patterns
+KW  - Formal specification
+KW  - Regulatory compliance
+KW  - Compliance management tool support
+KW  - Design-time compliance management
+KW  - COMPLIANCE-CHECKING
+KW  - SPECIFICATION
+KW  - VERIFICATION
+KW  - FRAMEWORK
+KW  - MODELS
+AB  - Today's enterprises demand a high degree of compliance of business processes to meet diverse regulations and legislations. Several industrial studies have shown that compliance management is a daunting task, and organizations are still struggling and spending billions of dollars annually to ensure and prove their compliance. In this paper, we introduce a comprehensive compliance management framework with a main focus on design-time compliance management as a first step towards a preventive lifetime compliance support. The framework enables the automation of compliance-related activities that are amenable to automation, and therefore can significantly reduce the expenditures spent on compliance. It can help experts to carry out their work more efficiently, cut the time spent on tedious manual activities, and reduce potential human errors. An evident candidate compliance activity for automation is the compliance checking, which can be achieved by utilizing formal reasoning and verification techniques. However, formal languages are well known of their complexity as only versed users in mathematical theories and formal logics are able to use and understand them. However, this is generally not the case with business and compliance practitioners. Therefore, in the heart of the compliance management framework, we introduce the Compliance Request Language (CRL), which is formally grounded on temporal logic and enables the abstract pattern-based specification of compliance requirements. CRL constitutes a series of compliance patterns that spans three structural facets of business processes; control flow, employed resources and temporal perspectives. Furthermore, CRL supports the specification of compensations and non-monotonic requirements, which permit the relaxation of some compliance requirements to handle exceptional situations. An integrated tool suite has been developed as an instantiation artefact, and the validation of the approach is undertaken in several directions, which includes internal validity, controlled experiments, and functional testing.
+AD  - Natl Univ Ireland Univ Coll Cork, Governance Risk Management & Compliance Technol C, Cork, IrelandAD  - Eindhoven Univ Technol, Sch Ind Engn, POB 513, NL-5600 MB Eindhoven, NetherlandsAD  - Tilburg Univ, European Res Inst Serv Sci, NL-5000 LE Tilburg, NetherlandsC3  - University College CorkC3  - Eindhoven University of TechnologyC3  - Tilburg UniversityPU  - SPRINGER HEIDELBERG
+PI  - HEIDELBERG
+PA  - TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN  - 1619-1366
+SN  - 1619-1374
+J9  - SOFTW SYST MODEL
+JI  - Softw. Syst. Model.
+DA  - FEB
+PY  - 2016
+VL  - 15
+IS  - 1
+SP  - 119
+EP  - 146
+DO  - 10.1007/s10270-014-0395-3
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000369009200006
+N1  - Times Cited in Web of Science Core Collection:  58
+Total Times Cited:  65
+Cited Reference Count:  66
+ER  -
+
+TY  - CPAPER
+AU  - Elgammal, A
+AU  - Turetken, O
+A1  - IEEE
+TI  - Lifecycle Business Process Compliance Management: A Semantically-Enabled Framework
+T2  - 2015 INTERNATIONAL CONFERENCE ON CLOUD COMPUTING (ICCC)
+LA  - English
+CP  - International Conference on Cloud Computing (ICCC)
+KW  - semantic BP compliance management
+KW  - regulatory ontology
+KW  - domain ontology
+KW  - BP ontology
+KW  - compliance patterns
+KW  - ontology annotation
+KW  - compliance ontology as a service
+AB  - Following the crisis in 2008, different industrial sectors has faced growing numbers of laws and regulations globally. The number and complexity of these regulations is creating significant issues for governance, risk and compliance management especially for heavily-regulated sectors, such as the financial industry. This paper proposes a semantically-enabled compliance management framework that backs up the entire business process compliance lifecycle, i.e., design-time verification, runtime and offline monitoring and analysis. In the heart of the framework is an integrated semantic repository incorporating domain, business and regulatory knowledge, at different levels of abstraction, which provides a shared conceptualization of the interrelated compliance and business specifics. Furthermore, given the technological revolution caused by cloud computing, we draw our vision on providing compliance-related ontologies as a service (COaaS) on the cloud. As an initial validation step, we have considered the financial sector with an Anti-Money Laundering (AML) case study and applied our semantic-based approach on.
+AD  - Cairo Univ, Fac Comp & Informat, Giza, Giza Governorat, EgyptAD  - Eindhoven Univ Technol, Sch Ind Engn, NL-5600 MB Eindhoven, NetherlandsC3  - Egyptian Knowledge Bank (EKB)C3  - Cairo UniversityC3  - Eindhoven University of TechnologyPU  - IEEE
+PI  - NEW YORK
+PA  - 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN  - 978-1-4673-6618-2
+PY  - 2015
+SP  - 167
+EP  - 174
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000380512900027
+N1  - Times Cited in Web of Science Core Collection:  1
+Total Times Cited:  1
+Cited Reference Count:  26
+ER  -
+
+TY  - JOUR
+AU  - Barnawi, A
+AU  - Awad, A
+AU  - Elgammal, A
+AU  - Elshawi, R
+AU  - Almalaise, A
+AU  - Sakr, S
+TI  - An Anti-Pattern-based Runtime Business Process Compliance Monitoring Framework
+T2  - INTERNATIONAL JOURNAL OF ADVANCED COMPUTER SCIENCE AND APPLICATIONS
+LA  - English
+KW  - Business Process Management
+KW  - Business Process Monitoring
+KW  - Business Process Compliance
+AB  - Today's dynamically changing business and compliance environment demand enterprises to continuously ensure their compliance with various laws, regulations and standards. Several business studies have concluded that compliance management is one of the main challenges companies face nowadays. Runtime compliance monitoring is of utmost importance for compliance assurance as during the prior design-time compliance checking phase, only a subset of the imposed compliance requirements can be statically checked due to the absence of required variable instantiation and contextual information. Furthermore, the fact that a BP model has been statically checked for compliance during design-time does not guarantee that the corresponding running BP instances are usually compliant due to human and machine errors. In this paper, we present a generic proactive runtime BP compliance monitoring framework, BP-MaaS. The framework incorporates a wide range of expressive high-level graphical compliance patterns for the abstract specification of runtime constraints. Compliance monitoring is achieved using anti-patterns, a novel mechanism which is agnostic towards any underlying monitoring execution technology. As a proof-of-concept, complex event processing (CEP) technology is adopted as one of the possible realizations of the monitoring engine of the framework. An integrated tool-suite has been developed as an instantiation artifact of BP-MaaS, and the validation of the approach is undertaken in several directions, which includes internal validity and case study conducts considering two real-life case studies from the banking domain.
+AD  - King Abdulaziz Univ, Jeddah 21413, Saudi ArabiaAD  - Cairo Univ, Cairo, EgyptAD  - Princess Nourah Bint Abdulrahman Univ, Riyadh, Saudi ArabiaAD  - King Saud bin Abdulaziz Univ Hlth Sci, Riyadh, Saudi ArabiaAD  - Univ New S Wales, Sydney, NSW, AustraliaC3  - King Abdulaziz UniversityC3  - Egyptian Knowledge Bank (EKB)C3  - Cairo UniversityC3  - Princess Nourah bint Abdulrahman UniversityC3  - King Saud Bin Abdulaziz University for Health SciencesC3  - University of New South Wales SydneyPU  - SCIENCE & INFORMATION SAI ORGANIZATION LTD
+PI  - WEST YORKSHIRE
+PA  - 19 BOLLING RD, BRADFORD, WEST YORKSHIRE, 00000, ENGLAND
+SN  - 2158-107X
+SN  - 2156-5570
+J9  - INT J ADV COMPUT SC
+JI  - Int. J. Adv. Comput. Sci. Appl.
+DA  - FEB
+PY  - 2016
+VL  - 7
+IS  - 2
+SP  - 551
+EP  - 572
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000371515600073
+N1  - Times Cited in Web of Science Core Collection:  5
+Total Times Cited:  5
+Cited Reference Count:  62
+ER  -
+
+TY  - CPAPER
+AU  - Kuehnel, S
+AU  - Zasada, A
+ED  - Woo, C
+ED  - Lu, J
+ED  - Li, Z
+ED  - Ling, TW
+ED  - Li, G
+ED  - Lee, ML
+TI  - An Approach Toward the Economic Assessment of Business Process Compliance
+T2  - ADVANCES IN CONCEPTUAL MODELING, ER 2018
+LA  - English
+CP  - 37th International Conference on Conceptual Modeling (ER)
+KW  - Business process compliance
+KW  - Economic assessment
+KW  - Compliance cost
+KW  - Workflow patterns
+KW  - COST
+AB  - Business process compliance (BPC) denotes business processes that adhere to requirements originating from different sources, e.g., laws or regulations. Compliance measures are used in business processes to prevent compliance violations and their consequences, such as fines or monetary sanctions. Compliance measures also incur costs, e.g., for tools, hardware, or personnel. To ensure that companies can work economically even in intensively regulated environments, the economic viability of BPC has to be taken into account. A body of literature is already devoted to the economic assessment of processes and focuses on the business perspective, whereas corresponding approaches for BPC appear to be lacking. Consequently, we introduce a novel approach that allows for an economic assessment of process-based compliance measures. The approach takes monetary consequences of compliance violations into account and is based on the well-known basic workflow patterns for control flows. We demonstrate its applicability by means of an exemplary ordering process affected by Article 32 (1) of the EU General Data Protection Regulation.
+AD  - Martin Luther Univ Halle Wittenberg, Halle, Saale, GermanyAD  - Univ Rostock, Rostock, GermanyC3  - Martin Luther University Halle WittenbergC3  - University of RostockPU  - SPRINGER INTERNATIONAL PUBLISHING AG
+PI  - CHAM
+PA  - GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN  - 0302-9743
+SN  - 1611-3349
+SN  - 978-3-030-01391-2
+SN  - 978-3-030-01390-5
+J9  - LECT NOTES COMPUT SC
+PY  - 2019
+VL  - 11158
+SP  - 228
+EP  - 238
+DO  - 10.1007/978-3-030-01391-2_28
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000521937600028
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  17
+ER  -
+
+TY  - JOUR
+AU  - Hadasch, F
+AU  - Maedche, A
+AU  - Gregor, S
+TI  - The influence of directive explanations on users' business process compliance performance
+T2  - BUSINESS PROCESS MANAGEMENT JOURNAL
+LA  - English
+KW  - Process
+KW  - Organizational processes
+KW  - Explanations
+KW  - User-system cooperation
+KW  - Business process compliance
+KW  - KNOWLEDGE-BASED SYSTEMS
+KW  - INFORMATION-TECHNOLOGY
+KW  - E-COMMERCE
+KW  - ENTERPRISE
+KW  - FEEDBACK
+KW  - ERP
+KW  - IMPLEMENTATION
+KW  - EXTRACTION
+KW  - EMPLOYEES
+KW  - SUPPORT
+AB  - Purpose - In organizations, individual user's compliance with business processes is important from a regulatory and efficiency point of view. The restriction of users' choices by implementing a restrictive information system is a typical approach in many organizations. However, restrictions and mandated compliance may affect employees' performance negatively. Especially when users need a certain degree of flexibility in completing their work activity. The purpose of this paper is to introduce the concept of directive explanations (DEs). DEs provide context-dependent feedback to users, but do not force users to comply.
+   Design/methodology/approach - The experimental study used in this paper aims at investigating how DEs influence users' process compliance. The authors used a laboratory experiment to test the proposed hypotheses. Every participant underwent four trials for which business process compliance was measured. Two trial blocks were used to cluster the four trials. Diagrammatic DEs were provided in one of the trial blocks, while textual DEs were provided in the other. Trial blocks were counterbalanced.
+   Findings - The results of the experiment show that DEs influence a user's compliance, but the effect varies for different types of DEs. The authors believe this study is significant as it empirically examines design characteristics of explanations from knowledge-based systems in the context of business processes.
+   Research limitations/implications - This study is certainly not without limitations. The sample used for this study was drawn from undergraduate information systems management students. The sample is thus not representative of the general population of organizations' IT users. However, a student sample adequately represents novice IT users, who are not very familiar with a business process. They are particularly suitable to study how users react to first-time contact with a DE.
+   Practical implications - The findings of this study are important to designers and implementers of systems that guide users to follow business processes. As the authors have illustrated with a real-world scenario, an ERP system's explanation can lack details on how a user can resolve a blocked activity. In situations in which users bypass restricted systems, DEs can guide them to comply with a business process. Particularly diagrammatic explanations, which depict actors, activities, and constraints for a business process, have been found to increase the probability that users' behavior is business process compliant. Less time may be needed to resolve a situation, which can result in very efficient user-system cooperation.
+   Originality/value - This study makes several important contributions to research on explanations, which are provided by knowledge-based systems. First, the authors conceptualized, designed, and investigated a novel type of explanations, namely, DEs. The results of this study show how dramatic the difference in process compliance performance is when exposed to certain types of DEs (in one group from 57 percent on the initial trial to 82 percent on the fourth trial). This insight is important to derive design guidelines for DE, particularly when multimedia material is used.
+AD  - Univ Mannheim, Inst Enterprise Syst, D-68131 Mannheim, GermanyAD  - Australian Natl Univ, ANU Coll Business & Econ, Canberra, ACT, AustraliaC3  - University of MannheimC3  - Australian National UniversityPU  - EMERALD GROUP PUBLISHING LTD
+PI  - BINGLEY
+PA  - HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
+SN  - 1463-7154
+SN  - 1758-4116
+J9  - BUS PROCESS MANAG J
+JI  - Bus. Process. Manag. J.
+PY  - 2016
+VL  - 22
+IS  - 3
+SP  - 458
+EP  - 483
+DO  - 10.1108/BPMJ-05-2015-0067
+WE  - Social Science Citation Index (SSCI)AN  - WOS:000376537200002
+N1  - Times Cited in Web of Science Core Collection:  4
+Total Times Cited:  4
+Cited Reference Count:  76
+ER  -
+
+TY  - CPAPER
+AU  - Adams, N
+AU  - Augusto, A
+AU  - Davern, M
+AU  - La Rosa, M
+ED  - DiCiccio, C
+ED  - Dijkman, R
+ED  - Ortega, AD
+ED  - Rinderle-Ma, S
+TI  - Why Do Banks Find Business Process Compliance so Challenging? An Australian Perspective
+T2  - BUSINESS PROCESS MANAGEMENT FORUM
+LA  - English
+CP  - 20th International Conference on Business Process Management (BPM) / Business Process Management (BPM) Forum
+AB  - Banks play an intrinsic role in any modern economy, recycling capital from savers to borrowers. They are heavily regulated and there have been a significant number of well publicized compliance failings in recent years. This is despite Business Process Compliance (BPC) being both a well researched domain in academia and one where significant progress has been made. This study seeks to determine why Australian banks find BPC so challenging. We interviewed 22 senior managers from a range of functions within the four major Australian banks to identify the key challenges. Not every process in every bank is facing the same issues, but in processes where a bank is particularly challenged to meet its compliance requirements, the same themes emerge. The compliance requirement load they bear is excessive, dynamic and complex. Fulfilling these requirements relies on impenetrable spaghetti processes, and the case for sustainable change remains elusive, locking banks into a fail-fix cycle that increases the underlying complexity. This paper proposes a conceptual framework that identifies and aggregates the challenges, and a circuit-breaker approach as an "off ramp" to the fail-fix cycle.
+AD  - Univ Melbourne, Melbourne, Vic, AustraliaC3  - University of MelbournePU  - SPRINGER INTERNATIONAL PUBLISHING AG
+PI  - CHAM
+PA  - GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN  - 1865-1348
+SN  - 1865-1356
+SN  - 978-3-031-16171-1
+SN  - 978-3-031-16170-4
+J9  - LECT NOTES BUS INF P
+PY  - 2022
+VL  - 458
+SP  - 3
+EP  - 20
+DO  - 10.1007/978-3-031-16171-1_1
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)WE  - Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)AN  - WOS:000878069500001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  28
+ER  -
+
+TY  - JOUR
+AU  - Sun, XX
+AU  - Yang, SQ
+AU  - Zhao, CY
+AU  - Yu, DJ
+TI  - Design-time business process compliance assessment based on multi-granularity semantic information
+T2  - JOURNAL OF SUPERCOMPUTING
+LA  - English
+KW  - Compliance checking
+KW  - Violation detection
+KW  - Business process
+KW  - Text mining
+KW  - Natural language processing
+KW  - Deep learning
+KW  - SYSTEMS
+KW  - MODELS
+AB  - Business process compliance is an essential part of business process management, which saves organizations from penalties caused by non-compliant processes. However, current researches on business process compliance mainly focus on checking using general constraint rules that have been formalized without in-depth analysis of related regulatory documents and mostly involve extensive human efforts. In this paper, we aim to propose an automatic and interpretable compliance checking approach for design-time business processes. By combining deep learning and a natural language processing approach based on rule templates, we extract semantic information from regulatory documents at different granularities for subsequent compliance checking. In addition, we match appropriate rules to the process model and detect the degree of violation of the business process from three control-flow perspectives. The effectiveness of this method is validated on two real-world datasets.
+AD  - Hangzhou Dianzi Univ, Sch Comp Sci & Technol, Hangzhou, Peoples R ChinaC3  - Hangzhou Dianzi UniversityFU  - The work is supported by Natural Science Foundation of China (No. 61472112), Natural Science Foundation of Zhejiang Province (No. LQ20F020017) and the Key Research and Development Program Project of Zhejiang (No. 2020C01165, No. 2021C01031). [61472112]; Natural Science Foundation of China [LQ20F020017]; Natural Science Foundation of Zhejiang Province [2020C01165, 2021C01031]; Key Research and Development Program Project of Zhejiang
+FX  - The work is supported by Natural Science Foundation of China (No. 61472112), Natural Science Foundation of Zhejiang Province (No. LQ20F020017) and the Key Research and Development Program Project of Zhejiang (No. 2020C01165, No. 2021C01031).
+PU  - SPRINGER
+PI  - DORDRECHT
+PA  - VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN  - 0920-8542
+SN  - 1573-0484
+J9  - J SUPERCOMPUT
+JI  - J. Supercomput.
+DA  - 2023 SEP 22
+PY  - 2023
+DO  - 10.1007/s11227-023-05626-0
+C6  - SEP 2023
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001069965100001
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  44
+ER  -
+
+TY  - CPAPER
+AU  - Awad, A
+AU  - Barnawi, A
+AU  - Elgammal, A
+AU  - Elshawi, R
+AU  - Almalaise, A
+AU  - Sakr, S
+ED  - Shin, D
+TI  - Runtime Detection of Business Process Compliance Violations: An Approach based on Anti Patterns
+T2  - 30TH ANNUAL ACM SYMPOSIUM ON APPLIED COMPUTING, VOLS I AND II
+LA  - English
+CP  - 30th ACM Symposium on Applied Computing (SAC)
+AB  - Today's enterprises demand a high degree of compliance in their business processes to meet diverse regulations and legislations. Several industrial studies have shown that compliance management is a daunting task, and organizations are still struggling and spending billions of dollars annually to ensure and prove their compliance. Theoretically, design-time compliance checking could provide a preliminary assurance that corresponding running instances would be compliant to relevant laws and regulations; however, due to the existence of human and machine related errors and the absence of necessary contextual information during design-time, runtime compliance monitoring becomes a must. In this paper, we present a generic proactive runtime Business Process (BP) compliance monitoring framework: BP-MaaS, which incorporates a wide range of expressive high-level compliance patterns for the abstract specification of runtime constraints. Compliance monitoring is achieved by means of anti-patterns, a novel evaluation approach that is independent of any underlying technology and could be applied to the checking of compliance in the different phases of the BP lifecycle. As a proof-of-concept, complex event processing (CEP) technology is adopted as one of the possible realizations of the framework.
+AD  - Cairo Univ, Giza, Giza Governorat, EgyptAD  - King Abdulaziz Univ, Jeddah, Saudi ArabiaAD  - Princess Nourah Bint Abdulrahman Univ, Riyadh, Saudi ArabiaAD  - King Saud bin Abdulaziz Univ Hlth Sci, Riyadh, Saudi ArabiaC3  - Egyptian Knowledge Bank (EKB)C3  - Cairo UniversityC3  - King Abdulaziz UniversityC3  - Princess Nourah bint Abdulrahman UniversityC3  - King Saud Bin Abdulaziz University for Health SciencesPU  - ASSOC COMPUTING MACHINERY
+PI  - NEW YORK
+PA  - 1515 BROADWAY, NEW YORK, NY 10036-9998 USA
+PY  - 2015
+SP  - 1203
+EP  - 1210
+DO  - 10.1145/2695664.2699488
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000381029800190
+N1  - Times Cited in Web of Science Core Collection:  15
+Total Times Cited:  15
+Cited Reference Count:  27
+ER  -
+
+TY  - CPAPER
+AU  - Alaküla, ML
+AU  - Matulevicius, R
+ED  - Ralyte, J
+ED  - Espana, S
+ED  - Pastor, O
+TI  - An Experience Report of Improving Business Process Compliance Using Security Risk-Oriented Patterns
+T2  - PRACTICE OF ENTERPRISE MODELING, POEM 2015
+LA  - English
+CP  - 8th IFIP WG 8.1 Working Conference on the Practice of Enterprise Modeling (PoEM)
+KW  - Business process models and notations
+KW  - Standards and regulations
+KW  - Security modelling
+KW  - Security patterns
+AB  - Nowadays enterprises are searching the efficient compliance management method. Being compliant could potentially help capturing the most important information, using practice and existing process solutions; thus reducing the management effort and cost. When it comes to the security compliance management, it means treating and reducing the security risks to the acceptable level and employing the validated and cost effective security countermeasures. However, the typical question that small and medium enterprises face, is on how to achieve the security compliance in the efficient way. In this paper we report on our experience to use the security risk-oriented patterns to improve business processes of the insurance brokerage. The analysed case showed the major steps to apply the regulatory standard to check compliance, as well as the major procedures needed to improve the business process compliance. The lessons learnt highlight some method guidelines toward compliance management and suggest needed improvement directions for the application of the security risk-oriented patterns.
+AD  - INSLY OU, Tallinn, EstoniaAD  - Univ Tartu, Inst Comp Sci, Ulikooli 18, EE-50090 Tartu, EstoniaC3  - University of TartuPU  - SPRINGER-VERLAG BERLIN
+PI  - BERLIN
+PA  - HEIDELBERGER PLATZ 3, D-14197 BERLIN, GERMANY
+SN  - 1865-1348
+SN  - 978-3-319-25897-3
+SN  - 978-3-319-25896-6
+J9  - LECT NOTES BUS INF P
+PY  - 2015
+VL  - 235
+SP  - 271
+EP  - 285
+DO  - 10.1007/978-3-319-25897-3_18
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000369183600018
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  24
+ER  -
+
+TY  - JOUR
+AU  - Corea, C
+AU  - Delfmann, P
+TI  - A Taxonomy of Business Rule Organizing Approaches in Regard to Business Process Compliance
+T2  - ENTERPRISE MODELLING AND INFORMATION SYSTEMS ARCHITECTURES-AN INTERNATIONAL JOURNAL
+LA  - English
+KW  - Business Rule Management
+KW  - Business Process Compliance
+KW  - Business Rule Lifecycle
+AB  - In the scope of Business Process Compliance (BPC), business rules are used as a central means to represent regulatory policies and consequently to (automatically) verify, whether business process models abide by respective rules. While there has been a plethora of works regarding this actual verification of process models relative to business rules, we see a strong lack of works regarding the actual creation and maintenance of business rules. More precisely, many works assume sound sets of business rules as a basis for subsequent techniques. However, recent works suggest this assumption cannot be made in practice, and companies actually need to be supported in the scope of managing and organizing business rules, e. g. to remove redundant or contradictory rules. Otherwise, errors in business rules make these rule bases unusable and impede a subsequent verification of process compliance. Yet, the understanding on business rule organization is sparse - especially its relation to BPC. To address this issue on a conceptual level, we develop a taxonomy for business rule organizing approaches. Furthermore, we identify rule organizing approaches from literature based on a systematic literature review and classify these works in the scope of the developed taxonomy. Based on the identified literature, we also identify research gaps and propose a corresponding research agenda.
+AD  - Univ Koblenz Landau, Mainz, GermanyC3  - University of Koblenz & LandauFU  - German Research Association [DE1983/9-1]
+FX  - This research is part of the research project "Handling Inconsistencies in Business Process Modeling", which is funded by the German Research Association (reference number: DE1983/9-1).
+PU  - GERMAN INFORMATICS SOC-GI
+PI  - HAGEN
+PA  - UNIVERSITAETSSTR 41, HAGEN, 58097, GERMANY
+SN  - 1866-3621
+J9  - ENTERP MODELLING INF
+JI  - Enterp. Modelling Info. Syst. Archit.
+PY  - 2020
+VL  - 15
+DO  - 10.18417/emisa.15.4
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000594474800001
+N1  - Times Cited in Web of Science Core Collection:  2
+Total Times Cited:  2
+Cited Reference Count:  69
+ER  -
+
+TY  - JOUR
+AU  - Voglhofer, T
+AU  - Rinderle-Ma, S
+TI  - Collection and Elicitation of Business Process Compliance Patterns with Focus on Data Aspects
+T2  - BUSINESS & INFORMATION SYSTEMS ENGINEERING
+LA  - English
+KW  - Business process compliance
+KW  - Compliance (anti) patterns
+KW  - Data perspective of business processes
+KW  - Regulatory data constraints
+KW  - VERIFICATION
+KW  - CONSTRAINTS
+KW  - VIOLATION
+KW  - VALIDATION
+KW  - MANAGEMENT
+KW  - DESIGN
+KW  - MODELS
+KW  - RULES
+AB  - Business process compliance is one of the prevalent challenges for companies. Despite an abundance of research proposals, companies still struggle with manual compliance checks and the understanding of compliance violations in the light of missing root-cause explanations. Moreover, approaches have merely focused on the control flow perspective in compliance checking, neglecting other aspects such as the data perspective. This paper aims at analyzing the gap between existing academic work and compliance demands from practice with a focus on the data aspects. The latter emerges from a small set of regulatory documents from different domains. Patterns are assumed as the right level of abstraction for compliance specification due to their independence of (technical) implementation in (process-aware) information systems, potential for reuse, and understandability. A systematic literature review collects and assesses existing compliance patterns. A first analysis of ten regulatory documents from different domains specifically reveals data-oriented compliance constraints that are not yet reflected by existing compliance patterns. Accordingly, data-related compliance patterns are specified.
+AD  - Univ Vienna, Fac Comp Sci, Res Grp Workflow Syst & Technol, Vienna, AustriaC3  - University of ViennaPU  - SPRINGER VIEWEG-SPRINGER FACHMEDIEN WIESBADEN GMBH
+PI  - WIESBADEN
+PA  - ABRAHAM-LINCOLN STASSE 46, WIESBADEN, 65189, GERMANY
+SN  - 2363-7005
+SN  - 1867-0202
+J9  - BUS INFORM SYST ENG+
+JI  - Bus. Inf. Syst. Eng.
+DA  - AUG
+PY  - 2020
+VL  - 62
+IS  - 4
+SP  - 361
+EP  - 377
+DO  - 10.1007/s12599-019-00594-3
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000555552800007
+N1  - Times Cited in Web of Science Core Collection:  4
+Total Times Cited:  5
+Cited Reference Count:  76
+ER  -
+
+TY  - JOUR
+AU  - Hashmi, M
+AU  - Governatori, G
+AU  - Lam, HP
+AU  - Wynn, MT
+TI  - Are we done with business process compliance: state of the art and challenges ahead
+T2  - KNOWLEDGE AND INFORMATION SYSTEMS
+LA  - English
+KW  - Business processes
+KW  - Business process compliance
+KW  - Norms compliance
+KW  - Normative requirements
+KW  - Compliance management frameworks
+KW  - COMPLIANCE-CHECKING
+KW  - REGULATORY COMPLIANCE
+KW  - MODEL-CHECKING
+KW  - REQUIREMENTS
+KW  - MANAGEMENT
+KW  - LOGIC
+KW  - SPECIFICATION
+KW  - CONSTRAINTS
+KW  - VALIDATION
+KW  - FRAMEWORK
+AB  - Literature on business process compliance (BPC) has predominantly focused on the alignment of the regulatory rules with the design, verification and validation of business processes. Previously, surveys on BPC have been conducted with specific context in mind; however, the literature on BPC management research is largely sparse and does not accumulate a detailed understanding on existing literature and related issues faced by the domain. This survey provides a holistic view of the literature on existing BPC management approaches and categorises them based on different compliance management strategies in the context of formulated research questions. A systematic literature approach is used where search terms pertaining keywords were used to identify literature related to the research questions from scholarly databases. From initially 183 papers, we selected 79 papers related to the themes of this survey published between 2000 and 2015. The survey results reveal that mostly compliance management approaches centre around three distinct categories, namely design-time (28%), run-time (32%) and auditing (10%). Also, organisational and internal control-based compliance management frameworks (21%) and hybrid approaches make (9%) of the surveyed approaches. Furthermore, open research challenges and gaps are identified and discussed with respect to the compliance problem.
+AD  - CSIRO, Data61, 41 Boggo Rd, Dutton Pk, Qld 4102, AustraliaAD  - Queensland Univ Technol, 2 George St, Brisbane, Qld 4000, AustraliaC3  - Commonwealth Scientific & Industrial Research Organisation (CSIRO)C3  - Queensland University of Technology (QUT)PU  - SPRINGER LONDON LTD
+PI  - LONDON
+PA  - 236 GRAYS INN RD, 6TH FLOOR, LONDON WC1X 8HL, ENGLAND
+SN  - 0219-1377
+SN  - 0219-3116
+J9  - KNOWL INF SYST
+JI  - Knowl. Inf. Syst.
+DA  - OCT
+PY  - 2018
+VL  - 57
+IS  - 1
+SP  - 79
+EP  - 133
+DO  - 10.1007/s10115-017-1142-1
+WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000443710000004
+N1  - Times Cited in Web of Science Core Collection:  52
+Total Times Cited:  54
+Cited Reference Count:  195
+ER  -
+
+TY  - JOUR
+AU  - Delfmann, P
+AU  - Hübers, M
+TI  - Towards Supporting Business Process Compliance Checking with Compliance Pattern Catalogues A Financial Industry Case Study
+T2  - ENTERPRISE MODELLING AND INFORMATION SYSTEMS ARCHITECTURES-AN INTERNATIONAL JOURNAL
+LA  - English
+AB  - Business process compliance checking serves to discover legal or self-regulatory violations in business processes using process models. This way, companies can react to new regulations and avoid violations quickly, hence prevent negative monetary or even legal consequences. In the business process compliance management literature, we find an abundance of approaches supporting business process compliance checking. Although many of these approaches show promise to support business process compliance checking by providing model checking-like methodologies, hardly any of them provide a common list of relevant compliance rules or violations that should be checked for. With this paper, we aim at making a step towards comprehensive catalogues of compliance rules that can be used as input for business process compliance checking approaches. In particular, we analyse two legal documents providing a set of compliance rules for service processes in financial industries. We derive compliance patterns from them and apply them to a large business process model coming from a German IT service provider for banks, using a graph pattern-based compliance checking approach. As a result, we show that deriving business process compliance rules from legal texts leads to meaningful patterns matching several subsections of common process models of financial services. Hence, we can expect catalogues of such patterns to be promising for supporting business process analysts in compliance checking.
+AD  - Univ Munster, Dept Informat Syst, Leonardo Campus 3, D-48149 Munster, GermanyC3  - University of MunsterFU  - German Research Association [DE1983/1-1]
+FX  - This article was partly developed in the course of the research project "Business Process Compliance Management in the Financial Sector", which was funded by the German Research Association from September 2012 to August 2014 (reference number: DE1983/1-1).
+PU  - GERMAN INFORMATICS SOC-GI
+PI  - HAGEN
+PA  - UNIVERSITAETSSTR 41, HAGEN, 58097, GERMANY
+SN  - 1866-3621
+J9  - ENTERP MODELLING INF
+JI  - Enterp. Modelling Info. Syst. Archit.
+DA  - DEC
+PY  - 2015
+VL  - 10
+IS  - 1
+SP  - 67
+EP  - 88
+WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000420117000006
+N1  - Times Cited in Web of Science Core Collection:  5
+Total Times Cited:  5
+Cited Reference Count:  67
+ER  -
+
+TY  - CPAPER
+AU  - Mustapha, AM
+AU  - Arogundade, OT
+AU  - Vincent, OR
+AU  - Adeniran, OJ
+AU  - Chen, XH
+ED  - Misra, S
+ED  - Matthews, VO
+ED  - Adewumi, A
+TI  - A Model-based Business Process Compliance Management Architecture for SMSE towards Effective Adoption of Cloud Computing
+T2  - PROCEEDINGS OF THE IEEE INTERNATIONAL CONFERENCE ON COMPUTING NETWORKING AND INFORMATICS (ICCNI 2017)
+LA  - English
+CP  - International Conference on Computing Networking and Informatics (ICCNI)
+KW  - Business Process
+KW  - Cloud Computing
+KW  - Compliance
+KW  - Regulatory sources
+KW  - Small and Medium Scale Enterprises
+AB  - Despite the great benefits of cloud computing on businesses, some organizations have had to withdraw from its service due to incomplete compliance to conditions from standards, bodies, or Service Level Agreements which have led to their being penalized. A structured and efficient model is helpful to aid small and medium scale enterprises (SMSEs) utilize cloud services safely and ascertain their fitting into necessary requirements before adoption. In this paper, a compliance management architecture is proposed to efficiently aid SMSE efficiently validate and examine at the time of design and running their business process. The verification of the model will be done using SPIN model checker based on linear temporal logic rules. The network analysis approach is proposed for monitoring the models at run time. The presented approach will allow for effective coordination of SMSE business adherence to any domain regulatory requirements. It will also allow for update with new requirements.
+AD  - Fed Univ Agr, Dept Comp Sci, Abeokuta, Ogun State, NigeriaAD  - Fed Univ Agr, Dept Math, Abeokuta, Ogun State, NigeriaAD  - East China Normal Univ, Shanghai Key Lab Trustworthy Comp, Shanghai 200062, Peoples R ChinaC3  - University of Agriculture, AbeokutaC3  - University of Agriculture, AbeokutaC3  - East China Normal UniversityPU  - IEEE
+PI  - NEW YORK
+PA  - 345 E 47TH ST, NEW YORK, NY 10017 USA
+SN  - 978-1-5090-4642-3
+PY  - 2017
+WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000425864600053
+N1  - Times Cited in Web of Science Core Collection:  0
+Total Times Cited:  0
+Cited Reference Count:  20
+ER  -
+
+TY  - JOUR
+AU  - Becker, J
+AU  - Delfmann, P
+AU  - Dietrich, HA
+AU  - Steinhorst, M
+AU  - Eggert, M
+TI  - Business process compliance checking - applying and evaluating a generic pattern matching approach for conceptual models in the financial sector
+T2  - INFORMATION SYSTEMS FRONTIERS
+LA  - English
+KW  - Conceptual modeling
+KW  - Business process modeling
+KW  - Business process compliance management
+KW  - Model checking
+KW  - Model querying
+KW  - Pattern matching
+KW  - Compliance checking
+KW  - INFORMATION-SYSTEMS RESEARCH
+KW  - SEMANTIC CONSTRAINTS
+KW  - DESIGN SCIENCE
+KW  - MANAGEMENT
+KW  - VERIFICATION
+KW  - TECHNOLOGY
+KW  - ACCEPTANCE
+KW  - FRAMEWORK
+AB  - Given the strong increase in regulatory requirements for business processes the management of business process compliance becomes a more and more regarded field in IS research. Several methods have been developed to support compliance checking of conceptual models. However, their focus on distinct modeling languages and mostly linear (i.e., predecessor-successor related) compliance rules may hinder widespread adoption and application in practice. Furthermore, hardly any of them has been evaluated in a real-world setting. We address this issue by applying a generic pattern matching approach for conceptual models to business process compliance checking in the financial sector. It consists of a model query language, a search algorithm and a corresponding modelling tool prototype. It is (1) applicable for all graph-based conceptual modeling languages and (2) for different kinds of compliance rules. Furthermore, based on an applicability check, we (3) evaluate the approach in a financial industry project setting against its relevance for decision support of audit and compliance management tasks.
+AD  - Univ Munster, European Res Ctr Informat Syst, Leonardo Campus 3, D-48149 Munster, GermanyC3  - University of MunsterPU  - SPRINGER
+PI  - DORDRECHT
+PA  - VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN  - 1387-3326
+SN  - 1572-9419
+J9  - INFORM SYST FRONT
+JI  - Inf. Syst. Front.
+DA  - APR
+PY  - 2016
+VL  - 18
+IS  - 2
+SP  - 359
+EP  - 405
+DO  - 10.1007/s10796-014-9529-y
+WE  - Science Citation Index Expanded (SCI-EXPANDED)WE  - Social Science Citation Index (SSCI)AN  - WOS:000373168100010
+N1  - Times Cited in Web of Science Core Collection:  23
+Total Times Cited:  24
+Cited Reference Count:  86
+ER  -
+

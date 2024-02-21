@@ -80,8 +80,27 @@ SQ-4: How can businesses ensure compliance throughout the lifecycle of the impac
 - "regulatory risk management"
 - "managing regulatory compliance in business processes"
 
+## Search query Web of Science
+
+The search query is composed of four individual queries. The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
+
+1. (TI=("business process management" or BPM) AND (AB=("compliance") OR KP=("compliance"))) OR 
+2. (TI=("business process management" or BPM) AND (AB=("regulat*") OR KP=("regulat*"))) OR 
+3. (TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))) OR 
+4. (TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat*)))
+
+this query yields xx results on the Vlerick WoS subscription (core ...) which is limited to 10 years back.
+
+## Search query Science Direct
+
+
+
 
 ## Resources to be searched
+
+Use table format ref. excel
+
+Date | Search ID | Title | Keywords | Abstract | Query Link | Hits |
 
 - Web of Science [Clarivate](https://www-webofscience-com)
 - ScienceDirect [Elsevier](https://www-sciencedirect-com)
@@ -89,6 +108,8 @@ SQ-4: How can businesses ensure compliance throughout the lifecycle of the impac
 - SSNR [Elsevier](https://www.ssrn.com/)
 - arXiv > [cs](https://arxiv.org/search/cs)
 - dblp, computer science bibliography [dblp](https://dblp.org/)
+- add Zenodo
+
 
 ## Study selection criteria
 
@@ -102,7 +123,7 @@ To be completed.
 
 ## Data extraction strategy
 
-To be completed.
+Queries have been formulated for each datasource. Where queries could be specified at a field level (WoS and SD) we looked for "business process management" in the title field.
 
 ## Synthesis of extracted data
 

@@ -1,9 +1,9 @@
 ---
 title: "SIA Database"
-subtitle: "Tax & Technology Onderzoeksvoorstel"
-date: "20-12-2023"
+subtitle: "Literature Review"
+date: "13-02-2024"
 date-format: "D/MM/YYYY"
-date-meta: 10-12-2023
+date-meta: 13-02-2024
 author-meta: J.R. Muller
 author:
   - name:
@@ -38,7 +38,6 @@ from lib.my_custom_lib import xls2md
 projecten, sinds 2014 (@tbl-databases). 
 
 \fontsize{8}{9}\selectfont
-
 
 ```{python}
 excel_dir  = 'tables/'

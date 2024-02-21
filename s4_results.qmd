@@ -60,3 +60,10 @@ bibliography: {{< meta bibliography >}}
 
 
 For Celonis Labs processes extending beyond the enterprise is a core area of research.
+
+Link to web of science query (in a table?)
+https://www.webofscience.com/wos/woscc/summary/8077599e-8549-4736-8192-258f6a3e3a41-cc84b154/relevance/1
+
+Title, Abstract, Keywords, Hits
+
+"business proces management" and "regulatory compliance" or 
