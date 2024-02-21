@@ -1,11 +1,14 @@
 # 21-02-2024 JRM .gitignore
 
 /.quarto/
+.gitignore
 .DS_Store
 .vscode/
 .quarto/
 output/
 *.pdf
+*.bib
+
 
 # Python .gitignore
 
