@@ -1,6 +1,9 @@
 # 21-02-2024 JRM .gitignore
 
 /.quarto/
+.DS_Store
+.vscode/
+.quarto/
 
 # Python .gitignore
 
