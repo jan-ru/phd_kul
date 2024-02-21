@@ -1,6 +1,0 @@
-y---
-title: "Part1"
-format: html
----
-
-Part 1
