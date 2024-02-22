@@ -12,12 +12,10 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
     - part: part1.qmd
       chapters:
         - s0_research_questions.qmd
         - s1_articles.qmd
-        - s2_slr.qmd
         - s3_methods.qmd
         - s4_results.qmd
     - references.qmd
