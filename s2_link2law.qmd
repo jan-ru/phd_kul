@@ -1,4 +1,7 @@
 ---
+project:
+  type: default
+  output-dir: output
 title: ""
 subtitle: "Agile Law Making (Thesis)"
 date: "11-01-2023"
@@ -24,6 +27,7 @@ format:
     include-in-header: 
       text:
         \usepackage{imakeidx, bibentry}
+latex-output-dir: "output"
 toc: false
 toc-depth: 2
 bibliography: MyLibrary.bib
@@ -38,7 +42,7 @@ The thesis by Mariette Lokin was published in 2018 (in Dutch) by the Vrije Unive
 
 RQ: To what extent and in what way can digital execution of legislation by national government agencies be taken into account in the legislative process?
 
-Five supporting research questions listed in the attachment.
+Five supporting research questions are listed in the attachment.
 
 ## Theories/concepts mentioned in the intro
 
@@ -50,11 +54,11 @@ Paragraph 1.6 describes the law making process. Specifically the question if in 
 
 Five cases are described at two government agencies. Additionally, one cross-domain application is described.:
 
-- case 1 & 2, Tax Office (Ministry of Finance), 2.4.2
+- case 1 & 2, Tax Office (Ministry of Finance) > 2.4.2
 
-- case 3 & 4, IND (Ministry of Justice) 2.4.3
+- case 3 & 4, IND (Ministry of Justice) > 2.4.3
 
-- case 5, Standard Business Reporting (cross-domain application) 2.4.4
+- case 5, Standard Business Reporting (cross-domain application) > 2.4.4
 
 ## Conclusion
 
@@ -62,7 +66,7 @@ The conclusion is that there are realistic possibilities for lawmakers to take i
 
 - A language model aids with precise formulation and creation of specifications for digital execution.
 
-- A legalvocabulary (CNL) provides for insight into the diversity of terminology and allows for analysis to reduce diversity.
+- A legal vocabulary (CNL) provides for insight into the diversity of terminology and allows for analysis to reduce diversity.
 
 - The application of linked data provides for insight into the 'web' of laws and related documents for insight into applicable rules and meaning.
 
@@ -99,3 +103,9 @@ OV3 : Kan met toepassing van linked data bij de redactie van wetgeving het inzic
 OV4 : Welke ondersteuning is nodig in het juridische wetgevingsproces om het taalmodel, het wetgevingsvocabulaire en linked data te kunnen toepassen?
 
 OV5 : Welke veranderingen zijn nodig in het bestuurlijk-politieke wetgevingsproces om een multidisciplinaire samenwerking te realiseren in de fase van ambtelijke voorbereiding van wetgeving, en om de technologische rationaliteit een eigen plaats te geven in de fase van parlementaire behandeling van wetgeving?
+
+## Other publications (co)authored by Mariette Lokin
+
+The first publication of Mariette in my Zotero library is from 2015: @vanhoutumEenKapstokVoor2015. On the subject of the thesis there has also been a publiction in english (@lokinAgileLawMaking2020). The controled natural language (CNL) is called RegelSpraak. Is is described in: @corsiusRegelSpraakCNLExecutable2021, from the same year is: @ausemsWetsanalyseVoorEen2021
+
+## References

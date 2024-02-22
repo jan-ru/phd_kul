@@ -1,608 +1,0 @@
-﻿TY  - JOUR
-AU  - Viriyasitavat, W
-AU  - Xu, LD
-AU  - Bi, ZM
-AU  - Sapsomboon, A
-TI  - Blockchain-based business process management (BPM) framework for service composition in industry 4.0
-T2  - JOURNAL OF INTELLIGENT MANUFACTURING
-LA  - English
-KW  - Industry 4
-KW  - 0
-KW  - Business process management (BPM)
-KW  - Block-chain technology (BCT)
-KW  - Internet of things (IoT)
-KW  - Trustworthiness
-KW  - Service selection and composition
-KW  - Smart contracts
-KW  - Quality of Services (QoS)
-KW  - WEB-SERVICES
-KW  - COMPLIANCE CHECKING
-KW  - WORKFLOW
-KW  - COORDINATION
-KW  - SELECTION
-KW  - ONTOLOGY
-AB  - Business process management (BPM) aims to optimize business processes to achieve better system performance such as higher profit, quicker response, and better services. BPM systems in Industry 4.0 are required to digitize and automate business process workflows and support the transparent interoperations of service vendors. The critical bottleneck to advance BPM systems is the evaluation, verification, and transformation of trustworthiness and digitized assets. Most of BPM systems rely heavily on domain experts or third parties to deal with trustworthiness. In this paper, an automated BPM solution is investigated to select and compose services in open business environment, Blockchain technology (BCT) is explored and proposed to transfer and verify the trustiness of businesses and partners, and a BPM framework is developed to illustrate how BCT can be integrated to support prompt, reliable, and cost-effective evaluation and transferring of Quality of Services in the workflow composition and management.
-AD  - Chulalongkorn Univ, Fac Commerce & Accountancy, Dept Stat, Bangkok, ThailandAD  - Old Dominion Univ, Dept Informat Technol & Decis Sci, Norfolk, VA 23529 USAAD  - Purdue Univ, Dept Civil & Mech Engn, Ft Wayne, IN 46805 USAC3  - Chulalongkorn UniversityC3  - Old Dominion UniversityPU  - SPRINGER
-PI  - DORDRECHT
-PA  - VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
-SN  - 0956-5515
-SN  - 1572-8145
-J9  - J INTELL MANUF
-JI  - J. Intell. Manuf.
-DA  - OCT
-PY  - 2020
-VL  - 31
-IS  - 7
-SP  - 1737
-EP  - 1748
-DO  - 10.1007/s10845-018-1422-y
-WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000563132100011
-N1  - Times Cited in Web of Science Core Collection:  168
-Total Times Cited:  175
-Cited Reference Count:  68
-ER  -
-
-TY  - CPAPER
-AU  - Ciovica, L
-AU  - Zota, RD
-AU  - Constantinescu, AM
-ED  - Boja, C
-ED  - Doinea, M
-ED  - Ciurea, C
-ED  - Pocatilu, P
-ED  - Batagan, L
-ED  - Ion, A
-ED  - Diaconita, V
-ED  - Andreica, M
-ED  - Delcea, C
-ED  - Zamfiroiu, A
-ED  - Zurini, M
-ED  - Popescu, O
-TI  - BUSINESS PROCESS MANAGEMENT DRIVEN BY DATA GOVERNANCE
-T2  - PROCEEDINGS OF THE 14TH INTERNATIONAL CONFERENCE ON INFORMATICS IN ECONOMY (IE 2015): EDUCATION, RESEARCH & BUSINESS TECHNOLOGIES
-LA  - English
-CP  - 14th International Conference on Informatics in Economy (IE 2015)
-KW  - business process
-KW  - data governance
-KW  - data quality
-KW  - data stewardship
-KW  - information life - cycle
-AB  - As organizations begin to exploit the value of data for strategy and operations, it is recognized the role of data governance in helping the business to realize the potential value in data. Data governance provides the capabilities that support the administrative tasks and processes of data stewardship. It supports the creation of data policies, manage workflows, and provide monitoring and measurements of policy compliance and data use. Data governance workbenches and functionality in tools such as master data management (MDM), data quality, and metadata management are now better equipped to link to data policies (i.e., consistency, correctness, completeness, relevancy etc.). This gives to the business data stewards a better operational control to validate and manage data compliance with data policies. In this way, we may have a single solution to govern data across the five areas of data governance data quality, MDM, metadata management, security, and information life-cycle management-and, more important, the ability to tie data compliance to quantifiable business impact. A better and a more consistent approach to Business Process Management is done through a proper governance and understanding of data.
-AD  - Lucian Blaga Univ Sibiu, Sibiu, RomaniaC3  - Lucian Blaga University of SibiuPU  - BUCHAREST UNIV ECONOMIC STUDIES-ASE
-PI  - BUCHAREST
-PA  - 6, PIATA ROMA, 1ST DISTRICT, POSTAL OFFICE 22, BUCHAREST, 010374, ROMANIA
-SN  - 2284-7472
-J9  - INT CONF INFORM ECON
-PY  - 2015
-SP  - 335
-EP  - 340
-WE  - Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)AN  - WOS:000362796900054
-N1  - Times Cited in Web of Science Core Collection:  1
-Total Times Cited:  1
-Cited Reference Count:  3
-ER  -
-
-TY  - CPAPER
-AU  - Varela-Vaca, AJ
-AU  - Gómez-López, MT
-AU  - Vargas, DJ
-AU  - Gasca, RM
-AU  - Fábrega, AJS
-AU  - Herrera, PJA
-ED  - Soliman, KS
-TI  - An Open-Source Proactive Security Infrastructure For Business Process Management
-T2  - INNOVATION MANAGEMENT AND SUSTAINABLE ECONOMIC COMPETITIVE ADVANTAGE: FROM REGIONAL DEVELOPMENT TO GLOBAL GROWTH, VOLS I - VI, 2015
-LA  - English
-CP  - 26th International-Business-Information-Management-Association Conference
-KW  - Business Process Management
-KW  - Monitoring
-KW  - Security
-KW  - Log Management
-AB  - Business Process Management Systems (BPMS) have emerged in the IT arena as cornerstone in the automation and orchestration of complex services for organizations. These systems manage critical information that is crucial for the organizations. The potential cost and consequences of security threats could produce information loss for the reputation of organizations. Therefore, the early response regarding to the non-compliance of security requirement is a real necessity overall during the business process execution. Currently, an active response requires a human intervention with high know-how and expertise in both business process management and security. In this paper, we propose an initial work which presents an open-source proactive infrastructure for the automatic continuous monitoring and checking compliance of security requirements at runtime of business processes.
-AD  - Univ Seville, Dept Comp Languages & Syst, Seville, SpainAD  - Univ Huelva, Dept Elect Engn Comp Syst & Automat, Huelva, SpainC3  - University of SevillaC3  - Universidad de HuelvaPU  - INT BUSINESS INFORMATION MANAGEMENT ASSOC-IBIMA
-PI  - NORRISTOWN
-PA  - 34 E GERMANTOWN PIKE, NO. 327, NORRISTOWN, PA 19401 USA
-SN  - 978-0-9860419-5-2
-PY  - 2015
-SP  - 1671
-EP  - 1678
-WE  - Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)AN  - WOS:000366872700170
-N1  - Times Cited in Web of Science Core Collection:  0
-Total Times Cited:  0
-Cited Reference Count:  10
-ER  -
-
-TY  - CPAPER
-AU  - Schwarzbach, B
-AU  - Franczyk, B
-AU  - Petrich, L
-AU  - Schier, A
-AU  - ten Hompel, M
-A1  - IEEE
-TI  - Cloud Based Privacy Preserving Collaborative Business Process Management
-T2  - 2016 IEEE INTERNATIONAL CONFERENCE ON COMPUTER AND INFORMATION TECHNOLOGY (CIT)
-LA  - English
-CP  - IEEE International Conference on Computer and Information Technology (CIT)
-KW  - ACCESS-CONTROL MODEL
-KW  - INFORMATION ACCESS
-AB  - Through the outstanding efficiency and the general success of cloud computing, cloud-innovations have become an everyday part of the industry. Almost every company has defined business processes to organize its business. The next logical step is to bring business processes to the cloud to exploit the benefits of the cloud and to enable the companies to collaborate with each other in one business process. Such collaborations demand for outstanding privacy and security that has to be provable easily at every time. Every company needs to be able to define its own privacy policies and wants to be able to monitor the compliance with these policies. In this paper we present an approach for privacy preserving cloud based collaborative business process management including an architecture and a privacy modelling approach. We evaluate the architecture and the presented privacy modelling approach by a use-case from the logistics domain and show their feasibility.
-AD  - Univ Leipzig, Fac Econ & Management, Informat Syst Inst, Grimmaische Str 12, D-04109 Leipzig, GermanyAD  - Fraunhofer Inst Mat Flow & Logist IML, Joseph von Fraunhofer Str 2-4, D-44227 Dortmund, GermanyC3  - Leipzig UniversityC3  - Fraunhofer GesellschaftFU  - German Federal Ministry of Education and Research [BMBF 16KIS0082K, BMBF 03IPT504X]
-FX  - The work presented in this paper was funded by the German Federal Ministry of Education and Research under the projects PREsTiGE (BMBF 16KIS0082K) and LSEM (BMBF 03IPT504X).
-PU  - IEEE
-PI  - NEW YORK
-PA  - 345 E 47TH ST, NEW YORK, NY 10017 USA
-SN  - 978-1-5090-4314-9
-PY  - 2016
-SP  - 716
-EP  - 723
-DO  - 10.1109/CIT.2016.59
-WE  - Conference Proceedings Citation Index - Science (CPCI-S)WE  - Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)AN  - WOS:000411239100104
-N1  - Times Cited in Web of Science Core Collection:  2
-Total Times Cited:  2
-Cited Reference Count:  19
-ER  -
-
-TY  - JOUR
-AU  - Kir, H
-AU  - Erdogan, N
-TI  - A knowledge-intensive adaptive business process management framework
-T2  - INFORMATION SYSTEMS
-LA  - English
-KW  - Business process management
-KW  - Knowledge-intensive processes
-KW  - Process modeling and execution
-KW  - Process adaptation
-KW  - Agent-based business process management
-KW  - Agile business process management
-KW  - PROCESS MODELS
-KW  - WEB SERVICES
-KW  - REQUIREMENTS
-KW  - QUALITY
-KW  - METRICS
-AB  - Business process management has been the driving force of optimization and operational efficiency for companies until now, but the digitalization era we have been experiencing requires businesses to be agile and responsive as well. In order to be a part of this digital transformation, delivering new levels of automation-fueled agility through digitalization of BPM itself is required. However, the automation of BPM cannot be achieved by solely focusing on process space and classical planning techniques. It requires a holistic approach that also captures the social aspects of the business environment, such as corporate strategies, organization policies, negotiations, and cooperation. For this purpose, we combine BPM, knowledge-intensive systems and intelligent agent technologies, and yield one consolidated intelligent business process management framework, namely agileBPM, that governs the entire BPM life-cycle. Accordingly, agileBPM proposes a modeling methodology to semantically capture the business interests, enterprise environment and process space in accordance with the agent-oriented software engineering paradigm. The proposed agent-based process execution environment provides cognitive capabilities (such as goal-driven planning, norm compliance, knowledge-driven actions, and dynamic cooperation) on top of the developed business models to support knowledge workers' multicriteria decision making tasks. The context awareness and exception handling capabilities of the proposed approach have been presented with experimental studies. Through comparative evaluations, it is shown that agileBPM is the most comprehensive knowledge-intensive process management solution. (C) 2020 Published by Elsevier Ltd.
-AD  - Istanbul Tech Univ, Comp & Informat Fac, Comp Engn Dept, Istanbul, TurkeyC3  - Istanbul Technical UniversityPU  - PERGAMON-ELSEVIER SCIENCE LTD
-PI  - OXFORD
-PA  - THE BOULEVARD, LANGFORD LANE, KIDLINGTON, OXFORD OX5 1GB, ENGLAND
-SN  - 0306-4379
-SN  - 1873-6076
-J9  - INFORM SYST
-JI  - Inf. Syst.
-DA  - JAN
-PY  - 2021
-VL  - 95
-C7  - 101639
-DO  - 10.1016/j.is.2020.101639
-WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000581494100013
-N1  - Times Cited in Web of Science Core Collection:  17
-Total Times Cited:  20
-Cited Reference Count:  75
-ER  -
-
-TY  - CPAPER
-AU  - Kim, GW
-AU  - Park, KW
-AU  - Hong, HK
-AU  - Lee, DH
-A1  - IEEE
-TI  - Process model verifier for integrated medical healthcare systems using business process management system
-T2  - 18TH IEEE INTERNATIONAL SYMPOSIUM ON CONSUMER ELECTRONICS (ISCE 2014)
-LA  - English
-CP  - 18th IEEE International Symposium on Consumer Electronics (ISCE)
-KW  - Business Process
-KW  - Process Verification
-KW  - Medical Healthcare Systems
-AB  - The integration of disparate medical healthcare systems such as hospital information system (HIS), radiology information system (RIS), and picture achieving and communication system (PACS) with the business process management system (BPMS) have garnered a considerable amount of attention for amalgamation with systems in external medical institutions. However, no effective process verification method exists in BPMS for medical healthcare systems, although considerable efforts have been expended on verification techniques in BPM research fields. In this paper, we propose a process model verifier that covers control-flow, data-flow, and business compliance rules for integrating medical healthcare systems using BPMS.
-AD  - Hanyang Univ, Dept Comp Sci & Engn, Seoul, South KoreaC3  - Hanyang UniversityPU  - IEEE
-PI  - NEW YORK
-PA  - 345 E 47TH ST, NEW YORK, NY 10017 USA
-SN  - 2158-3994
-J9  - I SYMP CONSUM ELECTR
-PY  - 2014
-WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000361020200020
-N1  - Times Cited in Web of Science Core Collection:  0
-Total Times Cited:  0
-Cited Reference Count:  3
-ER  -
-
-TY  - CPAPER
-AU  - Kirchmer, M
-ED  - Shishkov, B
-TI  - Agile Innovation Through Business Process Management: Realizing the Potential of Digital Transformation
-T2  - BUSINESS MODELING AND SOFTWARE DESIGN, BMSD 2022
-LA  - English
-CP  - 12th International Symposium on Business Modeling and Software Design (BMSD)
-KW  - BPM
-KW  - Business process management
-KW  - Design thinking
-KW  - Digitalization
-KW  - Digital transformation
-KW  - Innovation
-KW  - Innovation process
-KW  - Process design
-KW  - Process innovation
-KW  - Process of process management
-AB  - Companies must apply their innovation capabilities in an agile way to achieve an immediate impact while preparing for disruptive improvements. This is especially important for digital transformations which deliver their value through the resulting business processes. Business process management (BPM) as a management discipline helps to address these needs. Correctly set up, the BPM Discipline delivers more than just efficiencies, quality, or compliance. It establishes an agile and focused innovation capability within an organization. Process management delivers process innovation in the form of new or enhanced business processes, organizes the way organizations address innovation, and helps manage the innovation process. This paper examines the relationship between process management and innovation. It shows how the discipline of BPM becomes a major enabler of agile innovation that delivers the full potential of digital transformation initiatives.
-AD  - Univ Penn, BPM D, Affiliated Fac, Philadelphia, PA 19104 USAAD  - Univ Penn, Org Dynam, Philadelphia, PA 19104 USAC3  - University of PennsylvaniaC3  - University of PennsylvaniaPU  - SPRINGER INTERNATIONAL PUBLISHING AG
-PI  - CHAM
-PA  - GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
-SN  - 1865-1348
-SN  - 1865-1356
-SN  - 978-3-031-11510-3
-SN  - 978-3-031-11509-7
-J9  - LECT NOTES BUS INF P
-PY  - 2022
-VL  - 453
-SP  - 21
-EP  - 34
-DO  - 10.1007/978-3-031-11510-3_2
-WE  - Conference Proceedings Citation Index - Science (CPCI-S)WE  - Conference Proceedings Citation Index - Social Science &amp; Humanities (CPCI-SSH)AN  - WOS:000874734500002
-N1  - Times Cited in Web of Science Core Collection:  0
-Total Times Cited:  0
-Cited Reference Count:  23
-ER  -
-
-TY  - JOUR
-AU  - Viriyasitavat, W
-AU  - Da Xu, L
-AU  - Dhiman, G
-AU  - Bi, ZM
-TI  - Blockchain-as-a-Service for Business Process Management: Survey and Challenges
-T2  - IEEE TRANSACTIONS ON SERVICES COMPUTING
-LA  - English
-KW  - Business
-KW  - Collaboration
-KW  - Adaptation models
-KW  - Systematics
-KW  - Bibliographies
-KW  - Standards organizations
-KW  - Regulation
-KW  - Blockchain technology (BCT)
-KW  - blockchain-as-a-service (BCaaS)
-KW  - Index Terms
-KW  - business process compliance (BPC)
-KW  - business process management (BPM)
-KW  - business processes
-KW  - smart contract
-KW  - systematic literature review (SLR)
-KW  - SPECIFICATION LANGUAGE
-KW  - SUPPLY CHAIN
-KW  - INTERNET
-KW  - THINGS
-KW  - TECHNOLOGY
-KW  - SYSTEMS
-KW  - BPM
-KW  - EXECUTION
-KW  - STANDARDS
-KW  - FRAMEWORK
-AB  - Blockchain technology (BCT) has brought a paradigm shift to Business Process Management (BPM). BCT provides a trusted decentralized infrastructure to secure data and process executions using distributed ledgers and smart contract to manage complex business processes. Numerous efforts have been made to exploit BCT in supporting dynamic and trusted collaborations of business processes. This paper aims to understand recent BCT development for its BPM applications and identify the limitations and challenges for further development via a systematic literature review (SLR). It is found that numerous works have reported using BCT as technical solutions to fulfill some traditional BPM functions. This paper is distinguished from existing works, especially several relevant surveys in the sense that (1) the impact of using BCT in BPM is thoroughly explored to identify new constraints and challenges explicitly brought by blockchains; (2) the requirements for Business Process Compliance (BPC) are firstly analyzed in detail. Note that BPC is to assure the adherence of business processes to pre-defined policies, standards, specifications, regulations, and laws when business processes are executed. To fill the gaps of BCT applications in these two aspects, Blockchain-as-a-Service (BCaaS) is adopted in business process architecture, and the trends of BCT developments are identified accordingly.
-AD  - Chulalongkorn Univ, Stat, Bangkok 10330, ThailandAD  - Old Dominion Univ, Informat Technolgy & Decis Sci, Norfolk, VA 23529 USAAD  - Thapar Univ, Comp Sci & Engn, Patiala 147004, Punjab, IndiaAD  - Indiana Univ Purdue Univ, Dept Civil & Mech Engn, Ft Wayne, IN 46805 USAC3  - Chulalongkorn UniversityC3  - Old Dominion UniversityC3  - Thapar Institute of Engineering & TechnologyC3  - Purdue University SystemC3  - Indiana University Purdue University Fort WaynePU  - IEEE COMPUTER SOC
-PI  - LOS ALAMITOS
-PA  - 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1314 USA
-SN  - 1939-1374
-J9  - IEEE T SERV COMPUT
-JI  - IEEE Trans. Serv. Comput.
-DA  - MAY-JUN
-PY  - 2023
-VL  - 16
-IS  - 3
-SP  - 2299
-EP  - 2314
-DO  - 10.1109/TSC.2022.3199232
-WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:001012875100057
-N1  - Times Cited in Web of Science Core Collection:  1
-Total Times Cited:  1
-Cited Reference Count:  120
-ER  -
-
-TY  - CPAPER
-AU  - Küster, J
-AU  - Meyer, N
-AU  - Völzer, H
-AU  - Dubovitskaya, M
-AU  - Osborne, M
-AU  - Tanner, A
-A1  - IEEE
-TI  - Managing Security Objects and -Processes Using an Extended BPM Approach and -System
-T2  - 2019 IEEE 23RD INTERNATIONAL ENTERPRISE DISTRIBUTED OBJECT COMPUTING CONFERENCE (EDOC)
-LA  - English
-CP  - IEEE 23rd International Enterprise Distributed Object Computing Workshop (EDOCW)
-AB  - One important use case for (business) process technology is process compliance. We propose that managing security objects such as cryptographic keys is an application domain that can greatly benefit from using process technology because of a critical compliance requirement. To this end, we present a BPMN extension and a design of a support system for key management processes. Both were driven by a case study on a distributed application using a standard hierarchical public key infrastructure, which we also present. Our prototypical implementation of the support system shows that process compliance for security object management processes can be substantially supported with moderate effort by extending the standard process technology.
-AD  - Fachhsch Bielefeld, Bielefeld, GermanyAD  - ABB, Zurich, SwitzerlandAD  - IBM Res Zurich, Zurich, SwitzerlandAD  - DFINITY, Zurich, SwitzerlandC3  - Bielefeld University of Applied SciencesC3  - International Business Machines (IBM)PU  - IEEE
-PI  - NEW YORK
-PA  - 345 E 47TH ST, NEW YORK, NY 10017 USA
-SN  - 2325-6354
-SN  - 978-1-7281-2702-6
-J9  - IEEE INT ENTERP DIST
-PY  - 2019
-SP  - 197
-EP  - 205
-DO  - 10.1109/EDOC.2019.00032
-WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000525852000021
-N1  - Times Cited in Web of Science Core Collection:  0
-Total Times Cited:  0
-Cited Reference Count:  18
-ER  -
-
-TY  - JOUR
-AU  - Paiano, R
-AU  - Caione, A
-AU  - Guido, AL
-AU  - Martella, A
-AU  - Pandurino, A
-TI  - Business Process Management - A Traditional Approach versus a Knowledge Based Approach
-T2  - BRAIN-BROAD RESEARCH IN ARTIFICIAL INTELLIGENCE AND NEUROSCIENCE
-LA  - English
-KW  - Business Process Management
-KW  - Compliance
-KW  - Knowledge Base
-KW  - User Experience
-KW  - Business - IS Alignment
-AB  - The enterprise management represents a heterogeneous aggregate of both resources and assets that need to be coordinated and orchestrated in order to reach the goals related to the business mission. Influences and forces that may influence this process, and also for that they should be considered, are not concentrated in the business environment, but they are related to the entire operational context of a company. For this reason, business processes must be the most versatile and flexible with respect to the changes that occur within the whole operational context of a company.
-   Considering the supportive role that information systems play in favour of Business Process Management - BPM, it is also essential to implement a constant, continuous and quick mechanism for the information system alignment with respect to the evolution followed by business processes. In particular, such mechanism must intervene on BPM systems in order to keep them aligned and compliant with respect to both the context changes and the regulations. In order to facilitate this alignment mechanism, companies are already referring to the support offered by specific solutions, such as knowledge bases.
-   In this context, a possible solution might be the approach we propose, which is based on a specific framework called Process Management System. Our methodology implements a knowledge base support for business experts, which is not limited to the BPM operating phases, but includes also the engineering and prototyping activities of the corresponding information system.
-   This paper aims to compare and evaluate a traditional BPM approach with respect to the approach we propose. In effect, such analysis aims to emphasize the lack of traditional methodology especially with respect to the alignment between business processes and information systems, along with their compliance with context domain and regulations.
-AD  - Univ Salento, Dept Engn Innovat, I-73100 Lecce, ItalyC3  - University of SalentoPU  - EDUSOFT PUBLISHING
-PI  - BACAU
-PA  - 9 MAI STR 82, BACAU, 600065, ROMANIA
-SN  - 2067-3957
-J9  - BRAIN-BROAD RES ARTI
-JI  - BRAIN-Broad Res. Artif. Intellect. Neurosci.
-DA  - SEP
-PY  - 2015
-VL  - 6
-IS  - 1-2
-SP  - 54
-EP  - 69
-WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000372466800006
-N1  - Times Cited in Web of Science Core Collection:  1
-Total Times Cited:  2
-Cited Reference Count:  30
-ER  -
-
-TY  - JOUR
-AU  - Bernardo , RB
-AU  - de Padua, SID
-TI  - Toward agile Business Process Management: Description of concepts and a proposed definition
-T2  - KNOWLEDGE AND PROCESS MANAGEMENT
-LA  - English
-KW  - CRITICAL SUCCESS FACTORS
-KW  - OPERATIONS STRATEGY
-KW  - BPM GOVERNANCE
-KW  - KNOWLEDGE
-KW  - SYSTEMS
-KW  - IMPLEMENTATION
-KW  - CAPABILITIES
-KW  - ORGANIZATION
-KW  - CHALLENGES
-KW  - INTUITION
-AB  - Business Process Management (BPM) needs to be adjusted quickly and flexibly to cope with the dynamics of the business environment, so the demand for the incorporation of agility has reached BPM. To contribute to the theoretical consolidation of Agile BPM, it is necessary to develop a conceptualization for the term, that is, to describe the essential attributes for its understanding. Communicating the meaning of the concept in reduced words occurs through the definition, so the main objective of this study is to develop a scientific definition for Agile BPM. This study was performed in three phases. First, a systematic literature review was conducted to investigate how the scientific literature has addressed Agile BPM. Next, a deductive analysis was performed to conceptualize Agile BPM. In the third phase, a consultation with experts was conducted to refine the conceptual view and critique a tentative definition, preceded by judges' analysis to consolidate the definition. As a result, the concept of Agile BPM was elaborated, and based on the reduction of this conceptualization, a scientific definition was presented which describes that Agile BPM is "the promotion of BPM in which practitioners stimulate change quickly and flexibly in order to meet organizational demands with compliance and provide a better customer experience". There is a pioneering spirit in the present study regarding the deliberate conceptualization of Agile BPM, which provides the basis for discussion of the topic, and helps scientific dissemination through a definition, contributing to the development of a theory of Agile BPM.
-AD  - Univ Sao Paulo, Fac Econ Business & Accountancy Ribeirao Preto, Ribeirao Preto, BrazilAD  - Univ Sao Paulo, Fac Econ Business & Accountancy Ribeirao Preto, Business Adm Dept, Sao Paulo, BrazilC3  - Universidade de Sao PauloC3  - Universidade de Sao PauloPU  - WILEY
-PI  - HOBOKEN
-PA  - 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
-SN  - 1092-4604
-SN  - 1099-1441
-J9  - KNOWL PROCESS MANAG
-JI  - Knowl. Process Manag.
-DA  - JAN
-PY  - 2023
-VL  - 30
-IS  - 1
-SP  - 14
-EP  - 32
-DO  - 10.1002/kpm.1737
-C6  - JAN 2023
-WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:000912521300001
-N1  - Times Cited in Web of Science Core Collection:  0
-Total Times Cited:  0
-Cited Reference Count:  117
-ER  -
-
-TY  - JOUR
-AU  - van der Aalst, W
-TI  - Spreadsheets for business process management Using process mining to deal with "events" rather than "numbers"?
-T2  - BUSINESS PROCESS MANAGEMENT JOURNAL
-LA  - English
-KW  - Process mining
-KW  - Business process management (BPM)
-KW  - Spreadsheets
-KW  - Data science
-AB  - Purpose - Process mining provides a generic collection of techniques to turn event data into valuable insights, improvement ideas, predictions, and recommendations. This paper uses spreadsheets as a metaphor to introduce process mining as an essential tool for data scientists and business analysts. The purpose of this paper is to illustrate that process mining can do with events what spreadsheets can do with numbers.
-   Design/methodology/approach - The paper discusses the main concepts in both spreadsheets and process mining. Using a concrete data set as a running example, the different types of process mining are explained. Where spreadsheets work with numbers, process mining starts from event data with the aim to analyze processes.
-   Findings - Differences and commonalities between spreadsheets and process mining are described. Unlike process mining tools like ProM, spreadsheets programs cannot be used to discover processes, check compliance, analyze bottlenecks, animate event data, and provide operational process support. Pointers to existing process mining tools and their functionality are given.
-   Practical implications - Event logs and operational processes can be found everywhere and process mining techniques are not limited to specific application domains. Comparable to spreadsheet software widely used in finance, production, sales, education, and sports, process mining software can be used in a broad range of organizations.
-   Originality/value - The paper provides an original view on process mining by relating it to the spreadsheets. The value of spreadsheet-like technology tailored toward the analysis of behavior rather than numbers is illustrated by the over 20 commercial process mining tools available today and the growing adoption in a variety of application domains.
-AD  - Tech Univ Eindhoven, Eindhoven, NetherlandsC3  - Eindhoven University of TechnologyPU  - EMERALD GROUP PUBLISHING LTD
-PI  - BINGLEY
-PA  - HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
-SN  - 1463-7154
-SN  - 1758-4116
-J9  - BUS PROCESS MANAG J
-JI  - Bus. Process. Manag. J.
-PY  - 2018
-VL  - 24
-IS  - 1
-SP  - 105
-EP  - 127
-DO  - 10.1108/BPMJ-10-2016-0190
-WE  - Social Science Citation Index (SSCI)AN  - WOS:000424640600006
-N1  - Times Cited in Web of Science Core Collection:  7
-Total Times Cited:  8
-Cited Reference Count:  28
-ER  -
-
-TY  - JOUR
-AU  - Raucci, D
-AU  - Santone, A
-AU  - Mercaldo, F
-AU  - Dyczkowski, T
-TI  - BPM perspectives to support ICSs: Exploiting the integration of formal verifications into investment service provision processes
-T2  - INDUSTRIAL MANAGEMENT & DATA SYSTEMS
-LA  - English
-KW  - Business process management
-KW  - Internal control systems
-KW  - Segregation of duties
-KW  - Formal methods
-KW  - Banking processes
-KW  - Investment services
-KW  - COMPLIANCE-CHECKING
-KW  - MODEL CHECKING
-KW  - BUSINESS
-KW  - INFORMATION
-KW  - MANAGEMENT
-KW  - EQUIVALENCE
-KW  - TRENDS
-AB  - Purpose This paper investigates the criteria for a selective integration, in the multidisciplinary business process management (BPM) areas, between information technologies tools and the company's internal control systems (ICSs) aimed at directing organizational behaviours. Adopting a process-based perspective, the authors propose a formal methodology to increase ICSs aims, related to the segregation of duties (SoDs) models, efficiently and effectively. Design/methodology/approach The authors examine the applicability of formal verifications to validate a banking process of providing investment services, which is mapped through the workflow management system. To mitigate the state explosion problem of formal methods, the authors propose an efficient methodology that has been proved on the SoDs models in the bank ICSs, as a case study. Findings The authors' investigations suggest that in the BPM domain, the banking ICSs aims can benefit from the aforesaid methodologies, originating from the formal methods area, to increase the reliability and correctness in the design, modelling and implementation of the SoDs models. Originality/value The proposed methodology is quite general and can be efficiently applied to large-scale systems in different business contexts or areas of the BPM. Its application to the bank's SoD prevents or detects significant weaknesses, operational risks, excessive risk appetite and other undesirable behaviours in the investment services provision processes. This guarantees that the investment ordered/offered is "suitable and appropriate" with the client's risk profile, especially non-professional, required by the MiFID II Directive.
-AD  - G dAnnunzio Univ Chieti Pescara, Dept Econ Studies, Pescara, ItalyAD  - Univ Molise, Dept Biosci & Terr, Campobasso, ItalyAD  - Univ Molise, Dept Med & Hlth Sci Vincenzo Tiberio, Campobasso, ItalyAD  - Wroclaw Univ Econ & Business, Dept Costing Management Accounting & Control, Wroclaw, PolandC3  - G d'Annunzio University of Chieti-PescaraC3  - University of MoliseC3  - University of MoliseC3  - Wroclaw University of Economics & BusinessPU  - EMERALD GROUP PUBLISHING LTD
-PI  - BINGLEY
-PA  - HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
-SN  - 0263-5577
-SN  - 1758-5783
-J9  - IND MANAGE DATA SYST
-JI  - Ind. Manage. Data Syst.
-DA  - JUL 13
-PY  - 2020
-VL  - 120
-IS  - 7
-SP  - 1383
-EP  - 1400
-DO  - 10.1108/IMDS-11-2019-0593
-C6  - JUN 2020
-WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000539561100001
-N1  - Times Cited in Web of Science Core Collection:  1
-Total Times Cited:  1
-Cited Reference Count:  62
-ER  -
-
-TY  - JOUR
-AU  - Holzmüller-Laue, S
-AU  - Göde, B
-AU  - Fleischer, H
-AU  - Thurow, K
-TI  - Improved Compliance by BPM-Driven Workflow Automation
-T2  - JALA
-LA  - English
-KW  - laboratory automation
-KW  - end-to-end workflow
-KW  - systems integration
-KW  - model-based application development
-KW  - BPMN
-AB  - Using methods and technologies of business process management (BPM) for the laboratory automation has important benefits (i.e., the agility of high-level automation processes, rapid interdisciplinary prototyping and implementation of laboratory tasks and procedures, and efficient real-time process documentation). A principal goal of the model-driven development is the improved transparency of processes and the alignment of process diagrams and technical code. First experiences of using the business process model and notation (BPMN) show that easy-to-read graphical process models can achieve and provide standardization of laboratory workflows. The model-based development allows one to change processes quickly and an easy adaption to changing requirements. The process models are able to host work procedures and their scheduling in compliance with predefined guidelines and policies. Finally, the process-controlled documentation of complex workflow results addresses modern laboratory needs of quality assurance. BPMN 2.0 as an automation language to control every kind of activity or subprocess is directed to complete workflows in end-to-end relationships. BPMN is applicable as a system-independent and cross-disciplinary graphical language to document all methods in laboratories (i.e., screening procedures or analytical processes). That means, with the BPM standard, a communication method of sharing process knowledge of laboratories is also available.
-AD  - Univ Rostock, Ctr Life Sci Automat Celisca, D-18119 Rostock, GermanyAD  - Univ Rostock, Inst Automat, D-18119 Rostock, GermanyC3  - University of RostockC3  - University of RostockFU  - German Research Association (DFG) [HO 4566/1-1]; German Federal Ministry of Education and Research (BMBF); Ministry of Education, Science and Culture of the State Mecklenburg-Vorpommern
-FX  - The authors disclosed receipt of the following financial support for the research, authorship, and/or publication of this article: The German Research Association (DFG) is gratefully acknowledged for funding this project (HO 4566/1-1). The German Federal Ministry of Education and Research (BMBF) and the Ministry of Education, Science and Culture of the State Mecklenburg-Vorpommern provided financial support to celisca.
-PU  - SAGE PUBLICATIONS INC
-PI  - THOUSAND OAKS
-PA  - 2455 TELLER RD, THOUSAND OAKS, CA 91320 USA
-SN  - 2211-0682
-SN  - 1540-2452
-J9  - JALA-J LAB AUTOM
-JI  - JALA
-DA  - DEC
-PY  - 2014
-VL  - 19
-IS  - 6
-SP  - 528
-EP  - 545
-DO  - 10.1177/2211068214549626
-WE  - Science Citation Index Expanded (SCI-EXPANDED)AN  - WOS:000345468000003
-N1  - Times Cited in Web of Science Core Collection:  3
-Total Times Cited:  3
-Cited Reference Count:  15
-ER  -
-
-TY  - JOUR
-AU  - Lozano-Gil, RA
-AU  - Rodríguez-Ríos, CY
-AU  - Sepúlveda-Rojas, P
-TI  - Simulation of the Inventory Process in a Postharvest of Export Roses Under a Business Process Management approach
-T2  - REVISTA CORPOICA-CIENCIA Y TECNOLOGIA AGROPECUARIA
-LA  - Spanish
-KW  - Floriculture
-KW  - process analysis
-KW  - probability of events
-KW  - process management
-KW  - process modeling
-KW  - time
-AB  - Few companies in the Colombian floriculture sector manage their inventories, causing stock breaks, causing downtime in key post-harvest operations, causing non-compliance with sales orders and damage to the flower. For this reason, the general objective is to simulate the inventory process handled in the postharvest of rose (Rosa sp.), to find opportunities for improvement. This research work was a case study carried out in an export company of rose bouquets from Cundinamarca, the province with the largest volume of export -type flower production at the national level. The rose postharvest was selected by the indicators of low production. Because this is a descriptive and exploratory investigation, a modeling of the inventory process was carried out, with the help of the managers and an analysis of times and probability of occurrence of the tasks involved. Subsequently, the simulation was done with the inventory process cycle time in Bizagi Modeler (R), making a total of 36 replicas. This resulted in a total inventory process cycle time of 9,684 minutes for the Valentine's season, finding that 44 % of the activities can be optimized. Finally, it is concluded that, with the simulation of the inventory process, non -value-added activities can be found, serving as an input in the development of improvement strategies.
-AD  - Fdn Univ Agraria Colombia Uniagraria, Bogota, ColombiaAD  - Escuela Colombiana Ingenieri Julio Garavito, Bogota, ColombiaAD  - Univ Santiago De Chile, Santiago, ChileC3  - Fundacion Universitaria Agraria de ColombiaPU  - CORP COLOMBIANA INVESTIGACION AGROPECUARIA-CORPOICA
-PI  - LAS PALMAS BOGOTA
-PA  - APARTADO AEREO 240142, LAS PALMAS BOGOTA, 00000, COLOMBIA
-SN  - 0122-8706
-SN  - 2500-5308
-J9  - REV CORPOICA-CIENC T
-JI  - Rev. Corpoica-Cienc. Tecnol. Agropecu.
-PY  - 2023
-VL  - 24
-IS  - 1
-C7  - e2615
-DO  - 10.21930/rcta.vol24_num1_art:2615
-WE  - Emerging Sources Citation Index (ESCI)AN  - WOS:001046307400002
-N1  - Times Cited in Web of Science Core Collection:  0
-Total Times Cited:  0
-Cited Reference Count:  32
-ER  -
-
-TY  - CPAPER
-AU  - Polo-Carrillo, E
-AU  - Cabarcas-Ariza, Y
-AU  - Marrugo-Arnedo, CA
-ED  - Suarez, JRC
-TI  - BPM analysis and security case study: dining rooms Cartagena military, Colombia
-T2  - EXPOTECNOLOGIA 2018 RESEARCH, INNOVATION AND DEVELOPMENT IN ENGINEERING
-LA  - English
-CP  - Conference on Research, Innovation and Development in Engineering (Expotecnologia)
-AB  - Foodborne diseases constitute an important public health and productivity problem for companies, since it increases the level of employee absenteeism and decreases productivity. Objective, analyse the conditions of good practices of manufacturing and security in the dining rooms of a military complex located in the City of Cartagena, Colombia. Descriptive study based on the application of a standardized instrument in six dining rooms of a military complex located in Cartagena. Analysing 164 aspects contained in Resolution 2674 of 2013, it was possible to observe total compliance in 58 aspects, for its part, 36 partially comply and finally, 70 aspects do not comply with the provisions of the legislation. It is necessary to consider that the implementation of good manufacturing practices is constituted as the primary instrument for the adequate handling of food. The study is the basis for the implementation of internal policies aimed at improving good practices in manufacturing and security in the dining halls of the military complex.
-AD  - Fdn Tecnol Antonio de Arevalo, Cartagena, ColombiaAD  - Fundovida IPS, Grp Invest Fundovida, Cartagena, ColombiaAD  - Univ Cartagena, GIES, Cartagena, ColombiaC3  - Universidad de CartagenaPU  - IOP PUBLISHING LTD
-PI  - BRISTOL
-PA  - DIRAC HOUSE, TEMPLE BACK, BRISTOL BS1 6BE, ENGLAND
-SN  - 1757-8981
-J9  - IOP CONF SER-MAT SCI
-PY  - 2019
-VL  - 519
-C7  - 012005
-DO  - 10.1088/1757-899X/519/1/012005
-WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000489745500005
-N1  - Times Cited in Web of Science Core Collection:  0
-Total Times Cited:  0
-Cited Reference Count:  14
-ER  -
-
-TY  - JOUR
-AU  - Benraad, M
-AU  - Ozkan, B
-AU  - Turetken, O
-AU  - Vanderfeesten, I
-TI  - The influence of BPM-supportive culture and individual process orientation on process conformance
-T2  - BUSINESS PROCESS MANAGEMENT JOURNAL
-LA  - English
-KW  - Process orientation
-KW  - BPM culture
-KW  - Process conformance
-KW  - Survey
-KW  - BUSINESS PROCESS ORIENTATION
-KW  - ORGANIZATIONAL ROUTINES
-KW  - SELF-EFFICACY
-KW  - PLS-SEM
-KW  - FLEXIBILITY
-KW  - PATTERNS
-KW  - MODELS
-AB  - Purpose Organizations rely on their business processes to achieve their business objectives and ensure compliance with relevant laws and regulations. Hence, conformance to process specifications is essential to remain compliant. Various factors influence an organization's ability to operate in conformance to its process specifications. This study investigates the influence of business process management (BPM)-supportive culture and individual process orientation on process conformance. Design/methodology/approach A construct was created for perceived process conformance and two constructs were selected from literature to represent BPM-supportive culture and individual process orientation. A survey was conducted with 178 employees of a global enterprise, hypotheses were formulated, and a statistical model was constructed and validated. Findings Results pinpoint the key role of the BPM-supportive culture in influencing both individual process orientation and conformance. Individual process orientation is also found to have a significant influence on process conformance. The findings provide additional evidence for the significance of human-related aspects of BPM in achieving BPM success. Originality/value The contributions of this paper help better understand how soft factors of BPM contribute to employees' process conformance drawing on and relating concepts of BPM and organizational routines.
-AD  - Eindhoven Univ Technol, Eindhoven, NetherlandsC3  - Eindhoven University of TechnologyPU  - EMERALD GROUP PUBLISHING LTD
-PI  - BINGLEY
-PA  - HOWARD HOUSE, WAGON LANE, BINGLEY BD16 1WA, W YORKSHIRE, ENGLAND
-SN  - 1463-7154
-SN  - 1758-4116
-J9  - BUS PROCESS MANAG J
-JI  - Bus. Process. Manag. J.
-DA  - FEB 21
-PY  - 2022
-VL  - 28
-IS  - 8
-SP  - 1
-EP  - 22
-DO  - 10.1108/BPMJ-08-2020-0363
-WE  - Social Science Citation Index (SSCI)AN  - WOS:000777471500001
-N1  - Times Cited in Web of Science Core Collection:  6
-Total Times Cited:  6
-Cited Reference Count:  82
-ER  -
-

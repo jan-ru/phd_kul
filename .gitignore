@@ -17,9 +17,6 @@
 output/
 *.pdf
 *.bib
-s3_methods_files/
-s4_results_files/
-s9_case_files/
 
 # 1. Python .gitignore
 # Source: github/gitignore
@@ -186,6 +183,7 @@ cython_debug/
 #.idea/
 
 # 3. R .gitignore
+# Source: github/gitignore
 
 # History files
 .Rhistory
@@ -238,6 +236,7 @@ po/*~
 rsconnect/
 
 # 4. TEX .gitignore
+# Source: github/gitignore
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

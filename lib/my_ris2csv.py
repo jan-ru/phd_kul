@@ -6,8 +6,6 @@ import pandas as pd
 files = glob.glob("ris_files/*.ris")
 consolidated_data = []
 
-# entries = rispy.load(p, encoding='utf-8')
-
 for file in files:
     with open(file, errors="ignore") as bibliography_file:
         entries = rispy.load(bibliography_file)

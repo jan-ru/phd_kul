@@ -1,9 +1,0 @@
----
-title: "update"
-format: pdf
----
-
-Interaction between policy setting cycle (left gear) and enterprise regulatory change management (right gear).
-
-[gear box](http://www.gearsket.ch/#703fd60a74e1805f)
-

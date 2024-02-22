@@ -1,39 +1,0 @@
-﻿TY  - CPAPER
-AU  - Amantea, IA
-AU  - Robaldo, L
-AU  - Sulis, E
-AU  - Boella, G
-AU  - Governatori, G
-A1  - IEEE Comp Soc
-TI  - Semi-automated checking for regulatory compliance in e-Health
-T2  - 2021 IEEE 25TH INTERNATIONAL ENTERPRISE DISTRIBUTED OBJECT COMPUTING CONFERENCE WORKSHOPS (EDOCW 2021)
-LA  - English
-CP  - 25th IEEE International Enterprise Distributed Object Computing Conference (IEEE EDOC)
-KW  - Business Process Management
-KW  - e-Health
-KW  - Hospital at Home
-KW  - Regulatory Compliance
-KW  - Defeasible Deontic Logic
-KW  - Regorous
-KW  - BUSINESS PROCESSES
-KW  - MANAGEMENT
-KW  - SYSTEM
-AB  - One of the main issues of every business process is to be compliant with legal rules. This work presents a methodology to check in a semi-automated way the regulatory compliance of a business process. We analyse an e-Health hospital service in particular: the Hospital at Home (HaH) service. The paper shows, at first, the analysis of the hospital business using the Business Process Management and Notation (BPMN) standard language, then, the formalization in Defeasible Deontic Logic (DDL) of some rules of the European General Data Protection Regulation (GDPR). The aim is to show how to combine a set of tasks of a business with a set of rules to be compliant with, using a tool.
-AD  - Univ Torino, SaToSS, Alma Mater Studiorum, Comp Sci Dept,CIRSFID, Turin, ItalyAD  - Univ Luxembourg, Luxembourg, LuxembourgAD  - Univ Swansea, Legal Innovat Lab Wales, Swansea, W Glam, WalesAD  - Univ Torino, Comp Sci Dept, Turin, ItalyAD  - CSIRO, Data 61, St Lucia, Qld, AustraliaC3  - University of TurinC3  - University of LuxembourgC3  - Swansea UniversityC3  - University of TurinC3  - Commonwealth Scientific & Industrial Research Organisation (CSIRO)FU  - POR FESR PIEMONTE; Legal Innovation Lab Wales operation within Swansea University's HRC School of Law; European Regional Development Fund through the Welsh Government
-FX  - The current research was conducted in the project "CANP CAsa Nel Parco" of Regione Piemonte funded by POR FESR PIEMONTE 2014-2020. We are grateful for the collaboration of the "City of Health and Science" of Torino (Italy). We are also grateful to the partners involved in the project. Livio Robaldo has been supported by the Legal Innovation Lab Wales operation within Swansea University's HRC School of Law; the operation has been part-funded by the European Regional Development Fund through the Welsh Government.
-PU  - IEEE COMPUTER SOC
-PI  - LOS ALAMITOS
-PA  - 10662 LOS VAQUEROS CIRCLE, PO BOX 3014, LOS ALAMITOS, CA 90720-1264 USA
-SN  - 2325-6583
-SN  - 978-1-6654-4488-0
-J9  - IEEE INT ENTERP
-PY  - 2021
-SP  - 318
-EP  - 325
-DO  - 10.1109/EDOCW52865.2021.00063
-WE  - Conference Proceedings Citation Index - Science (CPCI-S)AN  - WOS:000744466000038
-N1  - Times Cited in Web of Science Core Collection:  1
-Total Times Cited:  1
-Cited Reference Count:  42
-ER  -
-
