@@ -34,9 +34,12 @@ bibliography: MyLibrary.bib
 keywords: modelling languages, controlled natural language
 
 ---
+
+# Mariette Lokin
+
 ## Thesis
 
-The thesis by Mariette Lokin was published in 2018 (in Dutch) by the Vrije Universiteit Amsterdam (@lokinWendbaarWetgevenWetgever2018). It is available at the [research portal](https://research.vu.nl/en/publications/wendbaar-wetgeven).
+The thesis by Mariette Lokin was published in 2018 (in Dutch) by the Vrije Universiteit Amsterdam (@lokinWendbaarWetgevenWetgever2018). It is available at the [research portal](https://research.vu.nl/en/publications/wendbaar-wetgeven). Mariette work is the inspiration for my thesis where I want to use the lens of a multinational enterprise. On 17-11-1021 I emailed Mariette and we spoke via Teams on 17-12-2021. 
 
 ## Research question
 
@@ -54,11 +57,13 @@ Paragraph 1.6 describes the law making process. Specifically the question if in 
 
 Five cases are described at two government agencies. Additionally, one cross-domain application is described.:
 
-- case 1 & 2, Tax Office (Ministry of Finance) > 2.4.2
-
-- case 3 & 4, IND (Ministry of Justice) > 2.4.3
-
-- case 5, Standard Business Reporting (cross-domain application) > 2.4.4
+| #     | Subject                     | Ministry                |Chapter|
+|-------|-----------------------------|-------------------------|-------|
+|case 1 | Tax Office                  | Ministry of Finance     | 2.4.2 |
+|case 2 | Tax Office                  | Ministry of Finance     | 2.4.2 |
+|case 3 | IND                         | Ministry of Justice     | 2.4.3 | 
+|case 4 | IND                         | Ministry of Justice     | 2.4.3 |
+|case 5 | Standard Business Reporting | cross-domain application| 2.4.4 |
 
 ## Conclusion
 
@@ -106,6 +111,12 @@ OV5 : Welke veranderingen zijn nodig in het bestuurlijk-politieke wetgevingsproc
 
 ## Other publications (co)authored by Mariette Lokin
 
-The first publication of Mariette in my Zotero library is from 2015: @vanhoutumEenKapstokVoor2015. On the subject of the thesis there has also been a publiction in english (@lokinAgileLawMaking2020). The controled natural language (CNL) is called RegelSpraak. Is is described in: @corsiusRegelSpraakCNLExecutable2021, from the same year is: @ausemsWetsanalyseVoorEen2021
+The first publication of Mariette in my Zotero library is from 2015: @vanhoutumEenKapstokVoor2015. On the subject of the thesis there has also been a publiction in english (@lokinAgileLawMaking2020). The controled natural language (CNL) is called RegelSpraak. Is is described in: @corsiusRegelSpraakCNLExecutable2021, from the same year is: @ausemsWetsanalyseVoorEen2021.
+
+
+# Ivar Timmer
+
+
+
 
 ## References
