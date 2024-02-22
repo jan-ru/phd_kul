@@ -7,8 +7,9 @@
 .quarto/
 output/
 *.pdf
-*.bib
-
+s3_methods_files/
+s4_results_files/
+s9_case_files/
 
 # Python .gitignore
 
