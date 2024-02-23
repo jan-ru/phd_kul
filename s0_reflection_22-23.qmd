@@ -1,0 +1,140 @@
+---
+title: "Refections & Outlook"
+subtitle: "'22-'23 > '23-'24"
+date: "09-10-2023"
+date-format: "D/MM/YYYY"
+date-modified: "09-10-2023"
+author:
+  - name: Jan-Ru Muller
+    orcid: 
+    email: janru.muller@edu.vlerick.com
+    affiliations:
+      - name: 
+        address: 
+        city: 
+        state: NH
+        postal-code: 
+abstract: ""
+format:
+  pdf:
+    code-fold: true
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, orcidlink, totcount}
+        \regtotcounter{table}
+        \regtotcounter{figure}
+        \makeindex
+        \makeindex[name=authors, title=Authors, intoc=True]
+        \makeindex[name=affiliations]
+        \newtotcounter{citenum}
+        \renewcommand\refname{References (\total{citenum})}
+    include-after-body: 
+      text:
+        \printindex
+        \printindex[authors]
+  html:
+    grid: 
+      body-width: 2000px
+      sidebar-width: 200px
+      margin-width: 200px
+latex-output-dir: "output"
+toc: false
+toc-depth: 2
+bibliography: "Top100.bib"
+
+---
+
+# Reflections
+
+In terms of my concrete progress in the PhD trajectory the past academic year has been disappointing (for everybody involved). The beginning of the new academic year is a good time to reflect on what did not go well and how it can be improved.
+
+I will provide this document as a status update to my supervisors (Amy and Stijn) and will share it with the DBA office. The update consists of two memo's. The second memo focusses on the content: updated mental model, possible GAP, updated working title, possible data, possible methods. This memo focusses on the process. It provides for a look-back to '22-'23 and a look-forward to '23-'24.
+
+Progress lacked and periodic communications shall be improved. Yet, looking back I find it was an overall very productive year and I actually did get a lot of work done. 
+
+Together with the DBA/PhD I did start a new job in September 2021: my first job as a teacher. I teach at the Amsterdam University of Applied Sciences. After three temporary contracts I have now been given a permanent contract. Having obtained a permanent contract is a positive development.
+
+Looking back I see four causes for not making sufficient progress on the PhD:
+* I did do a lot of reading, writing, programming but I did not focus on delivering the assignments.
+* I did not communicate enough with the supervisors such that they were not able to steer my (wide ranging) efforts.
+* I lacked a detailed plan for spending my research time such that indeed the assignments became not attainable.
+* My work as a teacher was not sufficiently aligned with my (parttime) work as an aspiring researcher.
+
+The €10.000 question is if there is a realistic possibility that coming year I will deliver the required doctoral assignments. I am convinced it is feasable. In the environment that I now work in a PhD is valued. Hence, there is yet another (albeit external) motivational factor to progress. Under different circumstances I would now doubt if it was worthwhile to continue the effort.
+
+Under "looking back" I share activities & events, both professional and personal, that had me occupied last academic year. Under "looking forward" I share activities & events that I anticipate will keep me occupied next academic year.
+
+# Looking back
+
+Sep '22 - Received the Certificate of Management Research for succesfully completing the learning stage of the DBA programme. Participated in the Vlerick Research Day (30/09) by presenting the status of my research. 
+
+Okt '22 - In October no progress on any of the assignments. For inspiration I did attent Johan Van den Cruijce's thesis defense (via Zoom). The invoice for the 2nd year of the DBA program was received and paid (2 of 5).  
+
+Nov '22 - Contacted René Otten who works with the Dutch XBRL center of expertise for SBR (Standard Business Reporting). We discussed the status of SBR reporting and the imminent inclusion of environmental- or sustainability indicators. 
+
+Dec '22 - Visited Ghent campus for the second research acceleration week. My reading has been around compliance and business processes. For demo purposes I modelled a small process in Camunda Modeller. I read a structured literature review [@ahmadBusinessProcessManagement2020], but I didn't start my SLR yet.
+
+Jan '23 - Completed Lean Six Sigma (LSS) Yellow-, Green-, Black Belt theory certificates. The objective of obtaining these LSS skills is to be able to teach the classes. Furthermore the purpose is to investigate possible use of LSS in my research.
+
+Feb '23 - During the third research acceleration week in Brussels I participated in the healthy writing retreat led by Dr. Joana Zozimo. What I took out of the "writing lessons" was that there are several ways to lower the barrier to writing. 
+
+Mar '23 - The February course helped me with a "write a good paragraph a day" effort. I started it on the 10th of March and the last entry in my text is from the 6th of April. In terms of writing persistently is was very helpful. In terms of the content produced, less so. 
+
+Apr '23 - Showing how easy it is to be distracted I tinkered extensively with Python programming. My rationale for getting to know the language better is that I will need it in my research and possibly already for my literature review. In hindsight this was likely a procrastination exercise. 
+
+May '23 - Submitted the annual PhD progress report as requested by the DBA programme office. Following the submission of this status update I received feedback from Stijn and Amy. We had a follow-up call mid June to recallibrate expectations.  
+
+Jun '23 - On 16 June my mother died at the age of 85. My brother and I organised for her funeral that took place on 23 June. Our mother came from a family of 4 children. Two younger brothers had passed away in 2017. The older brother passed away in August.
+
+Jul '23 - In the aftermath of the funeral there were lot of practicalities and a lot of emotions to deal with. Subsequently my partner and I had a very nice hiking holiday on Madeira, an autonomous region pertaining to Portugal.
+
+Aug '23 - Received the Certificate "Foundation Qualification in Didactic Competence" which is an elementary teaching qualification. To obtain the qualfication a 300 hour study programme was completed with passing marks. The qualification is recognized by all Universities of Applied Sciences in the Netherlands.
+
+# Looking forward
+
+For the '23-'24 academic year the same three [assignments](https://learning.vlerick.com/courses/646/modules#module_21002) are due that were due for '22-'23:
+
+```{mermaid}
+gantt
+    dateFormat YYYY-MM
+    axisFormat %m-%y
+    tickInterval 1month
+    section LR
+    Literature Review :active, 2023-09, 10d
+    section PS
+    Pilot Study :b, after a, 10d
+    section RP
+    Research Proposal :c, after b, 10d
+
+    todayMarker off
+```
+
+Where my '22-'23 activities have been refered to as "exploratory", the intent for '23-'24 is that I follow the described structure for the assignments.
+
+Sep '23 - For September the task is to complete the Literature Review planning phase [@kitchenhamGuidelinesPerformingSystematic2007]. There is a kick-off call scheduled with the promotors. Lastly, I'll visit the Vlerick Ghent Campus for research acceleration week.
+
+Okt '23 - For October the task is to perform the Literature Review. Presumably either I will have received feedback on the plan and/or I will find points for improvement myself once the Review is performed. The plan will then be updated.
+
+Nov '23 - The primary task for November is to write an initial report on the findings from the report. Secundarily, to fullfill the administrative requirement the promotors and I will select and invite co-promotors. Subsequently I will enroll in the KU Leuven PhD Programme. 
+
+Dec '23 - Visit Vlerick Brussels Campus for research acceleration week. In December, before the x-mas break the final version of the Literature Review will be submitted for grading/approval. It is assumed I will have had feedback from supervisors intermittendly and I will have been able to address their concerns and recommendations.
+
+Jan '24 - Following the identification of one or more GAPs in the literature. I anticipate having to do interviews with subject matter experts to further frame my intended research project and/or to clarify certain aspects found in the literature.
+
+Feb '24 - Though not yet agreed upon it may be that the Lean Six Sigma (LSS) approach to do improvement projects may be applicable to my research. The acronym for the 5 phases of a LSS project is DMAIC: Define, Measure, Analyse, Improve, Control. I would like to spend some time on each of the phases to research if any specific elements need to be addressed in the context of my intended research project.
+
+Mar '24 - Ha/ving gone over the phases of the LSS methodology I anticipate having to create some tools in order for me to perform the Pilot Study. It may be that a template be developed, that a dataset is prepared or something else. 
+
+Apr '24 - After the preparation of the 5 phases the actual Pilot Study can be performed and the results can be written-up and presented. Assuming performing the Pilot Study will take more than 1 month to complete the activity now schedule for May will be pushed back into the next academic year.
+
+May '24 - Provisionally the intended outcome of my research is a management game providing for a number of learnings for management being faced with the implementation of business processes for regulatory compliance. I envision spending some time to research what the building blocks of a management game are. 
+
+Jun '24 - I will aim to present the status of the Pilot Study during the Research Day in June.
+
+Jul '24 - Holiday
+
+Aug '24 - Write-up the Research Proposal. Alternatively, first expand upon the Literature Review, and/or expand on any of the activities performed for the Pilot Study.
+
+{{< pagebreak >}}
+
+# References

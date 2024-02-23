@@ -1,0 +1,120 @@
+---
+title:
+subtitle: "Planning '23-'24"
+date: "09-16-2023"
+date-format: "D/MM/YYYY"
+date-modified: "09-16-2023"
+author:
+  - name: Jan-Ru Muller
+    orcid: 0000-0002-9655-1135
+    email: janru.muller@edu.vlerick.com
+    affiliations:
+      - name: Vlerick Business School
+        address: 
+        city: Ghent
+        state: 
+        postal-code: 
+      - name: Hogeschool van Amsterdam
+        address: 
+        city: Amsterdam
+        state: 
+        postal-code: 
+abstract: ""
+format:
+  pdf:
+    code-fold: true
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, orcidlink, totcount}
+        \regtotcounter{table}
+        \regtotcounter{figure}
+        \makeindex
+        \makeindex[name=authors, title=Authors, intoc=True]
+        \makeindex[name=affiliations]
+        \newtotcounter{citenum}
+        \renewcommand\refname{References (\total{citenum})}
+    include-after-body: 
+      text:
+        \printindex
+        \printindex[authors]
+  html:
+    grid: 
+      body-width: 2000px
+      sidebar-width: 200px
+      margin-width: 200px
+
+toc: false
+toc-depth: 2
+bibliography: "Top100.bib"
+
+---
+
+
+Finally, we all agreed to have an evaluation at the end of September which coincides with the end of the second year of the DBA program. Assuming the research question(s), the scoping, the methodology, the required data etc. will then be clear(er), we can each decide if we want to progress together as intended, or progress in a different configuration, or stop all together.
+
+# "Aanleiding"
+
+Two trends: ... and digitization.
+The trend has been one of growing regulatory burden(?) and complexity (reference). If both trends are assumed to continue
+
+# Research questions
+
+
+
+Wetsanalyze
+
+
+# Scoping
+
+- Europe
+
+
+# Methodology
+
+- 
+
+
+# Data
+
+- 
+
+
+# Working Title
+
+
+# Planning
+
+"Nothing worth having was ever achieved without effort" - Theodore Roosevelt
+
+
+Where my '22-'23 activities have been refered to as "exploratory", the intent for '23-'24 is that I follow the described structure for the assignments.
+
+Sep '23 - For September the task is to complete the Literature Review planning phase [@kitchenhamGuidelinesPerformingSystematic2007]. There is a kick-off call scheduled with the promotors. Lastly, I'll visit the Vlerick Ghent Campus for research acceleration week.
+
+Okt '23 - For October the task is to perform the Literature Review. Presumably either I will have received feedback on the plan and/or I will find points for improvement myself once the Review is performed. The plan will then be updated.
+
+Nov '23 - The primary task for November is to write an initial report on the findings from the report. Secundarily, to fullfill the administrative requirement the promotors and I will select and invite co-promotors. Subsequently I will enroll in the KU Leuven PhD Programme. 
+
+Dec '23 - Visit Vlerick Brussels Campus for research acceleration week. In December, before the x-mas break the final version of the Literature Review will be submitted for grading/approval. It is assumed I will have had feedback from supervisors intermittendly and I will have been able to address their concerns and recommendations.
+
+Jan '24 - Following the identification of one or more GAPs in the literature. I anticipate having to do interviews with subject matter experts to further frame my intended research project and/or to clarify certain aspects found in the literature.
+
+Feb '24 - Though not yet agreed upon it may be that the Lean Six Sigma (LSS) approach to do improvement projects may be applicable to my research. The acronym for the 5 phases of a LSS project is DMAIC: Define, Measure, Analyse, Improve, Control. I would like to spend some time on each of the phases to research if any specific elements need to be addressed in the context of my intended research project.
+
+Mar '24 - Ha/ving gone over the phases of the LSS methodology I anticipate having to create some tools in order for me to perform the Pilot Study. It may be that a template be developed, that a dataset is prepared or something else. 
+
+Apr '24 - After the preparation of the 5 phases the actual Pilot Study can be performed and the results can be written-up and presented. Assuming performing the Pilot Study will take more than 1 month to complete the activity now schedule for May will be pushed back into the next academic year.
+
+May '24 - Provisionally the intended outcome of my research is a management game providing for a number of learnings for management being faced with the implementation of business processes for regulatory compliance. I envision spending some time to research what the building blocks of a management game are. 
+
+Jun '24 - I will aim to present the status of the Pilot Study during the Research Day in June.
+
+Jul '24 - Holiday
+
+Aug '24 - Write-up the Research Proposal. Alternatively, first expand upon the Literature Review, and/or expand on any of the activities performed for the Pilot Study.
+
+{{< pagebreak >}}
+
+# References
+
+http://api.epdb.eu/
