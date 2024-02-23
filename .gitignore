@@ -16,6 +16,7 @@
 .quarto/
 output/
 *.pdf
+*.html
 *.bib
 
 # 1. Python .gitignore
