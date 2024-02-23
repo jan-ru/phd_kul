@@ -12,20 +12,11 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - part: part1.qmd
-      chapters:
-        - s0_research_questions.qmd
-        - s1_articles.qmd
-        - s3_methods.qmd
-        - s4_results.qmd
+    - s2_link2law.qmd
     - references.qmd
 
   appendices:
     - z_backlog.qmd
-    - z_resources.qmd
-    - z_journals.qmd
-    - z_software.qmd
-
 bibliography: Top100.bib
 
 format:

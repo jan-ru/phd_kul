@@ -34,6 +34,12 @@ bibliography: MyLibrary.bib
 keywords: modelling languages, controlled natural language
 
 ---
+If part of a book project:  
+Three types of variable: var, meta, env.
+
+var: {{< var email.info >}}  
+meta: {{< meta subtitle >}}  
+env: {{< env AWS_ACCESS_KEY_ID >}}  
 
 # Mariette Lokin
 

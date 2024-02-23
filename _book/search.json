@@ -304,5 +304,115 @@
       "format: html",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>SLR</span>"
     ]
+  },
+  {
+    "objectID": "s2_link2law.html",
+    "href": "s2_link2law.html",
+    "title": "2  Mariette Lokin",
+    "section": "",
+    "text": "2.1 Thesis\nThe thesis by Mariette Lokin was published in 2018 (in Dutch) by the Vrije Universiteit Amsterdam (Wendbaar wetgeven: de wetgever als systeembeheerder (2018)). It is available at the research portal. Mariette work is the inspiration for my thesis where I want to use the lens of a multinational enterprise. On 17-11-1021 I emailed Mariette and we spoke via Teams on 17-12-2021.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#research-question",
+    "href": "s2_link2law.html#research-question",
+    "title": "2  Mariette Lokin",
+    "section": "2.2 Research question",
+    "text": "2.2 Research question\nRQ: To what extent and in what way can digital execution of legislation by national government agencies be taken into account in the legislative process?\nFive supporting research questions are listed in the attachment.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#theoriesconcepts-mentioned-in-the-intro",
+    "href": "s2_link2law.html#theoriesconcepts-mentioned-in-the-intro",
+    "title": "2  Mariette Lokin",
+    "section": "2.3 Theories/concepts mentioned in the intro",
+    "text": "2.3 Theories/concepts mentioned in the intro\nParagraph 1.5 describes legislation as a product. Specifically it describes how technologies like language models, linked data and a formalized legal domain vocabulary can ease the translation of regulatory texts into computer programs. The identification of these three tools there are three research questions formulated (appendix, question 1,2,3)\nParagraph 1.6 describes the law making process. Specifically the question if in the law making process there is sufficient consideration for the influence of technological developments on the execution of legislation. From this observation two additions research questions are formulated (appendix, questions 4 and 5).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#brief-description-of-the-research-method",
+    "href": "s2_link2law.html#brief-description-of-the-research-method",
+    "title": "2  Mariette Lokin",
+    "section": "2.4 Brief description of the research method",
+    "text": "2.4 Brief description of the research method\nFive cases are described at two government agencies. Additionally, one cross-domain application is described.:\n\n\n\n\n\n\n\n\n\n#\nSubject\nMinistry\nChapter\n\n\n\n\ncase 1\nTax Office\nMinistry of Finance\n2.4.2\n\n\ncase 2\nTax Office\nMinistry of Finance\n2.4.2\n\n\ncase 3\nIND\nMinistry of Justice\n2.4.3\n\n\ncase 4\nIND\nMinistry of Justice\n2.4.3\n\n\ncase 5\nStandard Business Reporting\ncross-domain application\n2.4.4",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#conclusion",
+    "href": "s2_link2law.html#conclusion",
+    "title": "2  Mariette Lokin",
+    "section": "2.5 Conclusion",
+    "text": "2.5 Conclusion\nThe conclusion is that there are realistic possibilities for lawmakers to take into account the digital execution by designated executive government agencies.\n\nA language model aids with precise formulation and creation of specifications for digital execution.\nA legal vocabulary (CNL) provides for insight into the diversity of terminology and allows for analysis to reduce diversity.\nThe application of linked data provides for insight into the ‘web’ of laws and related documents for insight into applicable rules and meaning.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#suggestions-for-further-research",
+    "href": "s2_link2law.html#suggestions-for-further-research",
+    "title": "2  Mariette Lokin",
+    "section": "2.6 Suggestions for further research",
+    "text": "2.6 Suggestions for further research\nThe future perspective is that the legal technical information on wetten.nl no longer only contains references to other regulations and case law, but also to decision rules based on the relevant article. The future perspective is that the legal technical information on “wetten.nl” no longer only contains references to other regulations and case law, but also to decision rules based on the relevant article. “In my opinion, a role for the legislator in advance in guaranteeing legal protection in automated decision-making through transparency and traceability of decision rules and algorithms is more obvious than setting up retrospective control.”",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#translated-research-questions1",
+    "href": "s2_link2law.html#translated-research-questions1",
+    "title": "2  Mariette Lokin",
+    "section": "2.7 Translated Research Questions1",
+    "text": "2.7 Translated Research Questions1\nRQ1 : Can a language model be created based on analysis of the structure and formulation of legislation with which legal concepts in legislation can be made unambiguously recognizable?\nRQ2 : Can a useful legislative vocabulary be generated from manifestations of legal concepts based on annotation of legislation using the language model?\nRQ3 : Can the use of linked data in the drafting of legislation improve insight into the legal rules relevant to the digital implementation of a specific task and insight into explanatory notes and parliamentary history?\nRQ4 : What support is needed in the legal legislative process to implement the language model, to apply a legislative vocabulary and linked data?\nRQ5 : What changes are necessary in the administrative-political legislative process to realize multidisciplinary cooperation in the phase of official preparation of legislation, and to give technological rationality its own place in the phase of parliamentary consideration of legislation?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#original-research-questions",
+    "href": "s2_link2law.html#original-research-questions",
+    "title": "2  Mariette Lokin",
+    "section": "2.8 Original Research Questions",
+    "text": "2.8 Original Research Questions\nOV : In hoeverre en op welke wijze kan bij het tot stand brengen van wetgeving rekening worden gehouden met digitale uitvoering door uitvoeringsorganisaties van de rijksoverheid?\nOV1 : Kan op basis van analyse van de structuur en formulering van wetgeving een taalmodel worden gecreëerd waarmee juridische concepten in wetgeving eenduidig herkenbaar gemaakt kunnen worden?\nOV2 : Kan op basis van annotatie van wetgeving aan de hand van het taalmodel een bruikbaar wetgevingsvocabulaire worden gegenereerd van verschijningsvormen van juridische concepten?\nOV3 : Kan met toepassing van linked data bij de redactie van wetgeving het inzicht in de voor digitale uitvoering van een bepaalde taak relevante wettelijke regels en het inzicht in toelichtingen en parlementaire geschiedenis worden verbeterd?\nOV4 : Welke ondersteuning is nodig in het juridische wetgevingsproces om het taalmodel, het wetgevingsvocabulaire en linked data te kunnen toepassen?\nOV5 : Welke veranderingen zijn nodig in het bestuurlijk-politieke wetgevingsproces om een multidisciplinaire samenwerking te realiseren in de fase van ambtelijke voorbereiding van wetgeving, en om de technologische rationaliteit een eigen plaats te geven in de fase van parlementaire behandeling van wetgeving?",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#other-publications-coauthored-by-mariette-lokin",
+    "href": "s2_link2law.html#other-publications-coauthored-by-mariette-lokin",
+    "title": "2  Mariette Lokin",
+    "section": "2.9 Other publications (co)authored by Mariette Lokin",
+    "text": "2.9 Other publications (co)authored by Mariette Lokin\nThe first publication of Mariette in my Zotero library is from 2015: van Houtum et al. (2015). On the subject of the thesis there has also been a publiction in english (Lokin (2020)). The controled natural language (CNL) is called RegelSpraak. Is is described in: Corsius et al. (2021), from the same year is: Ausems, Bulles, and Lokin (2021).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#references",
+    "href": "s2_link2law.html#references",
+    "title": "2  Mariette Lokin",
+    "section": "3.1 References",
+    "text": "3.1 References\n\n\n\n\nAusems, Anouschka, John Bulles, and Mariette Lokin. 2021. Wetsanalyse: voor een werkbare uitvoering van wetgeving met ict. S.l.: Boom Juridisch.\n\n\nCorsius, Mischa, Stijn Hoppenbrouwers, Mariette Lokin, Elian Baars, Gertrude Sangers-Van Cappellen, and Ilona Wilmont. 2021. “RegelSpraak: A CNL for Executable Tax Rules Specification.” In Proceedings of the Seventh International Workshop on Controlled Natural Language (CNL 2020/21).\n\n\nLokin, Mariette. 2020. “Agile Law Making.” In Enterprise Ontology: A Human Centric Approach in Understanding the Essence of Organisation, 416–17. Springer, Cham.\n\n\nvan Houtum, Harrie, Peter Straatsma, Diederik Dulfer, Mariette Lokin, Tom van Engers, Rani Wierda, Robert van Doesburg, Maurice Nijssen, and Sjir Nijssen. 2015. “Een kapstok voor herleidbare wet- en regelgeving voor dienstverlening.”\n\n\nWendbaar wetgeven: de wetgever als systeembeheerder. 2018. Den Haag: Boom juridisch.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
+  },
+  {
+    "objectID": "s2_link2law.html#footnotes",
+    "href": "s2_link2law.html#footnotes",
+    "title": "2  Mariette Lokin",
+    "section": "",
+    "text": "Translated from Dutch into English with Google Translate.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mariette Lokin</span>"
+    ]
   }
 ]

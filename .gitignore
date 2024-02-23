@@ -14,6 +14,7 @@
 .gitignore
 .luarc.json
 .quarto/
+_book/
 output/
 *.pdf
 *.html
@@ -572,7 +573,7 @@ Temporary Items
 .apdisk
 
 # 6. VisualStudioCode .gitignore
-# Source: github/gitignore/Global 
+# Source: github/gitignore/Global
 
 .vscode/*
 !.vscode/settings.json
@@ -602,3 +603,4 @@ ipython_config.py
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
+/_*.local
