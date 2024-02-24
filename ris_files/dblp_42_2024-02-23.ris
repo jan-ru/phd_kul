@@ -1,0 +1,603 @@
+TY  - JOUR
+TI  - Business Process Modelling in Healthcare and Compliance Management: {A} Logical Framework
+JO  - {FLAP}
+VL  - 9
+M1  - 4
+SP  - 1131
+EP  - 1154
+PY  - 2022
+UR  - https://collegepublications.co.uk/ifcolog/?00056
+DA  - Mon, 08 Aug 2022 01:00:00 +0200
+DP  - https://dblp.org/rec/journals/flap/AmanteaRSGB22.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Checking Compliance in Data-Driven Case Management
+T1  - Business Process Management Workshops - {BPM} 2019 International Workshops, Vienna, Austria, September 1-6, 2019, Revised Selected Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 362
+SP  - 400
+EP  - 411
+PB  - Springer
+PY  - 2019
+UR  - https://doi.org/10.1007/978-3-030-37453-2\_33
+DO  - 10.1007/978-3-030-37453-2\_33
+DA  - Tue, 07 Jan 2020 14:41:26 +0100
+DP  - https://dblp.org/rec/conf/bpm/HolfterHPW19.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - JOUR
+TI  - Norms modeling constructs of business process compliance management frameworks: a conceptual evaluation
+JO  - Artif. Intell. Law
+VL  - 26
+M1  - 3
+SP  - 251
+EP  - 305
+PY  - 2018
+UR  - https://doi.org/10.1007/s10506-017-9215-8
+DO  - 10.1007/S10506-017-9215-8
+DA  - Wed, 14 Nov 2018 00:00:00 +0100
+DP  - https://dblp.org/rec/journals/ail/HashmiG18.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Compliance Checking for Decision-Aware Process Models
+T1  - Business Process Management Workshops - {BPM} 2018 International Workshops, Sydney, NSW, Australia, September 9-14, 2018, Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 342
+SP  - 494
+EP  - 506
+PB  - Springer
+PY  - 2018
+UR  - https://doi.org/10.1007/978-3-030-11641-5\_39
+DO  - 10.1007/978-3-030-11641-5\_39
+DA  - Wed, 25 Sep 2019 18:16:18 +0200
+DP  - https://dblp.org/rec/conf/bpm/HaarmannBW18.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Checking Business Process Models for Compliance - Comparing Graph Matching and Temporal Logic
+T1  - Business Process Management Workshops - {BPM} 2018 International Workshops, Sydney, NSW, Australia, September 9-14, 2018, Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 342
+SP  - 403
+EP  - 415
+PB  - Springer
+PY  - 2018
+UR  - https://doi.org/10.1007/978-3-030-11641-5\_32
+DO  - 10.1007/978-3-030-11641-5\_32
+DA  - Sat, 19 Oct 2019 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/Riehle18.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Using Business Process Compliance Approaches for Compliance Management with Regard to Digitization: Evidence from a Systematic Literature Review
+T1  - Business Process Management - 16th International Conference, {BPM} 2018, Sydney, NSW, Australia, September 9-14, 2018, Proceedings
+M1  - Lecture Notes in Computer Science
+VL  - 11080
+SP  - 409
+EP  - 425
+PB  - Springer
+PY  - 2018
+UR  - https://doi.org/10.1007/978-3-319-98648-7\_24
+DO  - 10.1007/978-3-319-98648-7\_24
+DA  - Sat, 09 Apr 2022 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/SackmannKS18.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - COLL
+TI  - Enabling Flexibility of Business Processes Using Compliance Rules: The Case of Mobiliar
+T1  - Business Process Management Cases, Digital Innovation and Business Transformation in Practice
+M1  - Management for Professionals
+SP  - 91
+EP  - 109
+PB  - Springer
+PY  - 2018
+UR  - https://doi.org/10.1007/978-3-319-58307-5\_6
+DO  - 10.1007/978-3-319-58307-5\_6
+DA  - Wed, 12 Sep 2018 16:46:17 +0200
+DP  - https://dblp.org/rec/books/sp/18/KimWRCTZ18.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - JOUR
+TI  - Comparative Analysis of Business Process Modelling Tools for Compliance Management Support
+JO  - Appl. Comput. Syst.
+VL  - 21
+M1  - 1
+SP  - 22
+EP  - 27
+PY  - 2017
+UR  - https://doi.org/10.1515/acss-2017-0003
+DO  - 10.1515/ACSS-2017-0003
+DA  - Thu, 21 Feb 2019 00:00:00 +0100
+DP  - https://dblp.org/rec/journals/rigaacs/KoncevicsPGDBA17.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Embracing Process Compliance and Flexibility Through Behavioral Consistency Checking in {ACM} - {A} Repair Service Management Case
+T1  - Business Process Management Workshops - {BPM} 2015, 13th International Workshops, Innsbruck, Austria, August 31 - September 3, 2015, Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 256
+SP  - 43
+EP  - 54
+PB  - Springer
+PY  - 2015
+UR  - https://doi.org/10.1007/978-3-319-42887-1\_4
+DO  - 10.1007/978-3-319-42887-1\_4
+DA  - Sun, 21 May 2017 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/KimWRCTZ15a.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - COLL
+TI  - Managing Regulatory Compliance in Business Processes
+T1  - Handbook on Business Process Management 2, Strategic Alignment, Governance, People and Culture, 2nd Ed
+M1  - International Handbooks on Information Systems
+SP  - 265
+EP  - 288
+PB  - Springer
+PY  - 2015
+UR  - https://doi.org/10.1007/978-3-642-45103-4\_11
+DO  - 10.1007/978-3-642-45103-4\_11
+DA  - Mon, 26 Oct 2020 00:00:00 +0100
+DP  - https://dblp.org/rec/series/ihis/SadiqG15.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Online Compliance Monitoring of Service Landscapes
+T1  - Business Process Management Workshops - {BPM} 2014 International Workshops, Eindhoven, The Netherlands, September 7-8, 2014, Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 202
+SP  - 89
+EP  - 95
+PB  - Springer
+PY  - 2014
+UR  - https://doi.org/10.1007/978-3-319-15895-2\_8
+DO  - 10.1007/978-3-319-15895-2\_8
+DA  - Mon, 01 May 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/WerfV14.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Unterst{\"{u}}tzung von dynamischen Compliance Prozessen durch Business Process Management Plattformen
+T1  - 44. Jahrestagung der Gesellschaft f{\"{u}}r Informatik, Big Data - Komplexit{\"{a}}t meistern, {INFORMATIK} 2014, Stuttgart, Germany, September 22-26, 2014
+M1  - {LNI}
+VL  - {P-232}
+SP  - 759
+EP  - 767
+PB  - {GI}
+PY  - 2014
+UR  - https://dl.gi.de/handle/20.500.12116/2982
+DA  - Tue, 04 Jul 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/gi/Burgwinkel14.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - JOUR
+TI  - Business process management enabled compliance-aware medical record sharing
+JO  - Int. J. Bus. Process. Integr. Manag.
+VL  - 6
+M1  - 3
+SP  - 201
+EP  - 223
+PY  - 2013
+UR  - https://doi.org/10.1504/IJBPIM.2013.056961
+DO  - 10.1504/IJBPIM.2013.056961
+DA  - Mon, 05 Feb 2024 00:00:00 +0100
+DP  - https://dblp.org/rec/journals/ijbpim/StevovicLMCA13.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - A Methodological Evaluation of Business Process Compliance Management Frameworks
+T1  - Asia Pacific Business Process Management - First Asia Pacific Conference, {AP-BPM} 2013, Beijing, China, August 29-30, 2013. Selected Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 159
+SP  - 106
+EP  - 115
+PB  - Springer
+PY  - 2013
+UR  - https://doi.org/10.1007/978-3-319-02922-1\_8
+DO  - 10.1007/978-3-319-02922-1\_8
+DA  - Wed, 14 Nov 2018 00:00:00 +0100
+DP  - https://dblp.org/rec/conf/apbpm/HashmiG13.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Supporting Domain Experts to Select and Configure Precise Compliance Rules
+T1  - Business Process Management Workshops - {BPM} 2013 International Workshops, Beijing, China, August 26, 2013, Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 171
+SP  - 498
+EP  - 512
+PB  - Springer
+PY  - 2013
+UR  - https://doi.org/10.1007/978-3-319-06257-0\_39
+DO  - 10.1007/978-3-319-06257-0\_39
+DA  - Sat, 30 Sep 2023 09:35:40 +0200
+DP  - https://dblp.org/rec/conf/bpm/RamezaniFA13.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Compliance Check in Semantic Business Process Management
+T1  - On the Move to Meaningful Internet Systems: {OTM} 2013 Workshops - Confederated International Workshops: {OTM} Academy, {OTM} Industry Case Studies Program, ACM, EI2N, ISDE, META4eS, ORM, SeDeS, SINCOM, SMS, and {SOMOCO} 2013, Graz, Austria, September 9 - 13, 2013, Proceedings
+M1  - Lecture Notes in Computer Science
+VL  - 8186
+SP  - 353
+EP  - 362
+PB  - Springer
+PY  - 2013
+UR  - https://doi.org/10.1007/978-3-642-41033-8\_45
+DO  - 10.1007/978-3-642-41033-8\_45
+DA  - Sat, 30 Sep 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/otm/GaborKSTV13.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Business Process Regulatory Compliance Management Solution Frameworks: {A} Comparative Evaluation
+T1  - Eighth Asia-Pacic Conference on Conceptual Modelling, {APCCM} 2012, Melbourne, Australia, January 2012
+M1  - {CRPIT}
+VL  - 130
+SP  - 23
+EP  - 32
+PB  - Australian Computer Society
+PY  - 2012
+UR  - http://crpit.scem.westernsydney.edu.au/abstracts/CRPITV130Kharbili.html
+DA  - Fri, 05 Feb 2021 11:06:52 +0100
+DP  - https://dblp.org/rec/conf/apccm/Kharbili12.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Towards Compliance of Cross-Organizational Processes and Their Changes - Research Challenges and State of Research
+T1  - Business Process Management Workshops - {BPM} 2012 International Workshops, Tallinn, Estonia, September 3, 2012. Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 132
+SP  - 649
+EP  - 661
+PB  - Springer
+PY  - 2012
+UR  - https://doi.org/10.1007/978-3-642-36285-9\_65
+DO  - 10.1007/978-3-642-36285-9\_65
+DA  - Sun, 21 May 2017 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/KnupleschRMRF12.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - {EU} Project {BPM-GOSPEL} - Applying Compliance Management Scenarios in Business Process Modelling for Trusted Business Coaching Programs
+T1  - Systems, Software and Services Process Improvement - 19th European Conference, EuroSPI 2012, Vienna, Austria, June 25-27, 2012. Proceedings
+M1  - Communications in Computer and Information Science
+VL  - 301
+SP  - 288
+EP  - 299
+PB  - Springer
+PY  - 2012
+UR  - https://doi.org/10.1007/978-3-642-31199-4\_25
+DO  - 10.1007/978-3-642-31199-4\_25
+DA  - Fri, 25 Jan 2019 12:00:39 +0100
+DP  - https://dblp.org/rec/conf/eurospi/IvanyosMRH12.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Causes-based problems in business process compliance based management
+T1  - First International Workshop on European Software Services and Systems Research - Results and Challenges, S-Cube 2012, Zurich, Switzerland, June 5, 2012
+SP  - 23
+EP  - 24
+PB  - {IEEE}
+PY  - 2012
+UR  - https://doi.org/10.1109/S-Cube.2012.6225503
+DO  - 10.1109/S-CUBE.2012.6225503
+DA  - Thu, 23 Mar 2023 00:00:00 +0100
+DP  - https://dblp.org/rec/conf/icse/HantryH12.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Making Compliance Measures Actionable: {A} New Compliance Analysis Approach
+T1  - Business Process Management Workshops - {BPM} 2011 International Workshops, Clermont-Ferrand, France, August 29, 2011, Revised Selected Papers, Part {I}
+M1  - Lecture Notes in Business Information Processing
+VL  - 99
+SP  - 159
+EP  - 164
+PB  - Springer
+PY  - 2011
+UR  - https://doi.org/10.1007/978-3-642-28108-2\_16
+DO  - 10.1007/978-3-642-28108-2\_16
+DA  - Sat, 09 Apr 2022 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/DamerJDV11.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Separating Compliance Management and Business Process Management
+T1  - Business Process Management Workshops - {BPM} 2011 International Workshops, Clermont-Ferrand, France, August 29, 2011, Revised Selected Papers, Part {II}
+M1  - Lecture Notes in Business Information Processing
+VL  - 100
+SP  - 459
+EP  - 464
+PB  - Springer
+PY  - 2011
+UR  - https://doi.org/10.1007/978-3-642-28115-0\_43
+DO  - 10.1007/978-3-642-28115-0\_43
+DA  - Mon, 01 May 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/RamezaniFWM11.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Activity-Oriented Clustering Techniques in Large Process and Compliance Rule Repositories
+T1  - Business Process Management Workshops - {BPM} 2011 International Workshops, Clermont-Ferrand, France, August 29, 2011, Revised Selected Papers, Part {II}
+M1  - Lecture Notes in Business Information Processing
+VL  - 100
+SP  - 14
+EP  - 25
+PB  - Springer
+PY  - 2011
+UR  - https://doi.org/10.1007/978-3-642-28115-0\_3
+DO  - 10.1007/978-3-642-28115-0\_3
+DA  - Sun, 21 May 2017 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/Rinderle-MaKL11.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Towards an Integration of {GRC} and {BPM} - Requirements Changes for Compliance Management Caused by Externally Induced Complexity Drivers
+T1  - Business Process Management Workshops - {BPM} 2011 International Workshops, Clermont-Ferrand, France, August 29, 2011, Revised Selected Papers, Part {II}
+M1  - Lecture Notes in Business Information Processing
+VL  - 100
+SP  - 344
+EP  - 355
+PB  - Springer
+PY  - 2011
+UR  - https://doi.org/10.1007/978-3-642-28115-0\_33
+DO  - 10.1007/978-3-642-28115-0\_33
+DA  - Sun, 21 May 2017 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/SchaferFL11.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Compliance Oriented Process Management Using the Example of Clinical Trials
+T1  - Business Process Management Workshops - {BPM} 2011 International Workshops, Clermont-Ferrand, France, August 29, 2011, Revised Selected Papers, Part {II}
+M1  - Lecture Notes in Business Information Processing
+VL  - 100
+SP  - 212
+EP  - 224
+PB  - Springer
+PY  - 2011
+UR  - https://doi.org/10.1007/978-3-642-28115-0\_21
+DO  - 10.1007/978-3-642-28115-0\_21
+DA  - Sun, 21 May 2017 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/SchlundtJ11.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Business Process and Regulations Compliance Management Technology
+T1  - Proceedings of the CAiSE Doctoral Consortium 2011, London, United Kingdom, June 21, 2011
+M1  - {CEUR} Workshop Proceedings
+VL  - 731
+SP  - 1
+PB  - CEUR-WS.org
+PY  - 2011
+UR  - https://ceur-ws.org/Vol-731/01.pdf
+DA  - Fri, 10 Mar 2023 16:22:35 +0100
+DP  - https://dblp.org/rec/conf/caise/Buksa11.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - A systematic review of goal-oriented requirements management frameworks for business process compliance
+T1  - Fourth International Workshop on Requirements Engineering and Law, {RELAW} 2011, Trento, Italy, August 30, 2011
+SP  - 25
+EP  - 34
+PB  - {IEEE} Computer Society
+PY  - 2011
+UR  - https://doi.org/10.1109/RELAW.2011.6050270
+DO  - 10.1109/RELAW.2011.6050270
+DA  - Sat, 30 Sep 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/re/GhanavatiAP11.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PHDT
+TI  - A compliance management framework for business process models
+PB  - University of Potsdam
+PY  - 2010
+UR  - http://opus.kobv.de/ubp/volltexte/2010/4922/
+C1  - urn:nbn:de:kobv:517-opus-49222
+DA  - Sat, 17 Jul 2021 01:00:00 +0200
+DP  - https://dblp.org/rec/phd/de/Awad2010.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Business Control Management - {A} Discipline to Ensure Regulatory Compliance of {SOA} Applications
+T1  - Business Process Management Workshops - {BPM} 2010 International Workshops and Education Track, Hoboken, NJ, USA, September 13-15, 2010, Revised Selected Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 66
+SP  - 652
+EP  - 666
+PB  - Springer
+PY  - 2010
+UR  - https://doi.org/10.1007/978-3-642-20511-8\_60
+DO  - 10.1007/978-3-642-20511-8\_60
+DA  - Thu, 01 Jun 2017 18:59:33 +0200
+DP  - https://dblp.org/rec/conf/bpm/MartensCMS10.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Business Process Compliance Tracking Using Key Performance Indicators
+T1  - Business Process Management Workshops - {BPM} 2010 International Workshops and Education Track, Hoboken, NJ, USA, September 13-15, 2010, Revised Selected Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 66
+SP  - 73
+EP  - 84
+PB  - Springer
+PY  - 2010
+UR  - https://doi.org/10.1007/978-3-642-20511-8\_7
+DO  - 10.1007/978-3-642-20511-8\_7
+DA  - Mon, 15 Jun 2020 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/ShamsaeiPA10.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Essential Aspects of Compliance Management with Focus on Business Process Automation
+T1  - {INFORMATIK} 2010 - Business Process and Service Science - Proceedings of {ISSS} and BPSC, September 27 - October 1, 2010 in Leipzig, Germany
+M1  - {LNI}
+VL  - {P-177}
+SP  - 127
+EP  - 138
+PB  - {GI}
+PY  - 2010
+UR  - https://dl.gi.de/handle/20.500.12116/19088
+DA  - Tue, 04 Jul 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpsc/SchummALSS10.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Process Views to Support Compliance Management in Business Processes
+T1  - E-Commerce and Web Technologies, 11th International Conference, EC-Web 2010, Bilbao, Spain, September 1-3, 2010. Proceedings
+M1  - Lecture Notes in Business Information Processing
+VL  - 61
+SP  - 131
+EP  - 142
+PB  - Springer
+PY  - 2010
+UR  - https://doi.org/10.1007/978-3-642-15208-5\_12
+DO  - 10.1007/978-3-642-15208-5\_12
+DA  - Fri, 02 Jun 2017 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/ecweb/SchummLS10.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Visualization of Compliance Violation in Business Process Models
+T1  - Business Process Management Workshops, {BPM} 2009 International Workshops, Ulm, Germany, September 7, 2009. Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 43
+SP  - 182
+EP  - 193
+PB  - Springer
+PY  - 2009
+UR  - https://doi.org/10.1007/978-3-642-12186-9\_17
+DO  - 10.1007/978-3-642-12186-9\_17
+DA  - Sat, 31 Aug 2019 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/AwadW09.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Semantic Compliance Management in Business Process Management
+T1  - Business Process, Services Computing and Intelligent Service Management, Leipzig, Germany, March 23-25, 2009
+M1  - {LNI}
+VL  - {P-147}
+SP  - 235
+EP  - 236
+PB  - {GI}
+PY  - 2009
+UR  - https://dl.gi.de/handle/20.500.12116/23238
+DA  - Tue, 04 Jul 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpsc/Kharbili09.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - A Semantic Framework for Compliance Management in Business Process Management
+T1  - Business Process, Services Computing and Intelligent Service Management, Leipzig, Germany, March 23-25, 2009
+M1  - {LNI}
+VL  - {P-147}
+SP  - 60
+EP  - 80
+PB  - {GI}
+PY  - 2009
+UR  - https://dl.gi.de/handle/20.500.12116/23244
+DA  - Tue, 04 Jul 2023 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpsc/KharbiliP09.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Aligning Risk Management and Compliance Considerations with Business Process Development
+T1  - E-Commerce and Web Technologies, 10th International Conference, EC-Web 2009, Linz, Austria, September 1-4, 2009. Proceedings
+M1  - Lecture Notes in Computer Science
+VL  - 5692
+SP  - 157
+EP  - 168
+PB  - Springer
+PY  - 2009
+UR  - https://doi.org/10.1007/978-3-642-03964-5\_16
+DO  - 10.1007/978-3-642-03964-5\_16
+DA  - Tue, 14 May 2019 10:00:53 +0200
+DP  - https://dblp.org/rec/conf/ecweb/ZoetWVR09.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Checking Compliance of Execution Traces to Business Rules
+T1  - Business Process Management Workshops, {BPM} 2008 International Workshops, Milano, Italy, September 1-4, 2008. Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 17
+SP  - 134
+EP  - 145
+PB  - Springer
+PY  - 2008
+UR  - https://doi.org/10.1007/978-3-642-00328-8\_13
+DO  - 10.1007/978-3-642-00328-8\_13
+DA  - Wed, 14 Nov 2018 10:57:47 +0100
+DP  - https://dblp.org/rec/conf/bpm/ChesaniMMRSS08.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Detecting Regulatory Compliance for Business Process Models through Semantic Annotations
+T1  - Business Process Management Workshops, {BPM} 2008 International Workshops, Milano, Italy, September 1-4, 2008. Revised Papers
+M1  - Lecture Notes in Business Information Processing
+VL  - 17
+SP  - 5
+EP  - 17
+PB  - Springer
+PY  - 2008
+UR  - https://doi.org/10.1007/978-3-642-00328-8\_2
+DO  - 10.1007/978-3-642-00328-8\_2
+DA  - Sun, 25 Oct 2020 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/GovernatoriHSW08.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Service Contract Compliance Management in Business Process Management
+T1  - Emerging Web Services Technology Volume III, Proceedings of the 3rd Workshop on Emerging Web Services Technology 2008, WEWST@ECOWS 2008, Dublin, Ireland, November 2008
+SP  - 105
+EP  - 116
+PB  - Birkh{\"{a}}user / Springer
+PY  - 2008
+UR  - https://doi.org/10.1007/978-3-0346-0104-7\_7
+DO  - 10.1007/978-3-0346-0104-7\_7
+DA  - Tue, 21 Mar 2023 21:03:28 +0100
+DP  - https://dblp.org/rec/conf/ecows/KharbiliP08.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Policy-Based Semantic Compliance Checking for Business Process Management
+T1  - Proceedings of the Workshops colocated with the MobIS2008 Conference: Including EPK2008, KobAS2008 and ModKollGP2008, Saarbr{\"{u}}cken, Germany, November 27-28, 2008
+M1  - {CEUR} Workshop Proceedings
+VL  - 420
+SP  - 178
+EP  - 192
+PB  - CEUR-WS.org
+PY  - 2008
+UR  - https://ceur-ws.org/Vol-420/paper13.pdf
+DA  - Fri, 10 Mar 2023 16:22:22 +0100
+DP  - https://dblp.org/rec/conf/mobis/KharbiliS08.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Compliance Aware Business Process Design
+T1  - Business Process Management Workshops, {BPM} 2007 International Workshops, BPI, BPD, CBP, ProHealth, RefMod, semantics4ws, Brisbane, Australia, September 24, 2007, Revised Selected Papers
+M1  - Lecture Notes in Computer Science
+VL  - 4928
+SP  - 120
+EP  - 131
+PB  - Springer
+PY  - 2007
+UR  - https://doi.org/10.1007/978-3-540-78238-4\_14
+DO  - 10.1007/978-3-540-78238-4\_14
+DA  - Sun, 25 Oct 2020 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/bpm/LuSG07.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -
+TY  - PROC
+TI  - Business Process and Business Rule Modeling Languages for Compliance Management: {A} Representational Analysis
+T1  - Challenges in Conceptual Modelling. Tutorials, posters, panels and industrial contributions at the 26th International Conference on Conceptual Modeling - {ER} 2007. Auckland, New Zealand, November 5-9, 2007. Proceedings
+M1  - {CRPIT}
+VL  - 83
+SP  - 127
+EP  - 132
+PB  - Australian Computer Society
+PY  - 2007
+UR  - http://crpit.scem.westernsydney.edu.au/abstracts/CRPITV83zurMuehlen.html
+DA  - Thu, 25 Jul 2019 01:00:00 +0200
+DP  - https://dblp.org/rec/conf/er/MuehlenIK07.bib
+DS  - dblp computer science bibliography, https://dblp.org
+ER  -

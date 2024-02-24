@@ -10,7 +10,8 @@ for file in files:
     with open(file, errors="ignore") as bibliography_file:
         entries = rispy.load(bibliography_file)
         for entry in entries:
-            print(entry["authors"][0])
+            # print(entry["authors"][0])
+            print(entry)
 
         # Filter out entries with 'unknown_tag'
         # filtered_entries = [entry for entry in entries

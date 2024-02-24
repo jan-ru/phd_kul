@@ -160,10 +160,47 @@ Product Data Model (different source)
 Object centric process mining
 
 
-## Companies
+## Appendix - Fields/Database
 
-- SAP / Signavio
-- DSM?
-- ASML?
+another transformation before this one
+(formula for transformation?)
+
+input / output
+
+|# | Field            |RIS |WoS|SD |SSRN|ArXiv|dblp|Zenodo|
+|-:|------------------|:--:|:-:|:-:|:--:|:---:|:--:|:----:|
+| 1|type_of_reference | TY | x | x |  - |  x  | x  |  x   |
+| 2|authors           | AU | x | x |  - |     | ?  |  ?   |
+| 3|title             | TI | x |   |  - |  x  | x  |  x   |
+| 4|                  | T1 |   | x |  - |     | x  |      |
+| 5|                  | T2 | x |   |  - |     |    |      |
+| 6|                  | AB | x |   |  - |  x  |    |      |
+| 7|                  | ID |   |   |    |  x  |    |      |
+| 8|date              | DA | x | x |  - |  x  | x  |  x   |
+| 9|year              | PY | x | x |  - |  x  | x  |  x   |
+|10|journal_name      | JO |   | x |  - |     | x  |  x   |
+|11|volume            | VL | x | x |  - |     | x  |  x   |
+|12|file attachment   | L1 |   |   |    |  x  |    |      |
+|13|note              | M1 |   |   |  - |     | x  |  x   |
+|14|                  | M3 |   |   |    |  x  |    |      |
+|15|doi               | DO | x | x |  - |  x  | x  |  x   |
+|16|url               | UR |   | x |  - |  x  | x  |  x   |
+|17|custom6           | C6 | x |   |  - |     |    |      |
+|18|custom7           | C7 | x |   |  - |     |    |      |
+|19|accession_number  | AN | x |   |  - |     |    |      |
+|20|start_page        | SP |   | x |  - |     | x  |      |
+|21|end_page          | EP |   |   |  - |     | x  |      |
+|22|key_word          | KW |   | x |  - |  x  |    |      |
+|23|publisher         | PB |   |   |  - |     | x  |      |
+|24|database_provider | DP |   |   |  - |     | x  |      |
+|25|data_source       | DS |   |   |  - |     |    |      |
+|26|                  | SN | x | x |  - |     |    |      |
+|27|                  | SN | x |   |  - |     |    |      |
+|28|end_of_record     | ER | x | x |  - |     |    |  x   |
+
+
+alternate grey/white for readability
+
+Reference wikipedia page [RIS format](https://en.wikipedia.org/wiki/RIS_(file_format))
 
 ## Literature

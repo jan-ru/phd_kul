@@ -1,0 +1,38 @@
+TY  - JOUR
+TI  - The Ubiquity and Dual Nature of Ultra Compact Dwarfs
+ID  - 1102.0001v2
+DO  - 10.1111/j.1365-2966.2011.18440.x
+M3  - arXiv
+KW  - astro-ph.CO
+AB  - We present the discovery of several Ultra Compact Dwarfs (UCDs) located in field/group environments. Examination of these objects, plus literature objects, confirms the existence of two distinct formation channels for UCDs. We find that the UCDs we have discovered around the group elliptical NGC3923 (and UCDs generally) have properties consistent with their being the most luminous members of the host galaxy's globular cluster (GC) system. We describe UCDs of this type as giant GCs (GGCs). In contrast, the UCD we have found associated with the isolated S0 NGC4546 is clearly the result of the stripping of a nucleated companion galaxy. The young age (~3.4 Gyr) of the UCD, the lack of a correspondingly young GC population, the apparently short dynamical friction decay timescale (~0.5 Gyr) of the UCD, and the presence of a counterrotating gas disc in the host galaxy (co-rotating with the UCD) together suggest that this UCD is the liberated nucleus remaining after the recent stripping of a companion by NGC4546. We suggest a general scheme that unifies the formation of GCs, UCDs, and galaxy nuclei. In this picture "normal" GCs are a composite population, composed of GCs formed in situ, GCs acquired from accreted galaxies, and a population of lower mass stripped dwarf nuclei masquerading as GCs. Above a "scaling onset mass" of 2x10^6 Msun (Mv ~ -10), UCDs emerge together with a mass-size relation and a likely mass-metallicity relation (the "blue tilt"). In the mass range up to 7x10^7 Msun (Mv ~ -13) UCDs comprise a composite population of GGCs and stripped nuclei. Above 7x10^7 Msun, UCDs must be almost exclusively stripped nuclei, as no sufficiently rich GC systems exist to populate such an extreme of the GCLF.
+PY  - 2011
+DA  - Jan
+UR  - http://arxiv.org/abs/1102.0001v2
+L1  - 1102.0001v2.pdf
+ER  -
+TY  - JOUR
+TI  - The Density and Pseudo-Phase-Space Density Profiles of CDM halos
+ID  - 1102.0002v1
+DO  - 10.1111/j.1365-2966.2011.19008.x
+M3  - arXiv
+KW  - astro-ph.CO
+AB  - Cosmological N-body simulations indicate that the spherically-averaged density profiles of cold dark matter halos are accurately described by Einasto profiles, where the logarithmic slope is a power-law of adjustable exponent, \gamma =dln\rho /dlnr ~ r^\alpha $. The pseudo-phase-space density (PPSD) profiles of CDM halos also show remarkable regularity, and are well approximated by simple power laws, Q(r)=\rho /\sigma ^3 ~ r^-\chi . We show that this is expected from dynamical equilibrium considerations, since Jeans' equations predict that the pseudo-phase-space density profiles of Einasto halos should resemble power laws over a wide range of radii. For the values of \alpha typical of CDM halos, the inner Q profiles of equilibrium halos deviate significantly from a power law only very close to the center, and simulations of extremely high-resolution would be needed to detect such deviations unambiguously. We use an ensemble of halos drawn from the Millennium-II simulation to study which of these two alternatives describe best the mass profile of CDM halos. Our analysis indicates that at the resolution of the best available simulations, both Einasto and power-law PPSD profiles (with adjustable exponents \alpha and \chi, respectively) provide equally acceptable fits to the simulations. A full account of the structure of CDM halos requires understanding how the shape parameters that characterize departures from self-similarity, like \alpha or \chi, are determined by evolutionary history, environment or initial conditions.
+PY  - 2011
+DA  - Jan
+N1  - Mon.Not.Roy.Astron.Soc.415:3895-3902,2011
+UR  - http://arxiv.org/abs/1102.0002v1
+L1  - 1102.0002v1.pdf
+ER  -
+TY  - JOUR
+TI  - Modeling the Young Sun's Solar Wind and its Interaction with Earth's Paleomagnetosphere
+ID  - 1102.0003v1
+DO  - 10.1029/2010JA016036
+M3  - arXiv
+KW  - astro-ph.SR
+AB  - We present a focused parameter study of solar wind - magnetosphere interaction for the young Sun and Earth, $~3.5$ Ga ago, that relies on magnetohydrodynamic (MHD) simulations for both the solar wind and the magnetosphere. By simulating the quiescent young Sun and its wind we are able to propagate the MHD simulations up to Earth's magnetosphere and obtain a physically realistic solar forcing of it. We assess how sensitive the young solar wind is to changes in the coronal base density, sunspot placement and magnetic field strength, dipole magnetic field strength and the Sun's rotation period. From this analysis we obtain a range of plausible solar wind conditions the paleomagnetosphere may have been subject to. Scaling relationships from the literature suggest that a young Sun would have had a mass flux different from the present Sun. We evaluate how the mass flux changes with the aforementioned factors and determine the importance of this and several other key solar and magnetospheric variables with respect to their impact on the paleomagnetosphere. We vary the solar wind speed, density, interplanetary magnetic field strength and orientation as well as Earth's dipole magnetic field strength and tilt in a number of steady-state scenarios that are representative of young Sun-Earth interaction. This study is done as a first step of a more comprehensive effort towards understanding the implications of Sun-Earth interaction for planetary atmospheric evolution.
+PY  - 2011
+DA  - Jan
+N1  - J. Geophys. Res., 116, A01217, doi:10.1029/2010JA016036, 2011
+UR  - http://arxiv.org/abs/1102.0003v1
+L1  - 1102.0003v1.pdf
+ER  -

@@ -1,15 +1,24 @@
 #!/usr/bin/env python3
-import sys
-import os
+# import sys
+# import os
 from pybtex.database.input import bibtex
 
-item_type = {"article": "JOUR", "inpress": "INPR", "book": "BOOK", "misc": "ELEC"}
+item_type = {
+    "article": "JOUR",
+    "inpress": "INPR",
+    "book": "BOOK",
+    "misc": "ELEC",
+    "inproceedings": "PROC",
+    "incollection": "COLL",
+    "phdthesis": "PHDT",
+}
 
 keys = {
     "year": "PY",
     "url": "UR",
     "number": "M1",
     "title": "TI",
+    "eprint": "ID",  # from arXiv
     "volume": "VL",
     "doi": "DO",
     "publisher": "PB",
@@ -18,14 +27,27 @@ keys = {
     "end_page": "EP",
     "address": "PP",
     "note": "N1",
+    "month": "DA",
+    "timestamp": "DA",
+    "biburl": "DP",
+    "bibsource": "DS",
+    "booktitle": "T1",
+    "series": "M1",
+    "school": "PB",
+    "urn": "C1",
+    "archiveprefix": "M3",  # from arXiv
+    "primaryclass": "KW",  # from arXiv
+    "abstract": "AB",  # from arXiv
+    "file": "L1",  # from arXiv
 }
 
 # Path to the bibtex file
-bib_file = sys.argv[1]
+# bib_file = sys.argv[1]
+file = "ris_files/arxiv"
 # Create a parser
 parser = bibtex.Parser()
 # Load the bibtex file
-data = parser.parse_file("ads.bib")
+data = parser.parse_file(file + ".bib")
 
 # Create a dictionary holding all the entries
 library = {}
@@ -33,12 +55,14 @@ for label, entry in data.entries.items():
     item = {}
     item["type"] = entry.type
     authors = []
-    if len(entry.persons):
-        for person in entry.persons.items()[0][1]:
-            first_name = " ".join(person.first_names)
-            last_name = " ".join(person.last_names)
-            authors.append(", ".join([last_name, first_name]))
-        item["authors"] = authors
+    # print("len(entry.persons), entry.persons:", len(entry.persons),
+    #      entry.persons)
+    # if len(entry.persons):
+    #    for person in entry.persons.items()[0][1]:
+    #        first_name = " ".join(person.first_names)
+    #        last_name = " ".join(person.last_names)
+    #        authors.append(", ".join([last_name, first_name]))
+    #    item["authors"] = authors
     item["data"] = {}
     for key, content in entry.fields.items():
         if key == "pages":
@@ -56,18 +80,19 @@ ris = ""
 for key, item in library.items():
     entry = ""
     type_ = item_type[item["type"]]
-    entry += f"TY - {type_}\n"
+    entry += f"TY  - {type_}\n"
     if "authors" in item:
         for author in item["authors"]:
-            entry += f"AU - {author}\n"
+            entry += f"AU  - {author}\n"
     for chunk, data in item["data"].items():
-        temp = keys[chunk]
-        entry += f"{temp} - {data}\n"
-    entry += "ER -\n"
+        temp = keys[chunk.lower()]
+        entry += f"{temp}  - {data}\n"
+    print(item["data"].items())
+    entry += "ER  -\n"
     ris += entry
 
 # Save to file
-new_name = f"{os.path.splitext(bib_file)[0]}.ris"
+new_name = f"{file}.ris"
 with open(new_name, "w") as f:
     f.writelines(ris)
 print("All done")
