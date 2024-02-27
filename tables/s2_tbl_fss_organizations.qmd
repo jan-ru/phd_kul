@@ -30,3 +30,5 @@ Organizations to consider in this sector:
 [KP2-ref]: https://www.linkedin.com/in/elhamramezani/
 [PWC1-ref]: https://www.pwc.nl/
 [PWC2-ref]: https://www.linkedin.com/in/mona-de-boer-phd-a9b0855/
+
+: Financial Services {.striped .hover}

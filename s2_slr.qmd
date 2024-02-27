@@ -3,8 +3,8 @@ project:
   type: default
   output-dir: output
 title: "SLR"
-subtitle: "Review Protocol"
-date: "10-23-2023"
+subtitle: "Aligning business processes with regulatory requirements"
+date: "02-24-2024"
 date-format: "D/MM/YYYY"
 date-modified: "10-23-2023"
 author:
@@ -30,21 +30,25 @@ format:
         \rohead{Draft}
         \lofoot{}
 latex-output-dir: output
+papersize: a4
+execute:
+  echo: false
 toc: false
 toc-depth: 2
 bibliography: MyLibrary.bib
 keywords: modelling languages, controlled natural language
 
 ---
+
 ## Background
 
 In the context of the DBA program at Vlerick Business School a literature review is one of the deliverables of year two.
 
 ## Conceptual model
 
-There is an existing model published by OCEG (&Refentiv) that may be used as a reference. The 2018 version is attached and redrawn below (@RegulatoryChangeManagement2018).
+There is an existing model published by OCEG (&Refinitiv) that may be used as a reference. The 2018 version is attached and redrawn below (@RegulatoryChangeManagement2018).
 
-{{< include tables/s2_oceg_regulatory_change_process.qmd >}}
+{{< include diagrams/s2_oceg_regulatory_change_process.qmd >}}
 
 ## Research questions
 
@@ -52,7 +56,11 @@ The main research question RQ
 
 RQ: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
 
+RQ: What are approaches for aligning \fbox{business processes} with \fbox{regulatory requirements} to achieve regulatory \fbox{compliance by design}?
+
 SQ-1: How can businesses identify relevant regulatory requirements? 
+
+Businesses can identify relevant regulatory requirements through a comprehensive approach that involves understanding and analyzing various sources of compliance mandates. These sources include legislation and regulatory bodies (e.g., Sarbanes-Oxley and Basel II), standards and codes of practices (e.g., ISO 9001), and business partner contracts.
 
 SQ-2: How can businesses analyze which business processes are affected by changes in requlatory requirements? 
 
@@ -62,46 +70,49 @@ SQ-4: How can businesses ensure compliance throughout the lifecycle of the impac
 
 ## Search terms
 
-- "business process management" and "regulatory compliance"
-- "business process management" and "regulatory compliance" and "systematic literature review"
-- "compliance risk management"
-- "regulatory risk management"
-- "managing regulatory compliance in business processes"
+1. ("business process management" or BPM) and "regulatory compliance"
+2. ("business process management" or BPM) and "legal compliance"
+3. ("business process management" or BPM) and "compliance"
+4. "business process management" and ("regulation" or "regulatory")
+5. "business process *engineering" and "compliance"
+6. "business process *engineering" and ("regulation" or "reglatory")
 
-## Search query Web of Science
+## Search queries
 
 The search query is composed of four individual queries. The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
 
-1. (TI=("business process management" or BPM) AND (AB=("compliance") OR KP=("compliance"))) OR 
+1. (TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))) OR 
 2. (TI=("business process management" or BPM) AND (AB=("regulat*") OR KP=("regulat*"))) OR 
 3. (TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))) OR 
 4. (TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat*)))
 
 this query yields xx results on the Vlerick WoS subscription (core ...) which is limited to 10 years back.
 
-## Search query Science Direct
+Table search query
 
+| Type               |Abbrev.        | Name                               |Possible contact                    | 
+|--------------------|---------------|------------------------------------|------------------------------------|
+| Trade association  |[NVB][NVB1-ref]| Nederlandse Vereniging van Banken  |                                    |
+: Search {.striped .hover}
 
-
+[NVB1-ref]: https://www.nvb.nl/
 
 ## Resources to be searched
 
-Use table format ref. excel
+|Platform      | Operator  |
+|--------------|-----------|
+|Web of Science|[Clarivate](https://www-webofscience-com) |
+|ScienceDirect |[Elsevier](https://www-sciencedirect-com) |
+|SSNR          |[Elsevier](https://www.ssrn.com/)         |
+|arXiv         |[cs](https://arxiv.org/search/cs)         |
+|dblp          |[dblp](https://dblp.org/)                 |
+|Zenodo        |                                          |
 
-Date | Search ID | Title | Keywords | Abstract | Query Link | Hits |
-
-- Web of Science [Clarivate](https://www-webofscience-com)
-- ScienceDirect [Elsevier](https://www-sciencedirect-com)
-- Scopus [Elsevier](www-scopus-com), note: not available via Vlerick
-- SSNR [Elsevier](https://www.ssrn.com/)
-- arXiv > [cs](https://arxiv.org/search/cs)
-- dblp, computer science bibliography [dblp](https://dblp.org/)
-- add Zenodo
-
+: Resources {.striped .hover}
 
 ## Study selection criteria
 
-To be completed.
+To be completed !!!
 
 ## Study quality assessment
 
@@ -113,13 +124,34 @@ To be completed.
 
 Queries have been formulated for each datasource. Where queries could be specified at a field level (WoS and SD) we looked for "business process management" in the title field.
 
+|Date | Search ID | Title | Keywords | Abstract | Query Link | Hits |
+|-----|-----------|-------|----------|----------|------------|------|
+|     |           |       |          |          |            |      |
+: Hits {.striped .hover}
+
+(TI=("business process management" or BPM) AND (AB=("compliance") OR KP=("compliance"))) or 
+(TI=("business process management" or BPM) AND (AB=("regulat*") OR KP=("regulat*"))) 1. first
+
+
+Footnote
+Web of Science: Core Collection
+Subscription  : Vlerick Business School
+Editions  : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI  
+Date range: 2014-2024  
+
 ## Synthesis of extracted data
 
-To be completed.
+SQ1  
+
+SQ2  
+
+SQ3  
+
+SQ4  
 
 ## Disseminaton strategy
 
-To be completed.
+Prelim conclusion and future work go here?
 
 \newpage
 
@@ -159,48 +191,109 @@ Product Data Model (different source)
 
 Object centric process mining
 
+## Limitations
 
-## Appendix - Fields/Database
+projecten, sinds 2014 (@tbl-resultset). 
+
+## Future
+
+Did we miss searching for "complaince by design"? Did we miss searching for "inter organizational processes"?  
+In practice the term "workflow management system" is used in financial institutions (bron: Mark Muyres).
+
+|Platform |Operator   |Note                                             | Article |
+|---------|-----------|-------------------------------------------------|---------|
+|Scopus   |[Elsevier](www-scopus-com)| note: not available via Vlerick  |    (@priemOpenAlexFullyopenIndex2022)     |
+|OpenAlex |[OpenAlex](https://openalex.org) |                           |         |
+|OpenAIRE |[OpenAIRE](https://explore.openaire.eu/) | Mentioned in connection with Zenodo and also EU Research Programs | |
+: Further Resources {.striped .hover}
+
+
+\newpage
+
+## Appendix - Tabels
+
+{{< include tables/s2_tbl_platforms.qmd >}}
+
+\newpage
 
 another transformation before this one
 (formula for transformation?)
 
 input / output
 
-|# | Field            |RIS |WoS|SD |SSRN|ArXiv|dblp|Zenodo|
-|-:|------------------|:--:|:-:|:-:|:--:|:---:|:--:|:----:|
-| 1|type_of_reference | TY | x | x |  - |  x  | x  |  x   |
-| 2|authors           | AU | x | x |  - |     | ?  |  ?   |
-| 3|title             | TI | x |   |  - |  x  | x  |  x   |
-| 4|                  | T1 |   | x |  - |     | x  |      |
-| 5|                  | T2 | x |   |  - |     |    |      |
-| 6|                  | AB | x |   |  - |  x  |    |      |
-| 7|                  | ID |   |   |    |  x  |    |      |
-| 8|date              | DA | x | x |  - |  x  | x  |  x   |
-| 9|year              | PY | x | x |  - |  x  | x  |  x   |
-|10|journal_name      | JO |   | x |  - |     | x  |  x   |
-|11|volume            | VL | x | x |  - |     | x  |  x   |
-|12|file attachment   | L1 |   |   |    |  x  |    |      |
-|13|note              | M1 |   |   |  - |     | x  |  x   |
-|14|                  | M3 |   |   |    |  x  |    |      |
-|15|doi               | DO | x | x |  - |  x  | x  |  x   |
-|16|url               | UR |   | x |  - |  x  | x  |  x   |
-|17|custom6           | C6 | x |   |  - |     |    |      |
-|18|custom7           | C7 | x |   |  - |     |    |      |
-|19|accession_number  | AN | x |   |  - |     |    |      |
-|20|start_page        | SP |   | x |  - |     | x  |      |
-|21|end_page          | EP |   |   |  - |     | x  |      |
-|22|key_word          | KW |   | x |  - |  x  |    |      |
-|23|publisher         | PB |   |   |  - |     | x  |      |
-|24|database_provider | DP |   |   |  - |     | x  |      |
-|25|data_source       | DS |   |   |  - |     |    |      |
-|26|                  | SN | x | x |  - |     |    |      |
-|27|                  | SN | x |   |  - |     |    |      |
-|28|end_of_record     | ER | x | x |  - |     |    |  x   |
+{{< include tables/s2_tbl_ris_fields_per_source.qmd >}}
 
-
-alternate grey/white for readability
+alternate grey/white for readability (python table?)
 
 Reference wikipedia page [RIS format](https://en.wikipedia.org/wiki/RIS_(file_format))
+
+\newpage
+
+{{< include tables/s2_tbl_query_results.qmd >}}
+
+\newpage
+
+## RCM Process Steps
+
+1. Identify & Define  
+1.1 Develop Company Profile  
+1.2 Apply Regulatory Content Taxonomy  
+1.3 Establish Risk Based Regulatory Library  
+2. Track & Analyze  
+2.1 Track Relevant Regulatory Actions  
+2.2 Compare and Analyze  
+2.3 Maintain Regulatory Library  
+3. Monitor & Map  
+3.1 Monitor Regulatory Events to Affected Areas  
+3.2 Evaluate Need for Control/Actions Changes  
+3.3 Notify/Control Policy Owners  
+4. Control & Manage  
+4.1 Evaluate Flagged Impacts on Controls/Actions and Operations  
+4.2 Determine Changes, Implement and Record  
+4.3 Identify Exceptions and Record Reasons/Alternatives  
+5. Report & Record  
+5.1 Continuously Monitor and Analyze  
+5.2 Report Key Changes and Business Impacts  
+5.3 Maintain Audit Trail of Compliance  
+
+\newpage
+
+## Software used
+
+All of the scripts use pandas (reback2020pandas).
+
+We used various sofware scripts to assemple the dataset. Specificaly:
+
+- [arxiv2bib](https://nathangrigg.github.io/arxiv2bib/), Get a BibTeX entry from an arXiv id number, using the arxiv.org API. ([Nathan Grigg](https://nathangrigg.com/), 2017)
+- [bib2ris](https://github.com/MacDumi/bib2ris), Script to convert bibtex files to ris format. ([Dumitru Duca](https://orcid.org/0000-0002-3873-4224), 2020)
+- [rispy](https://github.com/MrTango/rispy), A Python 3.8+ reader/writer of RIS reference files. (Version 0.9.0; [Maik Derstappen](https://www.linkedin.com/in/maik-derstappen-4ab80618/?locale=en_US), 2024)
+- [tabulate](https://github.com/astanin/python-tabulate), Pretty-print tabular data in Python, a library and a command-line utility. ([Sergey Astanin](https://scholar.google.com/citations?user=DWdSLeMAAAAJ&hl=en&oi=sra), 2022)
+
+\newpage
+
+\fontsize{8}{9}\selectfont
+
+```{python}
+#| label: tbl-resultset
+#| tbl-cap: ResultSet
+#| 
+from IPython.display import Markdown
+from tabulate import tabulate
+from lib.my_excel_lib import get_tables
+from lib.my_custom_lib import xls2md
+
+tables = get_tables('tables/slr_logbook.xlsx')
+
+Markdown(tabulate(
+  xls2md(tables['ResultSet']),
+  headers=['Nr','Type','Title'],
+  missingval=[''],
+  maxcolwidths=[3, 10, 100],
+  showindex=False,
+  colalign=('left', 'left','left')))
+
+```
+
+\newpage
 
 ## Literature

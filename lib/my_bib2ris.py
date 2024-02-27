@@ -55,14 +55,20 @@ for label, entry in data.entries.items():
     item = {}
     item["type"] = entry.type
     authors = []
-    # print("len(entry.persons), entry.persons:", len(entry.persons),
-    #      entry.persons)
-    # if len(entry.persons):
-    #    for person in entry.persons.items()[0][1]:
-    #        first_name = " ".join(person.first_names)
-    #        last_name = " ".join(person.last_names)
-    #        authors.append(", ".join([last_name, first_name]))
-    #    item["authors"] = authors
+    print("\n\n\nentry 1", entry.persons["Author"])
+    if len(entry.persons):
+        for person in entry.persons.items():  # [0][1]
+            print(entry.persons.items())
+            print("person: ", person)
+            print("len(person) ", len(person))
+            print("person[1][0]: ", person[1][0])
+            # first_name = " ".join(person.first_names)
+            # last_name = " ".join(person.last_names)
+            # authors.append(", ".join([last_name, first_name]))
+            last_name_first_name = str(person[1][0])
+            authors.append(", ".join([last_name_first_name]))
+        item["authors"] = authors
+        print(item["authors"])
     item["data"] = {}
     for key, content in entry.fields.items():
         if key == "pages":
@@ -87,7 +93,6 @@ for key, item in library.items():
     for chunk, data in item["data"].items():
         temp = keys[chunk.lower()]
         entry += f"{temp}  - {data}\n"
-    print(item["data"].items())
     entry += "ER  -\n"
     ris += entry
 
