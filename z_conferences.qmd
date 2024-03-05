@@ -1,5 +1,5 @@
 ---
-title: "Backlog"
+title: "Conferences"
 subtitle: "Work to do"
 date: "05-19-2023"
 date-format: "D/MM/YYYY"
@@ -27,9 +27,9 @@ bibliography: "Top100.bib"
 
 [19-05-2023] / sprint 2, day 1
 
-h-index nakijken van 24 auteurs
+Technologies for Regulatory Compliance
+[TERECOM 2018](https://www.ceur-ws.org/Vol-2309/)
 
-[05-07-2023] / sprint 3, day 1
 
 5 artikelen van HvA of UvA auteurs
 

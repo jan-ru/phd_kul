@@ -1,0 +1,52 @@
+---
+format:
+  pdf:
+    mermaid:
+      theme: neutral
+---
+
+# Bijlage
+
+<!--
+Mermaid diagram showing the replicating the CADIMA SLR diagram.
+-->
+
+```{mermaid}
+flowchart TB
+
+    A("__ records identified 
+    through 
+    database searching")
+    B("__ additional records 
+    identified  
+    through other sources")
+    subgraph .
+      C("__ records after duplicate removal")  
+      D("__ records screened at title and abstract level")
+      E("__ full-text articles  assessed for eligibility")
+      F("__ full-text articles included")
+      G("__ studies included")
+    end
+    H("_records excluded")
+    I("_full-text articles 
+    excluded 
+    with <a href='http://google.com'>reasons</a>")
+  
+  A --> C
+  B --> C
+  C --> D
+  D --> H
+  D --> E
+  E --> F
+  E --> I
+  F --> G
+```
+
+diagram nummeren?
+
+Articles excluded:  
+- first
+- second
+- third
+- fourth
+

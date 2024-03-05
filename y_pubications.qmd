@@ -25,3 +25,20 @@ List of papers:
 
 
 Some 50 references
+
+[19-05-2023] / sprint 2, day 1
+
+h-index nakijken van 24 auteurs
+
+[05-07-2023] / sprint 3, day 1
+
+5 artikelen van HvA of UvA auteurs
+
+5 artikelen met bepaalde methodology
+
+5 artikelen design science research
+
+5 artikelen systematic literature review
+
+
+{{< pagebreak >}}

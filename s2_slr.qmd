@@ -44,6 +44,8 @@ keywords: modelling languages, controlled natural language
 
 In the context of the DBA program at Vlerick Business School a literature review is one of the deliverables of year two.
 
+
+
 ## Conceptual model
 
 There is an existing model published by OCEG (&Refinitiv) that may be used as a reference. The 2018 version is attached and redrawn below (@RegulatoryChangeManagement2018).
@@ -64,9 +66,15 @@ Businesses can identify relevant regulatory requirements through a comprehensive
 
 SQ-2: How can businesses analyze which business processes are affected by changes in requlatory requirements? 
 
+
+
 SQ-3: How can businesses integrate compliance requirements into business process design?
 
+
+
 SQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes?
+
+
 
 ## Search terms
 
@@ -205,6 +213,7 @@ In practice the term "workflow management system" is used in financial instituti
 |Scopus   |[Elsevier](www-scopus-com)| note: not available via Vlerick  |    (@priemOpenAlexFullyopenIndex2022)     |
 |OpenAlex |[OpenAlex](https://openalex.org) |                           |         |
 |OpenAIRE |[OpenAIRE](https://explore.openaire.eu/) | Mentioned in connection with Zenodo and also EU Research Programs | |
+|CEUR Workshop Proceedings| | |
 : Further Resources {.striped .hover}
 
 

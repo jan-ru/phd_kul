@@ -5,6 +5,7 @@ Mermaid diagram showing the OCEG Regulatory Change Process.
 
 ```{mermaid}
 flowchart LR
+  %%{init: {'theme':'neutral'}}%%
   A("Identify &
   Define")
   B("Track & 

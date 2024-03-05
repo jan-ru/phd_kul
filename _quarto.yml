@@ -16,7 +16,7 @@ book:
     - references.qmd
 
   appendices:
-    - z_backlog.qmd
+    - z_resources.qmd
 bibliography: Top100.bib
 
 format:
