@@ -3,17 +3,21 @@ format:
   pdf:
     mermaid:
       theme: neutral
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
+        \rohead{Draft}
+        \lofoot{}
 ---
-
-# Bijlage
 
 <!--
 Mermaid diagram showing the replicating the CADIMA SLR diagram.
 -->
 
 ```{mermaid}
+%%| label: fig-slr-flowchart
+%%| fig-cap: "Flowchart depicting literature selection."
 flowchart TB
-
     A("__ records identified 
     through 
     database searching")
@@ -41,12 +45,3 @@ flowchart TB
   E --> I
   F --> G
 ```
-
-diagram nummeren?
-
-Articles excluded:  
-- first
-- second
-- third
-- fourth
-

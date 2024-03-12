@@ -4,9 +4,9 @@ project:
   output-dir: output
 title: "SLR"
 subtitle: "Aligning business processes with regulatory requirements"
-date: "02-24-2024"
+date: "03-08-2024"
 date-format: "D/MM/YYYY"
-date-modified: "10-23-2023"
+date-modified: "03-08-2024"
 author:
   - name:
     orcid: 0000-0003-1689-0557
@@ -21,148 +21,37 @@ author:
         city: Ghent
         postal-code: 9000
 abstract: ""
+mainfont: "Times New Roman"
+sansfont: "Arial"
+monofont: "Courier New"
+mathfont: "TeX Gyre Termes Math"
+crossref:
+  fig-prefix: figure   # (default is "Figure")
+  tbl-prefix: table    # (default is "Table")
 format:
   pdf:
+    papersize: a4
+    mermaid:
+      theme: neutral
     cite-method: citeproc
     include-in-header: 
       text:
-        \usepackage{imakeidx, bibentry, scrlayer-scrpage}
+        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
         \rohead{Draft}
         \lofoot{}
 latex-output-dir: output
-papersize: a4
 execute:
   echo: false
+number-sections: false
 toc: false
 toc-depth: 2
 bibliography: MyLibrary.bib
+link-citations: true
 keywords: modelling languages, controlled natural language
 
 ---
 
-## Background
-
-In the context of the DBA program at Vlerick Business School a literature review is one of the deliverables of year two.
-
-
-
-## Conceptual model
-
-There is an existing model published by OCEG (&Refinitiv) that may be used as a reference. The 2018 version is attached and redrawn below (@RegulatoryChangeManagement2018).
-
-{{< include diagrams/s2_oceg_regulatory_change_process.qmd >}}
-
-## Research questions
-
-The main research question RQ
-
-RQ: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
-
-RQ: What are approaches for aligning \fbox{business processes} with \fbox{regulatory requirements} to achieve regulatory \fbox{compliance by design}?
-
-SQ-1: How can businesses identify relevant regulatory requirements? 
-
-Businesses can identify relevant regulatory requirements through a comprehensive approach that involves understanding and analyzing various sources of compliance mandates. These sources include legislation and regulatory bodies (e.g., Sarbanes-Oxley and Basel II), standards and codes of practices (e.g., ISO 9001), and business partner contracts.
-
-SQ-2: How can businesses analyze which business processes are affected by changes in requlatory requirements? 
-
-
-
-SQ-3: How can businesses integrate compliance requirements into business process design?
-
-
-
-SQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes?
-
-
-
-## Search terms
-
-1. ("business process management" or BPM) and "regulatory compliance"
-2. ("business process management" or BPM) and "legal compliance"
-3. ("business process management" or BPM) and "compliance"
-4. "business process management" and ("regulation" or "regulatory")
-5. "business process *engineering" and "compliance"
-6. "business process *engineering" and ("regulation" or "reglatory")
-
-## Search queries
-
-The search query is composed of four individual queries. The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
-
-1. (TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))) OR 
-2. (TI=("business process management" or BPM) AND (AB=("regulat*") OR KP=("regulat*"))) OR 
-3. (TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))) OR 
-4. (TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat*)))
-
-this query yields xx results on the Vlerick WoS subscription (core ...) which is limited to 10 years back.
-
-Table search query
-
-| Type               |Abbrev.        | Name                               |Possible contact                    | 
-|--------------------|---------------|------------------------------------|------------------------------------|
-| Trade association  |[NVB][NVB1-ref]| Nederlandse Vereniging van Banken  |                                    |
-: Search {.striped .hover}
-
-[NVB1-ref]: https://www.nvb.nl/
-
-## Resources to be searched
-
-|Platform      | Operator  |
-|--------------|-----------|
-|Web of Science|[Clarivate](https://www-webofscience-com) |
-|ScienceDirect |[Elsevier](https://www-sciencedirect-com) |
-|SSNR          |[Elsevier](https://www.ssrn.com/)         |
-|arXiv         |[cs](https://arxiv.org/search/cs)         |
-|dblp          |[dblp](https://dblp.org/)                 |
-|Zenodo        |                                          |
-
-: Resources {.striped .hover}
-
-## Study selection criteria
-
-To be completed !!!
-
-## Study quality assessment
-
-- peer-reviewed journals
-- conference papers
-- book articles
-
-## Data extraction strategy
-
-Queries have been formulated for each datasource. Where queries could be specified at a field level (WoS and SD) we looked for "business process management" in the title field.
-
-|Date | Search ID | Title | Keywords | Abstract | Query Link | Hits |
-|-----|-----------|-------|----------|----------|------------|------|
-|     |           |       |          |          |            |      |
-: Hits {.striped .hover}
-
-(TI=("business process management" or BPM) AND (AB=("compliance") OR KP=("compliance"))) or 
-(TI=("business process management" or BPM) AND (AB=("regulat*") OR KP=("regulat*"))) 1. first
-
-
-Footnote
-Web of Science: Core Collection
-Subscription  : Vlerick Business School
-Editions  : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI  
-Date range: 2014-2024  
-
-## Synthesis of extracted data
-
-SQ1  
-
-SQ2  
-
-SQ3  
-
-SQ4  
-
-## Disseminaton strategy
-
-Prelim conclusion and future work go here?
-
-\newpage
-
+<!--
 ## Examples of SLR
 
 [05/10/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits:
@@ -171,40 +60,193 @@ Prelim conclusion and future work go here?
 - Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @prodanovaHowBeneficialSocial2019, @ahmadBusinessProcessManagement2020).
 - There is 1 SLR about BPMN extensions (@zarourSystematicLiteratureReview2019)
 - Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
+-->
+
+## Introduction
+
+In the context of the DBA program at Vlerick Business School a literature review is one of two deliverables of year two. The research topic is "BPM for regulatory compliance". The goal of this review is to get an overview of relevant literature and identify topics listed as possibilities for future research. The literature review has been performed following the steps described in @kitchenhamGuidelinesPerformingSystematic2007. 
+
+## Research questions
+
+The research question and the three supporting subquestions that are addressed in this literature review are:
+
+RQ: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
+
+SQ1: How can businesses identify relevant regulatory requirements? 
+
+SQ2: How can businesses analyze which business processes are affected by changes in requlatory requirements?  
+
+SQ3: How can businesses integrate compliance requirements into business process design?  
+
+<!--
+SQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes? Comment: taken out as answering this subquestion does not help answering the main research question.
+-->
+
+The following is the research question repeated whereby the central terms and and concepts in this review are boxed: What are approaches for aligning \fbox{business processes} with \fbox{regulatory requirements} to achieve regulatory \fbox{compliance by design}?  
+  
+A definition of the three central concepts is included in the appendix.
+
+## Resources searched
+
+An initial set of databases was selected to perform the literature search on. Both commercial and open access databases have been selected. A description for these databases in included in @tbl-databases.
+
+1. Web of Science (WoS), Publisher: [Clarivate](https://www-webofscience-com)
+1. ScienceDirect (SD), Publisher: [Elsevier](https://www-sciencedirect-com)
+1. SSNR, Publisher: [Elsevier](https://www.ssrn.com/)
+1. arXiv, Publisher: [cs](https://arxiv.org/search/cs)
+1. dblp, Publisher: [dblp](https://dblp.org/)
+1. Zenodo, Publisher: [Zenodo](https://zenodo.org)
+
+The results of the initial searches was reviewed. SSNR and Zenodo yielded few results as compared to the other databases. The selection of databases was reduced to WoS, SD, ArXiv and dblp.
+
+## Database searches {#sec-database-searches}
+
+The initial keyterms and database searches had been formulated as follows:
+
+1. ("business process management" or BPM) and "regulatory compliance"
+2. ("business process management" or BPM) and "legal compliance"
+3. ("business process management" or BPM) and "compliance"
+4. "business process management" and ("regulation" or "regulatory")
+5. "business process *engineering" and "compliance"
+6. "business process *engineering" and ("regulation" or "reglatory")
+
+The initial searches were done all database fields. The search was subsequently made more specific by searching titles and abstracts and later titles, abstracts and keywords.
+
+Initially 6 queries have been run against the 6 databases resuling in __ hits as shown in @tbl-query-results in the appendix.
+After testing the initially formulated 6 queries have een reduced to 4 queries.
+The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
+
+1. TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))
+2. TI=("business process management" or BPM) AND (AB=("regulat\*") OR KP=("regulat\*"))
+3. TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))
+4. TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat\*))
+
+In the case of Web of Science (WoS) the four queries have been taken together using the "OR" operator. This final query yields 42 results when using the the Vlerick WoS subscription[^1].
+
+| Search Date   | Search ID | Query URL | Query Results  | Hits |
+|---------------|-----------|-----------|----------------|------|
+| 25-02-2024    |           |           | [DOI][10795823]|  42  |
+: Hits
+
+[10795823]: https://zenodo.org/records/10795823
+
+[^1]: Web of Science: Core Collection  
+Subscription  : Vlerick Business School  
+Editions  : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI  
+Date range: 2014-2024  
+
+## Data extraction strategy
+
+On the basis of table 3 drop two datasource (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other datasources wich are dedicated literature databases. 
+
+Queries have been formulated for each datasource. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per datasources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format, using the WoS ris-format as a template.
+
+Describe how 6 datasources have been reduced to 4.
+
+The diagram @diagram in the appendix shows the workings of the script.
+
+no ris but bib ...
 
 
-## Definitions (Glossary?)
+The open access databases do not contain the full text articles (check per database). YY also doesn't contain abstracts. The absense of full text articles or abstracts is explained by contraints imposed by copyrights (source).
 
+
+
+
+## Study selection criteria
+
+The total number of records of the 4 resulting ris files is xx. After combining the 6 files and deduplicating records the total number of record is 49 (see appendix: @tbl-resultset).
+
+Additionally 3 records have been added that were identified through other sources (see appendix: @tbl-additional-records)
+
+Of the total of 52 journal articles and conference papers the titles and abstracts have been read and a total of yy articles have been excluded based on: 
+
+- type of study
+- application domain
+
+The remaining zz articles and conference papers have been assessed on the full content of the articles and another yy articles have been excluded based on:
+
+The process to get to the final zz papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in the appendix.
+
+**inclusion criteria**
+
+**exclusion criteria**
+
+Subtracting retracted articles, pre-prints, non-english articles and book(chapters) leaves a number of xx records.
+
+## Study quality assessment
+
+- peer-reviewed journals
+- conference papers
+
+## Synthesis of extracted data
+
+Businesses can identify relevant regulatory requirements through a comprehensive approach that involves understanding and analyzing various sources of compliance mandates. These sources include legislation and regulatory bodies (e.g., Sarbanes-Oxley and Basel II), standards and codes of practices (e.g., ISO 9001), and business partner contracts.
+
+....
+
+Goedertier and Vanthienen
+
+Blockchain (2 articles) : @anjumBlockchainStandardsCompliance2017 and @mendlingBlockchainsBusinessProcess2018 and blockchain as a service ...
+
+Logic ()
+
+Semantics /textual + @vanderaaComparingTextualDescriptions2017 and @yipSemanticallyEnabledApplications2012 and @kharbiliFrameworkSemanticBusiness2008
+
+@hashmiAreWeDone2018
+
+From Science Direct @holzmuller-laueImprovedComplianceBPMDriven2014, 
+
+Does the business process exist outside of the organization. xxx and yyy reference a category of business processes they label cross-organizational business processes. As the name implies ...
+On one hand of the spectrum there is a claim(?) / oproep for governmental bodies to take into account (semi-)automated execution by companies. On the other side of the spectrum there is a "plea for instruments assessing the impact of policies on organizations prior to implementation" @gongPolicyImplementationBusiness2012. In the middle, presumably, is where the efforts are concentrated
+
+<!---
+Conformance refers to the act of adhering to a set of standards or requirements. It involves ensuring that a product, service, or system meets the specified expectations and performs as intended. Conformance can be viewed as a proactive approach to quality management, where the focus is on preventing defects and errors from occurring in the first place.
+
+Conformance often involves the use of quality management systems, such as ISO 9001, which provide a framework for organizations to establish and maintain a culture of quality. These systems typically involve a set of procedures and processes that are designed to ensure that products and services consistently meet customer requirements and comply with relevant regulations.
+
+....
+-->
+## Disseminaton strategy
+
+Prelim conclusion and future work go here?
+
+
+<!--
 Workflow management system
-
 Business process management
-
 Legal compliance
-
 Regulatory compliance
 
 https://www.planetcompliance.com/legal-and-regulatory-compliance/
 
 [Compliance](https://thecontentauthority.com/blog/conformance-vs-compliance)
-
 [Conformance](https://thecontentauthority.com/blog/conformance-vs-compliance)
 
-Conformance refers to the act of adhering to a set of standards or requirements. It involves ensuring that a product, service, or system meets the specified expectations and performs as intended. Conformance can be viewed as a proactive approach to quality management, where the focus is on preventing defects and errors from occurring in the first place.
-
-Conformance often involves the use of quality management systems, such as ISO 9001, which provide a framework for organizations to establish and maintain a culture of quality. These systems typically involve a set of procedures and processes that are designed to ensure that products and services consistently meet customer requirements and comply with relevant regulations.
-
 Product Data Model (source)
-
 Product Data Model (different source)
-
 Object centric process mining
+-->
 
 ## Limitations
-
+<!--
 projecten, sinds 2014 (@tbl-resultset). 
+Synonyms
+-->
+The database searches resulted in a set of relevant articles for the subject of this review. Selecting a different set of databases would have resulted in a different set of relevant articles. The selection of databases was made from the databases available to us. We did not consider databases that require additional payment for access.
 
-## Future
+It is also noted that search results may defer among different databases. If the content of two databases is identical, the same query run against both databases can yield different results. The differences stem, among others, from different search fields, different query languages, different API's and different search engines. Examples of notable differences are:
 
+- for WoS: the search results may differ depending on the subscription.
+- for SD: the search results may differ as query's are interpreted based on language heuristics ([source](https://service.elsevier.com/app/answers/detail/a_id/35970/supporthub/sciencedirect/)). Also, SD does not support wildcards.
+- for dplp: the *CompleteSearch* enginge autocompletes search terms, see @bastTypeLessFind2006.
+- for arXiv: wildcards can not be used as the first character of a search term ([source](https://www.arxiv.org/multi?%2Ffind=Search/)). For example "*engineering" will trigger an error message. 
+
+## Future research
+
+In follow-on research it maybe interesting to include openAIRE (Open Access Infrastructure for Research in Europe) as a datasource. Several articles in this review, such as @schummBusinessProcessCompliance2010, p. 11; and YYY p , reference research that has been performed under the 2008-2011 [COMPAS](https://cordis.europa.eu/project/id/215175) research project funded by the EU and coordinated by the Technische Universitaet Wien. More information about the research output of these projects will be available via OpenAIRE. When OpenAIRE will be included as a datasource we will also again include Zenodo. Zenodo was created as part of the OpenAIRE initiative.
+
+<!--
 Did we miss searching for "complaince by design"? Did we miss searching for "inter organizational processes"?  
 In practice the term "workflow management system" is used in financial institutions (bron: Mark Muyres).
 
@@ -214,77 +256,90 @@ In practice the term "workflow management system" is used in financial instituti
 |OpenAlex |[OpenAlex](https://openalex.org) |                           |         |
 |OpenAIRE |[OpenAIRE](https://explore.openaire.eu/) | Mentioned in connection with Zenodo and also EU Research Programs | |
 |CEUR Workshop Proceedings| | |
-: Further Resources {.striped .hover}
-
+: Further Resources
+-->
 
 \newpage
+## Appendices {#appendix}
 
-## Appendix - Tabels
+**Definitions:**
+
+Business process management (BPM) is a defined as all activities performed by businesses to discover, model, automate, analyze, measure, improve and optimize business processes (@liuStaticCompliancecheckingFramework2007). A business process coordinates the behavior of people, systems, information and things to produce business outcomes in support of a business strategy. Processes can be structured and repeatable, or unstructured and variable.
+
+Regulatory compliance is defined as ensuring that business processes, operations, and practices are in accordance with a prescribed and/or agreed set of norms. These compliance requirements may stem from legislature and regulatory bodies (e.g., Sarbanes-Oxley, Basel II, HIPAA), standards and codes of practice (e.g., SCOR, ISO9000), and also business partner contracts (@hashmiEvaluatingBusinessProcess2015).
+
+Compliance by design refers to approaches and methodologies where compliance requirements are integrated into business process models (@sadiqManagingRegulatoryCompliance2010) and enterprise applications from the very beginning. This concept emphasizes embedding compliance within the fabric of business practices (@lohmannComplianceDesignArtifactcentric2013) rather than treating it as a separate or after-the-fact activity.
+
+\newpage
+**Initial Resources Searched**
 
 {{< include tables/s2_tbl_platforms.qmd >}}
 
 \newpage
-
-another transformation before this one
-(formula for transformation?)
-
-input / output
-
-{{< include tables/s2_tbl_ris_fields_per_source.qmd >}}
-
-alternate grey/white for readability (python table?)
-
-Reference wikipedia page [RIS format](https://en.wikipedia.org/wiki/RIS_(file_format))
-
-\newpage
+**Query Results**
 
 {{< include tables/s2_tbl_query_results.qmd >}}
 
 \newpage
+**RIS file contents**
 
-## RCM Process Steps
+{{< include tables/s2_tbl_ris_fields_per_source.qmd >}}
+Sample differences between the WoS en SD exports:  
+- In the WoS export the journal name is in field T2 (secondary title).  
+- In the SD export the journal name is in the field JO (journal_name).  
+- In the WoS export the title is in the field TI (primary)title.  
+- In the SD export the title is in the field T1 (primary)title.  
 
-1. Identify & Define  
-1.1 Develop Company Profile  
-1.2 Apply Regulatory Content Taxonomy  
-1.3 Establish Risk Based Regulatory Library  
-2. Track & Analyze  
-2.1 Track Relevant Regulatory Actions  
-2.2 Compare and Analyze  
-2.3 Maintain Regulatory Library  
-3. Monitor & Map  
-3.1 Monitor Regulatory Events to Affected Areas  
-3.2 Evaluate Need for Control/Actions Changes  
-3.3 Notify/Control Policy Owners  
-4. Control & Manage  
-4.1 Evaluate Flagged Impacts on Controls/Actions and Operations  
-4.2 Determine Changes, Implement and Record  
-4.3 Identify Exceptions and Record Reasons/Alternatives  
-5. Report & Record  
-5.1 Continuously Monitor and Analyze  
-5.2 Report Key Changes and Business Impacts  
-5.3 Maintain Audit Trail of Compliance  
+
+SSRN show '-' in all fields as SSRN
 
 \newpage
+**Merge bibliographic data**
 
-## Software used
+![ris2xls.py sript structure](static/s2_slr_script_archimate.jpg)
 
-All of the scripts use pandas (reback2020pandas).
+ris2xls.py is a script that produces an excel file on the basis of WoS and SD bibliograh export files.
 
-We used various sofware scripts to assemple the dataset. Specificaly:
+Within the script there are three functions:
 
-- [arxiv2bib](https://nathangrigg.github.io/arxiv2bib/), Get a BibTeX entry from an arXiv id number, using the arxiv.org API. ([Nathan Grigg](https://nathangrigg.com/), 2017)
-- [bib2ris](https://github.com/MacDumi/bib2ris), Script to convert bibtex files to ris format. ([Dumitru Duca](https://orcid.org/0000-0002-3873-4224), 2020)
-- [rispy](https://github.com/MrTango/rispy), A Python 3.8+ reader/writer of RIS reference files. (Version 0.9.0; [Maik Derstappen](https://www.linkedin.com/in/maik-derstappen-4ab80618/?locale=en_US), 2024)
-- [tabulate](https://github.com/astanin/python-tabulate), Pretty-print tabular data in Python, a library and a command-line utility. ([Sergey Astanin](https://scholar.google.com/citations?user=DWdSLeMAAAAJ&hl=en&oi=sra), 2022)
+- MergeRIS: Reads input files and writes a merged file.
+- RemapRIS: Reads the "SD ris-File" and writes a "Remapped SD ris-file."
+- TransposeRIS: Reads the "Merged ris-file" and writes a "Transposed ris-file."
+
+Data Objects are used to represent files at different stages:
+
+- Input Data Files: "WoS ris-file" and "SD ris-file" are the initial inputs, indicating the original exported data from Web of Science and Science Direct.
+- Intermediary Data Files: "Remapped SD ris-file" is an output from the RemapRIS function where the format of the Science Direct exported data has been remapped to the ris-fields to better correspond to the Web of Science exported data.
+- Output Data Files: "Merged ris-file" and "Transposed ris-file" are the final outputs after processing.
+
+
+<!--alternate grey/white for readability (python table?)
+another transformation before this one
+(formula for transformation?)
+input / output
+-->
+
+[^2]: Wikipedia page [RIS format](https://en.wikipedia.org/wiki/RIS_(file_format))
 
 \newpage
+**Literature selection**
 
-\fontsize{8}{9}\selectfont
+{{< include diagrams/s2_slr_flowdiagram.qmd >}}
+
+<!--
+Articles excluded:  
+- first
+- second
+-->
+
+\newpage
+**Resulting dataset**
+
+\fontsize{9}{10}\selectfont
 
 ```{python}
 #| label: tbl-resultset
-#| tbl-cap: ResultSet
+#| tbl-cap: Records identified through database searching
 #| 
 from IPython.display import Markdown
 from tabulate import tabulate
@@ -303,6 +358,40 @@ Markdown(tabulate(
 
 ```
 
-\newpage
+```{python}
+#| label: tbl-additional-records
+#| tbl-cap: Additional records from other sources
+#| 
+from IPython.display import Markdown
+from tabulate import tabulate
+from lib.my_excel_lib import get_tables
+from lib.my_custom_lib import xls2md
+
+tables = get_tables('tables/slr_logbook.xlsx')
+
+Markdown(tabulate(
+  xls2md(tables['AdditionalRecords']),
+  headers=['Nr','Type','Title'],
+  missingval=[''],
+  maxcolwidths=[3, 10, 100],
+  showindex=False,
+  colalign=('left', 'left','left')))
+
+```
+
+
+\fontsize{11}{12}\selectfont
+
+## Software used
+
+We used various sofware scripts to assemple the dataset. Specificaly:
+
+- [arxiv2bib](https://nathangrigg.github.io/arxiv2bib/), Get a BibTeX entry from an arXiv id number, using the arxiv.org API. ([Nathan Grigg](https://nathangrigg.com/), 2017)
+- [bib2ris](https://github.com/MacDumi/bib2ris), Script to convert bibtex files to ris format. ([Dumitru Duca](https://orcid.org/0000-0002-3873-4224), 2020)
+- [rispy](https://github.com/MrTango/rispy), A Python 3.8+ reader/writer of RIS reference files. (Version 0.9.0); ([Maik Derstappen](https://www.linkedin.com/in/maik-derstappen-4ab80618/?locale=en_US), 2024)
+- [openpyXL](https://openpyxl.readthedocs.io/en/stable), a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files(Version 3.1.2); [Development Team](https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/3.1/AUTHORS.rst?ref_type=heads)(2023)
+- [tabulate](https://github.com/astanin/python-tabulate), Pretty-print tabular data in Python, a library and a command-line utility. ([Sergey Astanin](https://scholar.google.com/citations?user=DWdSLeMAAAAJ&hl=en&oi=sra), 2022)
+
+All of the scripts use pandas (@reback2020pandas). 
 
 ## Literature

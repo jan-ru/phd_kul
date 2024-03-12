@@ -229,4 +229,12 @@ Longer term the housing association sector can provide for interesting case stud
 
 \newpage
 
+
+## Conceptual model - Regulatory Change Management
+
+There is an existing model published by OCEG (&Refinitiv) that is used as a reference. The 2018 version is redrawn below (@RegulatoryChangeManagement2018).
+
+{{< include diagrams/s2_oceg_regulatory_change_process.qmd >}}
+
+
 # References

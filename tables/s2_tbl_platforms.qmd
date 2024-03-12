@@ -12,4 +12,4 @@ Table of the initial selection of platforms for the systematic literature review
 |DBLP	          |Bibliography database |Computer science |Scholarly publications in computer science |Open access |
 |Zenodo	        |Dataset repository |Data from various disciplines |Data from research projects, surveys, and other data collection efforts	|Open access |
 
-: Platforms {.striped .hover}
+: Databases {#tbl-databases}
