@@ -1,0 +1,4 @@
+- source: s2_abstracts.qmd
+  quarto-pub:
+    - id: e2276b48-f6c8-4df6-aa61-a3a14731cc1b
+      url: 'https://janru-muller.quarto.pub/abstracts'

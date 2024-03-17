@@ -40,8 +40,6 @@ format:
         \rohead{Draft}
         \lofoot{}
 latex-output-dir: output
-execute:
-  echo: false
 number-sections: false
 toc: false
 toc-depth: 2
@@ -112,7 +110,7 @@ The initial keyterms and database searches had been formulated as follows:
 
 The initial searches were done all database fields. The search was subsequently made more specific by searching titles and abstracts and later titles, abstracts and keywords.
 
-Initially 6 queries have been run against the 6 databases resuling in __ hits as shown in @tbl-query-results in the appendix.
+Initially 6 queries have been run against the 6 databases resuling in 8X_ hits as shown in @tbl-query-results in the appendix.
 After testing the initially formulated 6 queries have een reduced to 4 queries.
 The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
 
@@ -121,11 +119,12 @@ The first two queries search for "business process management" or BPM in the tit
 3. TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))
 4. TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat\*))
 
-In the case of Web of Science (WoS) the four queries have been taken together using the "OR" operator. This final query yields 42 results when using the the Vlerick WoS subscription[^1].
+In the case of Web of Science (WoS) the four queries have been taken together using the "OR" operator. This final query yields 42 results when using the the Vlerick WoS subscription[^1]. The search strings have be adapted to suit the specific requirements of the databases.
 
-| Search Date   | Search ID | Query URL | Query Results  | Hits |
-|---------------|-----------|-----------|----------------|------|
-| 25-02-2024    |           |           | [DOI][10795823]|  42  |
+| Search Date   | Database | Query URL | Query Results  | Hits |
+|---------------|----------|-----------|----------------|------|
+| 25-02-2024    | WoS      |           | [DOI][10795823]|  42  |
+| 25-02-2024    | Zenodo   |           |                |   4  |
 : Hits
 
 [10795823]: https://zenodo.org/records/10795823
@@ -135,34 +134,14 @@ Subscription  : Vlerick Business School
 Editions  : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI  
 Date range: 2014-2024  
 
-## Data extraction strategy
-
-On the basis of table 3 drop two datasource (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other datasources wich are dedicated literature databases. 
-
-Queries have been formulated for each datasource. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per datasources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format, using the WoS ris-format as a template.
-
-Describe how 6 datasources have been reduced to 4.
-
-The diagram @diagram in the appendix shows the workings of the script.
-
-no ris but bib ...
-
-
-The open access databases do not contain the full text articles (check per database). YY also doesn't contain abstracts. The absense of full text articles or abstracts is explained by contraints imposed by copyrights (source).
-
-
-
-
 ## Study selection criteria
 
-The total number of records of the 4 resulting ris files is xx. After combining the 6 files and deduplicating records the total number of record is 49 (see appendix: @tbl-resultset).
-
-Additionally 3 records have been added that were identified through other sources (see appendix: @tbl-additional-records)
+The total number of records of the 5 resulting ris files is xx. After combining the 5 files and deduplicating records the total number of record is 49 (see document: List 1 - Selected Titles). Additionally 3 records have been added that were identified through other sources.
 
 Of the total of 52 journal articles and conference papers the titles and abstracts have been read and a total of yy articles have been excluded based on: 
 
 - type of study
-- application domain
+- application domain At this stage of the research we are not looking for applications in a specific sector (Agriculture, Finance, Healthcare, Telecommunications, ...)
 
 The remaining zz articles and conference papers have been assessed on the full content of the articles and another yy articles have been excluded based on:
 
@@ -170,14 +149,38 @@ The process to get to the final zz papers included in this literature study is v
 
 **inclusion criteria**
 
+Records have been included if:
+- IC1 - the title, abstract and full text are in english
+- IC2
+- 
+
 **exclusion criteria**
 
-Subtracting retracted articles, pre-prints, non-english articles and book(chapters) leaves a number of xx records.
+Records have been excluded if:
+- EC1 - the reference is to a book(chapter)
+- EC2 - the submission has been retracted
+- EC3 - the type of article is a conference paper
+- EC4 - a search term has a different meaning
+- EC5 - the application relates to a specific sector
+
+As metrics like article citation count, author h-index and journal impact factor are not available from each of the databases, such metrics have not been considered in the selection process.
 
 ## Study quality assessment
 
 - peer-reviewed journals
 - conference papers
+
+## Data extraction strategy
+
+On the basis of table 3 drop two datasource (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other datasources wich are dedicated literature databases. 
+
+Queries have been formulated for each datasource. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per datasources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format. The diagram @diagram in the appendix shows the workings of the script.
+
+Describe how 6 datasources have been reduced to 4.
+
+no ris but bib ...
+
+The open access databases do not contain the full text articles if the articles are not open access. YY also doesn't contain abstracts. The absense of full text articles or abstracts is explained by contraints imposed by copyrights (source).
 
 ## Synthesis of extracted data
 
@@ -190,6 +193,8 @@ Goedertier and Vanthienen
 Blockchain (2 articles) : @anjumBlockchainStandardsCompliance2017 and @mendlingBlockchainsBusinessProcess2018 and blockchain as a service ...
 
 Logic ()
+
+Languages like BPMN-Q and LegalML
 
 Semantics /textual + @vanderaaComparingTextualDescriptions2017 and @yipSemanticallyEnabledApplications2012 and @kharbiliFrameworkSemanticBusiness2008
 
@@ -209,8 +214,11 @@ Conformance often involves the use of quality management systems, such as ISO 90
 -->
 ## Disseminaton strategy
 
-Prelim conclusion and future work go here?
+An upcoming version of the review will be part of the PhD work. The aim is to get a few by-products out of this review:
 
+- A poster that helps explain fellow DBA students the this literature review process.
+- A version of the software script that is installable and useable by somebody else.
+- An open access publication.
 
 <!--
 Workflow management system
@@ -333,54 +341,7 @@ Articles excluded:
 -->
 
 \newpage
-**Resulting dataset**
 
-\fontsize{9}{10}\selectfont
-
-```{python}
-#| label: tbl-resultset
-#| tbl-cap: Records identified through database searching
-#| 
-from IPython.display import Markdown
-from tabulate import tabulate
-from lib.my_excel_lib import get_tables
-from lib.my_custom_lib import xls2md
-
-tables = get_tables('tables/slr_logbook.xlsx')
-
-Markdown(tabulate(
-  xls2md(tables['ResultSet']),
-  headers=['Nr','Type','Title'],
-  missingval=[''],
-  maxcolwidths=[3, 10, 100],
-  showindex=False,
-  colalign=('left', 'left','left')))
-
-```
-
-```{python}
-#| label: tbl-additional-records
-#| tbl-cap: Additional records from other sources
-#| 
-from IPython.display import Markdown
-from tabulate import tabulate
-from lib.my_excel_lib import get_tables
-from lib.my_custom_lib import xls2md
-
-tables = get_tables('tables/slr_logbook.xlsx')
-
-Markdown(tabulate(
-  xls2md(tables['AdditionalRecords']),
-  headers=['Nr','Type','Title'],
-  missingval=[''],
-  maxcolwidths=[3, 10, 100],
-  showindex=False,
-  colalign=('left', 'left','left')))
-
-```
-
-
-\fontsize{11}{12}\selectfont
 
 ## Software used
 

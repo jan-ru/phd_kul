@@ -16,6 +16,7 @@
 .quarto/
 _book/
 output/
+tables/s2_tbl_ris_fields_per_source_files/
 *.pdf
 *.html
 *.bib

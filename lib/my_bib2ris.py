@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # import sys
 # import os
+
+# CHECK: https://marcel.bollmann.me/blog/turning-bibtex-into-bibliographies-with-python/
+
 from pybtex.database.input import bibtex
 
 item_type = {

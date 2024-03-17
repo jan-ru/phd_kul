@@ -1,0 +1,64 @@
+---
+title: "SLR"
+subtitle: "List 1 - Selected Titles"
+format: 
+    pdf:
+        toc: true 
+    html:
+        toc: true
+latex-output-dir: output
+execute:
+  echo: false
+---
+
+# Introduction
+
+
+The search query of the xxx search:  
+
+The search string for the Zenodo search:  
++title:"business process management" +regulat* OR compliance +resource_type.type:publication
+
+
+
+In summary:
+
+|Database  |Found|Excluded|Additional|Resultset|
+|----------|----:|-------:|---------:|--------:|
+| WoS      | 29  |   -8   |   +0     |  14     |
+| SD       |  7  |   -3   |   +0     |   4     | 
+| SSRN     |  2  |    -   |   -      |   0     |
+| arXiv    |  4  |    -   |   +2     |   2     |
+| dblp     | 41  |  -37   |   +0     |   4     |
+| zenodo   |  4  |   -4   |   +0     |   0     |
+| aditional|  6  |        |   +2     |   2     |
+| total    | 90  |        |          |  13     |
+
+\newpage
+
+# Selected Titles
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+#| label: tbl-resultset
+#| tbl-cap: Records identified through database searching
+#| 
+from IPython.display import Markdown
+from tabulate import tabulate
+from lib.my_excel_lib import get_tables
+from lib.my_custom_lib import xls2md
+
+tables = get_tables('tables/slr_logbook.xlsx')
+
+Markdown(tabulate(
+  xls2md(tables['ResultSet']),
+  headers=['Seq','Source','Type','Title','E/I'],
+  missingval=[''],
+  maxcolwidths=[2, 8, 8, 78, 3],
+  showindex=False,
+  colalign=('right', 'left', 'left', 'left', 'center')))
+
+```
+
+\fontsize{11}{12}\selectfont
