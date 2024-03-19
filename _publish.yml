@@ -2,3 +2,7 @@
   quarto-pub:
     - id: e2276b48-f6c8-4df6-aa61-a3a14731cc1b
       url: 'https://janru-muller.quarto.pub/abstracts'
+- source: project
+  quarto-pub:
+    - id: 286a136f-eaa3-4f1a-996f-0385d0f52c58
+      url: 'https://janru-muller.quarto.pub/slr'

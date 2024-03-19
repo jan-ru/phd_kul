@@ -1,20 +1,3 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book. It contains x sprints that shall cumulate in the litreview.
-
-* Include citations count
-* Include authors count
-* Include affiliations count
-
-Document attributes:
-
-* the number of tables is total{table}
-* the number of figures is total{figure}
-* the number of references is total{citenum}
-
-* add list of tables
-* add list of figures
-
-# Resources
-
-Over [markdown](https://www.arthurperret.fr/)
+In the context of the DBA program at Vlerick Business School a literature review is one of two deliverables of year two. The research topic is "BPM for regulatory compliance". The goal of this review is to get an overview of relevant literature and identify topics listed as possibilities for future research. The literature review has been performed following the steps described in @kitchenhamGuidelinesPerformingSystematic2007. 

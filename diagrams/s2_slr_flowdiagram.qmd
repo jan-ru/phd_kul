@@ -18,23 +18,22 @@ Mermaid diagram showing the replicating the CADIMA SLR diagram.
 %%| label: fig-slr-flowchart
 %%| fig-cap: "Flowchart depicting literature selection."
 flowchart TB
-    A("__ records identified 
+    A("84 records identified 
     through 
     database searching")
-    B("__ additional records 
+    B("6 additional records 
     identified  
     through other sources")
     subgraph .
-      C("__ records after duplicate removal")  
-      D("__ records screened at title and abstract level")
-      E("__ full-text articles  assessed for eligibility")
-      F("__ full-text articles included")
-      G("__ studies included")
+      C("90 records after duplicate removal")  
+      D("90 records screened at title level")
+      E("25 records screened at abstract level")
+      F("__ full-text articles  assessed for eligibility")
+      G("__ full-text articles included")
     end
-    H("_records excluded")
-    I("_full-text articles 
-    excluded 
-    with <a href='http://google.com'>reasons</a>")
+    H("65 records excluded")
+    I("__ records excluded")
+    J("__ records excluded") 
   
   A --> C
   B --> C
@@ -44,4 +43,5 @@ flowchart TB
   E --> F
   E --> I
   F --> G
+  F --> J
 ```

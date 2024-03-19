@@ -1,26 +1,58 @@
 project:
   type: book
+  output-dir: output
 
 book:
-  title: "The initial 100 papers"
+  title: "SLR"
+  subtitle: "Aligning business processes with regulatory requirements"
   author: 
     - name: "Jan-Ru Muller"
+      orcid: 0000-0003-1689-0557
+      email: j.r.muller@hva.nl
       affiliations:
-      - Vlerick Business School
-      - Hogeschool van Amsterdam
-  date: "7/9/2023"
+      - name: Amsterdam University of Applied Sciences
+        address: Fraijlemaborg 133
+        city: Amsterdam
+        country: The Netherlands
+        postal-code: 1102 CV
+      - name: Vlerick Business School
+        address: Reep 1
+        city: Ghent
+        country: Belgium
+        postal-code: 9000
+  date: "3/18/2024"
+
   chapters:
     - index.qmd
-    - intro.qmd
-    - s3_case_link2law.qmd
-    - references.qmd
+    - s2_slr_doc_.qmd
 
   appendices:
-    - z_resources.qmd
-bibliography: Top100.bib
+    - s2_slr_doc_a_ris2py_script.qmd
+    - s2_slr_doc_b_databases_searched.qmd
+    - s2_slr_doc_c_literature_selection.qmd
+    - s2_slr_doc_d_database_searches.qmd
+    - s2_slr_doc_e_other_sources.qmd
+    - s2_slr_doc_f_journal_articles.qmd
+    - s2_slr_doc_g_abstracts.qmd
 
 format:
-  html:
-    theme: cosmo
   pdf:
+    papersize: a4
     documentclass: scrreprt
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
+        \rohead{Draft v0.2}
+        \lofoot{}
+
+license: "CC BY"
+latex-output-dir: output
+
+
+bibliography: MyLibrary.bib
+
+

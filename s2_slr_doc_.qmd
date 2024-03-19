@@ -1,25 +1,10 @@
 ---
 project:
   type: default
-  output-dir: output
-title: "SLR"
-subtitle: "Aligning business processes with regulatory requirements"
+title: ""
 date: "03-08-2024"
 date-format: "D/MM/YYYY"
-date-modified: "03-08-2024"
-author:
-  - name:
-    orcid: 0000-0003-1689-0557
-    email: j.r.muller@hva.nl
-    affiliations:
-      - name: Amsterdam University of Applied Sciences
-        address: Fraijlemaborg 133
-        city: Amsterdam
-        postal-code: 1102 CV
-      - name: Vlerick Business School
-        address: Reep 1
-        city: Ghent
-        postal-code: 9000
+date-modified: "03-18-2024"
 abstract: ""
 mainfont: "Times New Roman"
 sansfont: "Arial"
@@ -28,29 +13,25 @@ mathfont: "TeX Gyre Termes Math"
 crossref:
   fig-prefix: figure   # (default is "Figure")
   tbl-prefix: table    # (default is "Table")
+  appendix-title: "App."
+  appendix-delim: ":"
+
 format:
   pdf:
     papersize: a4
     mermaid:
       theme: neutral
     cite-method: citeproc
-    include-in-header: 
-      text:
-        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
-        \rohead{Draft}
-        \lofoot{}
 latex-output-dir: output
 number-sections: false
 toc: false
-toc-depth: 2
-bibliography: MyLibrary.bib
 link-citations: true
 keywords: modelling languages, controlled natural language
 
 ---
 
 <!--
-## Examples of SLR
+Examples of SLR
 
 [05/10/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits:
 
@@ -60,9 +41,7 @@ keywords: modelling languages, controlled natural language
 - Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
 -->
 
-## Introduction
-
-In the context of the DBA program at Vlerick Business School a literature review is one of two deliverables of year two. The research topic is "BPM for regulatory compliance". The goal of this review is to get an overview of relevant literature and identify topics listed as possibilities for future research. The literature review has been performed following the steps described in @kitchenhamGuidelinesPerformingSystematic2007. 
+# Literature Review
 
 ## Research questions
 
@@ -82,7 +61,13 @@ SQ-4: How can businesses ensure compliance throughout the lifecycle of the impac
 
 The following is the research question repeated whereby the central terms and and concepts in this review are boxed: What are approaches for aligning \fbox{business processes} with \fbox{regulatory requirements} to achieve regulatory \fbox{compliance by design}?  
   
-A definition of the three central concepts is included in the appendix.
+A definition of the three central concepts:
+
+Business process management (BPM) is a defined as all activities performed by businesses to discover, model, automate, analyze, measure, improve and optimize business processes (@liuStaticCompliancecheckingFramework2007). A business process coordinates the behavior of people, systems, information and things to produce business outcomes in support of a business strategy. Processes can be structured and repeatable, or unstructured and variable.
+
+Regulatory compliance is defined as ensuring that business processes, operations, and practices are in accordance with a prescribed and/or agreed set of norms. These compliance requirements may stem from legislature and regulatory bodies (e.g., Sarbanes-Oxley, Basel II, HIPAA), standards and codes of practice (e.g., SCOR, ISO9000), and also business partner contracts (@hashmiEvaluatingBusinessProcess2015).
+
+Compliance by design refers to approaches and methodologies where compliance requirements are integrated into business process models (@sadiqManagingRegulatoryCompliance2010) and enterprise applications from the very beginning. This concept emphasizes embedding compliance within the fabric of business practices (@lohmannComplianceDesignArtifactcentric2013) rather than treating it as a separate or after-the-fact activity.
 
 ## Resources searched
 
@@ -163,24 +148,29 @@ Records have been excluded if:
 - EC4 - a search term has a different meaning
 - EC5 - the application relates to a specific sector
 
-As metrics like article citation count, author h-index and journal impact factor are not available from each of the databases, such metrics have not been considered in the selection process.
+As metrics like article citation count, author h-index and journal impact factor are not available from each of the databases, such metrics have not been considered in the selection process.  
+
 
 ## Study quality assessment
 
 - peer-reviewed journals
 - conference papers
 
+Check against previously constructed list of relevant journals (repeat here?)
+
 ## Data extraction strategy
 
 On the basis of table 3 drop two datasource (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other datasources wich are dedicated literature databases. 
 
-Queries have been formulated for each datasource. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per datasources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format. The diagram @diagram in the appendix shows the workings of the script.
+Queries have been formulated for each datasource. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per datasources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format. The @fig-script in the appendix shows the workings of the script.
 
 Describe how 6 datasources have been reduced to 4.
 
 no ris but bib ...
 
 The open access databases do not contain the full text articles if the articles are not open access. YY also doesn't contain abstracts. The absense of full text articles or abstracts is explained by contraints imposed by copyrights (source).
+
+The initial list (@tbl-database-searches) contains a total of 84 records. An additional 6 records were found from other sources (@tbl-other-sources). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles (peer reviewed?) results in a list of 25 records (@tbl-journal-articles).
 
 ## Synthesis of extracted data
 
@@ -214,7 +204,7 @@ Conformance often involves the use of quality management systems, such as ISO 90
 -->
 ## Disseminaton strategy
 
-An upcoming version of the review will be part of the PhD work. The aim is to get a few by-products out of this review:
+An upcoming version of the review will be part of the PhD work. The aim is to get three by-products out of this review:
 
 - A poster that helps explain fellow DBA students the this literature review process.
 - A version of the software script that is installable and useable by somebody else.
@@ -268,91 +258,27 @@ In practice the term "workflow management system" is used in financial instituti
 -->
 
 \newpage
-## Appendices {#appendix}
 
-**Definitions:**
-
-Business process management (BPM) is a defined as all activities performed by businesses to discover, model, automate, analyze, measure, improve and optimize business processes (@liuStaticCompliancecheckingFramework2007). A business process coordinates the behavior of people, systems, information and things to produce business outcomes in support of a business strategy. Processes can be structured and repeatable, or unstructured and variable.
-
-Regulatory compliance is defined as ensuring that business processes, operations, and practices are in accordance with a prescribed and/or agreed set of norms. These compliance requirements may stem from legislature and regulatory bodies (e.g., Sarbanes-Oxley, Basel II, HIPAA), standards and codes of practice (e.g., SCOR, ISO9000), and also business partner contracts (@hashmiEvaluatingBusinessProcess2015).
-
-Compliance by design refers to approaches and methodologies where compliance requirements are integrated into business process models (@sadiqManagingRegulatoryCompliance2010) and enterprise applications from the very beginning. This concept emphasizes embedding compliance within the fabric of business practices (@lohmannComplianceDesignArtifactcentric2013) rather than treating it as a separate or after-the-fact activity.
-
-\newpage
-**Initial Resources Searched**
-
-{{< include tables/s2_tbl_platforms.qmd >}}
-
-\newpage
 **Query Results**
+
+The search query of the xxx search:  
+
+The search string for the Zenodo search:  
++title:"business process management" +regulat* OR compliance +resource_type.type:publication
+
+In summary:
+
+|Database  |Found|Excluded|Additional|Resultset|
+|----------|----:|-------:|---------:|--------:|
+| WoS      | 29  |   -8   |   +0     |  14     |
+| SD       |  7  |   -3   |   +0     |   4     | 
+| SSRN     |  2  |    -   |   -      |   0     |
+| arXiv    |  4  |    -   |   +2     |   2     |
+| dblp     | 41  |  -37   |   +0     |   4     |
+| zenodo   |  4  |   -4   |   +0     |   0     |
+| aditional|  6  |        |   +2     |   2     |
+| total    | 90  |        |          |  13     |
 
 {{< include tables/s2_tbl_query_results.qmd >}}
 
 \newpage
-**RIS file contents**
-
-{{< include tables/s2_tbl_ris_fields_per_source.qmd >}}
-Sample differences between the WoS en SD exports:  
-- In the WoS export the journal name is in field T2 (secondary title).  
-- In the SD export the journal name is in the field JO (journal_name).  
-- In the WoS export the title is in the field TI (primary)title.  
-- In the SD export the title is in the field T1 (primary)title.  
-
-
-SSRN show '-' in all fields as SSRN
-
-\newpage
-**Merge bibliographic data**
-
-![ris2xls.py sript structure](static/s2_slr_script_archimate.jpg)
-
-ris2xls.py is a script that produces an excel file on the basis of WoS and SD bibliograh export files.
-
-Within the script there are three functions:
-
-- MergeRIS: Reads input files and writes a merged file.
-- RemapRIS: Reads the "SD ris-File" and writes a "Remapped SD ris-file."
-- TransposeRIS: Reads the "Merged ris-file" and writes a "Transposed ris-file."
-
-Data Objects are used to represent files at different stages:
-
-- Input Data Files: "WoS ris-file" and "SD ris-file" are the initial inputs, indicating the original exported data from Web of Science and Science Direct.
-- Intermediary Data Files: "Remapped SD ris-file" is an output from the RemapRIS function where the format of the Science Direct exported data has been remapped to the ris-fields to better correspond to the Web of Science exported data.
-- Output Data Files: "Merged ris-file" and "Transposed ris-file" are the final outputs after processing.
-
-
-<!--alternate grey/white for readability (python table?)
-another transformation before this one
-(formula for transformation?)
-input / output
--->
-
-[^2]: Wikipedia page [RIS format](https://en.wikipedia.org/wiki/RIS_(file_format))
-
-\newpage
-**Literature selection**
-
-{{< include diagrams/s2_slr_flowdiagram.qmd >}}
-
-<!--
-Articles excluded:  
-- first
-- second
--->
-
-\newpage
-
-
-## Software used
-
-We used various sofware scripts to assemple the dataset. Specificaly:
-
-- [arxiv2bib](https://nathangrigg.github.io/arxiv2bib/), Get a BibTeX entry from an arXiv id number, using the arxiv.org API. ([Nathan Grigg](https://nathangrigg.com/), 2017)
-- [bib2ris](https://github.com/MacDumi/bib2ris), Script to convert bibtex files to ris format. ([Dumitru Duca](https://orcid.org/0000-0002-3873-4224), 2020)
-- [rispy](https://github.com/MrTango/rispy), A Python 3.8+ reader/writer of RIS reference files. (Version 0.9.0); ([Maik Derstappen](https://www.linkedin.com/in/maik-derstappen-4ab80618/?locale=en_US), 2024)
-- [openpyXL](https://openpyxl.readthedocs.io/en/stable), a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files(Version 3.1.2); [Development Team](https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/3.1/AUTHORS.rst?ref_type=heads)(2023)
-- [tabulate](https://github.com/astanin/python-tabulate), Pretty-print tabular data in Python, a library and a command-line utility. ([Sergey Astanin](https://scholar.google.com/citations?user=DWdSLeMAAAAJ&hl=en&oi=sra), 2022)
-
-All of the scripts use pandas (@reback2020pandas). 
-
-## Literature
