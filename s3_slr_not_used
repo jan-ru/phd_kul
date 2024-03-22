@@ -1,6 +1,18 @@
 ---
 title: "Untitled"
 format: html
+
+include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
+        \rohead{}
+        \lofoot{}
+
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+
 ---
 
 \newpage

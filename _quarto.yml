@@ -2,8 +2,13 @@ project:
   type: book
   output-dir: output
 
+mainfont: "Times New Roman"
+sansfont: "Arial"
+monofont: "Courier New"
+mathfont: "TeX Gyre Termes Math"
+
 book:
-  title: "SLR"
+  title: "SLR (v0.5)"
   subtitle: "Aligning business processes with regulatory requirements"
   author: 
     - name: "Jan-Ru Muller"
@@ -21,6 +26,7 @@ book:
         country: Belgium
         postal-code: 9000
   date: "3/18/2024"
+  date-format: "DD/MM/YYYY"
 
   chapters:
     - index.qmd
@@ -39,20 +45,9 @@ format:
   pdf:
     papersize: a4
     documentclass: scrreprt
-    geometry:
-      - top=30mm
-      - left=20mm
-      - heightrounded
-    include-in-header: 
-      text:
-        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
-        \rohead{Draft v0.2}
-        \lofoot{}
 
 license: "CC BY"
 latex-output-dir: output
-
-
 bibliography: MyLibrary.bib
 
 

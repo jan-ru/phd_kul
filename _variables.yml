@@ -3,3 +3,14 @@ version: 1.2
 email:
   info: info@example.com
   support: support@example.com
+
+literature:
+  other_sources: 6
+  database_searches: 84
+  total_records: 90
+  total_excluded: 67
+  journal_articles: 23
+  filtered_abstracts: 2
+  fulltexts_eligible: 21
+  filtered_fulltexts: 3
+  fulltexts_included: 18

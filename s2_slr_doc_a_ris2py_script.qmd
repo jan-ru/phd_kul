@@ -3,7 +3,7 @@ title: "Script - Merge Bibliographic Data"
 ---
 **Merge bibliographic data**
 
-Explanatory text
+Most databases provide for the ability to export bibliograhic data in bib or ris format. (SSRN is a notable exeception.)
 
 **Software used**
 
@@ -16,6 +16,8 @@ We used various sofware scripts to assemple the dataset. Specificaly:
 - [tabulate](https://github.com/astanin/python-tabulate), Pretty-print tabular data in Python, a library and a command-line utility. ([Sergey Astanin](https://scholar.google.com/citations?user=DWdSLeMAAAAJ&hl=en&oi=sra), 2022)
 
 All of the scripts use pandas (@reback2020pandas). 
+
+\newpage
 
 **RIS file contents**
 

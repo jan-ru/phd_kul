@@ -1,15 +1,7 @@
 ---
-project:
-  type: default
 title: ""
-date: "03-08-2024"
-date-format: "D/MM/YYYY"
-date-modified: "03-18-2024"
 abstract: ""
-mainfont: "Times New Roman"
-sansfont: "Arial"
-monofont: "Courier New"
-mathfont: "TeX Gyre Termes Math"
+
 crossref:
   fig-prefix: figure   # (default is "Figure")
   tbl-prefix: table    # (default is "Table")
@@ -43,7 +35,7 @@ Examples of SLR
 
 # Literature Review
 
-## Research questions
+## Research question
 
 The research question and the three supporting subquestions that are addressed in this literature review are:
 
@@ -93,7 +85,7 @@ The initial keyterms and database searches had been formulated as follows:
 5. "business process *engineering" and "compliance"
 6. "business process *engineering" and ("regulation" or "reglatory")
 
-The initial searches were done all database fields. The search was subsequently made more specific by searching titles and abstracts and later titles, abstracts and keywords.
+The initial searches were done on all database fields. The search was subsequently made more specific by searching titles and abstracts and later titles, abstracts and keywords.
 
 Initially 6 queries have been run against the 6 databases resuling in 8X_ hits as shown in @tbl-query-results in the appendix.
 After testing the initially formulated 6 queries have een reduced to 4 queries.
@@ -121,27 +113,32 @@ Date range: 2014-2024
 
 ## Study selection criteria
 
-The total number of records of the 5 resulting ris files is xx. After combining the 5 files and deduplicating records the total number of record is 49 (see document: List 1 - Selected Titles). Additionally 3 records have been added that were identified through other sources.
+The total number of records of the 5 resulting ris files is xx. After combining the 5 files and deduplicating records the total number of records found is {{<var literature.database_searches>}}. Additionally {{<var literature.other_sources>}} records have been added that were identified through other sources. 
 
-Of the total of 52 journal articles and conference papers the titles and abstracts have been read and a total of yy articles have been excluded based on: 
+Of the total of 52 journal articles and conference papers the titles and abstracts have been read and a total of {{<var literature.total_excluded>}} articles have been excluded based on: 
 
 - type of study
 - application domain At this stage of the research we are not looking for applications in a specific sector (Agriculture, Finance, Healthcare, Telecommunications, ...)
 
 The remaining zz articles and conference papers have been assessed on the full content of the articles and another yy articles have been excluded based on:
 
-The process to get to the final zz papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in the appendix.
+include: an additional {{<var literature.filtered_abstracts>}}  
+and {{<var literature.fulltexts_eligible>}}  
+and {{<var literature.fulltexts_included>}}  
+
+The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in [Appendix A](#appendix-a).
 
 **inclusion criteria**
 
 Records have been included if:
+
 - IC1 - the title, abstract and full text are in english
-- IC2
-- 
+- IC2 - the publication is dated between 2000 and 2024
 
 **exclusion criteria**
 
 Records have been excluded if:
+
 - EC1 - the reference is to a book(chapter)
 - EC2 - the submission has been retracted
 - EC3 - the type of article is a conference paper
@@ -153,7 +150,7 @@ As metrics like article citation count, author h-index and journal impact factor
 
 ## Study quality assessment
 
-- peer-reviewed journals
+- peer-reviewed articles
 - conference papers
 
 Check against previously constructed list of relevant journals (repeat here?)
@@ -191,6 +188,9 @@ Semantics /textual + @vanderaaComparingTextualDescriptions2017 and @yipSemantica
 @hashmiAreWeDone2018
 
 From Science Direct @holzmuller-laueImprovedComplianceBPMDriven2014, 
+
+Several publications (1,2,3) mention both compliance and conformance of business processes.
+Compliance is externally imposed and legally binding, focusing on meeting regulatory and legal requirements (source). Conformance is about meeting standards and specifications to ensure quality and reliability, which can be a voluntary process driven by internal or external standards (source). In the context of this literature we are interested in compliance. Compliance requires translation of external rules to internal business rules. For conformance the translation
 
 Does the business process exist outside of the organization. xxx and yyy reference a category of business processes they label cross-organizational business processes. As the name implies ...
 On one hand of the spectrum there is a claim(?) / oproep for governmental bodies to take into account (semi-)automated execution by companies. On the other side of the spectrum there is a "plea for instruments assessing the impact of policies on organizations prior to implementation" @gongPolicyImplementationBusiness2012. In the middle, presumably, is where the efforts are concentrated
