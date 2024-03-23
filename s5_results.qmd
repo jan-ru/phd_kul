@@ -59,6 +59,20 @@ format.documentclass: {{< meta format.documentclass >}}
 bibliography: {{< meta bibliography >}}
 
 
+meta title: {{< meta title >}} is number & name of this page.  
+meta book.title: {{< meta book.title >}}  
+meta book.subtitle: {{< meta book.subtitle >>}}
+
+Please contact us at {{< var email.info >}}  
+
+meta book.author.name: {{< meta book.author.name >}}
+var book.author.name: {{< var book.author.name >}}
+
+book.part: {{< meta book.part >}}
+
+chapters.part: {{< meta chapters.part >}}
+
+
 For Celonis Labs processes extending beyond the enterprise is a core area of research.
 
 Link to web of science query (in a table?)

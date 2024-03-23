@@ -8,14 +8,12 @@ format:
         \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
         \rohead{Draft}
         \lofoot{}
-params:
-  J: "21 records excluded"
 ---
+
 ```{python}
-radius = 5
+radius = "5 records "
 ```
 
-The radius of the circle is `{python} radius`
 <!--
 Mermaid diagram showing the replicating the CADIMA SLR diagram.
 -->
@@ -38,8 +36,8 @@ flowchart TB
       G("__ full-text articles included")
     end
     H("67 records excluded")
-    I("2 records excluded")
-    J(`{python} radius`) 
+    I(`{python} radius`)
+    J(`{python} radius` excluded) 
   
   A --> C
   B --> C

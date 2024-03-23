@@ -19,11 +19,11 @@ tables = get_tables('tables/slr_logbook.xlsx')
 
 Markdown(tabulate(
   xls2md(tables['database_search']),
-  headers=['Seq','Source','Type','Title','E/I'],
+  headers=['Seq','Source','Type','Title','EC'],
   missingval=[''],
-  maxcolwidths=[2, 8, 8, 76, 3],
+  maxcolwidths=[2, 8, 8, 60, 2],
   showindex=False,
-  colalign=('right', 'left', 'left', 'left', 'center')))
+  colalign=()))
 
 ```
 

@@ -37,18 +37,18 @@ Examples of SLR
 
 ## Research question
 
-The research question and the three supporting subquestions that are addressed in this literature review are:
+The research question (RQ) and the three supporting sub-questions (SQ) that are addressed in this literature review are:
 
 RQ: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
 
 SQ1: How can businesses identify relevant regulatory requirements? 
 
-SQ2: How can businesses analyze which business processes are affected by changes in requlatory requirements?  
+SQ2: How can businesses analyze which business processes are affected by changes in regulatory requirements?  
 
 SQ3: How can businesses integrate compliance requirements into business process design?  
 
 <!--
-SQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes? Comment: taken out as answering this subquestion does not help answering the main research question.
+SQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes? Comment: taken out as answering this sub-question does not help answering the main research question.
 -->
 
 The following is the research question repeated whereby the central terms and and concepts in this review are boxed: What are approaches for aligning \fbox{business processes} with \fbox{regulatory requirements} to achieve regulatory \fbox{compliance by design}?  
@@ -76,18 +76,18 @@ The results of the initial searches was reviewed. SSNR and Zenodo yielded few re
 
 ## Database searches {#sec-database-searches}
 
-The initial keyterms and database searches had been formulated as follows:
+The initial search terms had been formulated as follows:
 
 1. ("business process management" or BPM) and "regulatory compliance"
 2. ("business process management" or BPM) and "legal compliance"
 3. ("business process management" or BPM) and "compliance"
 4. "business process management" and ("regulation" or "regulatory")
 5. "business process *engineering" and "compliance"
-6. "business process *engineering" and ("regulation" or "reglatory")
+6. "business process *engineering" and ("regulation" or "regulatory")
 
 The initial searches were done on all database fields. The search was subsequently made more specific by searching titles and abstracts and later titles, abstracts and keywords.
 
-Initially 6 queries have been run against the 6 databases resuling in 8X_ hits as shown in @tbl-query-results in the appendix.
+Initially 6 queries have been run against the 6 databases resulting in 8X_ hits as shown in @tbl-query-results in the [Appendix A](#appendix-a).
 After testing the initially formulated 6 queries have een reduced to 4 queries.
 The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
 
@@ -126,7 +126,7 @@ include: an additional {{<var literature.filtered_abstracts>}}
 and {{<var literature.fulltexts_eligible>}}  
 and {{<var literature.fulltexts_included>}}  
 
-The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in [Appendix A](#appendix-a).
+The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in [Appendix C](#appendix-c).
 
 **inclusion criteria**
 
@@ -141,7 +141,7 @@ Records have been excluded if:
 
 - EC1 - the reference is to a book(chapter)
 - EC2 - the submission has been retracted
-- EC3 - the type of article is a conference paper
+- EC3 - the type of article is a conference paper or a preprint
 - EC4 - a search term has a different meaning
 - EC5 - the application relates to a specific sector
 
@@ -157,15 +157,15 @@ Check against previously constructed list of relevant journals (repeat here?)
 
 ## Data extraction strategy
 
-On the basis of table 3 drop two datasource (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other datasources wich are dedicated literature databases. 
+On the basis of table 3 drop two data source (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other data sources which are dedicated literature databases. 
 
-Queries have been formulated for each datasource. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per datasources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format. The @fig-script in the appendix shows the workings of the script.
+Queries have been formulated for each data source. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per data sources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format [Appendix A](#appendix-a). 
 
-Describe how 6 datasources have been reduced to 4.
+Describe how 6 data sources have been reduced to 4.
 
 no ris but bib ...
 
-The open access databases do not contain the full text articles if the articles are not open access. YY also doesn't contain abstracts. The absense of full text articles or abstracts is explained by contraints imposed by copyrights (source).
+The open access databases do not contain the full text articles if the articles are not open access. YY also doesn't contain abstracts. The absence of full text articles or abstracts is explained by constraints imposed by copyrights (source).
 
 The initial list (@tbl-database-searches) contains a total of 84 records. An additional 6 records were found from other sources (@tbl-other-sources). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles (peer reviewed?) results in a list of 25 records (@tbl-journal-articles).
 
@@ -177,7 +177,7 @@ Businesses can identify relevant regulatory requirements through a comprehensive
 
 Goedertier and Vanthienen
 
-Blockchain (2 articles) : @anjumBlockchainStandardsCompliance2017 and @mendlingBlockchainsBusinessProcess2018 and blockchain as a service ...
+Three articles are about the use of blockchain for BPM @anjumBlockchainStandardsCompliance2017 and @mendlingBlockchainsBusinessProcess2018 and @viriyasitavatBlockchainasaServiceBusinessProcess2023. The latter is a systematic literature about blockchain technology applied to servicing business processes. Chapter V is about business process compliance. Chapter VI details various applications such as the use of smart contracts as a Service for Controls of business processes (p7). This concept is of interest to this review (RD1).
 
 Logic ()
 
@@ -192,6 +192,9 @@ From Science Direct @holzmuller-laueImprovedComplianceBPMDriven2014,
 Several publications (1,2,3) mention both compliance and conformance of business processes.
 Compliance is externally imposed and legally binding, focusing on meeting regulatory and legal requirements (source). Conformance is about meeting standards and specifications to ensure quality and reliability, which can be a voluntary process driven by internal or external standards (source). In the context of this literature we are interested in compliance. Compliance requires translation of external rules to internal business rules. For conformance the translation
 
+Interaction between policy setting cycle (left gear) and enterprise regulatory change management (right gear).
+
+
 Does the business process exist outside of the organization. xxx and yyy reference a category of business processes they label cross-organizational business processes. As the name implies ...
 On one hand of the spectrum there is a claim(?) / oproep for governmental bodies to take into account (semi-)automated execution by companies. On the other side of the spectrum there is a "plea for instruments assessing the impact of policies on organizations prior to implementation" @gongPolicyImplementationBusiness2012. In the middle, presumably, is where the efforts are concentrated
 
@@ -202,7 +205,10 @@ Conformance often involves the use of quality management systems, such as ISO 90
 
 ....
 -->
-## Disseminaton strategy
+## Concluding remarks?
+
+
+## Dissemination strategy
 
 An upcoming version of the review will be part of the PhD work. The aim is to get three by-products out of this review:
 
@@ -228,24 +234,26 @@ Object centric process mining
 
 ## Limitations
 <!--
-projecten, sinds 2014 (@tbl-resultset). 
+projects, since 2014 (@tbl-resultset). 
 Synonyms
 -->
 The database searches resulted in a set of relevant articles for the subject of this review. Selecting a different set of databases would have resulted in a different set of relevant articles. The selection of databases was made from the databases available to us. We did not consider databases that require additional payment for access.
 
 It is also noted that search results may defer among different databases. If the content of two databases is identical, the same query run against both databases can yield different results. The differences stem, among others, from different search fields, different query languages, different API's and different search engines. Examples of notable differences are:
 
-- for WoS: the search results may differ depending on the subscription.
+- for WoS: the search results may differ depending on the subscription that is available to the user.
 - for SD: the search results may differ as query's are interpreted based on language heuristics ([source](https://service.elsevier.com/app/answers/detail/a_id/35970/supporthub/sciencedirect/)). Also, SD does not support wildcards.
-- for dplp: the *CompleteSearch* enginge autocompletes search terms, see @bastTypeLessFind2006.
+- for dblp: the *CompleteSearch* engine autocompletes search terms, see @bastTypeLessFind2006.
 - for arXiv: wildcards can not be used as the first character of a search term ([source](https://www.arxiv.org/multi?%2Ffind=Search/)). For example "*engineering" will trigger an error message. 
 
 ## Future research
 
-In follow-on research it maybe interesting to include openAIRE (Open Access Infrastructure for Research in Europe) as a datasource. Several articles in this review, such as @schummBusinessProcessCompliance2010, p. 11; and YYY p , reference research that has been performed under the 2008-2011 [COMPAS](https://cordis.europa.eu/project/id/215175) research project funded by the EU and coordinated by the Technische Universitaet Wien. More information about the research output of these projects will be available via OpenAIRE. When OpenAIRE will be included as a datasource we will also again include Zenodo. Zenodo was created as part of the OpenAIRE initiative.
+In follow-on research it maybe interesting to include openAIRE (Open Access Infrastructure for Research in Europe) as a data source. Several articles in this review, such as @schummBusinessProcessCompliance2010, p. 11; and YYY p , reference research that has been performed under the 2008-2011 [COMPAS](https://cordis.europa.eu/project/id/215175) research project funded by the EU and coordinated by the Technische Universitaet Wien. More information about the research output of these projects will be available via OpenAIRE. When OpenAIRE will be included as a data source we will also again include Zenodo. Zenodo was created as part of the OpenAIRE initiative.
+
+For reproducibility a future version of this literature reviews shall have a protocol altered.
 
 <!--
-Did we miss searching for "complaince by design"? Did we miss searching for "inter organizational processes"?  
+Did we miss searching for "compliance by design"? Did we miss searching for "inter organizational processes"?  
 In practice the term "workflow management system" is used in financial institutions (bron: Mark Muyres).
 
 |Platform |Operator   |Note                                             | Article |
@@ -268,16 +276,16 @@ The search string for the Zenodo search:
 
 In summary:
 
-|Database  |Found|Excluded|Additional|Resultset|
-|----------|----:|-------:|---------:|--------:|
-| WoS      | 29  |   -8   |   +0     |  14     |
-| SD       |  7  |   -3   |   +0     |   4     | 
-| SSRN     |  2  |    -   |   -      |   0     |
-| arXiv    |  4  |    -   |   +2     |   2     |
-| dblp     | 41  |  -37   |   +0     |   4     |
-| zenodo   |  4  |   -4   |   +0     |   0     |
-| aditional|  6  |        |   +2     |   2     |
-| total    | 90  |        |          |  13     |
+|Database   |Found|Excluded|Additional|Resultset|
+|-----------|----:|-------:|---------:|--------:|
+| WoS       | 29  |   -8   |   +0     |  14     |
+| SD        |  7  |   -3   |   +0     |   4     | 
+| SSRN      |  2  |    -   |   -      |   0     |
+| arXiv     |  4  |    -   |   +2     |   2     |
+| dblp      | 41  |  -37   |   +0     |   4     |
+| zenodo    |  4  |   -4   |   +0     |   0     |
+| additional|  6  |        |   +2     |   2     |
+| total     | 90  |        |          |  13     |
 
 {{< include tables/s2_tbl_query_results.qmd >}}
 

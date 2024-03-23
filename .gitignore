@@ -15,11 +15,15 @@
 .luarc.json
 .quarto/
 _book/
+foam/
+intro_files/
 output/
 tables/s2_tbl_ris_fields_per_source_files/
 *.pdf
 *.html
 *.bib
+cspell.json
+s2_slr_words_cspell.txt
 
 # 1. Python .gitignore
 # Source: github/gitignore

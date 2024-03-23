@@ -34,4 +34,4 @@ Table of the ris fields exported from the different sources. (Still to decide if
 |27|ISSN, ISBN, ...     | SN | x |   |     |    |
 |28|end_of_record       | ER | x | x |     |    |
 
-: RIS-fields[^2] {#tbl-ris-fields}
+: RIS-fields[^4] {#tbl-ris-fields}
