@@ -1,0 +1,156 @@
+---
+title: "Journals, authors, keywords"
+execute:
+  echo: false
+
+format: 
+    pdf:
+        papersize: a4
+---
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+# 
+import bibtexparser
+import requests
+from tabulate import tabulate
+
+file_path = '/Users/admin/Projects/literature/phd_kul/lib/bibliography_citedrive.bib'
+```
+
+## Journals[^5]
+
+```{python}
+def extract_journals_from_bibtex(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    journals = set()
+
+    for entry in bib_database.entries:
+        if entry.get('ENTRYTYPE') == 'article' and 'journal' in entry:
+            journals.add(entry['journal'])
+
+    sorted_journals = sorted(journals)
+    return sorted_journals
+
+
+def find_journal_info(journal_title):
+    # Initialize an empty list to hold the result
+    result = []
+
+    # Encode the journal title for use in a URL
+    encoded_title = requests.utils.quote(journal_title)
+
+    # Construct the CrossRef API request URL
+    api_url = f"https://api.crossref.org/journals?query={encoded_title}"
+
+    # Make the GET request
+    response = requests.get(api_url)
+
+    if response.status_code == 200:
+        # Parse the JSON response
+        data = response.json()
+
+        # Check if there are any results
+        if data['message']['total-results'] > 0:
+            # Assuming the first result is the most relevant one
+            first_journal = data['message']['items'][0]
+            publisher = first_journal.get('publisher', 'Publisher not found')
+            # Journals can have multiple ISSNs; we'll collect them all
+            issn = first_journal.get('ISSN', ['ISSN not found'])[0]
+        
+            # Append the journal information to the result list
+            result = [journal_title, publisher, issn]
+
+        # else:
+        #    return []
+    else:
+        print("Failed to retrieve data from CrossRef API.")
+    
+    return result
+
+header = ["Journal", "Publisher", "ISSN"]
+table = []
+journals = extract_journals_from_bibtex(file_path)
+for journal in journals:
+    journal_info = find_journal_info(journal)
+    if journal_info != []:
+        table.append(journal_info)
+print(tabulate(table, header, maxcolwidths=[30, 30, 10],))
+
+
+```
+
+## Authors
+
+```{python}
+def extract_authors_from_bibtex(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    authors = set()
+
+    for entry in bib_database.entries:
+        if 'author' in entry:
+            # Splitting authors on "and" and trimming any whitespace
+            entry_authors = [author.strip() for author in entry['author'].split(' and ')]
+            authors.update(entry_authors)
+
+    sorted_authors = sorted(authors)
+    return sorted_authors
+
+authors = extract_authors_from_bibtex(file_path)
+for author in authors:
+    print(author)
+```
+
+## Keywords
+
+```{python}
+import bibtexparser
+
+
+def extract_keywords(bibtex_file_path):
+    with open(bibtex_file_path) as bibtex_file:
+        bib_database = bibtexparser.load(bibtex_file)
+
+    # Dictionary to hold citation keys and their associated keywords
+    citation_keywords = {}
+
+    for entry in bib_database.entries:
+        citation_key = entry.get('ID')
+        keywords = entry.get('keywords')
+
+        # Some BibTeX entries might not have keywords
+        if keywords:
+            # Split keywords by comma, semicolon, or other delimiters as needed
+            keywords_list = keywords.split(',')
+            # Remove surrounding spaces and make the result a clean list
+            keywords_list = [keyword.strip() for keyword in keywords_list]
+        else:
+            keywords_list = []
+
+        citation_keywords[citation_key] = keywords_list
+
+    return citation_keywords
+
+
+bibtex_file_path = '/Users/admin/Projects/literature/phd_kul/lib/bibliography_citedrive.bib'
+citation_keywords = extract_keywords(bibtex_file_path)
+for citation_key, keywords in citation_keywords.items():
+    if citation_keywords[citation_key] != []:
+        print(f"Citation Key: {citation_key}")
+        print(f"Keywords: {', '.join(keywords)}\n")
+```
+
+[^5]: Source: crossref
+
+\fontsize{11}{12}\selectfont
+
+\newpage
+
+# Literature
