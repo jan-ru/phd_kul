@@ -8,7 +8,7 @@ monofont: "Courier New"
 mathfont: "TeX Gyre Termes Math"
 
 book:
-  title: "SLR (v0.5)"
+  title: "a literature review (v0.5)"
   subtitle: "Aligning business processes with regulatory requirements"
   author: 
     - name: "Jan-Ru Muller"
@@ -33,13 +33,12 @@ book:
     - s2_slr_doc_.qmd
 
   appendices:
-    - s2_slr_doc_a_ris2py_script.qmd
-    - s2_slr_doc_b_databases_searched.qmd
+    - s2_slr_doc_a_databases_searched.qmd
+    - s2_slr_doc_b_ris2py_script.qmd
     - s2_slr_doc_c_literature_selection.qmd
-    - s2_slr_doc_d_database_searches.qmd
-    - s2_slr_doc_e_other_sources.qmd
-    - s2_slr_doc_f_journal_articles.qmd
-    - s2_slr_doc_g_abstracts.qmd
+    - s2_slr_doc_d_literature_found.qmd
+    - s2_slr_doc_e_abstracts.qmd
+    - s2_slr_doc_f_jo_au_kw.qmd
 
 format:
   pdf:
