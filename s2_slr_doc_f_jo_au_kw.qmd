@@ -19,7 +19,7 @@ from tabulate import tabulate
 file_path = '/Users/admin/Projects/literature/phd_kul/lib/bibliography_citedrive.bib'
 ```
 
-## Journals[^5]
+**Journals[^5]**
 
 ```{python}
 def extract_journals_from_bibtex(file_path):
@@ -79,72 +79,61 @@ for journal in journals:
     journal_info = find_journal_info(journal)
     if journal_info != []:
         table.append(journal_info)
-print(tabulate(table, header, maxcolwidths=[30, 30, 10],))
+print(tabulate(table, header, maxcolwidths=[40, 35, 10]))
 
 
 ```
 
-## Authors
+**Authors**
 
 ```{python}
+
 def extract_authors_from_bibtex(file_path):
     with open(file_path) as bibtex_file:
         bibtex_str = bibtex_file.read()
 
     bib_database = bibtexparser.loads(bibtex_str)
-    authors = set()
+    authors_list = []
 
     for entry in bib_database.entries:
         if 'author' in entry:
-            # Splitting authors on "and" and trimming any whitespace
             entry_authors = [author.strip() for author in entry['author'].split(' and ')]
-            authors.update(entry_authors)
+            first_author = entry_authors[0]  # Extract the first author
+            other_authors = ', '.join(entry_authors[1:])  # Combine the remaining authors
+            authors_list.append((first_author, other_authors))  # Append as a tuple
 
-    sorted_authors = sorted(authors)
-    return sorted_authors
+    # No need to sort here as tabulate will handle the display
+    return authors_list
 
 authors = extract_authors_from_bibtex(file_path)
-for author in authors:
-    print(author)
+
+# Format and print the table in Markdown format
+print(tabulate(authors, headers=["First Author", "Other Authors"], maxcolwidths=[40, 50]))
 ```
 
-## Keywords
+**Keywords**
 
 ```{python}
-import bibtexparser
 
 
-def extract_keywords(bibtex_file_path):
-    with open(bibtex_file_path) as bibtex_file:
-        bib_database = bibtexparser.load(bibtex_file)
+def extract_keys_and_keywords(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
 
-    # Dictionary to hold citation keys and their associated keywords
-    citation_keywords = {}
+    bib_database = bibtexparser.loads(bibtex_str)
+    data = []
 
     for entry in bib_database.entries:
-        citation_key = entry.get('ID')
-        keywords = entry.get('keywords')
+        citation_key = entry['ID'][:15]  # Truncate citation key to max 15 characters
+        keywords = entry.get('keywords', 'No keywords')  # Use 'No keywords' if not present
+        data.append([citation_key, keywords])
 
-        # Some BibTeX entries might not have keywords
-        if keywords:
-            # Split keywords by comma, semicolon, or other delimiters as needed
-            keywords_list = keywords.split(',')
-            # Remove surrounding spaces and make the result a clean list
-            keywords_list = [keyword.strip() for keyword in keywords_list]
-        else:
-            keywords_list = []
+    return data
 
-        citation_keywords[citation_key] = keywords_list
+data = extract_keys_and_keywords(file_path)
 
-    return citation_keywords
-
-
-bibtex_file_path = '/Users/admin/Projects/literature/phd_kul/lib/bibliography_citedrive.bib'
-citation_keywords = extract_keywords(bibtex_file_path)
-for citation_key, keywords in citation_keywords.items():
-    if citation_keywords[citation_key] != []:
-        print(f"Citation Key: {citation_key}")
-        print(f"Keywords: {', '.join(keywords)}\n")
+# Output the table using tabulate
+print(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 55]))
 ```
 
 [^5]: Source: crossref

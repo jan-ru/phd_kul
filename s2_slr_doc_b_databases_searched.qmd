@@ -1,5 +1,0 @@
----
-title: "Databases Searched"
----
-
-{{< include tables/s2_tbl_platforms.qmd >}}
