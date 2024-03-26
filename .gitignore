@@ -1,4 +1,4 @@
-# 21-02-2024
+# 21-03-2024
 # Contents:
 # 1. JRM .gitignore
 # 2. Python .gitignore
@@ -13,11 +13,13 @@
 /.quarto/
 .gitignore
 .luarc.json
+lib/.DS_Store
 .quarto/
 _book/
-foam/
 intro_files/
 output/
+s2_abstracts_files/
+s5_results_files/
 tables/s2_tbl_ris_fields_per_source_files/
 *.pdf
 *.html
@@ -609,3 +611,4 @@ ipython_config.py
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 /_*.local
+lib/.DS_Store
