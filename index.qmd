@@ -1,3 +1,5 @@
-# Introduction {.unnumbered}
+# Document Version Control {.unnumbered}
 
-In the context of the DBA program at Vlerick Business School a literature review is one of two deliverables of year two. The research topic is "BPM for regulatory compliance". The goal of this review is to get an overview of relevant literature and identify topics listed as possibilities for future research. The literature review has been performed following the steps described in @kitchenhamGuidelinesPerformingSystematic2007. 
+|Status | Version | Date       | Changes from previous version |
+|-------|---------|------------|-------------------------------|
+|Draft  | 0.5     | 25 Mar 2024| None                          |

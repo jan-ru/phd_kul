@@ -1,0 +1,3 @@
+# Databases Searched {#appendix-a}
+
+{{< include tables/s2_tbl_platforms.qmd >}}

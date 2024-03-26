@@ -1,0 +1,66 @@
+# Merge Bibliographic Data {#appendix-c}
+
+Academic literature databases typically provide for the ability to export bibliograhic data in the BIB[^2] or RIS[^3] file format. SSRN is a notable exception. From inspecting the contents of the *.ris files it is apparent that, thought the output technically adheres to the RIS standard, the export from each database differs. The table on the next page shows how the mapping of export fields to RIS tags is different between the databases.
+
+For a bibliometric analysis the resulting RIS file from searching multiple databases is required to be in a uniform format. For that purpose a script was written. The @fig-script in this appendix shows the workings of the script.
+
+**Software used**
+
+We used various software scripts to assemble the dataset. Specifically:
+
+- [arxiv2bib](https://nathangrigg.github.io/arxiv2bib/), Get a BibTeX entry from an arXiv id number, using the arxiv.org API. ([Nathan Grigg](https://nathangrigg.com/), 2017)
+- [bib2ris](https://github.com/MacDumi/bib2ris), Script to convert bibtex files to ris format. ([Dumitru Duca](https://orcid.org/0000-0002-3873-4224), 2020)
+- [rispy](https://github.com/MrTango/rispy), A Python 3.8+ reader/writer of RIS reference files. (Version 0.9.0); ([Maik Derstappen](https://www.linkedin.com/in/maik-derstappen-4ab80618/?locale=en_US), 2024)
+- [openpyXL](https://openpyxl.readthedocs.io/en/stable), a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files(Version 3.1.2); ([Development Team](https://foss.heptapod.net/openpyxl/openpyxl/-/blob/branch/3.1/AUTHORS.rst?ref_type=heads), 2023)
+- [tabulate](https://github.com/astanin/python-tabulate), Pretty-print tabular data in Python, a library and a command-line utility. ([Sergey Astanin](https://scholar.google.com/citations?user=DWdSLeMAAAAJ&hl=en&oi=sra), 2022)
+
+All of the scripts use pandas (@reback2020pandas). 
+
+
+
+\newpage
+
+**RIS file contents**
+
+{{< include tables/s2_tbl_ris_fields_per_source.qmd >}}
+Sample differences between the WoS en SD exports:  
+- In the WoS export the journal name is in field T2 (secondary title).  
+- In the SD export the journal name is in the field JO (journal_name).  
+- In the WoS export the title is in the field TI (primary)title.  
+- In the SD export the title is in the field T1 (primary)title.  
+
+
+SSRN show '-' for all fields as SSRN does not support export to RIS.
+
+\newpage
+
+**Command line script**
+
+![ris2xls.py script structure](static/s2_slr_script_archimate.jpg){#fig-script}
+
+
+ris2xls.py is a script that produces an excel file on the basis of WoS and SD bibliograh export files.
+
+Within the script there are three functions:
+
+- MergeRIS: Reads input files and writes a merged file.
+- RemapRIS: Reads the "SD ris-File" and writes a "Remapped SD ris-file."
+- TransposeRIS: Reads the "Merged ris-file" and writes a "Transposed ris-file."
+
+Data Objects are used to represent files at different stages:
+
+- Input Data Files: "WoS ris-file" and "SD ris-file" are the initial inputs, indicating the original exported data from Web of Science and Science Direct.
+- Intermediary Data Files: "Remapped SD ris-file" is an output from the RemapRIS function where the format of the Science Direct exported data has been remapped to the ris-fields to better correspond to the Web of Science exported data.
+- Output Data Files: "Merged ris-file" and "Transposed ris-file" are the final outputs after processing.
+
+<!--alternate grey/white for readability (python table?)
+another transformation before this one
+(formula for transformation?)
+input / output
+-->
+
+[^2]: BibTex is a bibliograpic flat file database ([BIB](https://en.wikipedia.org/wiki/BibTeX))
+[^3]: Research Information Systems ([RIS](https://library.mskcc.org/blog/2022/09/the-ris-file-format-explained/))
+[^4]: Wikipedia page [RIS format](https://en.wikipedia.org/wiki/RIS_(file_format))
+
+\newpage

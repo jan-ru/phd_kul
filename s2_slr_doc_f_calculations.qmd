@@ -1,0 +1,51 @@
+---
+execute:
+  echo: false
+jupyter: python3
+---
+# Quality Criteria QA3 and QA4 {#appendix-f}
+
+Note cited/year = number of citations / (2024 - Publication Year)
+
+Note: total articles is articles author 1 + articles author 2
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+#| label: tbl-qa3
+#| tbl-cap: "Calculation of QA3-score (Cited per Year >= 5)"
+
+from IPython.display import Markdown
+from tabulate import tabulate
+from lib.my_excel_lib import get_tables
+from lib.my_custom_lib import xls2md
+
+tables = get_tables('tables/slr_logbook.xlsx')
+
+Markdown(tabulate(
+  xls2md(tables['criterium3']),
+  headers=['Seq','Source','Number of Citations','Year of Publication','Cited per Year','Score'],
+  missingval="",
+  maxcolwidths=[2, 8, 8, 8, 8, 8],
+  showindex=False,
+  colalign=('left','left','center','center','center','center')))
+```
+
+
+```{python}
+#| label: tbl-qa4
+#| tbl-cap: "Calculaton of QA4-score (Total Articles >= 50)"
+#| eval: true
+
+tables = get_tables('tables/slr_logbook.xlsx')
+
+Markdown(tabulate(
+  xls2md(tables['criterium4']),
+  headers=['Seq','Source','Articles First Author','Articles Second Author','Total Articles', 'Score'],
+  missingval="-",
+  maxcolwidths=[2, 8, 8, 8, 8, 8],
+  showindex=False,
+  colalign=('left','left','center','center','center','center')))
+```
+
+\fontsize{11}{12}\selectfont

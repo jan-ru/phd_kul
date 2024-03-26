@@ -10,10 +10,6 @@ format:
         \lofoot{}
 ---
 
-```{python}
-radius = "5 records "
-```
-
 <!--
 Mermaid diagram showing the replicating the CADIMA SLR diagram.
 -->
@@ -32,12 +28,12 @@ flowchart TB
       C("90 records after duplicate removal")  
       D("90 records screened at title level")
       E("23 records screened at abstract level")
-      F("__ full-text articles  assessed for eligibility")
-      G("__ full-text articles included")
+      F("21 full-text articles  assessed for eligibility")
+      G("9 full-text articles included")
     end
     H("67 records excluded")
-    I(`{python} radius`)
-    J(`{python} radius` excluded) 
+    I("2 records excluded")
+    J("12 records excluded") 
   
   A --> C
   B --> C

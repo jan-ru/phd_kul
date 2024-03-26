@@ -38,8 +38,9 @@ book:
     - s2_slr_doc_c_ris2py_script.qmd
     - s2_slr_doc_d_literature_selection.qmd
     - s2_slr_doc_e_literature_found.qmd
-    - s2_slr_doc_f_abstracts.qmd
-    - s2_slr_doc_g_jo_au_kw.qmd
+    - s2_slr_doc_f_calculations.qmd
+    - s2_slr_doc_g_abstracts.qmd
+    - s2_slr_doc_h_jo_au_kw.qmd
 
 format:
   pdf:
