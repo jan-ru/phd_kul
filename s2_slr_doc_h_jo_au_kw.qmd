@@ -11,18 +11,20 @@ execute:
 # 
 import bibtexparser
 import requests
+from IPython.display import Markdown
 from tabulate import tabulate
 
 file_path = '/Users/admin/Projects/literature/phd_kul/lib/bibliography_citedrive.bib'
 ```
 
-**Journals[^5]**
-
 <!-- add journal impact factor (h-score) google scholar scraping? 
 merk op Software uitgever is MDPI niet Elsevier, beter zou zijn publisher ophalen
 aan de hand van DOI -->
 
-```{python}
+```{python, cache=TRUE}
+#| label: tbl-journals
+#| tbl-cap: "Journals"
+
 def extract_journals_from_bibtex(file_path):
     with open(file_path) as bibtex_file:
         bibtex_str = bibtex_file.read()
@@ -80,14 +82,14 @@ for journal in journals:
     journal_info = find_journal_info(journal)
     if journal_info != []:
         table.append(journal_info)
-print(tabulate(table, header, maxcolwidths=[40, 35, 10]))
-
-
+Markdown(tabulate(table, header, maxcolwidths=[40, 35, 10]))
 ```
 
-**Authors**
+The publisher and the ISSN number have been looked up at [crossref](https://www.crossref.org) using the journal name in the bibtex file.
 
-```{python}
+```{python, cache=TRUE}
+#| label: tbl-authors
+#| tbl-cap: "Authors"
 
 def extract_authors_from_bibtex(file_path):
     with open(file_path) as bibtex_file:
@@ -109,13 +111,13 @@ def extract_authors_from_bibtex(file_path):
 authors = extract_authors_from_bibtex(file_path)
 
 # Format and print the table in Markdown format
-print(tabulate(authors, headers=["First Author", "Other Authors"], maxcolwidths=[40, 50]))
+Markdown(tabulate(authors, headers=["First Author", "Other Authors"], maxcolwidths=[40, 50]))
 ```
 
-**Keywords**
-
+\newpage
 ```{python}
-
+#| label: tbl-keywords
+#| tbl-cap: "Keywords"
 
 def extract_keys_and_keywords(file_path):
     with open(file_path) as bibtex_file:
@@ -135,10 +137,10 @@ def extract_keys_and_keywords(file_path):
 data = extract_keys_and_keywords(file_path)
 
 # Output the table using tabulate
-print(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 55]))
+Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 55]))
 ```
 
-[^5]: Source: crossref
+The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.
 
 \fontsize{11}{12}\selectfont
 

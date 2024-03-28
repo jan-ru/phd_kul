@@ -43,8 +43,10 @@ def xls2md(table: dict) -> pd.DataFrame:
         table
 
     """
-    locale.setlocale(locale.LC_ALL, "de_DE")
 
+    locale.setlocale(locale.LC_ALL, "de_DE")
+    # print(table["sheet"] + "!" + table["range"])
+    # note that an error may occur if the sheetname is not one word
     # The test if the table exists is (now) done prior to calling this function
     coordinaten: list = unpack_xy(table["sheet"] + "!" + table["range"])
     xls_tables = pd.ExcelFile(table["file"])

@@ -5,7 +5,7 @@ jupyter: python3
 ---
 # Literature Identified {#appendix-e}
 
-The tables below show records found. Seq (sequence) shows a table row number. Source shows the data source where the record was found. Type holds the type of publication (conference proceedings, journal article, preprint, etc.) Title is the title of the publication. EC (exclusion criterion) shows the reason a record is excluded. If a record is excluded for multiple reasons, only one reason is shown. QA (quality assessment) shows the record obtainted (0-4).
+The tables below show records found. Seq (sequence) shows a table row number. Source shows the data source where the record was found. Type holds the type of publication (conference proceedings, journal article, preprint, etc.) Title is the title of the publication. EC (exclusion criterion) shows the reason a record is excluded. If a record is excluded for multiple reasons, only one reason is shown. QA (quality assessment) shows the QA-score the record obtainted (0-4).
 
 \fontsize{9}{10}\selectfont
 
@@ -35,8 +35,6 @@ Markdown(tabulate(
 #| tbl-cap: "Identified through other sources"
 #| eval: true
 
-tables = get_tables('tables/slr_logbook.xlsx')
-
 Markdown(tabulate(
   xls2md(tables['other_sources']),
   headers=['Seq','Source','Type','Title','EC'],
@@ -50,8 +48,6 @@ Markdown(tabulate(
 #| label: tbl-review-abstracts
 #| tbl-cap: "Records screened at abstract level"
 
-tables = get_tables('tables/slr_logbook.xlsx')
-
 Markdown(tabulate(
   xls2md(tables['review_abstracts']),
   headers=['Seq','Source','Type','Title','QA'],
@@ -64,8 +60,6 @@ Markdown(tabulate(
 ```{python}
 #| label: tbl-full-text-included
 #| tbl-cap: "Records included in the study"
-
-tables = get_tables('tables/slr_logbook.xlsx')
 
 Markdown(tabulate(
   xls2md(tables['included_articles']),
