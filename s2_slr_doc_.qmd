@@ -1,23 +1,19 @@
 ---
 abstract: ""
-
-crossref:
-  fig-prefix: figure   # (default is "Figure")
-  tbl-prefix: table    # (default is "Table")
-  appendix-title: "App."
-  appendix-delim: ":"
-
 format:
   pdf:
     papersize: a4
     mermaid:
       theme: neutral
     cite-method: citeproc
+    toc: true
+    lof: true
+    lot: true 
+
 latex-output-dir: output
-number-sections: false
-toc: false
+number-sections: true
+toc: true
 link-citations: true
-keywords: modelling languages, controlled natural language
 
 execute:
   echo: false
@@ -33,11 +29,18 @@ Examples of SLR
 - There is 1 SLR about BPMN extensions (@zarourSystematicLiteratureReview2019)
 - Finally, there is one SLR about Open Science (@VICENTESAEZ2018428) which is not relevant to BP4RC.
 -->
+
 # Introduction
 
-In the context of the DBA program at Vlerick Business School a literature review is one of two deliverables of year two. The research topic is "BPM for regulatory compliance". The goal of this review is to get an overview of relevant literature and identify topics listed as possibilities for future research. The literature review has been performed following the steps described in @kitchenhamGuidelinesPerformingSystematic2007. 
+In the context of the DBA program at Vlerick Business School a literature review is one of two deliverables of year two. The research topic is "BPM for regulatory compliance". The goal of this review is to get an overview of relevant literature and identify topics listed as possibilities for future research. The literature review has been performed following the steps described in @kitchenhamGuidelinesPerformingSystematic2007.
 
-# Research question(s)
+@sec-review-plan is about the planning of the research. It describes the databases that were searched, the search terms used, the criteria for selecting articles and how the bibliographic data and the articles have been obtained.  
+
+@sec-review-execution concerns the exection of the research. It describes the studies found, which studies have been selected, how the quality of the studies has been assessed, how the data was collected and a synthesis of the data. 
+
+@sec-review-reporting concerns the reporting of the research. It describes how the results of this study will be shared, limitations of the study and possibilities for further research suggesting possible improvements.
+
+# Research question(s){#sec-research-questions}
 
 The research question (RQ) and the three supporting sub-questions (SQ) that are addressed in this literature review are:
 
@@ -63,7 +66,7 @@ Regulatory compliance is defined as ensuring that business processes, operations
 
 Compliance by design refers to approaches and methodologies where compliance requirements are integrated into business process models (@sadiqManagingRegulatoryCompliance2010) and enterprise applications from the very beginning. This concept emphasizes embedding compliance within the fabric of business practices (@lohmannComplianceDesignArtifactcentric2013) rather than treating it as a separate or after-the-fact activity.
 
-# Review protocol
+# Review plan{#sec-review-plan}
 
 ## Resources to be searched
 
@@ -78,9 +81,9 @@ An initial set of databases was selected to perform the literature search on. Bo
 
 The results of the initial searches was reviewed. SSNR and Zenodo yielded few results as compared to the other databases. The selection of databases was reduced to WoS, SD, ArXiv and dblp.
 
-## Database searches {#sec-database-searches}
+## Search terms used{#sec-search-terms-used}
 
-The initial search terms had been formulated as follows:
+The initial search terms have been formulated as follows:
 
 1. ("business process management" or BPM) and "regulatory compliance"
 2. ("business process management" or BPM) and "legal compliance"
@@ -89,18 +92,10 @@ The initial search terms had been formulated as follows:
 5. "business process *engineering" and "compliance"
 6. "business process *engineering" and ("regulation" or "regulatory")
 
-The initial searches were done on all database fields. The search was subsequently made more specific by searching titles and abstracts and later titles, abstracts and keywords.
+explain dropping of "regulatory compliance" and "legal compliances".
 
-Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in @tbl-result-set in the [Appendix A](#appendix-a).
-After testing the initially formulated 6 queries have een reduced to 4 queries.
-The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
 
-1. TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))
-2. TI=("business process management" or BPM) AND (AB=("regulat\*") OR KP=("regulat\*"))
-3. TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))
-4. TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat\*))
-
-## Study selection criteria {sec-study-selection-criteria}
+## Study selection criteria {#sec-study-selection-criteria}
 
 | criteria   | code | descriptions                                               |
 |------------|------|------------------------------------------------------------|
@@ -115,24 +110,35 @@ The first two queries search for "business process management" or BPM in the tit
 |            | EC6  | the title, abstract and full text are not in english       |
 |            |      |                                                            |
 | quality    | QA1  | the article is a peer-reviewed journal article             |
-|            | QA2  | the article appeared in one of the legible journals [Appendix B](#appendix-b)               |
-|            | QA3  | has a citation count higher than 5 per year on google scholar since the year of publication |
+|            | QA2  | the article appeared in one of the legible journals        |
+|            | QA3  | has a citation count higher than 5 per year since the year of publication |
 |            | QA4  | the first and second author have combined more than 50 publications listed on google scholar|
-: {#tbl-selection-criteria}
+: Study selection criteria {#tbl-selection-criteria}
 
-The quality of an article is assessed on the basis of the 4 criteria(QA1 through QA4). The criteria are equally weighted. An article is assigned 1 point for every QA criterium that is met. The article is thus a score of 0 through 4.
+AQ2 - the studies retrieved from databases will be compared to a list of eligible journals (see: [Appendix B](#appendix-b)). 
 
-Other metrics like author h-index and journal impact factor have not been considered in the selection process. 
+The quality of an article is assessed on the basis of the 4 criteria(QA1 through QA4). The criteria are equally weighted. An article is assigned 1 point for every QA criterium that is met. An article will thus get score of 0 through 4.
 
+Other metrics like author h-index and journal impact factor will not be considered in the selection process. 
 
+## Data extraction strategy {#sec-data-extraction-criteria}
 
-## Data extraction strategy
+Describe how 6 data sources have been reduced to 4. On the basis of table 3 drop two data source (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other data sources which are dedicated literature databases. 
 
-Describe how 6 data sources have been reduced to 4.On the basis of table 3 drop two data source (with least hits), one of them Zenodo. The second reason for dropping Zenodo is first that as a "dataset repository" it is a different animal than the other data sources which are dedicated literature databases. 
+Queries will be formulated for each data source.
 
-Queries have been formulated for each data source. The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per data sources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format [Appendix C](#appendix-c). 
+# Review execution{#sec-review-execution}
 
-The open access databases do not contain the full text articles if the articles are not open access. DBLP also doesn't contain abstracts. The absence of full text articles or abstracts is explained by constraints imposed by copyrights.
+## Research identification
+
+Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in @tbl-result-set in [appendix E](#appendix-e).
+After testing the initially formulated 6 queries have een reduced to 4 queries.
+The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
+
+1. TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))
+2. TI=("business process management" or BPM) AND (AB=("regulat\*") OR KP=("regulat\*"))
+3. TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))
+4. TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat\*))
 
 The initial list (@tbl-database-searches) contains a total of 84 records. An additional 6 records were found from other sources (@tbl-other-sources). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles results in a list of 25 records (@tbl-review-abstracts).
 
@@ -164,9 +170,15 @@ include: an additional {{<var literature.filtered_abstracts>}}
 and {{<var literature.fulltexts_eligible>}}  
 and {{<var literature.fulltexts_included>}}  
 
+## Selection of studies
+
+The initial searches were done on all database fields. The search was subsequently made more specific by searching titles and abstracts. Lastly we searched titles, abstracts and keywords.
+
+Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in [Appendix E](#appendix-e): @tbl-database-searches and @tbl-other-sources.
+
 The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in [Appendix C](#appendix-c).
 
-The WoS search yielded 29 hits. Excluding 4 arctiles with BPM in the title where BPM has a different meaning than "Business Process Management". For example where BPM is an abbreviation of "Biodiesel Particulate Matter". Excluding 1 article as it is a double, also occuring in the dblp search.
+The WoS search yielded 29 hits. Excluding 4 articles with BPM in the title where BPM has a different meaning than "Business Process Management". For example where BPM is an abbreviation of "Biodiesel Particulate Matter". Excluding 1 article as it is a double, also ocuring in the dblp search.
 
 The SD search yielded 7 hits. On the basis of article type (1 book chapter and 1 short communication) we have excluded two articles. An additional article was excluded as the title referred to "Business Process Management Map", which is a different concept. 
 
@@ -182,30 +194,36 @@ Six additional records have been included identified via different sources: 4 jo
 
 In summary:
 
-|Database  | Found|Addtional|Subtotal|Excluded|Result set|
-|----------|-----:|--------:|-------:|-------:|---------:|
-| WoS      | 29   |         |     29 |    -19 |    10    |
-| SD       |  7   |         |      7 |     -7 |     0    | 
-| SSRN     |  0   |   +2    |      2 |     -2 |     0    |
-| arXiv    |  0   |   +4    |      4 |     -4 |     0    |
-| dblp     | 42   |         |     42 |    -37 |     5    |
-| zenodo   |  0   |         |        |        |     0    |
-| aditional|  0   |   +6    |      6 |        |     6    |
-|          |------|---------|--------|--------|----------|
-| total    | 78   |  +12    |     90 |    -69 |    21    |
+|Database  | Found|Additional|Subtotal|Excluded|Result set|
+|----------|-----:|---------:|-------:|-------:|---------:|
+| WoS      | 29   |          |     29 |    -19 |    10    |
+| SD       |  7   |          |      7 |     -7 |     0    | 
+| SSRN     |  0   |   +2     |      2 |     -2 |     0    |
+| arXiv    |  0   |   +4     |      4 |     -4 |     0    |
+| dblp     | 42   |          |     42 |    -37 |     5    |
+| zenodo   |  0   |          |        |        |     0    |
+| aditional|  0   |   +6     |      6 |        |     6    |
+|          |------|----------|--------|--------|----------|
+| total    | 78   |  +12     |     90 |    -69 |    21    |
 
-: Result set (26-02-2024) {#tbl-result-set}
+: Result set {#tbl-result-set}
 
-The found records are listed in [Appendix E](#appendix-e): @tbl-database-searches and @tbl-other-sources.
+The abstracts of the remaining 21 articles are listed in [Appendix G](#appendix-g), @tbl-review-abstracts.
 
-@tbl-review-abstracts.
+## Study Quality Assessment
 
-The abstracts of the remaining 21 articles are listed in [Appendix F](#appendix-f).
+The first quality indicator is about the type of journal. Peer reviewed articles are deemed to be of better quality than, for example, conference papers. The second quality indicator is an a indirect measure of both the quality of the journal and the relevance of the article to the Information Systems field. The third quality indicator is a proxy for the quality of the article. The fourth indicator is deemed to be representative for the quality of the scholars.
+
+The outcome for QA1 through QA4 is either 1 or 0.  
+QA1=1: the article is of the type peer-reviewed journal article, QA=0: it is not.  QA2=1: the journal is in the eligible journals list, QA2=0: it is not.  
+QA3=1 the article has been referenced an average of 5 times per year since publication, QA3=0: it has not.   
+QA4=1 author 1 and author 2 have together authored at least 50 articles, QA4=0: they have not.  
+The detail of the calculation for QA3 en QA4 is shown in [appendix F](#appendix-f).
 
 
 ```{python}
 #| label: tbl-quality-assessment
-#| tbl-cap: "Quality assessment (26-03-2024)"
+#| tbl-cap: "Quality assessment"
 
 from IPython.display import Markdown
 from tabulate import tabulate
@@ -223,20 +241,35 @@ Markdown(tabulate(
   colalign=('left', 'left', 'center', 'center', 'right','right','center')))
 ```
 
-The outcome for QA1 through QA4 is either 1 or 0. QA1=1: the article is of the type peer-reviewed journal article, QA=0: it is not. QA2=1: the journal is in the eligable journals list, QA2=0: it is not. QA3=1 the article has been referenced an average of 5 times per year since publication, QA3=0: it has not. QA4=1 author 1 and author 2 have together authored at least 50 articles, QA4=0: they have not. The detail of the calcution for QA3 en QA4 is shown in [Appendix](appendix): table and table 2.
+For the final list we only consider the 8 articles where three or more conditions are met (see: [appendix E](#appendix-e), @tbl-full-text-included).
 
+## Data collection
 
-For the final list we only consider the 8 articles where three or more conditions are met. The final list of articles is in [Appendix E](#appendix-e), @tbl-full-text-included.
+ The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per data sources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format [Appendix C](#appendix-c). 
 
-\newpage
+The open access databases do not contain the full text articles if the articles are not open access. DBLP also doesn't contain abstracts. The absence of full text articles or abstracts is explained by constraints imposed by copyrights.
 
 ## Synthesis of extracted data
 
-Relevant literature and identify topics listed as possibilities for future
-To be completed.
+<!--Relevant literature and identify topics listed as possibilities for future -->
+
+8-12 years ago: the two oldest papers in the dataset are @vanderfeestenProductbasedWorkflowSupport2011 and @hadaschInfluenceDirectiveExplanations2016.
+
+
+4-8 years ago: the four papers published in the 2016-2019 timeslot are @vanderaalstSpreadsheetsBusinessProcess2018, @DBLP:journals/ail/HashmiG18, @hashmiAreWeDone2018, @viriyasitavatBlockchainasaServiceBusinessProcess2023 and @vanderaaComparingTextualDescriptions2017.
+
+
+0-4 years ago: the three most recent papers in the set are the papers @bernardojuniorAgileBusinessProcess2023 and @kirKnowledgeintensiveAdaptiveBusiness2021.
+
+
+Refer back to research question
 
 <!-- 
 Businesses can identify relevant regulatory requirements through a comprehensive approach that involves understanding and analyzing various sources of compliance mandates. These sources include legislation and regulatory bodies (e.g., Sarbanes-Oxley and Basel II), standards and codes of practices (e.g., ISO 9001), and business partner contracts.
+
+regulatory compliance and legal compliance
+
+legislation and regulatory bodies
 
 ....
 
@@ -258,7 +291,7 @@ Several publications (1,2,3) mention both compliance and conformance of business
 Compliance is externally imposed and legally binding, focusing on meeting regulatory and legal requirements (source). Conformance is about meeting standards and specifications to ensure quality and reliability, which can be a voluntary process driven by internal or external standards (source). In the context of this literature we are interested in compliance. Compliance requires translation of external rules to internal business rules. For conformance the translation
 
 Does the business process exist outside of the organization. xxx and yyy reference a category of business processes they label cross-organizational business processes. As the name implies ...
-On one hand of the spectrum there is a claim(?) / oproep for governmental bodies to take into account (semi-)automated execution by companies. On the other side of the spectrum there is a "plea for instruments assessing the impact of policies on organizations prior to implementation" @gongPolicyImplementationBusiness2012. In the middle, presumably, is where the efforts are concentrated
+On one hand of the spectrum there is a desire for governmental bodies to take into account (semi-)automated execution by companies. On the other side of the spectrum there is a "plea for instruments assessing the impact of policies on organizations prior to implementation" @gongPolicyImplementationBusiness2012. In the middle, presumably, is where the efforts are concentrated
 -->
 <!---
 Conformance refers to the act of adhering to a set of standards or requirements. It involves ensuring that a product, service, or system meets the specified expectations and performs as intended. Conformance can be viewed as a proactive approach to quality management, where the focus is on preventing defects and errors from occurring in the first place.
@@ -268,6 +301,7 @@ Conformance often involves the use of quality management systems, such as ISO 90
 ....
 -->
 
+# Review Reporting{#sec-review-reporting}
 
 ## Dissemination strategy
 
@@ -310,19 +344,15 @@ To assess the quality of the 21 identified articles a set of 4 indicators has be
 
 In follow-on research it maybe interesting to include openAIRE (Open Access Infrastructure for Research in Europe) as a data source. @schummBusinessProcessCompliance2010, p. 11 reference research that has been performed under the 2008-2011 [COMPAS](https://cordis.europa.eu/project/id/215175) research project funded by the EU and coordinated by the Technische Universitaet Wien. More information about the research output of these projects will be available via OpenAIRE. When OpenAIRE will be included as a data source we will also again include Zenodo. Zenodo was created as part of the OpenAIRE initiative.
 
-For reproducibility a future version of this literature reviews shall have the protocol altered. For commercial databases one and the same query can yield different results if it is run with two different licenses. This has been found to be the case with Web of Science. For the query used in this review the Vlerick Business School license of WoS yielded xx hits while the Amsterdam University of Applied Sciences licens of WoS yield yy hits. It is assumed the average user does not have precise information of the licenses that Academic institutions hold. As such WoS is better not used in the early stages of the search. The protocol could instead dictate the use of open databases, such as OpenAlex, for the early stages of the search. Commercial databases would then be used in a later stage to get abstracts and full texts of selected articles that are not available from open databases.
+For reproducibility a future version of this literature review shall have the protocol altered. For commercial databases one and the same query can yield different results if it is run with two different licenses. This has been found to be the case with Web of Science. For the query used in this review the Vlerick Business School license of WoS yielded 42 hits while the Amsterdam University of Applied Sciences license of WoS yield yy hits [appendix]. It is assumed the average user does not have precise information of the licenses that Academic institutions hold. As such WoS is better not used in the early stages of the search. The protocol could instead dictate the use of open databases, such as OpenAlex, for the early stages of the search. Commercial databases would then be used in a later stage to get abstracts and full texts of selected articles that are not available from open databases.
+
+For quality assesment we have now used a self-constructed indicator (QA4) that has as inputs the number of publications by the first and second author. If further research is conducted it can be considered to replace this indicator with the ubiguitous h-index (@WOS:000615174400014). Also, the fact that only 1 article is from the eligible journals list seems to indicate that either the list needs to be revised. Alternatively a different indicator, such as the journal impact factor, can be a substitute quality indicator.
+
+Finally, the research question and the ..
 
 <!--
 Did we miss searching for "compliance by design"? Did we miss searching for "inter organizational processes"?  
 In practice the term "workflow management system" is used in financial institutions (bron: Mark Muyres).
-
-|Platform |Operator   |Note                                             | Article |
-|---------|-----------|-------------------------------------------------|---------|
-|Scopus   |[Elsevier](www-scopus-com)| note: not available via Vlerick  |    (@priemOpenAlexFullyopenIndex2022)     |
-|OpenAlex |[OpenAlex](https://openalex.org) |                           |         |
-|OpenAIRE |[OpenAIRE](https://explore.openaire.eu/) | Mentioned in connection with Zenodo and also EU Research Programs | |
-|CEUR Workshop Proceedings| | |
-: Further Resources
 -->
 
 \newpage
@@ -331,7 +361,8 @@ In practice the term "workflow management system" is used in financial instituti
 
 
 Web of Science:
-TI=("business process management" or "BPM") AND (AB=("compliance") OR KP=("compliance"))
+
+(TI=("business process" management or BPM) AND (AB=(compliance) OR KP=(compliance))) OR (TI=("business process" management or BPM) AND (AB=(regulat*) OR KP=(regulat*))) OR (TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))) OR (TI=("business process *engineering") AND (AB=(regulat*) OR KP=(regulat*)))
 
 DBLP:
 - "business process management" compliance

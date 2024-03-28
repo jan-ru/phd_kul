@@ -1,0 +1,23 @@
+<!--
+Table of the initial selection of platforms for the systematic literature review (add reason per platform).
+-->
+
+
+|Authors | Year	| Title	| Research Method
+|Linh Thao Ly, Fabrizio Maria Maggi, Marco Montali, Stefanie Rinderle-Ma, Wil M.P. van der Aalst	| Unknown	| Compliance monitoring in business processes: functionalities, application, and tool-support	Comparative Analysis |
+| Mustafa Hashmi	Unknown	Evaluating Business Process Compliance Management Frameworks	Framework Evaluation
+Shazia Sadiq, Guido Governatori	Unknown	Managing Regulatory Compliance in Business Processes	Literature Review
+Han van der Aa, Henrik Leopold, Hajo A. Reijers	2017	Comparing textual descriptions to process models: the automatic detection of inconsistencies	Empirical Analysis
+Stefan Sackmann, Stephan Kühnel, Tobias Seyffarth	2018	Using Business Process Compliance Approaches for Compliance Management with Regard to Digitization	Systematic Literature Review
+Y. Liu, S. Miller, K. Xu	Unknown	A Static Compliance-Checking Framework for Business Process Models	Model-Checking Technology
+Rolands Koncevičs, Ludmila Penicina, Andrejs Gaidukovs, Maris Dargis, Rita Burbo, Ainars Auzings	Unknown	Comparative Analysis of Business Process Modelling Tools for Compliance Management Support	Comparative Analysis
+Niels Lohmann	2013	Compliance by design for artifact-centric business processes	Design Science
+Silke Holzmüller-Laue, Bernd Göde, Heidi Fleischer, Kerstin Thurow	2014	Improved Compliance by BPM-Driven Workflow Automation	Case Study
+David Schumm, Oktay Turetken, Natallia Kokash, Amal Elgammal, Frank Leymann, Willem-Jan van den Heuvel	2010	Business Process Compliance through Reusable Units of Compliant Processes	Design and Implementation
+Michael Radloff, Martin Schultz, Markus Nüttgens	Unknown	Extending Different Business Process Modeling Languages with Domain Specific Concepts	Empirical Study
+Elham Ramezani, Dirk Fahland, Jan Martijn van der Werf, Peter Mattheis	2011	Separating Compliance Management and Business Process Management	Conceptual Framework
+David Knuplesch, Manfred Reichert, Jiirgen Mangler, Stefanie Rinderle-Ma, Walid Fdhila	2012	Towards Compliance of Cross-Organizational Processes and their Changes	Conceptual Analysis
+Guido Governatori, Jorg Hoffmann, Shazia Sadiq, Ingo Weber	2008	Detecting Regulatory Compliance for Business Process Models through Semantic Annotations	Formal Analysis
+
+
+: Selected Studies {#tbl-studies}

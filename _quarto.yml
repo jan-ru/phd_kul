@@ -1,19 +1,32 @@
 project:
   type: book
   output-dir: output
+format:
+  pdf:
+    papersize: a4
+    documentclass: scrreprt
+    toc: true
+    lof: true
+    lot: true
+  html: default
 
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
 mathfont: "TeX Gyre Termes Math"
 
+include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
+        \lofoot{}
+
 book:
-  title: "a literature review (v0.5)"
-  subtitle: "Aligning business processes with regulatory requirements"
+  title: "Aligning business processes with regulatory requirements"
+  subtitle: "a systematic literature review"
   author: 
     - name: "Jan-Ru Muller"
       orcid: 0000-0003-1689-0557
-      email: j.r.muller@hva.nl
+      email: janru.muller@edu.vlerick.com
       affiliations:
       - name: Amsterdam University of Applied Sciences
         address: Fraijlemaborg 133
@@ -25,7 +38,7 @@ book:
         city: Ghent
         country: Belgium
         postal-code: 9000
-  date: "3/18/2024"
+  date: "3/20/2024"
   date-format: "DD/MM/YYYY"
 
   chapters:
@@ -42,13 +55,6 @@ book:
     - s2_slr_doc_g_abstracts.qmd
     - s2_slr_doc_h_jo_au_kw.qmd
 
-format:
-  pdf:
-    papersize: a4
-    documentclass: scrreprt
-
 license: "CC BY"
 latex-output-dir: output
 bibliography: MyLibrary.bib
-
-

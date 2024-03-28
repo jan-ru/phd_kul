@@ -1,6 +1,6 @@
 # List of eligible journals {#appendix-b}
 
-In the "study quality assessment phase" the studies retrieved from databases will, among others, be compared to a list of eligible journals. The columns: level and impact factor (IF) are taken from the Vlerick Strategic Journal List (the List), effective as of January 2020. Empty means the journal is not on the List.
+The columns: level and impact factor (IF) are taken from the Vlerick Strategic Journal List (the List), effective as of January 2020. Empty means the journal is not on the List.
 
 | Journal Title                                                              |Level| IF  |
 |----------------------------------------------------------------------------|:---:|:---:|
@@ -30,7 +30,7 @@ In the "study quality assessment phase" the studies retrieved from databases wil
 [IAM-ref]: https://www.sciencedirect.com/journal/information-and-management
 [IAO-ref]: https://www-sciencedirect-com/journal/information-and-organization
 
-Next to the basket of 11 there are other journals that I will want to search articles from. BISE is of interest because it is an european (IS) journal (as is EJIS). BPMJ and IJDG may be of interest given the subject matter their titles refer to.
+Next to the basket of 11 there are other journals that are of interest. BISE is of interest because it is an european (IS) journal (as is EJIS). BPMJ and IJDG may be of interest given the subject matter their titles refer to.
 
 | Journal Title                                                            |Level| IF  |
 |--------------------------------------------------------------------------|:---:|:---:|

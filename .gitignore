@@ -15,6 +15,7 @@
 .luarc.json
 lib/.DS_Store
 .quarto/
+_titlepages/
 _book/
 intro_files/
 output/
