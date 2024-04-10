@@ -63,9 +63,9 @@ Markdown(tabulate(
 
 Markdown(tabulate(
   xls2md(tables['included_articles']),
-  headers=['Seq','Source','Type','Title','QA'],
+  headers=['Seq','Source','Type','Title','QA','Year'],
   missingval=".",
-  maxcolwidths=[2, 8, 8, 76, 2],
+  maxcolwidths=[2, 8, 8, 76, 2, 4],
   showindex=False,
   colalign=()))
 ```

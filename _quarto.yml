@@ -17,8 +17,7 @@ mathfont: "TeX Gyre Termes Math"
 
 include-in-header: 
       text:
-        \usepackage{imakeidx, bibentry, scrlayer-scrpage, multicol}
-        \lofoot{}
+        \usepackage{imakeidx, bibentry, multicol}
 
 book:
   title: "Aligning business processes with regulatory requirements"
@@ -38,7 +37,7 @@ book:
         city: Ghent
         country: Belgium
         postal-code: 9000
-  date: "3/20/2024"
+  date: "3/25/2024"
   date-format: "DD/MM/YYYY"
 
   chapters:

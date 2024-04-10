@@ -17,6 +17,7 @@ lib/.DS_Store
 .quarto/
 _titlepages/
 _book/
+corpus/
 intro_files/
 output/
 s2_abstracts_files/
