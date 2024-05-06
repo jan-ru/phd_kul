@@ -3,7 +3,7 @@ import rispy
 import pandas as pd
 
 # Fetch all .ris files in the current directory
-files = glob.glob("ris_files/*.ris")
+files = glob.glob("../ris_files/*.ris")
 consolidated_data = []
 
 for file in files:
@@ -23,4 +23,4 @@ for file in files:
 
 # Concatenate all individual DataFrames to get the final DataFrame
 result_set = pd.concat(consolidated_data, ignore_index=True)
-result_set.to_excel("ris_files/result_set.xlsx")
+result_set.to_excel("../ris_files/result_set.xlsx")

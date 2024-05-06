@@ -1,4 +1,5 @@
 ---
+format: pdf
 latex-output-dir: output
 execute:
   echo: false
@@ -15,8 +16,8 @@ import requests
 from IPython.display import Markdown
 from tabulate import tabulate
 
-file_path = '/Users/admin/Projects/literature/phd_kul/bib/bibliography_citedrive.bib'
-#file_path = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
+#file_path = '/Users/admin/Projects/literature/phd_kul/bib/bibliography_citedrive.bib'
+file_path = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
 ```
 
 <!-- add journal impact factor (h-score) google scholar scraping? 
@@ -89,6 +90,7 @@ Markdown(tabulate(table, header, maxcolwidths=[40, 35, 10]))
 
 The publisher and the ISSN number have been looked up at [crossref](https://www.crossref.org) using the journal name in the bibtex file.
 
+\newpage
 ```{python, cache=TRUE}
 #| label: tbl-authors
 #| tbl-cap: "Authors"
@@ -139,7 +141,7 @@ def extract_keys_and_keywords(file_path):
 data = extract_keys_and_keywords(file_path)
 
 # Output the table using tabulate
-Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 55]))
+Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 60]))
 ```
 
 The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.

@@ -10,6 +10,8 @@ format:
     lot: true
   html: default
 
+number-sections: true
+
 mainfont: "Times New Roman"
 sansfont: "Arial"
 monofont: "Courier New"
@@ -37,23 +39,32 @@ book:
         city: Ghent
         country: Belgium
         postal-code: 9000
-  date: "3/25/2024"
+  date: "4/26/2024"
   date-format: "DD/MM/YYYY"
 
   chapters:
     - index.qmd
-    - s2_slr_doc_.qmd
+  #  - s2_slr_doc_.qmd
 
   appendices:
-    - s2_slr_doc_a_databases_searched.qmd
-    - s2_slr_doc_b_basket_of_11.qmd
-    - s2_slr_doc_c_ris2py_script.qmd
-    - s2_slr_doc_d_literature_selection.qmd
-    - s2_slr_doc_e_literature_found.qmd
-    - s2_slr_doc_f_calculations.qmd
+  #  - s2_slr_doc_a_databases_searched.qmd
+  #  - s2_slr_doc_b_basket_of_11.qmd
+  #  - s2_slr_doc_c_ris2py_script.qmd
+  #  - s2_slr_doc_d_literature_selection.qmd
+  #  - s2_slr_doc_e_literature_found.qmd
+  #  - s2_slr_doc_f_calculations.qmd
     - s2_slr_doc_g_abstracts.qmd
     - s2_slr_doc_h_jo_au_kw.qmd
 
 license: "CC BY"
 latex-output-dir: output
+
 bibliography: MyLibrary.bib
+#  main: MyLibrary.bib
+#  software: MySoftware.bib
+
+#citeproc: false
+
+#filters:
+#  - multibib
+#validate-yaml: false

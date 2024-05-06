@@ -46,7 +46,7 @@ keys = {
 
 # Path to the bibtex file
 # bib_file = sys.argv[1]
-file = "ris_files/arxiv"
+file = "../ris_files/arxiv"
 # Create a parser
 parser = bibtex.Parser()
 # Load the bibtex file

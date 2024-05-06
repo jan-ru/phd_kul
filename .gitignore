@@ -28,6 +28,8 @@ tables/s2_tbl_ris_fields_per_source_files/
 *.bib
 cspell.json
 s2_slr_words_cspell.txt
+.vscode
+
 
 # 1. Python .gitignore
 # Source: github/gitignore

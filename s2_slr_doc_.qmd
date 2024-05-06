@@ -10,9 +10,6 @@ format:
     lof: true
     lot: true 
 
-latex-output-dir: output
-number-sections: true
-toc: true
 link-citations: true
 
 execute:

@@ -2,7 +2,7 @@
 import pathlib
 import warnings
 
-zenodo_path = pathlib.Path("ris_files/ZENODO.rst")
+zenodo_path = pathlib.Path("../ris_files/ZENODO.rst")
 if not zenodo_path.exists():
     import textwrap
 
