@@ -35,7 +35,7 @@ In the context of the DBA program at Vlerick Business School a literature review
 
 @sec-review-plan is about the planning of the research. It describes the databases that were searched, the search terms used, the criteria for selecting articles and how the bibliographic data and the articles have been obtained.  
 
-@sec-review-execution concerns the exection of the research. It describes the studies found, which studies have been selected, how the quality of the studies has been assessed, how the data was collected and a synthesis of the data. 
+@sec-review-execution concerns the execution of the research. It describes the studies found, which studies have been selected, how the quality of the studies has been assessed, how the data was collected and a synthesis of the data. 
 
 @sec-review-reporting concerns the reporting of the research. It describes how the results of this study will be shared, limitations of the study and possibilities for further research suggesting possible improvements.
 
@@ -91,7 +91,7 @@ The initial search terms have been formulated as follows:
 5. "business process *engineering" and "compliance"
 6. "business process *engineering" and ("regulation" or "regulatory")
 
-Here too a test has been performed using the search terms. It was found that the combination of "business process management" with "regulatory compliance" or "legal compliance" yieded few results. Consequently, 1 and 2 were skipped. We searched for "business process management" and "compliance" which includes both "regulatory compliance" and "legal compliance".
+Here too a test has been performed using the search terms. It was found that the combination of "business process management" with "regulatory compliance" or "legal compliance" yielded few results. Consequently, 1 and 2 were skipped. We searched for "business process management" and "compliance" which includes both "regulatory compliance" and "legal compliance".
 
 \newpage
 
@@ -119,7 +119,7 @@ The quality of an article is assessed on the basis of the 4 criteria(QA1 through
 
 ## Data extraction strategy {#sec-data-extraction-criteria}
 
-The innitial 6 data sources have been reduced to 4 (excluding Zenodo). For the remaining 5 datasources queries will be formulated for each data source. The resulting records found will be listed in and excel file "slr_logbook.xlsx".
+The initial 6 data sources have been reduced to 4 (excluding Zenodo). For the remaining 5 datasources queries will be formulated for each data source. The resulting records found will be listed in and excel file "slr_logbook.xlsx".
 
 # Review execution{#sec-review-execution}
 
@@ -177,7 +177,7 @@ In summary:
 | arXiv    |  0   |   +4     |      4 |     -4 |     0    |
 | dblp     | 42   |          |     42 |    -37 |     5    |
 | zenodo   |  0   |          |        |        |     0    |
-| aditional|  0   |   +6     |      6 |        |     6    |
+|additional|  0   |   +6     |      6 |        |     6    |
 |          |------|----------|--------|--------|----------|
 | total    | 78   |  +12     |     90 |    -69 |    21    |
 
@@ -233,10 +233,10 @@ The excel file containing the article lists has been stored on zenodo for future
 
 8-12 years ago: the two oldest papers in the dataset are @vanderfeestenProductbasedWorkflowSupport2011 and @hadaschInfluenceDirectiveExplanations2016. The article of Irene Vanderfeesten is on the subject of her PhD thesis (@vanderfeesten2011product). It describes the concept of a Product Data Model which, in workflow systems, can be compared to a Bill of Material in manufacturing systems. The article doesn't mention future research but does mention collaboration with industrial partners to incorporate a PDM in a commercial tool. The Hadasch paper is a quantitive study about users' process compliance as a function of process explanations either in textual or diagram format (DE/DDE). Broadly stated, the paper concludes that the better explanations result in better compliance. Other than a recommendation that the findings of the paper be leveraged in future research, there is no specific guidance about future research.
 
-4-8 years ago: the four papers published in the 2016-2019 timeslot are @vanderaalstSpreadsheetsBusinessProcess2018, @DBLP:journals/ail/HashmiG18, @hashmiAreWeDone2018 and @vanderaaComparingTextualDescriptions2017. The van der Aalst paper compares and contrasts spreadsheet technology with process mining technology. It mentions checking for compliance as the activity whereby a process as run in reality is compared to a normative model. The article mentions future process mining research should be about automatically improving processes by changing underlying process models. The first Hashmi paper compares six Compliance Modeling Frameworks (CMFs). There are two pointers to future research directions. 1) Studying the formal semantics of the norms modeling languages. 2) Studying the useability of the norms modeling constructs in practice. The second Hashmi paper is a SLR where 79 papers were included in the study. The study provides a comprehensive overview of the attributs of compliance in BPM. There is a general direction for future research given: to improve modeling languages to take into account all compliance requirements.
+4-8 years ago: the four papers published in the 2016-2019 timeslot are @vanderaalstSpreadsheetsBusinessProcess2018, @DBLP:journals/ail/HashmiG18, @hashmiAreWeDone2018 and @vanderaaComparingTextualDescriptions2017. The van der Aalst paper compares and contrasts spreadsheet technology with process mining technology. It mentions checking for compliance as the activity whereby a process as run in reality is compared to a normative model. The article mentions future process mining research should be about automatically improving processes by changing underlying process models. The first Hashmi paper compares six Compliance Modeling Frameworks (CMFs). There are two pointers to future research directions. 1) Studying the formal semantics of the norms modeling languages. 2) Studying the useability of the norms modeling constructs in practice. The second Hashmi paper is a SLR where 79 papers were included in the study. The study provides a comprehensive overview of the attributes of compliance in BPM. There is a general direction for future research given: to improve modeling languages to take into account all compliance requirements.
 The article by van der Aa et al. is about the possible divergence of process descriptions and graphical process models. A quantitive analysis is performed on 53 real-life model-text pairs. One of the suggested future research directions is to also capture process information in other formats. Among the examples given of such other formats are rules and regulations.
 
-0-4 years ago: the three most recent papers in the set are the papers  and @kirKnowledgeintensiveAdaptiveBusiness2021, @bernardojuniorAgileBusinessProcess2023 and @viriyasitavatBlockchainasaServiceBusinessProcess2023. The Kir paper introduces *agile*BPM, a modeling methodology. The main differentiator is that next to control flow *agile*BPM also caputers knowledge, rules and goals. A prototype of the system is compared to other similar systems (ADEPT, SmartPM, Planlets, Go4Flex). The paper doesn't mention future research. The Bernardo paper includes a SLR, interviews and expert consultations. Agile BPM is defined. Future research is suggested to be on practices necessary for emperical application of BPM in organizations. The Viriyasitavat article is a SLR on the use of blockchain technology for business process compliance. The paper argues that blockchain technologies can and are applied for business process compliance. Existing work has a focus on technical implementation of the functionalities of traditional BPM systems. However the use of blockchain technologies also allows for new functionalities. The further research section specifically mentions organizational and legal aspects. 
+0-4 years ago: the three most recent papers in the set are the papers  and @kirKnowledgeintensiveAdaptiveBusiness2021, @bernardojuniorAgileBusinessProcess2023 and @viriyasitavatBlockchainasaServiceBusinessProcess2023. The Kir paper introduces *agile*BPM, a modeling methodology. The main differentiator is that next to control flow *agile*BPM also captures knowledge, rules and goals. A prototype of the system is compared to other similar systems (ADEPT, SmartPM, Planlets, Go4Flex). The paper doesn't mention future research. The Bernardo paper includes a SLR, interviews and expert consultations. Agile BPM is defined. Future research is suggested to be on practices necessary for empirical application of BPM in organizations. The Viriyasitavat article is a SLR on the use of blockchain technology for business process compliance. The paper argues that blockchain technologies can and are applied for business process compliance. Existing work has a focus on technical implementation of the functionalities of traditional BPM systems. However the use of blockchain technologies also allows for new functionalities. The further research section specifically mentions organizational and legal aspects. 
 
 |  | Year |Article       | Alignment Concepts             | Future Research     |
 |--|------|--------------|------------------------------- |---------------------|
@@ -338,13 +338,13 @@ In follow-on research it maybe interesting to include openAIRE (Open Access Infr
 
 For reproducibility a future version of this literature review shall have the protocol altered. For commercial databases one and the same query can yield different results if it is run with two different licenses. This has been found to be the case with Web of Science. For the query used in this review the Vlerick Business School license of WoS yielded 42 hits while the Amsterdam University of Applied Sciences license of WoS yield 24 hits (to be included in appendix). It is assumed the average user does not have precise information of the licenses that Academic institutions hold. As such WoS is better not used in the early stages of the search. The protocol could instead dictate the use of open databases, such as OpenAlex, for the early stages of the search. Commercial databases would then be used in a later stage to get abstracts and full texts of selected articles that are not available from open databases.
 
-For quality assesment we have now used a self-constructed indicator (QA4) that has as inputs the number of publications by the first and second author. If further research is conducted it can be considered to replace this indicator with the ubiguitous h-index (@WOS:000615174400014). Also, the fact that only 1 article is from the eligible journals list seems to indicate that either the list needs to be revised. Alternatively a different indicator, such as the journal impact factor, can be a substitute quality indicator.
+For quality assessment we have now used a self-constructed indicator (QA4) that has as inputs the number of publications by the first and second author. If further research is conducted it can be considered to replace this indicator with the ubiquitous h-index (@WOS:000615174400014). Also, the fact that only 1 article is from the eligible journals list seems to indicate that either the list needs to be revised. Alternatively a different indicator, such as the journal impact factor, can be a substitute quality indicator.
 
 Finally, where it relates to compliance checks, in the literature there is a divide between "design time" and "run time". As the RQ of this research refers to \fbox{compliance by design}, future research may have more of different search terms to also filter research about "design time" compliance checking.
 
 <!--
 Did we miss searching for "compliance by design"? Did we miss searching for "inter organizational processes"?  
-In practice the term "workflow management system" is used in financial institutions (bron: Mark Muyres).
+In practice the term "workflow management system" is used in financial institutions (source: Mark Muyres).
 
 
 \newpage

@@ -150,10 +150,3 @@ The keywords have been added to the bibtex file after consulting the publishers 
 
 # Literature
 
-::: {#refs-main}
-:::
-
-# Software
-
-::: {#refs-software}
-:::

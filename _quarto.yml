@@ -24,6 +24,9 @@ include-in-header:
 book:
   title: "Aligning business processes with regulatory requirements"
   subtitle: "a systematic literature review"
+  downloads: [pdf,docx]
+  search: true
+  repo-url: https://github.com/jan-ru/phd_kul
   author: 
     - name: "Jan-Ru Muller"
       orcid: 0000-0003-1689-0557
@@ -44,17 +47,17 @@ book:
 
   chapters:
     - index.qmd
-  #  - s2_slr_doc_.qmd
+    - s2_slr_doc_.qmd
 
   appendices:
-  #  - s2_slr_doc_a_databases_searched.qmd
-  #  - s2_slr_doc_b_basket_of_11.qmd
-  #  - s2_slr_doc_c_ris2py_script.qmd
-  #  - s2_slr_doc_d_literature_selection.qmd
-  #  - s2_slr_doc_e_literature_found.qmd
-  #  - s2_slr_doc_f_calculations.qmd
+    - s2_slr_doc_a_databases_searched.qmd
+    - s2_slr_doc_b_basket_of_11.qmd
+    - s2_slr_doc_d_literature_selection.qmd
+    - s2_slr_doc_e_literature_found.qmd
+    - s2_slr_doc_f_calculations.qmd
     - s2_slr_doc_g_abstracts.qmd
-    - s2_slr_doc_h_jo_au_kw.qmd
+    - s2_slr_doc_h_jo_au.qmd
+    - s2_slr_doc_i_keywords.qmd
 
 license: "CC BY"
 latex-output-dir: output
