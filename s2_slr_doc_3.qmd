@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Review plan{#sec-review-plan}
+=======
+# Review plan {#sec-review-plan}
+>>>>>>> fb557f84e537a5a07680cfe4a7c8d995074ab392
 
 ## Resources to be searched
 
