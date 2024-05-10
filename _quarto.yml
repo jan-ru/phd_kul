@@ -48,7 +48,11 @@ book:
   chapters:
     - index.qmd
     - s2_slr_doc_.qmd
+<<<<<<< HEAD
     - s2_slr_doc_5.qmd
+=======
+    - s2_slr_doc5.qmd
+>>>>>>> 4a9c180f10cb3af8d254b78e53ad48e7e6616c1e
 
   appendices:
     - s2_slr_doc_a_databases_searched.qmd
