@@ -48,6 +48,7 @@ book:
   chapters:
     - index.qmd
     - s2_slr_doc_.qmd
+    - s2_slr_doc5.qmd
 
   appendices:
     - s2_slr_doc_a_databases_searched.qmd
