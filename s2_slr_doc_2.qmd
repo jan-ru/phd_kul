@@ -1,0 +1,25 @@
+# Research question(s) {#sec-research-questions}
+
+The research question (RQ) and the three supporting sub-questions (SQ) that are addressed in this literature review are:
+
+RQ: What are approaches for aligning business processes with regulatory requirements to achieve regulatory compliance by design?
+
+SQ1: How can businesses identify relevant regulatory requirements? 
+
+SQ2: How can businesses analyze which business processes are affected by changes in regulatory requirements?  
+
+SQ3: How can businesses integrate compliance requirements into business process design?  
+
+<!--
+SQ-4: How can businesses ensure compliance throughout the lifecycle of the impacted business processes? Comment: taken out as answering this sub-question does not help answering the main research question.
+-->
+
+The focus of this review is specifically the first question (RQ). The following is the research question repeated whereby the central terms and and concepts in this review are boxed: What are approaches for aligning \fbox{business processes} with \fbox{regulatory requirements} to achieve regulatory \fbox{compliance by design}?  
+  
+A definition of the three central concepts:
+
+Business process management (BPM) is a defined as all activities performed by businesses to discover, model, automate, analyze, measure, improve and optimize business processes (@liuStaticCompliancecheckingFramework2007). A business process coordinates the behavior of people, systems, information and things to produce business outcomes in support of a business strategy. Processes can be structured and repeatable, or unstructured and variable.
+
+Regulatory compliance is defined as ensuring that business processes, operations, and practices are in accordance with a prescribed and/or agreed set of norms. These compliance requirements may stem from legislature and regulatory bodies (e.g., Sarbanes-Oxley, Basel II, HIPAA), standards and codes of practice (e.g., SCOR, ISO9000), and also business partner contracts (@hashmiEvaluatingBusinessProcess2015).
+
+Compliance by design refers to approaches and methodologies where compliance requirements are integrated into business process models (@sadiqManagingRegulatoryCompliance2010) and enterprise applications from the very beginning. This concept emphasizes embedding compliance within the fabric of business practices (@lohmannComplianceDesignArtifactcentric2013) rather than treating it as a separate or after-the-fact activity.

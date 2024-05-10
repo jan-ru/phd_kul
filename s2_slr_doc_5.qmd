@@ -1,7 +1,4 @@
----
-title: Review reporting
----
-# Review reporting{#sec-review-reporting}
+# Review reporting {#sec-review-reporting}
 
 ## Dissemination strategy
 
