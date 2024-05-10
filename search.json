@@ -120,43 +120,43 @@
     ]
   },
   {
-    "objectID": "s2_slr_doc5.html",
-    "href": "s2_slr_doc5.html",
-    "title": "2  Untitled",
+    "objectID": "s2_slr_doc_5.html",
+    "href": "s2_slr_doc_5.html",
+    "title": "2  Review reporting{#sec-review-reporting}",
     "section": "",
-    "text": "3 Review reporting",
+    "text": "2.1 Dissemination strategy\nA subsequent version of this review will be part of the PhD work. The aim is to get three by-products out of this review:",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Untitled</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Review reporting{#sec-review-reporting}</span>"
     ]
   },
   {
-    "objectID": "s2_slr_doc5.html#dissemination-strategy",
-    "href": "s2_slr_doc5.html#dissemination-strategy",
-    "title": "2  Untitled",
-    "section": "3.1 Dissemination strategy",
-    "text": "3.1 Dissemination strategy\nA subsequent version of this review will be part of the PhD work. The aim is to get three by-products out of this review:\n\nA poster that explains this literature review process and its results to be presented on a research day.\nA version of the software script that is installable and useable by somebody else.\nAn open access publication.",
+    "objectID": "s2_slr_doc_5.html#dissemination-strategy",
+    "href": "s2_slr_doc_5.html#dissemination-strategy",
+    "title": "2  Review reporting{#sec-review-reporting}",
+    "section": "",
+    "text": "A poster that explains this literature review process and its results to be presented on a research day.\nA version of the software script that is installable and useable by somebody else.\nAn open access publication.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Untitled</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Review reporting{#sec-review-reporting}</span>"
     ]
   },
   {
-    "objectID": "s2_slr_doc5.html#limitations",
-    "href": "s2_slr_doc5.html#limitations",
-    "title": "2  Untitled",
-    "section": "3.2 Limitations",
-    "text": "3.2 Limitations\nThe database searches resulted in a set of relevant articles for the subject of this review. Selecting a different set of databases would have resulted in a different set of relevant articles. The selection of databases was made from the databases available to us. We did not consider databases that require additional payment for access.\nIt is also noted that search results may defer among different databases. If the content of two databases is identical, the same query run against both databases can yield different results. The differences stem, among others, from different search fields, different query languages, different API’s and different search engines. Examples of notable differences are:\n\nfor WoS: the search results may differ depending on the subscription that is available to the user.\nfor SD: the search results may differ as query’s are interpreted based on language heuristics (source). Also, SD does not support wildcards.\nfor dblp: the CompleteSearch engine autocompletes search terms, see Bast and Weber (2006).\nfor arXiv: wildcards can not be used as the first character of a search term (source). For example “*engineering” will trigger an error message.\n\nTo assess the quality of the 21 identified articles a set of 4 indicators has been considered. There are many other indicators which can be used to assess the quality of an article. Changing the number of indicators and/or changing the selection of parameters could alter which full text articles are selected for the review.",
+    "objectID": "s2_slr_doc_5.html#limitations",
+    "href": "s2_slr_doc_5.html#limitations",
+    "title": "2  Review reporting{#sec-review-reporting}",
+    "section": "2.2 Limitations",
+    "text": "2.2 Limitations\nThe database searches resulted in a set of relevant articles for the subject of this review. Selecting a different set of databases would have resulted in a different set of relevant articles. The selection of databases was made from the databases available to us. We did not consider databases that require additional payment for access.\nIt is also noted that search results may defer among different databases. If the content of two databases is identical, the same query run against both databases can yield different results. The differences stem, among others, from different search fields, different query languages, different API’s and different search engines. Examples of notable differences are:\n\nfor WoS: the search results may differ depending on the subscription that is available to the user.\nfor SD: the search results may differ as query’s are interpreted based on language heuristics (source). Also, SD does not support wildcards.\nfor dblp: the CompleteSearch engine autocompletes search terms, see Bast and Weber (2006).\nfor arXiv: wildcards can not be used as the first character of a search term (source). For example “*engineering” will trigger an error message.\n\nTo assess the quality of the 21 identified articles a set of 4 indicators has been considered. There are many other indicators which can be used to assess the quality of an article. Changing the number of indicators and/or changing the selection of parameters could alter which full text articles are selected for the review.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Untitled</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Review reporting{#sec-review-reporting}</span>"
     ]
   },
   {
-    "objectID": "s2_slr_doc5.html#future-research",
-    "href": "s2_slr_doc5.html#future-research",
-    "title": "2  Untitled",
-    "section": "3.3 Future research",
-    "text": "3.3 Future research\nIn follow-on research it maybe interesting to include openAIRE (Open Access Infrastructure for Research in Europe) as a data source. Schumm et al. (2010), p. 11 reference research that has been performed under the 2008-2011 COMPAS research project funded by the EU and coordinated by the Technische Universitaet Wien. More information about the research output of these projects will be available via OpenAIRE. When OpenAIRE will be included as a data source we will also again include Zenodo. Zenodo was created as part of the OpenAIRE initiative.\nFor reproducibility a future version of this literature review shall have the protocol altered. For commercial databases one and the same query can yield different results if it is run with two different licenses. This has been found to be the case with Web of Science. For the query used in this review the Vlerick Business School license of WoS yielded 42 hits while the Amsterdam University of Applied Sciences license of WoS yield 24 hits (to be included in appendix). It is assumed the average user does not have precise information of the licenses that Academic institutions hold. As such WoS is better not used in the early stages of the search. The protocol could instead dictate the use of open databases, such as OpenAlex, for the early stages of the search. Commercial databases would then be used in a later stage to get abstracts and full texts of selected articles that are not available from open databases.\nFor quality assessment we have now used a self-constructed indicator (QA4) that has as inputs the number of publications by the first and second author. If further research is conducted it can be considered to replace this indicator with the ubiquitous h-index (Poirrier, Moreno, and Huerta-Canepa (2021)). Also, the fact that only 1 article is from the eligible journals list seems to indicate that either the list needs to be revised. Alternatively a different indicator, such as the journal impact factor, can be a substitute quality indicator.\nFinally, where it relates to compliance checks, in the literature there is a divide between “design time” and “run time”. As the RQ of this research refers to , future research may have more of different search terms to also filter research about “design time” compliance checking.\n\n\n\n\n\nBast, Holger, and Ingmar Weber. 2006. “Type Less, Find More: Fast Autocompletion Search with a Succinct Index.” In Proceedings of the 29th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, 364–71. Seattle Washington USA: ACM. https://doi.org/10.1145/1148170.1148234.\n\n\nPoirrier, Maurice, Sebastian Moreno, and Gonzalo Huerta-Canepa. 2021. “Robust h-Index.” Article. SCIENTOMETRICS 126 (3): 1969–81. https://doi.org/10.1007/s11192-020-03857-z.\n\n\nSchumm, David, Oktay Turetken, Natallia Kokash, Amal Elgammal, Frank Leymann, and Willem-Jan Van Den Heuvel. 2010. “Business Process Compliance Through Reusable Units of Compliant Processes.” In Current Trends in Web Engineering, edited by Florian Daniel and Federico Michele Facca, 6385:325–37. Berlin, Heidelberg: Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-16985-4_29.",
+    "objectID": "s2_slr_doc_5.html#future-research",
+    "href": "s2_slr_doc_5.html#future-research",
+    "title": "2  Review reporting{#sec-review-reporting}",
+    "section": "2.3 Future research",
+    "text": "2.3 Future research\nIn follow-on research it maybe interesting to include openAIRE (Open Access Infrastructure for Research in Europe) as a data source. Schumm et al. (2010), p. 11 reference research that has been performed under the 2008-2011 COMPAS research project funded by the EU and coordinated by the Technische Universitaet Wien. More information about the research output of these projects will be available via OpenAIRE. When OpenAIRE will be included as a data source we will also again include Zenodo. Zenodo was created as part of the OpenAIRE initiative.\nFor reproducibility a future version of this literature review shall have the protocol altered. For commercial databases one and the same query can yield different results if it is run with two different licenses. This has been found to be the case with Web of Science. For the query used in this review the Vlerick Business School license of WoS yielded 42 hits while the Amsterdam University of Applied Sciences license of WoS yield 24 hits (to be included in appendix). It is assumed the average user does not have precise information of the licenses that Academic institutions hold. As such WoS is better not used in the early stages of the search. The protocol could instead dictate the use of open databases, such as OpenAlex, for the early stages of the search. Commercial databases would then be used in a later stage to get abstracts and full texts of selected articles that are not available from open databases.\nFor quality assessment we have now used a self-constructed indicator (QA4) that has as inputs the number of publications by the first and second author. If further research is conducted it can be considered to replace this indicator with the ubiquitous h-index (Poirrier, Moreno, and Huerta-Canepa (2021)). Also, the fact that only 1 article is from the eligible journals list seems to indicate that either the list needs to be revised. Alternatively a different indicator, such as the journal impact factor, can be a substitute quality indicator.\nFinally, where it relates to compliance checks, in the literature there is a divide between “design time” and “run time”. As the RQ of this research refers to , future research may have more of different search terms to also filter research about “design time” compliance checking.\n\n\n\n\n\nBast, Holger, and Ingmar Weber. 2006. “Type Less, Find More: Fast Autocompletion Search with a Succinct Index.” In Proceedings of the 29th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval, 364–71. Seattle Washington USA: ACM. https://doi.org/10.1145/1148170.1148234.\n\n\nPoirrier, Maurice, Sebastian Moreno, and Gonzalo Huerta-Canepa. 2021. “Robust h-Index.” Article. SCIENTOMETRICS 126 (3): 1969–81. https://doi.org/10.1007/s11192-020-03857-z.\n\n\nSchumm, David, Oktay Turetken, Natallia Kokash, Amal Elgammal, Frank Leymann, and Willem-Jan Van Den Heuvel. 2010. “Business Process Compliance Through Reusable Units of Compliant Processes.” In Current Trends in Web Engineering, edited by Florian Daniel and Federico Michele Facca, 6385:325–37. Berlin, Heidelberg: Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-16985-4_29.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Untitled</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Review reporting{#sec-review-reporting}</span>"
     ]
   },
   {
