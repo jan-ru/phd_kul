@@ -47,6 +47,8 @@ book:
   chapters:
     - index.qmd
     - s2_slr_doc_.qmd
+    - s2_slr_doc_3.qmd
+    - s2_slr_doc_4.qmd
     - s2_slr_doc_5.qmd
 
   appendices:

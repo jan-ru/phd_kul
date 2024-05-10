@@ -1,0 +1,56 @@
+# Review plan{#sec-review-plan}
+
+## Resources to be searched
+
+An initial set of databases was selected to perform the literature search on. Both commercial and open access databases have been selected. A description for these databases in included in @tbl-databases.
+
+1. Web of Science (WoS), Publisher: [Clarivate](https://www-webofscience-com)
+1. ScienceDirect (SD), Publisher: [Elsevier](https://www-sciencedirect-com)
+1. SSNR, Publisher: [Elsevier](https://www.ssrn.com/)
+1. arXiv, Publisher: [cs](https://arxiv.org/search/cs)
+1. dblp, Publisher: [dblp](https://dblp.org/)
+1. Zenodo, Publisher: [Zenodo](https://zenodo.org)
+
+As a test we performed some initial searches. The results of the initial searches was reviewed. SSNR and Zenodo yielded few results as compared to the other databases. The selection of databases was reduced to WoS, SD, SSNR, ArXiv and dblp.
+
+## Search terms used{#sec-search-terms-used}
+
+The initial search terms have been formulated as follows:
+
+1. ("business process management" or BPM) and "regulatory compliance"
+2. ("business process management" or BPM) and "legal compliance"
+3. ("business process management" or BPM) and "compliance"
+4. "business process management" and ("regulation" or "regulatory")
+5. "business process *engineering" and "compliance"
+6. "business process *engineering" and ("regulation" or "regulatory")
+
+Here too a test has been performed using the search terms. It was found that the combination of "business process management" with "regulatory compliance" or "legal compliance" yielded few results. Consequently, 1 and 2 were skipped. We searched for "business process management" and "compliance" which includes both "regulatory compliance" and "legal compliance".
+
+\newpage
+
+## Study selection criteria {#sec-study-selection-criteria}
+
+The quality of an article is assessed on the basis of the 4 criteria(QA1 through QA4). The criteria are equally weighted. An article is assigned 1 point for every QA criterium that is met. An article will thus get score of 0 through 4. Other metrics like author h-index and journal impact factor will not be considered in the selection process. 
+
+| criteria   | code | descriptions                                               |
+|------------|------|------------------------------------------------------------|
+| inclusion  | IC1  | the title, abstract and full text are in english           |
+|            | IC2  | the publication is dated between 2000 and 2024             |
+|            |      |                                                            |
+| exclusion  | EC1  | the reference is to a book(chapter)                        |
+|            | EC2  | the article has been retracted                             |
+|            | EC3  | the type of article is a conference paper or a preprint    |
+|            | EC4  | a search term has a different meaning                      |
+|            | EC5  | the application relates to a specific sector               |
+|            | EC6  | the title, abstract and full text are not in english       |
+|            |      |                                                            |
+| quality    | QA1  | the article is a peer-reviewed journal article             |
+|            | QA2  | the article appeared in one of the legible [journals](#appendix-b)|
+|            | QA3  | has a citation count higher than 5 per year since the year of publication |
+|            | QA4  | the first and second author have combined more than 50 publications listed on google scholar|
+: Study selection criteria {#tbl-selection-criteria}
+
+## Data extraction strategy {#sec-data-extraction-criteria}
+
+The initial 6 data sources have been reduced to 4 (excluding Zenodo). For the remaining 5 datasources queries will be formulated for each data source. The resulting records found will be listed in and excel file "slr_logbook.xlsx".
+

@@ -1,0 +1,171 @@
+# Review execution {#sec-review-execution}
+
+## Research identification
+
+Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in @tbl-result-set in [appendix E](#appendix-e).
+After testing the initially formulated 6 queries have een reduced to 4 queries.
+The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
+
+1. TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))
+2. TI=("business process management" or BPM) AND (AB=("regulat\*") OR KP=("regulat\*"))
+3. TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))
+4. TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat\*))
+
+The initial list (@tbl-database-searches) contains a total of 84 records. An additional 6 records were found from other sources (@tbl-other-sources). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles results in a list of 25 records (@tbl-review-abstracts).
+
+In the case of Web of Science (WoS) the four queries have been taken together using the "OR" operator. This final query yields 42 results when using the the Vlerick WoS subscription[^1]. The search strings have be adapted to suit the specific requirements of the databases.
+
+[^1]: Web of Science: Core Collection  
+Subscription  : Vlerick Business School  
+Editions  : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI  
+Date range: 2014-2024  
+
+<!--The total number of records of the 5 resulting ris files is xx. -->
+
+## Selection of studies
+
+The initial searches were done on all database fields. The search was subsequently made more specific by searching titles and abstracts. Lastly we searched titles, abstracts and keywords.
+
+Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in [Appendix E](#appendix-e): @tbl-database-searches and @tbl-other-sources.
+
+The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in [Appendix C](#appendix-c).
+
+The WoS search yielded 29 hits. Excluding 4 articles with BPM in the title where BPM has a different meaning than "Business Process Management". For example where BPM is an abbreviation of "Biodiesel Particulate Matter". Excluding 1 article as it is a double, also ocuring in the dblp search.
+
+The SD search yielded 7 hits. On the basis of article type (1 book chapter and 1 short communication) we have excluded two articles. An additional article was excluded as the title referred to "Business Process Management Map", which is a different concept. 
+
+The SSRN search yielded 2 results, both excluded as they are preprints.
+
+The arXiv search yielded 0 records when looking for articles with "Business Process Management" or BPM in the title field. Two records where found on the basis of abstract and keyword matches. All the same these records have been subsequently excluded when the exclusion criteria have been applied.
+
+The dblp search yielded 41 records, including 2 books and 35 conference papers. After exclusion 4 records remain, 3 journal articles and one PhD thesis. For the next step, the abstract scan, the thesis has been replaced by a journal article by the same author about the same topic.
+
+The Zenodo search yielded 0 records when looking for articles with "Business Process Management" or BPM in the title field. <!-- Four records where found on the basis of abstract and keyword matches. All the same these records have been subsequently excluded when the exclusion criteria have been applied. -->
+
+Six additional records have been included identified via different sources: 4 journal articles, 1 PhD thesis and 1 conference paper. Here too, for the next step in the process the thesis has been replaced by a journal article by the same author about the same topic.
+
+In summary:
+
+|Database  | Found|Additional|Subtotal|Excluded|Result set|
+|----------|-----:|---------:|-------:|-------:|---------:|
+| WoS      | 29   |          |     29 |    -19 |    10    |
+| SD       |  7   |          |      7 |     -7 |     0    | 
+| SSRN     |  0   |   +2     |      2 |     -2 |     0    |
+| arXiv    |  0   |   +4     |      4 |     -4 |     0    |
+| dblp     | 42   |          |     42 |    -37 |     5    |
+| zenodo   |  0   |          |        |        |     0    |
+|additional|  0   |   +6     |      6 |        |     6    |
+|          |------|----------|--------|--------|----------|
+| total    | 78   |  +12     |     90 |    -69 |    21    |
+
+: Result set {#tbl-result-set}
+
+The abstracts of the remaining 21 articles are listed in [Appendix G](#appendix-g), @tbl-review-abstracts.
+
+## Study Quality Assessment
+
+The first quality indicator is about the type of journal. Peer reviewed articles are deemed to be of better quality than, for example, conference papers. The second quality indicator is an a indirect measure of both the quality of the journal and the relevance of the article to the Information Systems field. The third quality indicator is a proxy for the quality of the article. The fourth indicator is deemed to be representative for the quality of the scholars.
+
+The outcome for QA1 through QA4 is either 1 or 0 (1 means yes, 0 means no).  
+QA1: the article is of the type peer-reviewed journal article  
+QA2: the journal is in the eligible journals list   
+QA3: the article has been referenced an average of 5 times per year since publication   
+QA4: author 1 and author 2 have together authored at least 50 articles  
+The detail of the calculation for QA3 en QA4 is shown in [appendix F](#appendix-f).
+
+
+```{python}
+#| label: tbl-quality-assessment
+#| tbl-cap: "Quality assessment"
+
+from IPython.display import Markdown
+from tabulate import tabulate
+from lib.my_excel_lib import get_tables
+from lib.my_custom_lib import xls2md
+
+tables = get_tables('tables/slr_logbook.xlsx')
+
+Markdown(tabulate(
+  xls2md(tables['quality_assessment']),
+  headers=['Seq','Source','QA1','QA2','QA3','QA4','Score'],
+  missingval=".",
+  maxcolwidths=[2, 8, 8, 8, 8, 8, 8],
+  showindex=False,
+  colalign=('left', 'left', 'center', 'center', 'right','right','center')))
+```
+
+For the final list we only consider the {{<var literature.fulltexts_included>}} articles where three or more conditions are met (see: [appendix E](#appendix-e), @tbl-full-text-included).
+
+## Data collection
+
+The output of each query has either been a bib file or a ris file. All bib files have been converted to ris files. The mapping of bibliographic elements to the ris fields differs per data sources (see @tbl-ris-fields). A script has been written to get to a uniform ris-format [Appendix C](#appendix-c). 
+
+The open access databases do not contain the full text articles if the articles are not open access. DBLP also doesn't contain abstracts. The absence of full text articles or abstracts is explained by constraints imposed by copyrights.
+
+The excel file containing the article lists has been stored on zenodo for future reference ([zenodo 10795823](https://zenodo.org/records/10795823)).
+
+## Synthesis of extracted data
+
+<!--Relevant literature and identify topics listed as possibilities for future -->
+
+8-12 years ago: the two oldest papers in the dataset are @vanderfeestenProductbasedWorkflowSupport2011 and @hadaschInfluenceDirectiveExplanations2016. The article of Irene Vanderfeesten is on the subject of her PhD thesis (@vanderfeesten2011product). It describes the concept of a Product Data Model which, in workflow systems, can be compared to a Bill of Material in manufacturing systems. The article doesn't mention future research but does mention collaboration with industrial partners to incorporate a PDM in a commercial tool. The Hadasch paper is a quantitive study about users' process compliance as a function of process explanations either in textual or diagram format (DE/DDE). Broadly stated, the paper concludes that the better explanations result in better compliance. Other than a recommendation that the findings of the paper be leveraged in future research, there is no specific guidance about future research.
+
+4-8 years ago: the four papers published in the 2016-2019 timeslot are @vanderaalstSpreadsheetsBusinessProcess2018, @DBLP:journals/ail/HashmiG18, @hashmiAreWeDone2018 and @vanderaaComparingTextualDescriptions2017. The van der Aalst paper compares and contrasts spreadsheet technology with process mining technology. It mentions checking for compliance as the activity whereby a process as run in reality is compared to a normative model. The article mentions future process mining research should be about automatically improving processes by changing underlying process models. The first Hashmi paper compares six Compliance Modeling Frameworks (CMFs). There are two pointers to future research directions. 1) Studying the formal semantics of the norms modeling languages. 2) Studying the useability of the norms modeling constructs in practice. The second Hashmi paper is a SLR where 79 papers were included in the study. The study provides a comprehensive overview of the attributes of compliance in BPM. There is a general direction for future research given: to improve modeling languages to take into account all compliance requirements.
+The article by van der Aa et al. is about the possible divergence of process descriptions and graphical process models. A quantitive analysis is performed on 53 real-life model-text pairs. One of the suggested future research directions is to also capture process information in other formats. Among the examples given of such other formats are rules and regulations.
+
+0-4 years ago: the three most recent papers in the set are the papers  and @kirKnowledgeintensiveAdaptiveBusiness2021, @bernardojuniorAgileBusinessProcess2023 and @viriyasitavatBlockchainasaServiceBusinessProcess2023. The Kir paper introduces *agile*BPM, a modeling methodology. The main differentiator is that next to control flow *agile*BPM also captures knowledge, rules and goals. A prototype of the system is compared to other similar systems (ADEPT, SmartPM, Planlets, Go4Flex). The paper doesn't mention future research. The Bernardo paper includes a SLR, interviews and expert consultations. Agile BPM is defined. Future research is suggested to be on practices necessary for empirical application of BPM in organizations. The Viriyasitavat article is a SLR on the use of blockchain technology for business process compliance. The paper argues that blockchain technologies can and are applied for business process compliance. Existing work has a focus on technical implementation of the functionalities of traditional BPM systems. However the use of blockchain technologies also allows for new functionalities. The further research section specifically mentions organizational and legal aspects. 
+
+|  | Year |Article       | Alignment Concepts             | Future Research     |
+|--|------|--------------|------------------------------- |---------------------|
+| 1| 2011 |Vanderfeesten et al.|ProductData Model         | N                   |
+| 2| 2016 |Hadasch et al.   |(Diagram)Descriptive Explanations  | N             |
+| 3| 2017 |Van der Aa et al.| Consistency between representation| Y (specific)  |
+| 4| 2018 |Van Der Aalst  |Prescriptive Analytics         | Y (general)         |
+| 5| 2018 |Hashmi et al.  |Compliance Modeling Frameworks   | Y (specific)      |
+| 6| 2018 |Hashmi et al.  |Compliance Modeling Languages    | Y (general)       |
+| 7| 2021 |Kir et al.     |Context Awareness / Norm adoption| N                 |
+| 8| 2023 |Viriyasitavat et al.  |Blockchain              | Y (general)         |
+| 9| 2023 |Bernardo Junior et al.|      -                 | Y (general)         |
+
+: Relevance to research question {#tbl-relevance-to-research-question}
+
+All papers mention approaches for alignment of business processes with regulatory requirements except the Bernardo Junior paper about agile BPM. 
+
+From these 9 papers reviewed, 6 mention future research directions. Two papers mention specific future research topic, for example around "consistency between different process representations" and "the useability of norm modelling constructs".
+
+<!-- 
+Businesses can identify relevant regulatory requirements through a comprehensive approach that involves understanding and analyzing various sources of compliance mandates. These sources include legislation and regulatory bodies (e.g., Sarbanes-Oxley and Basel II), standards and codes of practices (e.g., ISO 9001), and business partner contracts.
+
+regulatory compliance and legal compliance
+
+legislation and regulatory bodies
+
+....
+
+Goedertier and Vanthienen
+
+Three articles are about the use of blockchain for BPM @anjumBlockchainStandardsCompliance2017 and @mendlingBlockchainsBusinessProcess2018 and @viriyasitavatBlockchainasaServiceBusinessProcess2023. The latter is a systematic literature about blockchain technology applied to servicing business processes. Chapter V is about business process compliance. Chapter VI details various applications such as the use of smart contracts as a Service for Controls of business processes (p7). This concept is of interest to this review (RD1).
+
+Logic ()
+
+Languages like BPMN-Q and LegalML
+
+Semantics /textual + @vanderaaComparingTextualDescriptions2017 and @yipSemanticallyEnabledApplications2012 and @kharbiliFrameworkSemanticBusiness2008
+
+@hashmiAreWeDone2018
+
+From Science Direct @holzmuller-laueImprovedComplianceBPMDriven2014, 
+
+Several publications (1,2,3) mention both compliance and conformance of business processes.
+Compliance is externally imposed and legally binding, focusing on meeting regulatory and legal requirements (source). Conformance is about meeting standards and specifications to ensure quality and reliability, which can be a voluntary process driven by internal or external standards (source). In the context of this literature we are interested in compliance. Compliance requires translation of external rules to internal business rules. For conformance the translation
+
+Does the business process exist outside of the organization. xxx and yyy reference a category of business processes they label cross-organizational business processes. As the name implies ...
+On one hand of the spectrum there is a desire for governmental bodies to take into account (semi-)automated execution by companies. On the other side of the spectrum there is a "plea for instruments assessing the impact of policies on organizations prior to implementation" @gongPolicyImplementationBusiness2012. In the middle, presumably, is where the efforts are concentrated
+-->
+<!---
+Conformance refers to the act of adhering to a set of standards or requirements. It involves ensuring that a product, service, or system meets the specified expectations and performs as intended. Conformance can be viewed as a proactive approach to quality management, where the focus is on preventing defects and errors from occurring in the first place.
+
+Conformance often involves the use of quality management systems, such as ISO 9001, which provide a framework for organizations to establish and maintain a culture of quality. These systems typically involve a set of procedures and processes that are designed to ensure that products and services consistently meet customer requirements and comply with relevant regulations.
+
+....
+-->
