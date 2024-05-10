@@ -4,7 +4,7 @@ execute:
   echo: false
 ---
 
-# Journals, authors, keywords {#appendix-h}
+# Journals, authors {#appendix-h}
 
 \fontsize{9}{10}\selectfont
 
@@ -145,8 +145,3 @@ Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 
 The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.
 
 \fontsize{11}{12}\selectfont
-
-\newpage
-
-# Literature
-
