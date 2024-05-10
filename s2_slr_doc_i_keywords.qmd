@@ -55,14 +55,5 @@ The keywords have been added to the bibtex file after consulting the publishers 
 
 \fontsize{11}{12}\selectfont
 
-\newpage
-
 # Literature
 
-::: {#refs-main}
-:::
-
-# Software
-
-::: {#refs-software}
-:::

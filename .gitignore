@@ -21,11 +21,12 @@ corpus/
 intro_files/
 output/
 s2_abstracts_files/
-s5_results_files/
+ris_files/
 tables/s2_tbl_ris_fields_per_source_files/
 *.pdf
 *.html
 *.bib
+*.yml
 cspell.json
 s2_slr_words_cspell.txt
 .vscode
