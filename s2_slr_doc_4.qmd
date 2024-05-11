@@ -2,7 +2,7 @@
 
 ## Research identification
 
-Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in @tbl-result-set in [appendix E](#appendix-e).
+Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in @tbl-result-set in [appendix D](#appendix-d).
 After testing the initially formulated 6 queries have een reduced to 4 queries.
 The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
 
@@ -26,7 +26,7 @@ Date range: 2014-2024
 
 The initial searches were done on all database fields. The search was subsequently made more specific by searching titles and abstracts. Lastly we searched titles, abstracts and keywords.
 
-Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in [Appendix E](#appendix-e): @tbl-database-searches and @tbl-other-sources.
+Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in [Appendix D](#appendix-d): @tbl-database-searches and @tbl-other-sources.
 
 The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in [Appendix C](#appendix-c).
 

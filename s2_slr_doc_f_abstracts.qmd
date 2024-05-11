@@ -53,7 +53,7 @@ with open(bibfile, 'r', encoding='utf-8') as bibtex_file:
 sequence = 0
 for entry in bib_database.entries:
     citekey, title, abstract, keywords = extract_ti_ab_kw(bibfile)
-    highlighted_title = highlight(title, search_term)
+    highlighted_title = highlight_title(title, search_term)
     formatted_keywords = insert_space_after_comma(keywords)
     display(Markdown(f"{title} (@{citekey})\n\n{abstract}\n\nKeywords: {formatted_keywords}\n"))
     sequence += 1

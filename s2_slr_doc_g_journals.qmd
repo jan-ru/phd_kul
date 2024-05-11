@@ -77,14 +77,15 @@ def find_journal_info(journal_title):
     
     return result
 
-header = ["Journal", "Publisher", "ISSN"]
+header = ["#", "Journal", "Publisher", "ISSN"]
 table = []
 journals = extract_journals_from_bibtex(file_path)
-for journal in journals:
+for idx, journal in enumerate(journals, start=1):
     journal_info = find_journal_info(journal)
     if journal_info != []:
-        table.append(journal_info)
-Markdown(tabulate(table, header, maxcolwidths=[40, 35, 10]))
+        row = [idx] + journal_info
+        table.append(row)
+Markdown(tabulate(table, header, maxcolwidths=[4, 40, 35, 10]))
 ```
 
 The publisher and the ISSN number have been looked up at [crossref](https://www.crossref.org) using the journal name in the bibtex file.

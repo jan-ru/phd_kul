@@ -24,6 +24,12 @@ from tabulate import tabulate
 bibfile = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
 
 
+def insert_space_after_comma(keywords):
+    keyword_list = keywords.split(',')
+    keywords_with_spaces = ', '.join(keyword_list)
+    return keywords_with_spaces
+
+
 def extract_keys_and_keywords(file_path):
     with open(file_path) as bibtex_file:
         bibtex_str = bibtex_file.read()
@@ -34,7 +40,8 @@ def extract_keys_and_keywords(file_path):
     for entry in bib_database.entries:
         citation_key = "@"+entry['ID']
         keywords = entry.get('keywords', 'No keywords')  # Use 'No keywords' if not present
-        data.append([citation_key, keywords])
+        formatted_keywords = insert_space_after_comma(keywords)
+        data.append([citation_key, formatted_keywords])
         data.append(["", ""])  # Empty line
 
     return data
