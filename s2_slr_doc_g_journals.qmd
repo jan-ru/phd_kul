@@ -4,7 +4,7 @@ execute:
   echo: false
 ---
 
-# Journals, authors {#appendix-h}
+# Journals {#appendix-h}
 
 \fontsize{9}{10}\selectfont
 

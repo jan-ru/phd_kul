@@ -9,9 +9,7 @@ execute:
 # Selected Abstracts {#appendix-g}
 
 <!-- excluded: conference paper
-
-**WS1 A knowledge-intensive adaptive business process management framework (@kirKnowledgeintensiveAdaptiveBusiness2021)**
-Business process management has been the driving force of optimization and operational efficiency for companies until now, but the digitalization era we have been experiencing requires businesses to be agile and responsive as well. In order to be a part of this digital transformation, delivering new levels of automation-fueled agility through digitalization of BPM itself is required. However, the automation of BPM cannot be achieved by solely focusing on process space and classical planning techniques. It requires a holistic approach that also captures the social aspects of the business environment, such as corporate strategies, organization policies, negotiations, and cooperation. For this purpose, we combine BPM, knowledge-intensive systems and intelligent agent technologies, and yield one consolidated intelligent business process management framework, namely agileBPM, that governs the entire BPM life-cycle. Accordingly, agileBPM proposes a modeling methodology to semantically capture the business interests, enterprise environment and process space in accordance with the agent-oriented software engineering paradigm. The proposed agent-based process execution environment provides cognitive capabilities (such as goal-driven planning, norm compliance, knowledge-driven actions, and dynamic cooperation) on top of the developed business models to support knowledge workers' multicriteria decision making tasks. The context awareness and exception handling capabilities of the proposed approach have been presented with experimental studies. Through comparative evaluations, it is shown that agileBPM is the most comprehensive knowledge-intensive process management solution.
+**WS1 A knowledge-intensive adaptive business process management framework
 -->
 
 ```{python}
@@ -28,7 +26,23 @@ def extract_ti_ab_kw(bibfile):
     keywords = entry.get('keywords', "No keywords available")
     return citekey, title, abstract, keywords
 
+def insert_space_after_comma(keywords):
+    keyword_list = keywords.split(',')
+    keywords_with_spaces = ', '.join(keyword_list)
+    return keywords_with_spaces
+
+def highlight_title(title, search_term):
+    # Check if the search term is present in the title
+    if search_term in title:
+        # Replace occurrences of the search term with the formatted HTML string
+        highlighted_title = title.replace(search_term, f'<span style="color:green;">{search_term}</span>')
+        return highlighted_title
+    else:
+        return title
+
 bibfile = 'bib/MySelection.bib'
+
+search_term = "BPM"
 
 # Open the BibTeX file
 with open(bibfile, 'r', encoding='utf-8') as bibtex_file:
@@ -39,7 +53,9 @@ with open(bibfile, 'r', encoding='utf-8') as bibtex_file:
 sequence = 0
 for entry in bib_database.entries:
     citekey, title, abstract, keywords = extract_ti_ab_kw(bibfile)
-    display(Markdown(f"{title} (@{citekey})\n\n{abstract}\n\nKeywords: {keywords}\n"))
+    highlighted_title = highlight(title, search_term)
+    formatted_keywords = insert_space_after_comma(keywords)
+    display(Markdown(f"{title} (@{citekey})\n\n{abstract}\n\nKeywords: {formatted_keywords}\n"))
     sequence += 1
 
 display(Markdown(f"***Number of selected bibtex entries {sequence}.***"))
@@ -106,4 +122,4 @@ Sector: Healthcare Citation: count (date)
 This work describes a methodological approach to investigate Compliance Management in healthcare based on a BPM perspective, exploring an application in an innovative hospital service. Firstly, we present a business process analysis by modeling the process with the adoption of a standard language. Secondly, we encode a set of rules in LegalRuleML, an XML formalism designed to be a standard for representing the semantic and logical content of legal documents. The rules represent some provisions of the General Data Protection Regulation (GDPR) that are involved in the health process analyzed. Moreover, in order to perform the **regulatory** compliance check automatically, we converted the set of rules into Defeasible Deontic Logic format (DDL), readable by the Regorous compliance checker developed at CSIRO. Overall, the paper shows a methodology to automate regulatory compliance checking of a real hos- pital process with actual regulations and norms. The codes in the LegalRuleML and DDL formats used in the work are available online1.
 -->
 
-<!-- Misschien een link naar Zotero en/of een link naar Citedrive -->>
+<!-- Misschien een link naar Zotero -->>
