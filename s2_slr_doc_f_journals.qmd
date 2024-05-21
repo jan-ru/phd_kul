@@ -85,7 +85,7 @@ for idx, journal in enumerate(journals, start=1):
     if journal_info != []:
         row = [idx] + journal_info
         table.append(row)
-Markdown(tabulate(table, header, maxcolwidths=[4, 40, 35, 10]))
+Markdown(tabulate(table, header, maxcolwidths=[2, 40, 35, 10]))
 ```
 
 The publisher and the ISSN number have been looked up at [crossref](https://www.crossref.org) using the journal name in the bibtex file.

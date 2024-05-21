@@ -58,10 +58,9 @@ book:
     - s2_slr_doc_c_literature_selection.qmd
     - s2_slr_doc_d_literature_found.qmd
     - s2_slr_doc_e_calculations.qmd
-    - s2_slr_doc_f_abstracts.qmd
-    - s2_slr_doc_g_journals.qmd
-    - s2_slr_doc_h_authors.qmd
-    - s2_slr_doc_i_keywords.qmd
+    - s2_slr_doc_f_journals.qmd
+    - s2_slr_doc_g_authors.qmd
+    - s2_slr_doc_h_keywords.qmd
 
 license: "CC BY"
 latex-output-dir: output

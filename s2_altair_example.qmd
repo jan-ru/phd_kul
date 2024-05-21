@@ -1,0 +1,71 @@
+---
+project:
+    type: book
+    output-dir: output
+title: altair example
+execute:
+  echo: false
+
+chapters:
+  - s2_altair_example.qmd
+---
+
+
+```{python}
+import warnings
+import altair as alt
+from vega_datasets import data
+warnings.filterwarnings("ignore")
+cars = data.cars()
+
+alt.Chart(cars).mark_point().encode(
+    x='Horsepower:Q',
+    y='Miles_per_Gallon:Q',
+    color='Origin',
+    tooltip='Name'
+).interactive()
+```
+
+```{python}
+import pandas as pd
+import bibtexparser
+
+def parse_bib_file(bib_file):
+    with open(bib_file, 'r', encoding='utf-8') as file:
+        bib_database = bibtexparser.load(file)
+    return bib_database.entries
+
+# Load the .bib file
+bib_file = 'bib/MySelection.bib'
+bib_entries = parse_bib_file(bib_file)
+
+# Extract publication years
+years = [int(entry['year']) for entry in bib_entries if 'year' in entry]
+df = pd.DataFrame({'Year': years})
+
+# Group by year and count the number of publications
+df = df.groupby('Year').size().reset_index(name='Count')
+
+# Create a complete range of years from the minimum to the maximum year in the dataset
+min_year = df['Year'].min()
+max_year = df['Year'].max()
+all_years = pd.DataFrame({'Year': range(min_year, max_year + 1)})
+
+# Merge the complete range of years with the grouped DataFrame
+df = all_years.merge(df, on='Year', how='left').fillna(0)
+df['Count'] = df['Count'].astype(int)  # Convert the 'Count' column to integer
+
+# Calculate total number of articles
+total_articles = df['Count'].sum()
+
+# Create the visualization
+chart = alt.Chart(df).mark_bar().encode(
+    x='Year:O',
+    y=alt.Y('Count:Q', axis=alt.Axis(tickCount=5, format='d')),
+    tooltip=['Year:O', 'Count:Q']
+).properties(
+    title=f'Number of Publications per Year (n = {total_articles})'
+)
+
+chart
+```

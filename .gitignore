@@ -30,6 +30,7 @@ tables/s2_tbl_ris_fields_per_source_files/
 cspell.json
 s2_slr_words_cspell.txt
 .vscode
+/s2_altair_example_files/
 
 
 # 1. Python .gitignore

@@ -1,0 +1,233 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "latex-output-dir: output\n",
+        "execute:\n",
+        "  echo: false\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "# Journals {#appendix-h}\n",
+        "\n",
+        "\\fontsize{9}{10}\\selectfont\n"
+      ],
+      "id": "df20622e"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# \n",
+        "import bibtexparser\n",
+        "import requests\n",
+        "from IPython.display import Markdown\n",
+        "from tabulate import tabulate\n",
+        "\n",
+        "file_path = '/Users/admin/Projects/literature/phd_kul/bib/bibliography_citedrive.bib'\n",
+        "#file_path = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'"
+      ],
+      "id": "60c1b017",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "<!-- add journal impact factor (h-score) google scholar scraping? \n",
+        "merk op Software uitgever is MDPI niet Elsevier, beter zou zijn publisher ophalen\n",
+        "aan de hand van DOI -->\n"
+      ],
+      "id": "3b5a05aa"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: tbl-journals\n",
+        "#| tbl-cap: Journals\n",
+        "\n",
+        "def extract_journals_from_bibtex(file_path):\n",
+        "    with open(file_path) as bibtex_file:\n",
+        "        bibtex_str = bibtex_file.read()\n",
+        "\n",
+        "    bib_database = bibtexparser.loads(bibtex_str)\n",
+        "    journals = set()\n",
+        "\n",
+        "    for entry in bib_database.entries:\n",
+        "        if entry.get('ENTRYTYPE') == 'article' and 'journal' in entry:\n",
+        "            journals.add(entry['journal'])\n",
+        "\n",
+        "    sorted_journals = sorted(journals)\n",
+        "    return sorted_journals\n",
+        "\n",
+        "\n",
+        "def find_journal_info(journal_title):\n",
+        "    # Initialize an empty list to hold the result\n",
+        "    result = []\n",
+        "\n",
+        "    # Encode the journal title for use in a URL\n",
+        "    encoded_title = requests.utils.quote(journal_title)\n",
+        "\n",
+        "    # Construct the CrossRef API request URL\n",
+        "    api_url = f\"https://api.crossref.org/journals?query={encoded_title}\"\n",
+        "\n",
+        "    # Make the GET request\n",
+        "    response = requests.get(api_url)\n",
+        "\n",
+        "    if response.status_code == 200:\n",
+        "        # Parse the JSON response\n",
+        "        data = response.json()\n",
+        "\n",
+        "        # Check if there are any results\n",
+        "        if data['message']['total-results'] > 0:\n",
+        "            # Assuming the first result is the most relevant one\n",
+        "            first_journal = data['message']['items'][0]\n",
+        "            publisher = first_journal.get('publisher', 'Publisher not found')\n",
+        "            # Journals can have multiple ISSNs; we'll collect them all\n",
+        "            issn = first_journal.get('ISSN', ['ISSN not found'])[0]\n",
+        "        \n",
+        "            # Append the journal information to the result list\n",
+        "            result = [journal_title, publisher, issn]\n",
+        "\n",
+        "        # else:\n",
+        "        #    return []\n",
+        "    else:\n",
+        "        print(\"Failed to retrieve data from CrossRef API.\")\n",
+        "    \n",
+        "    return result\n",
+        "\n",
+        "header = [\"#\", \"Journal\", \"Publisher\", \"ISSN\"]\n",
+        "table = []\n",
+        "journals = extract_journals_from_bibtex(file_path)\n",
+        "for idx, journal in enumerate(journals, start=1):\n",
+        "    journal_info = find_journal_info(journal)\n",
+        "    if journal_info != []:\n",
+        "        row = [idx] + journal_info\n",
+        "        table.append(row)\n",
+        "Markdown(tabulate(table, header, maxcolwidths=[2, 40, 35, 10]))"
+      ],
+      "id": "tbl-journals",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "The publisher and the ISSN number have been looked up at [crossref](https://www.crossref.org) using the journal name in the bibtex file.\n"
+      ],
+      "id": "47ac8429"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: tbl-authors\n",
+        "#| tbl-cap: Authors\n",
+        "\n",
+        "def extract_authors_from_bibtex(file_path):\n",
+        "    with open(file_path) as bibtex_file:\n",
+        "        bibtex_str = bibtex_file.read()\n",
+        "\n",
+        "    bib_database = bibtexparser.loads(bibtex_str)\n",
+        "    authors_list = []\n",
+        "\n",
+        "    for entry in bib_database.entries:\n",
+        "        if 'author' in entry:\n",
+        "            entry_authors = [author.strip() for author in entry['author'].split(' and ')]\n",
+        "            first_author = entry_authors[0]  # Extract the first author\n",
+        "            other_authors = ', '.join(entry_authors[1:])  # Combine the remaining authors\n",
+        "            authors_list.append((first_author, other_authors))  # Append as a tuple\n",
+        "\n",
+        "    # No need to sort here as tabulate will handle the display\n",
+        "    return authors_list\n",
+        "\n",
+        "authors = extract_authors_from_bibtex(file_path)\n",
+        "\n",
+        "# Format and print the table in Markdown format\n",
+        "Markdown(tabulate(authors, headers=[\"First Author\", \"Other Authors\"], maxcolwidths=[40, 50]))"
+      ],
+      "id": "tbl-authors",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "\\newpage\n"
+      ],
+      "id": "2b3d4a31"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: tbl-keywords\n",
+        "#| tbl-cap: Keywords\n",
+        "\n",
+        "def extract_keys_and_keywords(file_path):\n",
+        "    with open(file_path) as bibtex_file:\n",
+        "        bibtex_str = bibtex_file.read()\n",
+        "\n",
+        "    bib_database = bibtexparser.loads(bibtex_str)\n",
+        "    data = []\n",
+        "\n",
+        "    for entry in bib_database.entries:\n",
+        "        citation_key = entry['ID'][:15]  # Truncate citation key to max 15 characters\n",
+        "        keywords = entry.get('keywords', 'No keywords')  # Use 'No keywords' if not present\n",
+        "        data.append([citation_key, keywords])\n",
+        "        data.append([\"\", \"\"])  # This creates the empty line after each entry\n",
+        "\n",
+        "    return data\n",
+        "\n",
+        "data = extract_keys_and_keywords(file_path)\n",
+        "\n",
+        "# Output the table using tabulate\n",
+        "Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 55]))"
+      ],
+      "id": "tbl-keywords",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.\n",
+        "\n",
+        "\\fontsize{11}{12}\\selectfont"
+      ],
+      "id": "4e55fcfa"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/local/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
