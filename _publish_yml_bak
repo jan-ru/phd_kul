@@ -1,3 +1,5 @@
+# s2_abstracts can be deleted after copying "C Merge Bibliographic Data"
+# project can be deleted after I can show link to datasources
 - source: s2_abstracts.qmd
   quarto-pub:
     - id: e2276b48-f6c8-4df6-aa61-a3a14731cc1b
