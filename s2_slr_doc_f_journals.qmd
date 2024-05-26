@@ -4,7 +4,7 @@ execute:
   echo: false
 ---
 
-# Journals {#appendix-h}
+# Journals {#appendix-f}
 
 \fontsize{9}{10}\selectfont
 
@@ -15,8 +15,8 @@ import requests
 from IPython.display import Markdown
 from tabulate import tabulate
 
-file_path = '/Users/admin/Projects/literature/phd_kul/bib/bibliography_citedrive.bib'
-#file_path = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
+file_path = './bib/bibliography_citedrive.bib'
+#file_path = '/Users/admin/Projects/literature/yr2_slr/bib/MySelection.bib'
 ```
 
 <!-- add journal impact factor (h-score) google scholar scraping? 

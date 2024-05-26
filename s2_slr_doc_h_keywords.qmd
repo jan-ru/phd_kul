@@ -1,7 +1,7 @@
 ---
 format: pdf
 latex-output-dir: output
-bibliography: '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
+bibliography: './bib/MySelection.bib'
 link-citations: true
 execute:
   echo: false
@@ -21,7 +21,7 @@ import bibtexparser
 from IPython.display import display, Markdown
 from tabulate import tabulate
 
-bibfile = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
+bibfile = './bib/MySelection.bib'
 
 
 def insert_space_after_comma(keywords):

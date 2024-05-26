@@ -51,7 +51,7 @@ def main():
     Checks the current working directory and processes citation keys from a CSV file.
     Filters BibTeX entries from 'MyLibrary.bib' and writes the selected entries to 'MySelection.bib'.
     """
-    expected_directory = "/Users/admin/Projects/literature/phd_kul/lib"
+    expected_directory = "/Users/admin/Projects/literature/yr2_slr/lib"
     current_directory = os.getcwd()
 
     # Check if the current working directory is as expected

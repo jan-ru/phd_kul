@@ -3,7 +3,7 @@ execute:
   echo: false
 jupyter: python3
 ---
-# Quality Criteria {#appendix-f}
+# Quality Criteria {#appendix-e}
 
 \fontsize{9}{10}\selectfont
 

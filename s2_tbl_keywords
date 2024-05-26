@@ -2,7 +2,7 @@ import bibtexparser
 from IPython.display import display, Markdown
 from tabulate import tabulate
 
-file_path = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
+file_path = './bib/MySelection.bib'
 
 
 def extract_keys_and_keywords(file_path):
@@ -22,7 +22,6 @@ def extract_keys_and_keywords(file_path):
 
 
 data = extract_keys_and_keywords(file_path)
-
 
 # Output the table using tabulate
 print(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 60]))

@@ -3,7 +3,7 @@ latex-output-dir: output
 execute:
   echo: false
 ---
-# Authors {#appendix-h}
+# Authors {#appendix-g}
 
 \fontsize{9}{10}\selectfont
 
@@ -14,7 +14,7 @@ import requests
 from IPython.display import Markdown
 from tabulate import tabulate
 
-file_path = '/Users/admin/Projects/literature/phd_kul/bib/MySelection.bib'
+file_path = './bib/MySelection.bib'
 ```
 
 ```{python, cache=TRUE}

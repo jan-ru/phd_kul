@@ -3,7 +3,7 @@ execute:
   echo: false
 jupyter: python3
 ---
-# Literature Identified {#appendix-e}
+# Literature Identified {#appendix-d}
 
 The tables below show records found. Seq (sequence) shows a table row number. Source shows the data source where the record was found. Type holds the type of publication (conference proceedings, journal article, preprint, etc.) Title is the title of the publication. EC (exclusion criterion) shows the reason a record is excluded. If a record is excluded for multiple reasons, only one reason is shown. QA (quality assessment) shows the QA-score the record obtainted (0-4).
 
