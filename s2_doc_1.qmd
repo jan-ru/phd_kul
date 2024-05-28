@@ -1,15 +1,4 @@
 ---
-abstract: ""
-format:
-  pdf:
-    papersize: a4
-    mermaid:
-      theme: neutral
-    cite-method: citeproc
-    toc: true
-    lof: true
-    lot: true 
-
 link-citations: true
 
 execute:
@@ -17,10 +6,9 @@ execute:
 ---
 
 <!--
-Examples of SLR
+[05/10/2023] Examples of SLR 
 
-[05/10/2023] Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits:
-
+Looking in my Zotero library for articles with a title that contains "systematic literature review", the result is 7 hits:
 - The first is @kitchenhamGuidelinesPerformingSystematic2007 and there is a duplicate @keeleGuidelinesPerformingSystematic2007.
 - Second there are 3 SLR's where Van Looy is co-author (@moreno-montesdeocaSystematicLiteratureReview2015, @prodanovaHowBeneficialSocial2019, @ahmadBusinessProcessManagement2020).
 - There is 1 SLR about BPMN extensions (@zarourSystematicLiteratureReview2019)

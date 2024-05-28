@@ -1,10 +1,11 @@
 ---
+format: pdf
 latex-output-dir: output
 execute:
   echo: false
 ---
 
-# Journals {#appendix-f}
+# Journals, authors, keywords
 
 \fontsize{9}{10}\selectfont
 
@@ -15,8 +16,8 @@ import requests
 from IPython.display import Markdown
 from tabulate import tabulate
 
-file_path = './bib/bibliography_citedrive.bib'
-#file_path = '/Users/admin/Projects/literature/yr2_slr/bib/MySelection.bib'
+#file_path = './bib/bibliography_citedrive.bib'
+file_path = './bib/MySelection.bib'
 ```
 
 <!-- add journal impact factor (h-score) google scholar scraping? 
@@ -77,19 +78,19 @@ def find_journal_info(journal_title):
     
     return result
 
-header = ["#", "Journal", "Publisher", "ISSN"]
+header = ["Journal", "Publisher", "ISSN"]
 table = []
 journals = extract_journals_from_bibtex(file_path)
-for idx, journal in enumerate(journals, start=1):
+for journal in journals:
     journal_info = find_journal_info(journal)
     if journal_info != []:
-        row = [idx] + journal_info
-        table.append(row)
-Markdown(tabulate(table, header, maxcolwidths=[2, 40, 35, 10]))
+        table.append(journal_info)
+Markdown(tabulate(table, header, maxcolwidths=[40, 35, 10]))
 ```
 
 The publisher and the ISSN number have been looked up at [crossref](https://www.crossref.org) using the journal name in the bibtex file.
 
+\newpage
 ```{python, cache=TRUE}
 #| label: tbl-authors
 #| tbl-cap: "Authors"
@@ -140,7 +141,7 @@ def extract_keys_and_keywords(file_path):
 data = extract_keys_and_keywords(file_path)
 
 # Output the table using tabulate
-Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 55]))
+Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 60]))
 ```
 
 The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.

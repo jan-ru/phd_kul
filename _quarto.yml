@@ -16,9 +16,10 @@ mathfont: "TeX Gyre Termes Math"
 book:
   title: "Aligning business processes with regulatory requirements"
   subtitle: "a systematic literature review"
-  downloads: [pdf,docx]
+  abstract: ""
+  downloads: [pdf]
   search: true
-  repo-url: https://github.com/jan-ru/phd_kul
+  repo-url: https://github.com/jan-ru/yr2_slr
   author: 
     - name: "Jan-Ru Muller"
       orcid: 0000-0003-1689-0557
@@ -39,21 +40,19 @@ book:
 
   chapters:
     - index.qmd
-    - s2_slr_doc_1.qmd
-    - s2_slr_doc_2.qmd
-    - s2_slr_doc_3.qmd
-    - s2_slr_doc_4.qmd
-    - s2_slr_doc_5.qmd
+    - s2_doc_1.qmd
+    - s2_doc_2.qmd
+    - s2_doc_3.qmd
+    - s2_doc_4.qmd
+    - s2_doc_5.qmd
 
   appendices:
-    - s2_slr_doc_a_databases_searched.qmd
-    - s2_slr_doc_b_basket_of_11.qmd
-    - s2_slr_doc_c_literature_selection.qmd
-    - s2_slr_doc_d_literature_found.qmd
-    - s2_slr_doc_e_calculations.qmd
-    - s2_slr_doc_f_journals.qmd
-    - s2_slr_doc_g_authors.qmd
-    - s2_slr_doc_h_keywords.qmd
+    - s2_doc_a_databases_searched.qmd
+    - s2_doc_b_basket_of_11.qmd
+    - s2_doc_c_literature_selection.qmd
+    - s2_doc_d_literature_found.qmd
+    - s2_doc_e_calculations.qmd
+    - s2_doc_f_bibliographic_data.qmd
 
 license: "CC BY"
 
