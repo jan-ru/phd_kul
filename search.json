@@ -216,7 +216,7 @@
     "href": "s2_doc_c_literature_selection.html",
     "title": "Appendix C — Literature Selection",
     "section": "",
-    "text": "flowchart TB\n    A(\"84 records identified \n    through \n    database searching\")\n    B(\"6 additional records \n    identified  \n    through other sources\")\n    subgraph .\n      C(\"90 records after duplicate removal\")  \n      D(\"90 records screened at title level\")\n      E(\"23 records screened at abstract level\")\n      F(\"21 full-text articles  assessed for eligibility\")\n      G(\"9 full-text articles included\")\n    end\n    H(\"67 records excluded\")\n    I(\"2 records excluded\")\n    J(\"12 records excluded\") \n  \n  A --&gt; C\n  B --&gt; C\n  C --&gt; D\n  D --&gt; H\n  D --&gt; E\n  E --&gt; F\n  E --&gt; I\n  F --&gt; G\n  F --&gt; J\n\n\n\n\nFigure C.1: Flowchart depicting literature selection.",
+    "text": "flowchart TB\n    A(\"115 records identified \n    through \n    database searching\")\n    B(\"6 additional records \n    identified  \n    through other sources\")\n    subgraph .\n      C(\"121 records after duplicate removal\")  \n      D(\"121 records screened at title level\")\n      E(\"23 records screened at abstract level\")\n      F(\"21 full-text articles  assessed for eligibility\")\n      G(\"9 full-text articles included\")\n    end\n    H(\"98 records excluded\")\n    I(\"2 records excluded\")\n    J(\"12 records excluded\") \n  \n  A --&gt; C\n  B --&gt; C\n  C --&gt; D\n  D --&gt; H\n  D --&gt; E\n  E --&gt; F\n  E --&gt; I\n  F --&gt; G\n  F --&gt; J\n\n\n\n\nFigure C.1: Flowchart depicting literature selection.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>C</span>  <span class='chapter-title'>Literature Selection</span>"
