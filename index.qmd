@@ -10,6 +10,6 @@ crossref:
 
 |Status | Version | Date       | Changes from previous version        |
 |-------|---------|------------|--------------------------------------|
-|Draft  | 0.4     | 29 May 2024| Total docs from db searches 84 > 115 |
-|Draft  | 0.3     | 26 Apr 2024| From 9 to 21 selected articles       |
-|Draft  | 0.2     | 25 Mar 2024| None                                 |
+|Draft  | 0.3     | 29 May 2024| Total articles from db searches 84 to 115 |
+|Draft  | 0.2     | 26 Apr 2024| Selected articles from 9 to 23       |
+|Draft  | 0.1     | 25 Mar 2024| None                                 |
