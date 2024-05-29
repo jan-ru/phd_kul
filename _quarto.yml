@@ -6,7 +6,12 @@ metadata-files:
   - ./metadata/_format.yml
   - ./metadata/_website.yml
 
+callout-appearance: simple
+
 number-sections: true
+
+comments:
+  hypothesis: true
 
 mainfont: "Times New Roman"
 sansfont: "Arial"

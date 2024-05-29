@@ -8,7 +8,7 @@ link-citations: true
 
 # Bibliographic data
 
-## Journals {#appendix-f}
+**Journals**
 
 \fontsize{9}{10}\selectfont
 
@@ -98,7 +98,7 @@ The publisher and the ISSN number have been looked up at [crossref](https://www.
 
 \newpage
 
-## Authors
+**Authors**
 
 ```{python, cache=TRUE}
 #| label: tbl-authors
@@ -214,7 +214,7 @@ if __name__ == "__main__":
 
 \newpage
 
-## Keywords
+**Keywords**
 
 \fontsize{9}{10}\selectfont
 

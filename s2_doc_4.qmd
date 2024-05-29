@@ -33,7 +33,7 @@ The initial searches were done on all database fields. The search was subsequent
 
 Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in [Appendix D](#appendix-d): @tbl-database-searches and @tbl-other-sources.
 
-The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in @fig-slr-flowchart in [Appendix C](#appendix-c).
+The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in [Appendix C](#appendix-c).
 
 The WoS search yielded 29 hits. Excluding 4 articles with BPM in the title where BPM has a different meaning than "Business Process Management". For example where BPM is an abbreviation of "Biodiesel Particulate Matter". Excluding 1 article as it is a double, also ocuring in the dblp search.
 
