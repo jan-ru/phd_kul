@@ -2,7 +2,7 @@
 
 ## Resources to be searched
 
-An initial set of databases was selected to perform the literature search on. Both commercial and open access databases have been selected. A description for these databases in included in @tbl-databases.
+An initial set of databases was selected to perform the literature search on. Both commercial and open access databases have been selected.
 
 1. Web of Science (WoS), Publisher: [Clarivate](https://www-webofscience-com)
 1. ScienceDirect (SD), Publisher: [Elsevier](https://www-sciencedirect-com)

@@ -7,33 +7,11 @@ execute:
 
 ## Research identification
 
-Initially 6 queries have been run against the 6 databases resulting in 84 hits as shown in @tbl-result-set in [appendix D](#appendix-d).
-After testing the initially formulated 6 queries have een reduced to 4 queries.
-The first two queries search for "business process management" or BPM in the title. The last two queries search for "business process engineering" or business process reengineering" in the title. 
 
-1. TI=("business process management" or BPM) AND (AB=(compliance) OR KP=(compliance))
-2. TI=("business process management" or BPM) AND (AB=("regulat\*") OR KP=("regulat\*"))
-3. TI=("business process *engineering") AND (AB=(compliance) OR KP=(compliance))
-4. TI=("business process \*engineering") AND (AB=(regulat\*) OR KP=(regulat\*))
-
-The initial list (@tbl-database-searches) contains a total of 84 records. An additional 6 records were found from other sources (@tbl-other-sources). The total is 90 records. This list includes preprints and conference papers. Filtering the journal articles results in a list of 25 records (@tbl-review-abstracts).
-
-In the case of Web of Science (WoS) the four queries have been taken together using the "OR" operator. This final query yields 42 results when using the the Vlerick WoS subscription[^1]. The search strings have be adapted to suit the specific requirements of the databases.
-
-[^1]: Web of Science: Core Collection  
-Subscription  : Vlerick Business School  
-Editions  : A&HCI , ESCI , CPCI-SSH , CPCI-S , SCI-EXPANDED , SSCI  
-Date range: 2014-2024  
-
-<!--The total number of records of the 5 resulting ris files is xx. -->
 
 ## Selection of studies
 
 The initial searches were done on all database fields. The search was subsequently made more specific by searching titles and abstracts. Lastly we searched titles, abstracts and keywords.
-
-Across the 6 datasoures 84 articles have been identified, and an additional 6 records have been added from different sources. The found records are listed in [Appendix D](#appendix-d): @tbl-database-searches and @tbl-other-sources.
-
-The process to get to the final {{<var literature.journal_articles>}} papers included in this literature study is visualized in the flowchart in [Appendix C](#appendix-c).
 
 The WoS search yielded 29 hits. Excluding 4 articles with BPM in the title where BPM has a different meaning than "Business Process Management". For example where BPM is an abbreviation of "Biodiesel Particulate Matter". Excluding 1 article as it is a double, also ocuring in the dblp search.
 
@@ -51,56 +29,9 @@ The Zenodo search yielded 0 records when looking for articles with "Business Pro
 
 Six additional records have been included identified via different sources: 4 journal articles, 1 PhD thesis and 1 conference paper. Here too, for the next step in the process the thesis has been replaced by a journal article by the same author about the same topic.
 
-In summary:
 
-|Database  | Found|Additional|Subtotal|Excluded|Result set|
-|----------|-----:|---------:|-------:|-------:|---------:|
-| WoS      | 29   |          |     29 |    -19 |    10    |
-| ACM      |      |          |        |        |          |
-| SD       |  7   |          |      7 |     -7 |     0    | 
-| SSRN     |  0   |   +2     |      2 |     -2 |     0    |
-| arXiv    |  0   |   +4     |      4 |     -4 |     0    |
-| dblp     | 42   |          |     42 |    -37 |     5    |
-| zenodo   |  0   |          |        |        |     0    |
-|additional|  0   |   +6     |      6 |        |     6    |
-|          |------|----------|--------|--------|----------|
-| total    | 78   |  +12     |     90 |    -69 |    21    |
-
-: Result set {#tbl-result-set}
 
 The abstracts of the remaining 21 articles are listed in "Abstracts", @tbl-review-abstracts.
-
-## Study Quality Assessment
-
-The first quality indicator is about the type of journal. Peer reviewed articles are deemed to be of better quality than, for example, conference papers. The second quality indicator is an a indirect measure of both the quality of the journal and the relevance of the article to the Information Systems field. The third quality indicator is a proxy for the quality of the article. The fourth indicator is deemed to be representative for the quality of the scholars.
-
-The outcome for QA1 through QA4 is either 1 or 0 (1 means yes, 0 means no).  
-QA1: the article is of the type peer-reviewed journal article  
-QA2: the journal is in the eligible journals list   
-QA3: the article has been referenced an average of 5 times per year since publication   
-QA4: author 1 and author 2 have together authored at least 50 articles  
-The detail of the calculation for QA3 en QA4 is shown in [appendix E](#appendix-e).
-
-
-```{python}
-#| label: tbl-quality-assessment
-#| tbl-cap: "Quality assessment"
-
-from IPython.display import Markdown
-from tabulate import tabulate
-from lib.my_excel_lib import get_tables
-from lib.my_custom_lib import xls2md
-
-tables = get_tables('tables/slr_logbook.xlsx')
-
-Markdown(tabulate(
-  xls2md(tables['quality_assessment']),
-  headers=['Seq','Source','QA1','QA2','QA3','QA4','Score'],
-  missingval=".",
-  maxcolwidths=[2, 8, 8, 8, 8, 8, 8],
-  showindex=False,
-  colalign=('left', 'left', 'center', 'center', 'right','right','center')))
-```
 
 For the final list we only consider the {{<var literature.fulltexts_included>}} articles where three or more conditions are met (see: [appendix E](#appendix-e), @tbl-full-text-included).
 

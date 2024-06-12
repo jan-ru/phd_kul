@@ -12,16 +12,6 @@ link-citations: true
 
 \fontsize{9}{10}\selectfont
 
-```{python}
-# 
-import bibtexparser
-import requests
-from IPython.display import Markdown
-from tabulate import tabulate
-
-file_path = './bib/citedrive.bib'
-```
-
 <!-- add journal impact factor (h-score) google scholar scraping? 
 merk op Software uitgever is MDPI niet Elsevier, beter zou zijn publisher ophalen
 aan de hand van DOI -->
@@ -29,6 +19,13 @@ aan de hand van DOI -->
 ```{python, cache=TRUE}
 #| label: tbl-journals
 #| tbl-cap: "Journals"
+
+import bibtexparser
+import requests
+from IPython.display import Markdown
+from tabulate import tabulate
+
+file_path = './bib/citedrive.bib'
 
 def extract_journals_from_bibtex(file_path):
     print("in extract_journals")

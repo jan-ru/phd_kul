@@ -24,5 +24,5 @@ Business process management (BPM) is a defined as all activities performed by bu
 
 Regulatory compliance is defined as ensuring that business processes, operations, and practices are in accordance with a prescribed and/or agreed set of norms. These compliance requirements may stem from legislature and regulatory bodies (e.g., Sarbanes-Oxley, Basel II, HIPAA), standards and codes of practice (e.g., SCOR, ISO9000), and also business partner contracts (@hashmiEvaluatingBusinessProcess2015).
 
-Compliance by design refers to approaches and methodologies where compliance requirements are integrated into business process models and enterprise applications from the very beginning [@sadiqManagingRegulatoryCompliance2010]. This concept emphasizes embedding compliance within the fabric of business practices rather than treating it as a separate or after-the-fact activity [lohmannComplianceDesignArtifactcentric2013].
+Compliance by design refers to approaches and methodologies where compliance requirements are integrated into business process models and enterprise applications from the very beginning [@sadiqManagingRegulatoryCompliance2010]. This concept emphasizes embedding compliance within the fabric of business practices rather than treating it as a separate or after-the-fact activity [@lohmannComplianceDesignArtifactcentric2013].
 

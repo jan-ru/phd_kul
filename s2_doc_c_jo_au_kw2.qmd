@@ -9,17 +9,6 @@ execute:
 
 \fontsize{9}{10}\selectfont
 
-```{python}
-# 
-import bibtexparser
-import requests
-from IPython.display import Markdown
-from tabulate import tabulate
-
-#file_path = './bib/bibliography_citedrive.bib'
-file_path = './bib/MySelection.bib'
-```
-
 <!-- add journal impact factor (h-score) google scholar scraping? 
 merk op Software uitgever is MDPI niet Elsevier, beter zou zijn publisher ophalen
 aan de hand van DOI -->
@@ -28,6 +17,12 @@ aan de hand van DOI -->
 #| label: tbl-journals
 #| tbl-cap: "Journals"
 
+import bibtexparser
+import requests
+from IPython.display import Markdown
+from tabulate import tabulate
+
+file_path = './bib/MySelection.bib'
 def extract_journals_from_bibtex(file_path):
     with open(file_path) as bibtex_file:
         bibtex_str = bibtex_file.read()

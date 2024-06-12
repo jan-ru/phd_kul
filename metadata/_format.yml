@@ -9,6 +9,8 @@ format:
     mermaid:
       theme: neutral
     cite-method: citeproc
+    link-citation: true
+    link-bibliography: true
 
     include-in-header: 
       text:

@@ -6,10 +6,12 @@ crossref:
   appendix-delim: ":"
 ---
 
-# Document Control {.unnumbered}
+# Introduction {.unnumbered}
 
-|Status | Version | Date       | Changes from previous version        |
-|-------|---------|------------|--------------------------------------|
-|Draft  | 0.3     | 29 May 2024| Total articles from db searches 84 to 115 |
-|Draft  | 0.2     | 26 Apr 2024| Selected articles from 9 to 23       |
-|Draft  | 0.1     | 25 Mar 2024| None                                 |
+"Sixty-five papers were selected and evaluated against four research questions. The results indicate the existence of a reasonable body of work conducted in this specific area, but not a full maturity.
+
+Research on user interaction (Hadasch, 2016)
+
+Research on languages (expressiveness) themselves
+
+Research on appliations (emergency response, Bevilacqua, 2012)

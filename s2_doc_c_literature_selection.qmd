@@ -1,3 +1,0 @@
-# Literature Selection {#appendix-c}
-
-{{< include diagrams/s2_slr_flowdiagram.qmd >}}

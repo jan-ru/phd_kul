@@ -1,24 +1,20 @@
-# Changing the website sidebar does not work (yet)
-# Sidebar ID and sidebar title don't work (yet)
-website:
-  title: Abstracts
-  sidebar:
-    id: _101
-    title: "Hello"
-  navbar:
-    logo: images/openscapes_hex.png
-    href: https://openscapes.org
-    right:
-#        - text: "Slides"
-#          href: about.qmd#slides          
-    - text: "SLR"
-      href: page_slr.qmd
-    - text: "Abstracts"
-      href: index.html
-    - text: "Interviews"
-      href: index.html
-    - text: "Scripts"
-      href: page_scripts.qmd
-    - icon: github
-      href: https://github.com/jan-ru/yr2_abstracts
-    output-dir: docs
+format:
+  pdf:
+    papersize: a4
+    documentclass: scrreprt
+    toc: true
+    lof: false
+    lot: true
+    latex-output-dir: output
+    mermaid:
+      theme: neutral
+    cite-method: citeproc
+    link-citation: true
+    link-bibliography: true
+
+    include-in-header: 
+      text:
+        \usepackage{imakeidx, bibentry, multicol}
+  html: 
+    mermaid:
+      theme: neutral
